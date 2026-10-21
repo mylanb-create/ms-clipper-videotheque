@@ -70,8 +70,10 @@ PERIODES = {"24h": "PAST_24_HOURS", "semaine": "PAST_WEEK", "mois": "PAST_MONTH"
 MOTS_DEFAUT = ["app", "astuce", "IA", "side business"]
 # Les deux marchés. Apify ne donne pas le pays d'une vidéo, seulement la langue de sa légende : fr → FR, en → US.
 MARCHES = {
-    "FR": {"drapeau": "🇫🇷", "nom": "France", "langue": "fr", "mots": ["application", "astuce", "IA", "argent en ligne"]},
-    "US": {"drapeau": "🇺🇸", "nom": "US (anglais)", "langue": "en", "mots": ["app", "life hack", "ai tools", "side hustle"]},
+    "FR": {"drapeau": "🇫🇷", "nom": "France", "langue": "fr",
+           "mots": ["application", "appli", "site internet", "IA", "chatgpt", "argent en ligne"]},
+    "US": {"drapeau": "🇺🇸", "nom": "US (anglais)", "langue": "en",
+           "mots": ["app", "apps you need", "ai tools", "website", "chatgpt", "side hustle"]},
 }
 _FR = set("le la les des du de un une et est je tu il elle on nous vous pas ça ca pour avec sur dans que qui mon ma mes ton ta tes "
           "c'est j'ai ce cette tout trop vraiment comment pourquoi quand faire fait voici voilà".split())
@@ -85,6 +87,22 @@ OUTIL = re.compile(
     r"(?<!\w)(apps?|applis?|applications?|sites?|outils?|logiciels?|ia|#ai|chat ?gpt|gpt|claude|gemini|notion|canva|"
     r"capcut|extensions?|t[ée]l[ée]charg\w*|gratuit\w*|lien en bio|automatis\w*|bots?|g[ée]n[ée]rateurs?|"
     r"productivit[ée]|intelligence artificielle|iphone|android|ordi|pc|macbook)(?!\w)", re.IGNORECASE)
+# Plus strict, pour la revue : la vidéo doit parler d'une app, d'un site ou d'une IA (légende, hashtags ou ce qui est dit).
+# C'est ce que la vidéothèque montre : des vidéos qui ont marché en présentant un outil. Un indice FORT suffit ; sinon il
+# en faut deux MOYENS différents (« application » seul peut être une crème qu'on applique, « site » un lieu).
+OUTIL_FORT = re.compile(
+    r"(?<!\w)(apps?|applis?|appli|chat ?gpt|gpt|claude|gemini|perplexity|midjourney|notion|canva|capcut|logiciels?|software|"
+    r"saas|site internet|site web|websites?|intelligence artificielle|artificial intelligence|extension chrome)(?!\w)", re.IGNORECASE)
+OUTIL_MOYEN = re.compile(
+    r"(?<!\w)(applications?|sites?|outils?|tools?|plateformes?|platforms?|extensions?|bots?|g[ée]n[ée]rateurs?|generators?|"
+    r"automatis\w*|automation|ia)(?!\w)", re.IGNORECASE)
+OUTIL_AI = re.compile(r"(?<!\w)(ai)(?!\w)", re.IGNORECASE)  # « AI » seulement en anglais (en français, « j'ai »)
+# Francophone mais pas la France : ces vidéos ne vont pas dans le marché FR.
+HORS_FRANCE = {"cotedivoire", "cotedivoire🇨🇮", "abidjan", "senegal", "dakar", "cameroun", "cameroon", "mauritius", "maurice",
+               "ilemaurice", "madagascar", "congo", "rdc", "kinshasa", "gabon", "benin", "togo", "mali", "burkinafaso", "guinee",
+               "haiti", "algerie", "maroc", "tunisie", "quebec", "québec", "montreal", "reunion974", "974", "martinique",
+               "guadeloupe", "guyane", "belgique", "suisse"}
+SOUS_TITRES = CANDIDATS / "sous-titres"  # ce qui est dit dans chaque vidéo (sous-titres automatiques de TikTok, gratuits)
 MOIS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
 UTC = dt.timezone.utc
 VERROU = threading.RLock()  # la page de revue et les téléchargements en fond écrivent le même registre
@@ -361,8 +379,58 @@ def deviner_langue(texte):
     return None
 
 
+def langue_parlee(item):
+    """La langue de ce qui est DIT dans la vidéo : sous-titres automatiques de TikTok (ASR) ou du créateur (LC).
+    Les traductions (MT) ne comptent pas. « fra-FR » → fr, « eng-US » → en ; None si personne ne parle."""
+    for s in champ(item, "videoMeta", "subtitleLinks", defaut=[]) or []:
+        if isinstance(s, dict) and s.get("source") in ("ASR", "LC") and s.get("language"):
+            return {"fra": "fr", "eng": "en"}.get(str(s["language"])[:3].lower(), str(s["language"])[:3].lower())
+    return None
+
+
+def lien_sous_titres(item):
+    for s in champ(item, "videoMeta", "subtitleLinks", defaut=[]) or []:
+        if isinstance(s, dict) and s.get("source") in ("ASR", "LC"):
+            return s.get("downloadLink") or s.get("tiktokLink")
+    return None
+
+
+def sous_titres(ident, lien):
+    """Le texte dit dans la vidéo (gardé dans travail/candidats/sous-titres/<id>.txt ; vide si rien à lire)."""
+    f = SOUS_TITRES / f"{ident}.txt"
+    if f.exists():
+        return f.read_text(encoding="utf-8")
+    texte = ""
+    if lien:
+        try:
+            with urllib.request.urlopen(urllib.request.Request(lien, headers={"User-Agent": "Mozilla/5.0"}), timeout=8) as r:
+                vtt = r.read().decode("utf-8", "replace")
+            texte = " ".join(l.strip() for l in vtt.splitlines()
+                             if l.strip() and "-->" not in l and l.strip() != "WEBVTT" and not l.strip().isdigit())
+        except Exception:
+            return ""  # lien expiré ou réseau : on retentera plus tard
+    SOUS_TITRES.mkdir(parents=True, exist_ok=True)
+    f.write_text(texte, encoding="utf-8")
+    return texte
+
+
 def marche_de(item, legende):
-    """(marché, langue) : FR, US, « autre » (une autre langue) ou « ? » (impossible à dire)."""
+    """(marché, langue) : FR, US, « autre » (une autre langue) ou « ? » (impossible à dire).
+    C'est la langue PARLÉE qui décide (une légende en français sur une vidéo en anglais n'est pas une vidéo FR). Une vidéo
+    où personne ne parle n'a pas de marché (visible dans « Tous »), sauf un carrousel de photos (sa légende fait foi) et les
+    comptes qu'on suit."""
+    parlee = langue_parlee(item)
+    tags = {h.lower() for h in re.findall(r"#(\w+)", legende)} | {
+        str(h.get("name") if isinstance(h, dict) else h).lower() for h in (champ(item, "hashtags", defaut=[]) or [])}
+    if parlee:
+        for m, d in MARCHES.items():
+            if parlee == d["langue"]:
+                if m == "FR" and tags & HORS_FRANCE:
+                    return "autre", "fr hors France"
+                return m, parlee
+        return "autre", parlee
+    if not (champ(item, "isSlideshow", defaut=False) or (item.get("_run") == "comptes" and item.get("_marche"))):
+        return "?", "pas de parole"
     langue = str(champ(item, "textLanguage", defaut="") or "").lower()
     if langue in ("", "un", "und"):
         langue = deviner_langue(legende) or ""
@@ -413,6 +481,7 @@ def normaliser(item):
     legende = re.sub(r"\s+", " ", str(champ(item, "text", defaut="") or "")).strip()
     marche, langue = marche_de(item, legende)
     return {
+        "lien_sous_titres": lien_sous_titres(item),
         "marche": marche, "langue": langue,
         "id": ident, "lien": lien, "compte": f"@{compte}" if compte else "?",
         "nom": str(champ(item, "authorMeta", "nickName", defaut="") or ""),
@@ -460,6 +529,24 @@ def proche(c, couples):
     return None
 
 
+def parle_d_un_outil(c):
+    """Légende, hashtags ou ce qui est dit dans la vidéo : est-ce qu'on y parle d'une app, d'un site ou d'une IA ?
+    Un indice fort (une app, ChatGPT, CapCut, « site internet »…) suffit, sinon deux indices moyens différents."""
+    dit = sous_titres(c["id"], c.get("lien_sous_titres")) if c.get("lien_sous_titres") else ""
+    textes = [c["legende"], " ".join(c["hashtags"]), dit]
+    forts = {t.lower() for x in textes for t in OUTIL_FORT.findall(x)}
+    moyens = {t.lower() for x in textes for t in OUTIL_MOYEN.findall(x)}
+    if c.get("langue") == "en":
+        moyens |= {t.lower() for x in textes for t in OUTIL_AI.findall(x)}
+    moyens = {re.sub(r"s$", "", m) for m in moyens}  # « sites » et « site » : un seul indice
+    c["outil_dit"] = sorted({t.lower() for t in OUTIL_FORT.findall(dit)} | {t.lower() for t in OUTIL_MOYEN.findall(dit)})[:4]
+    if forts or len(moyens) >= 2:
+        c["outil"] = True
+        c["mots_outil"] = sorted(forts | moyens)[:4]
+        return True
+    return False
+
+
 def note(c):
     n = math.log10(max(c["vues"], 1) / 1000)  # 100 k vues = 2, 1 M = 3
     n += math.log10(1 + (c["ratio"] or 0))  # 9× les abonnés = 1, 99× = 2
@@ -481,7 +568,9 @@ def pourquoi(c):
         p.append(f"{pct(c['taux_enreg'])} d'enregistrements")
     if c["taux_partage"] >= 0.003:
         p.append(f"{pct(c['taux_partage'])} de partages")
-    if c["outil"]:
+    if c.get("outil_dit"):
+        p.append("dit : " + ", ".join(c["outil_dit"]))
+    elif c["outil"]:
         p.append("parle d'un outil (" + ", ".join(c["mots_outil"]) + ")")
     if c["carrousel"]:
         p.append("carrousel de photos")
@@ -514,6 +603,7 @@ def trier(items, args, registre, pour_revue=False):
         trouves = OUTIL.findall(c["legende"] + " " + " ".join("#" + h for h in c["hashtags"]))
         c["mots_outil"] = sorted({t.lower() for t in trouves})[:4]
         c["outil"] = bool(trouves)
+        c["outil_dit"] = []  # rempli plus bas, seulement pour les vidéos qui passent les premiers filtres
         r = registre.get(c["id"])
         raison, fiche = None, None
         if pour_revue:
@@ -540,6 +630,9 @@ def trier(items, args, registre, pour_revue=False):
             raison = "trop peu de vues par rapport aux abonnés"
         elif args.outil and not c["outil"]:
             raison = "ne parle pas d'un outil"
+        elif pour_revue and not (r and r.get("statut") not in (None, "propose")) and "son compte" not in c["via"] \
+                and not parle_d_un_outil(c):
+            raison = "ne parle pas d'une app, d'un site ou d'une IA"
         elif (getattr(args, "marche", "") or "").upper() in MARCHES and c["marche"] not in (args.marche.upper(), "?"):
             raison = f"pas le bon marché (langue {c['langue']})"
         elif (fiche := proche(c, couples)) and not pour_revue:  # en dernier : ne signaler que celles qui auraient été candidates
