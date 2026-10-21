@@ -1,5 +1,298 @@
 [
  {
+  "id": "t06305057",
+  "fichier": "tiktok-7672078428006305057-margauxlikes.mp4",
+  "compte": "@margauxlikes",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@margauxlikes/video/7672078428006305057",
+  "niche": "apps, astuces",
+  "format": "top-apps",
+  "titre": "4 apps « pour adultes » : la liste secrète (1,6 M de vues)",
+  "sujet": "Margaux, face caméra, promet 4 applis « pour adultes » : Instabridge (eSIM), WifiMap (wifi gratuit), Netboom (jeux PC sur téléphone), WAM (messages supprimés). Entre chaque, une capture d'écran de l'app, et elle revient parler à la caméra.",
+  "tags": [
+   "top apps",
+   "pour adultes",
+   "secret",
+   "wifi",
+   "jeux PC",
+   "WhatsApp",
+   "texte rose"
+  ],
+  "hook": {
+   "dit": "Si t'es un enfant, ferme cette vidéo. Sinon, écoute bien. Voilà 4 applis secrètes dont t'as vraiment besoin.",
+   "voit": "elle face caméra, chemise fleurie, grand miroir doré derrière. Un badge blanc « 4 apps seulement » + un badge rose « pour adultes »."
+  },
+  "texte_ecran": [
+   "4 apps seulement",
+   "pour adultes",
+   "voilà",
+   "4",
+   "secrètes",
+   "dont",
+   "t'as",
+   "cool",
+   "1- Instabridge",
+   "des...",
+   "2- wifimap",
+   "trouve",
+   "3- Netboom",
+   "donne",
+   "téléphone",
+   "4- WAM",
+   "supprimés",
+   "autres",
+   "description",
+   "Abonne-toi"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 3,
+    "voit": "Margaux face caméra, badges « 4 apps seulement » et « pour adultes » collés sur elle.",
+    "entend": "« Si t'es un enfant, ferme cette vidéo. Sinon, écoute bien. »"
+   },
+   {
+    "debut": 3,
+    "fin": 9,
+    "voit": "elle continue face caméra, mots qui apparaissent sous elle : « voilà », « 4 », « secrètes », « cool ».",
+    "entend": "« Voilà 4 applis secrètes dont t'as vraiment besoin. La dernière, c'est la plus cool, alors pense à enregistrer cette vidéo. »"
+   },
+   {
+    "debut": 9,
+    "fin": 14,
+    "voit": "capture d'écran App Store d'Instabridge (eSIM mondial), puis l'app avec « Unlock +10M WiFi hotspots ». Texte « 1- Instabridge ».",
+    "entend": "« La première, c'est Instabridge. Ça te permet d'utiliser Internet et de passer des appels sans carte SIM. »"
+   },
+   {
+    "debut": 14,
+    "fin": 19,
+    "voit": "elle revient face caméra, puis capture App Store de « WiFi Map : Internet + eSIM ». Texte « 2- wifimap ».",
+    "entend": "« La deuxième, c'est WifiMap. Ça te trouve du Wifi gratuit dans le monde. »"
+   },
+   {
+    "debut": 19,
+    "fin": 23,
+    "voit": "elle face caméra, puis capture de Netboom : grille de jeux (Spider-Man, GTA, God of War). Texte « 3- Netboom ».",
+    "entend": "« La troisième, c'est NetBoom. Ça te donne accès à des jeux PC sur ton téléphone. »"
+   },
+   {
+    "debut": 23,
+    "fin": 29,
+    "voit": "elle face caméra, puis capture d'une conversation WhatsApp avec un message « This message was deleted » qui redevient visible. Texte « 4- WAM », « supprimés », « autres ».",
+    "entend": "« Et la quatrième, c'est Wambre. Ça te permet de récupérer des messages supprimés sur WhatsApp, Telegram et toutes les autres messageries. »"
+   },
+   {
+    "debut": 29,
+    "fin": 34,
+    "voit": "elle face caméra. Textes « description » puis « Abonne-toi » (badge rose).",
+    "entend": "« Je te mets les applis en description. Et si tu veux plus d'astuces comme celle-ci, pense à t'abonner. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🔞",
+    "titre": "« Pour adultes »",
+    "texte": "Un badge rose collé sur elle dès la seconde zéro. On n'a pas l'habitude, on veut voir ce qui est interdit."
+   },
+   {
+    "emoji": "🙅",
+    "titre": "« Si t'es un enfant, ferme cette vidéo »",
+    "texte": "Un ordre à l'envers : on te demande de partir, donc tu restes. Ça retourne le cerveau."
+   },
+   {
+    "emoji": "🔢",
+    "titre": "« 4 applis secrètes »",
+    "texte": "Un chiffre + le mot « secrètes ». On sait combien ça va durer et on veut savoir lesquelles."
+   },
+   {
+    "emoji": "💾",
+    "titre": "« Pense à enregistrer »",
+    "texte": "Elle promet que la dernière est la meilleure, et demande d'enregistrer avant même d'avoir rien montré. 47 000 enregistrements à la clé."
+   },
+   {
+    "emoji": "📱",
+    "titre": "Une capture = une app",
+    "texte": "Pas de blabla : chaque app, c'est un écran App Store net, puis elle qui résume en une phrase."
+   },
+   {
+    "emoji": "⏱️",
+    "titre": "33 secondes, pas une de plus",
+    "texte": "Quatre apps en une demi-minute. On rejoue la vidéo pour tout retenir, et l'algo adore."
+   },
+   {
+    "emoji": "🤫",
+    "titre": "Le mot « secrètes »",
+    "texte": "Pas « utiles », pas « cool » : « secrètes ». Ce qui est caché, on veut l'avoir."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "msclipper",
+    "hook": "Si t'es fauché, ferme cette vidéo. Sinon, écoute bien : 3 apps secrètes pour te faire payer avec ton téléphone.",
+    "comment": "Face caméra, badge rose « pour fauchés » collé sur toi. Chiffre dans le hook. Une app par phrase, avec une capture d'écran plein cadre entre chaque. Finir sur MS Clipper comme « la plus cool ». 30 s max."
+   },
+   {
+    "app": "revizio",
+    "hook": "Si t'es nul en cours, ferme cette vidéo. Sinon, écoute bien : 4 apps secrètes pour cartonner tes exams.",
+    "comment": "Même formule : badge rose « pour les cancres », 4 apps en 30 s, une capture Revizio par étape. Dernière app = Revizio (« la plus cool, alors pense à enregistrer »)."
+   },
+   {
+    "app": "smc",
+    "hook": "Si t'achètes jamais de voiture, ferme cette vidéo. Sinon, écoute bien : 3 apps secrètes avant de signer.",
+    "comment": "Face caméra, badge rose « pour les acheteurs ». Capture Leboncoin, capture Argus, capture Screen My Car. SMC en dernier, « la plus cool »."
+   }
+  ],
+  "note": "<b>À remarquer :</b> deux hooks collés en 3 secondes — « Si t'es un enfant, ferme cette vidéo » (ordre inversé) + badge rose « pour adultes » (fruit interdit). Et une promesse différée : « la dernière est la plus cool, pense à enregistrer ». Résultat : 47 000 enregistrements, presque autant que de likes.",
+  "reprise": false,
+  "mise_en_scene": "Face caméra plein cadre dans une pièce claire, miroir doré derrière. Entre chaque app, une capture App Store ou écran d'app insérée en plein écran pendant 2-3 secondes.",
+  "hooks": [
+   "ordre",
+   "fruit-interdit",
+   "chiffre"
+  ],
+  "point_sensible": "Vouloir connaître les applis « cachées » que les autres n'ont pas",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Si t'es un enfant, ferme cette vidéo » + badge rose « pour adultes »"
+   },
+   "probleme": {
+    "t": 3,
+    "quoi": "« 4 applis secrètes dont t'as vraiment besoin »"
+   },
+   "outil_nomme": {
+    "t": 9,
+    "quoi": "« La première, c'est Instabridge »"
+   },
+   "outil_montre": {
+    "t": 10,
+    "quoi": "capture App Store d'Instabridge en plein écran"
+   },
+   "preuve": {
+    "t": null,
+    "quoi": "pas de preuve, juste la promesse de ce que fait chaque app"
+   },
+   "fin": {
+    "t": 31,
+    "quoi": "« pense à t'abonner »"
+   }
+  },
+  "montre_comment": "une capture d'écran d'app (App Store ou appli ouverte) insérée plein écran entre chaque phrase, avec le numéro et le nom en gros",
+  "cta": "« Je te mets les applis en description » + « pense à t'abonner »",
+  "montage": "badges rose/blanc collés sur elle au hook, mots-clés qui apparaissent un par un sous elle, captures d'app en plein écran entre chaque. 33 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Format court, 33 s : pile dans nos clous."
+   },
+   {
+    "ok": "oui",
+    "texte": "Chiffre + mot interdit dans les 3 premières secondes : à voler."
+   },
+   {
+    "ok": "bof",
+    "texte": "Les apps sont montrées en capture App Store, pas téléphone en main : moins vivant."
+   },
+   {
+    "ok": "non",
+    "texte": "Pas de résultat concret, que des promesses : chez nous, on montre ce que ça donne."
+   },
+   {
+    "ok": "non",
+    "texte": "Pas de vanne : c'est sec, ça fonctionne grâce au hook mais ça ne fait pas rire."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "toi face caméra, 3-4 captures d'écran d'apps, un badge rose/blanc en sticker",
+   "temps": "15 min",
+   "niveau": "facile"
+  },
+  "stats": {
+   "vues": 1600000,
+   "likes": 64500,
+   "partages": 5972,
+   "enregistrements": 47392,
+   "commentaires": 299,
+   "abonnes": 63200
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "duree": 33.9,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 1.7,
+    "texte": "Si t'es un enfant, ferme cette vidéo."
+   },
+   {
+    "debut": 1.8,
+    "fin": 2.7,
+    "texte": "Sinon, écoute bien."
+   },
+   {
+    "debut": 3.1,
+    "fin": 5.6,
+    "texte": "Voilà 4 applis secrètes dont t'as vraiment besoin."
+   },
+   {
+    "debut": 5.9,
+    "fin": 8.7,
+    "texte": "La dernière, c'est la plus cool, alors pense à enregistrer cette vidéo."
+   },
+   {
+    "debut": 9.1,
+    "fin": 10.7,
+    "texte": "La première, c'est Instabridge."
+   },
+   {
+    "debut": 10.8,
+    "fin": 14.3,
+    "texte": "Ça te permet d'utiliser Internet et de passer des appels sans carte SIM."
+   },
+   {
+    "debut": 14.5,
+    "fin": 16.0,
+    "texte": "La deuxième, c'est WifiMap."
+   },
+   {
+    "debut": 16.5,
+    "fin": 18.3,
+    "texte": "Ça te trouve du Wifi gratuit dans le monde."
+   },
+   {
+    "debut": 18.6,
+    "fin": 20.3,
+    "texte": "La troisième, c'est NetBoom."
+   },
+   {
+    "debut": 20.7,
+    "fin": 23.1,
+    "texte": "Ça te donne accès à des jeux PC sur ton téléphone."
+   },
+   {
+    "debut": 23.4,
+    "fin": 24.8,
+    "texte": "Et la quatrième, c'est Wambre."
+   },
+   {
+    "debut": 25.1,
+    "fin": 29.6,
+    "texte": "Ça te permet de récupérer des messages supprimés sur WhatsApp, Telegram et toutes les autres messageries."
+   },
+   {
+    "debut": 29.6,
+    "fin": 31.0,
+    "texte": "Je te mets les applis en description."
+   },
+   {
+    "debut": 31.4,
+    "fin": 33.6,
+    "texte": "Et si tu veux plus d'astuces comme celle-ci, pense à t'abonner."
+   }
+  ]
+ },
+ {
   "id": "t16835360",
   "fichier": "tiktok-7688138167416835360-ismael.viral.mp4",
   "compte": "@ismael.viral",
