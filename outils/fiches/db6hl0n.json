@@ -1,0 +1,104 @@
+{
+  "id": "db6hl0n",
+  "fichier": "v26044gc0000db6hl0nog65jlm6i89c0.MP4",
+  "compte": "@marlene.tips8888",
+  "plateforme": "TikTok",
+  "niche": "courses, budget",
+  "format": "fond-vert",
+  "reprise": true,
+  "titre": "184 € de courses et rien à manger (la reprise, version 2 : la réaction)",
+  "sujet": "La même vidéo virale (le mec qui râle, 184 € de courses), mais cette fois la créatrice annonce « Réaction dans quelques secondes », raconte sa vie d'étudiante, puis montre l'app sur son téléphone, en petit à côté d'elle.",
+  "tags": [
+    "vidéo reprise",
+    "réaction",
+    "histoire d'étudiante",
+    "téléphone en incrustation",
+    "même hook recyclé"
+  ],
+  "hook": {
+    "dit": "La famille, un truc que je ne comprends pas : soit je ne sais pas faire les courses, soit les courses sont devenues trop, trop chères pour rien.",
+    "voit": "le couple de la vidéo virale (lui, barbu, qui râle). Par-dessus, un bandeau noir : « Réaction dans quelques secondes », qui cache le bandeau d'origine « 184 € de courses… »."
+  },
+  "texte_ecran": [
+    "Réaction dans quelques secondes",
+    "(dessous, le bandeau d'origine : 184€ de courses pour au final ne pas savoir quoi manger)"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 34,
+      "voit": "la vidéo reprise, le couple, le bandeau « Réaction dans quelques secondes ».",
+      "entend": "le mec : « 184 euros… je m'attendais à deux chiffres, elle m'en sort trois… il n'y a rien à manger… je suis célibataire, pas d'enfant, c'est une dinguerie. »"
+    },
+    {
+      "debut": 34,
+      "fin": 52,
+      "voit": "la créatrice, en sweat, dans sa chambre (un tableau au mur), gros plan.",
+      "entend": "« posée tranquillement sur mon lit, je vois cette vidéo, je suis obligée de réagir. Ce qu'il dit, c'est extrêmement réel. J'ai été étudiante : quand tu sors de chez tes parents, t'as ton argent, ta liberté… »"
+    },
+    {
+      "debut": 52,
+      "fin": 72,
+      "voit": "elle, beaucoup de gestes, plan serré.",
+      "entend": "« je faisais comme lui, je prenais tout… je me suis dit, ça va être le festin. Que nenni : tu passes à la caisse, tout ton salaire étudiant… Il y a tellement de monde qui font encore leurs courses comme ça : arrêtez. »"
+    },
+    {
+      "debut": 72,
+      "fin": 96,
+      "voit": "l'app sur son téléphone, en petit à sa gauche (captures : « Où fais-tu tes courses ? » avec les logos des magasins, budget 50 €, « Pimzi compose ta semaine », la liste).",
+      "entend": "« j'ai découvert un truc de ouf, Pimzi : tu mets ce que t'aimes, ton magasin, ton budget, et ça te calcule tes repas de la semaine. Ta liste est reliée aux prix du magasin : impossible de dépasser ton budget. »"
+    },
+    {
+      "debut": 96,
+      "fin": 101,
+      "voit": "elle, dernier plan, le doigt levé.",
+      "entend": "« ça va changer votre vie, il faut absolument essayer. Merci. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "⏳",
+      "titre": "« Réaction dans quelques secondes »",
+      "texte": "Un bandeau qui promet quelque chose : on reste pour voir la réaction."
+    },
+    {
+      "emoji": "🔁",
+      "titre": "Le même hook, une autre fille",
+      "texte": "Deux comptes ont repris la même vidéo. Quand un hook marche, on le recycle."
+    },
+    {
+      "emoji": "🛏️",
+      "titre": "« Posée sur mon lit, je vois cette vidéo »",
+      "texte": "Elle raconte comment elle est tombée dessus. On est dans sa chambre avec elle, pas dans une pub."
+    },
+    {
+      "emoji": "📖",
+      "titre": "Son histoire d'étudiante",
+      "texte": "« Je faisais comme lui… que nenni. » Une histoire vraie, avec une chute, avant de parler de l'app."
+    },
+    {
+      "emoji": "📱",
+      "titre": "L'app en petit, à côté d'elle",
+      "texte": "Elle reste à l'écran, l'app est en incrustation. C'est exactement notre façon de faire."
+    },
+    {
+      "emoji": "🚫",
+      "titre": "« Impossible de dépasser ton budget »",
+      "texte": "La promesse tient en une phrase simple. Pas de liste de fonctions."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "(la même vidéo reprise qu'en version 1) avec le bandeau : « Réaction dans quelques secondes »",
+      "comment": "Puis toi : « posé sur mon lit, je vois cette vidéo… moi aussi j'ai failli me faire avoir pour ma première voiture ». Ton histoire en 15 secondes, puis Screen My Car en incrustation en bas à gauche : l'annonce, le verdict, et une phrase simple : « impossible de te faire avoir sur une annonce »."
+    },
+    {
+      "app": "msclipper",
+      "hook": "(une vidéo virale d'un créateur qui montre ses gains) avec le bandeau : « Réaction dans quelques secondes »",
+      "comment": "Puis toi : ton histoire (tu postais pour rien), puis MS Clipper en incrustation : la campagne, tes vues, tes gains. Une phrase simple : « tu es payé à la vue, point »."
+    }
+  ],
+  "note": "<b>Compare avec la version 1 :</b> même vidéo reprise, même app, deux montages différents (l'ordi filmé à la main, ou le téléphone en incrustation). Les deux marchent.",
+  "ordre": 16
+}

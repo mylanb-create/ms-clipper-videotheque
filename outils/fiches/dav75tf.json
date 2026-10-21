@@ -1,0 +1,115 @@
+{
+  "id": "dav75tf",
+  "fichier": "v26044gc0000dav75tfog65q35kpkq50.MP4",
+  "compte": "@kellyinsight",
+  "plateforme": "TikTok",
+  "niche": "amour, relations",
+  "format": "ecran",
+  "titre": "Est-ce que mon ex va revenir ? (la fille au masque)",
+  "sujet": "Une fille, un masque en tissu sur le visage, montre un site IA qui lit sa conversation WhatsApp et répond : « il va revenir à 84 % ».",
+  "tags": [
+    "masque",
+    "mystère",
+    "ex",
+    "rapport IA",
+    "tablette filmée à la main",
+    "chiffre qui claque"
+  ],
+  "hook": {
+    "dit": "Vous voulez que je vous donne ma technique pour savoir si mon ex va revenir ou pas ?",
+    "voit": "une fille avec un masque de beauté en tissu sur le visage, face caméra dans sa chambre. En haut, en gros : « Tuto comment savoir si son ex va REVENIR !!! »"
+  },
+  "texte_ecran": [
+    "Tuto comment savoir si son ex va REVENIR !!!"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 5,
+      "voit": "elle, face caméra, avec le masque. Le texte reste en haut toute la vidéo.",
+      "entend": "la question-mystère, puis « elle est très simple »."
+    },
+    {
+      "debut": 5,
+      "fin": 12,
+      "voit": "sa tablette filmée à la main : la conversation WhatsApp avec l'ex, puis le menu « Exporter la discussion ».",
+      "entend": "« je vais sur ma conversation WhatsApp avec lui, et vous exportez la discussion »."
+    },
+    {
+      "debut": 12,
+      "fin": 20,
+      "voit": "le site (Brandon) : « Importe ta discussion WhatsApp », puis le chargement : 28 503 messages.",
+      "entend": "« vous allez sur un site qui s'appelle What Brandon Thinks, vous importez la discussion »."
+    },
+    {
+      "debut": 20,
+      "fin": 30,
+      "voit": "elle revient face caméra 5 secondes pour expliquer.",
+      "entend": "« Brandon, c'est une IA qui fait un rapport sur ma discussion. Vous pouvez le faire avec votre pote, votre famille, votre mère »."
+    },
+    {
+      "debut": 30,
+      "fin": 38,
+      "voit": "le rapport sur la tablette : une grille de messages jaune et bleue, des chiffres (temps de réponse 2 min contre 41 min, 317 jours…).",
+      "entend": "elle commente les stats, vite."
+    },
+    {
+      "debut": 38,
+      "fin": 46,
+      "voit": "en gros à l'écran : « IL VA REVENIR (84 %). ÇA MARCHERA TOUJOURS PAS (19 %). » Son doigt pointe la phrase.",
+      "entend": "« il va revenir : 84 %. Ça ne marchera toujours pas : 19 %. C'est hilarant. »"
+    },
+    {
+      "debut": 46,
+      "fin": 62,
+      "voit": "elle fait défiler le reste du rapport (« Le casting », « Les trois fins », « Dictionnaire : du Louis au français »), puis un dernier plan sur elle.",
+      "entend": "« ça me fait un rapport sur tout : lui, moi… »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🎭",
+      "titre": "Le masque",
+      "texte": "On n'a pas l'habitude de voir quelqu'un parler avec un masque en tissu. Le pouce s'arrête tout seul."
+    },
+    {
+      "emoji": "❓",
+      "titre": "Le mystère",
+      "texte": "« Vous voulez ma technique ? » On veut la réponse, donc on reste jusqu'à la fin."
+    },
+    {
+      "emoji": "💔",
+      "titre": "Le point sensible",
+      "texte": "« Est-ce que mon ex va revenir ? » Tout le monde s'est déjà posé la question au moins une fois."
+    },
+    {
+      "emoji": "📱",
+      "titre": "L'écran, mais pas un tuto",
+      "texte": "Elle filme sa tablette à la main, ça bouge, c'est vivant. On voit le vrai site, le vrai rapport, le vrai chiffre."
+    },
+    {
+      "emoji": "🔢",
+      "titre": "Un chiffre qui claque",
+      "texte": "« Il va revenir : 84 % ». Un chiffre, c'est concret, et ça se répète en commentaire."
+    },
+    {
+      "emoji": "😂",
+      "titre": "Elle rit d'elle-même",
+      "texte": "« C'est hilarant » : elle se moque de sa propre situation. Ça donne envie d'essayer, pas l'impression d'une pub."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Vous voulez ma technique pour savoir si la voiture de l'annonce est une arnaque ?",
+      "comment": "5 secondes face caméra avec un truc bizarre sur toi (masque, lunettes de ski, casque de chantier…). Puis ton téléphone à la main : l'annonce Leboncoin, le verdict Screen My Car en gros (FUIR, 3 signaux d'arnaque), et tu fais défiler le rapport en le commentant. Finis par un chiffre : « 2 400 € de réparations cachées »."
+    },
+    {
+      "app": "revizio",
+      "hook": "Vous voulez ma technique pour savoir si je vais avoir mon bac ?",
+      "comment": "Tu envoies ton cours dans Revizio, tu montres les fiches et le quiz à l'écran, et tu annonces le score comme elle : « 84 % de chances de l'avoir ». Tu rigoles de tes mauvaises réponses."
+    }
+  ],
+  "note": "<b>Chez nous :</b> le téléphone (ou la tablette) filmé à la main comme ici, c'est bien. Ce qu'on ne fait pas : une capture d'écran plein écran du début à la fin.",
+  "ordre": 1
+}

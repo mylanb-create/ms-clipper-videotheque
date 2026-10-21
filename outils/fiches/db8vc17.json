@@ -1,0 +1,117 @@
+{
+  "id": "db8vc17",
+  "fichier": "v26300gc0001db8vc17og65iicq0km9g.MP4",
+  "compte": "@emilioabz",
+  "plateforme": "TikTok",
+  "niche": "argent, IA, humour",
+  "format": "duo",
+  "titre": "Le dialogue avec Claude (la flemme contre les 27 000 €)",
+  "sujet": "Un sketch à deux voix : lui, avachi, et Claude (l'IA, en vocal) au-dessus de sa tête. Il veut copier la vidéo de Yomi Denzel (« 27 000 € avec des PDF »). Claude crée le produit, la page de vente, le PDF… et lui a la flemme de faire la promo : il attend GTA 6.",
+  "tags": [
+    "IA",
+    "sketch",
+    "Claude",
+    "Yomi Denzel",
+    "flemme",
+    "écran coupé en deux",
+    "humour"
+  ],
+  "hook": {
+    "dit": "Claude, il y a Yomi Denzel, il vient de sortir une nouvelle vidéo. — Business en ligne hyper rentable qui génère 27 000 euros. — Ah, intéressant, ça.",
+    "voit": "l'écran coupé en deux : en haut, l'interface vocale de Claude (« Bonjour, Jean-Célestin », le texte qu'il dicte s'écrit) ; en bas, lui, casquette à l'envers, lunettes orange, une caméra sur l'épaule. Puis la miniature YouTube « C'EST OUF · + 27 000 € »."
+  },
+  "texte_ecran": [
+    "Bonjour, Jean-Célestin (l'écran de Claude)",
+    "la miniature YouTube : C'EST OUF · + 27 000 €",
+    "les mots-clés en jaune dans les sous-titres : Business en ligne · hyper rentable · 27 000 € · Arrête · je suis au RSA",
+    "les réponses de Claude, écrites en haut"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 10,
+      "voit": "l'écran de Claude en haut, lui en bas ; la miniature YouTube de Yomi Denzel.",
+      "entend": "« Claude, Yomi Denzel vient de sortir une vidéo : business hyper rentable, 27 000 euros. — Tu veux que j'aille regarder ? — Dépêche-toi. »"
+    },
+    {
+      "debut": 10,
+      "fin": 24,
+      "voit": "les réponses de Claude écrites en haut (« comme aider les parents à faire dormir leur bébé », « Il utilise Claude pour trouver la niche »).",
+      "entend": "Claude résume. Lui : « moi aussi je vais imprimer 27 000 balles en vendant des PDF. » Claude : « ambitieux. Mais l'argent viendra du sujet qu'on choisit, pas d'un chiffre qu'on se fixe. »"
+    },
+    {
+      "debut": 24,
+      "fin": 46,
+      "voit": "lui qui s'agace, puis le tableau de bord (« Bonjour, Emilio », 10 visiteurs, 1 vente, 490 €) et le produit « Dodo Paisible » à 19 €.",
+      "entend": "« garde la même niche que lui… arrête de parler, crée le business qui imprime 27 000 euros. — Le produit Dodo Paisible à 19 euros et sa page de vente sont créés en brouillon. »"
+    },
+    {
+      "debut": 46,
+      "fin": 64,
+      "voit": "la page de vente (la maman qui lit une histoire), le PDF « Dodo Paisible, le guide en 5 étapes », le fichier à télécharger.",
+      "entend": "« crée le PDF, comme ça les gens ne demanderont pas le remboursement. — Le PDF est prêt. — OK, j'ai upload le PDF qui imprime 27K. Elle est où, la thune ? »"
+    },
+    {
+      "debut": 64,
+      "fin": 90,
+      "voit": "lui, de plus en plus avachi.",
+      "entend": "« — Il manque la partie trafic. Yomi recommandait un shout-out chez un petit YouTubeur. — Faut payer ? J'ai pas de thune, je suis au RSA. — Il en donnait une gratuite : le contenu organique sur TikTok. — Ouais mais j'ai la flemme, il y a GTA 6 qui sort. — Je comprends, GTA 6, ça va tout dévorer. »"
+    },
+    {
+      "debut": 90,
+      "fin": 107,
+      "voit": "lui qui s'en va, la chaise vide.",
+      "entend": "« — Il me déçoit, Yomi. Moi aussi je voulais 27 000 euros. — C'est le travail de promotion qu'il a fait. — J'ai la flemme de travailler. — Tu veux que je te prépare deux ou trois idées de vidéos courtes, entre deux parties de GTA 6 ? »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🤖",
+      "titre": "Un duo avec une IA",
+      "texte": "Deux voix, mais la deuxième c'est Claude. Personne n'a l'habitude, et l'IA joue le pote raisonnable."
+    },
+    {
+      "emoji": "🎬",
+      "titre": "Un sketch, pas un tuto",
+      "texte": "Il joue le flemmard qui veut l'argent sans bosser. On rit de lui, et on se reconnaît un peu."
+    },
+    {
+      "emoji": "🧲",
+      "titre": "Yomi Denzel + 27 000 €",
+      "texte": "Un nom connu et un chiffre : le hook emprunte la curiosité d'une vidéo déjà virale."
+    },
+    {
+      "emoji": "🖥️",
+      "titre": "Les vrais écrans",
+      "texte": "Le produit, la page de vente, le PDF, le tableau de bord : tout est montré en vrai, pendant que le sketch continue."
+    },
+    {
+      "emoji": "😂",
+      "titre": "« Je suis au RSA », « GTA 6 »",
+      "texte": "Des répliques qui font rire. La chute (« entre deux parties de GTA 6 ? ») est la meilleure phrase."
+    },
+    {
+      "emoji": "🟡",
+      "titre": "Les mots-clés en jaune",
+      "texte": "Les mots importants sont surlignés en jaune dans les sous-titres."
+    },
+    {
+      "emoji": "📏",
+      "titre": "L'écran coupé en deux",
+      "texte": "L'IA en haut, lui en bas : on suit la conversation comme un chat, sans effort."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Claude, j'ai trouvé une Clio à 4 000 €, elle est parfaite. — Tu veux que je regarde l'annonce ? — Dépêche-toi.",
+      "comment": "Même sketch : toi en bas, l'IA en haut qui fait un Screen My Car. Elle trouve les défauts, toi tu veux acheter quand même (« j'ai la flemme d'en chercher une autre »). Chute drôle. Les écrans Screen My Car en vrai au milieu."
+    },
+    {
+      "app": "msclipper",
+      "hook": "Claude, il y a un mec qui gagne 2 000 € par mois en postant des vidéos. — Tu veux que je regarde ? — Dépêche-toi.",
+      "comment": "L'IA explique MS Clipper (payé à la vue), crée le compte, toi tu as la flemme de filmer. Chute : « tu veux que je te prépare trois idées de vidéos, entre deux parties de GTA 6 ? »"
+    }
+  ],
+  "ordre": 17
+}

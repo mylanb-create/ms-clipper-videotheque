@@ -1,0 +1,102 @@
+{
+  "id": "dbbq9jv",
+  "fichier": "v26044gc0000dbbq9jvog65vko94bb80.MP4",
+  "compte": "@niooo690",
+  "plateforme": "TikTok",
+  "niche": "sport, courses",
+  "format": "flow",
+  "titre": "« Depuis quand Basic-Fit autorise ça ? » (le filtre + le téléphone)",
+  "sujet": "Un mec avec un filtre qui lui déforme le visage (yeux et bouche énormes) demande depuis quand Basic-Fit autorise ça. Puis son téléphone à la main : il répond en direct aux questions d'une app qui compose ses repas de la semaine selon sa salle, son magasin et son budget. 26,59 € la semaine.",
+  "tags": [
+    "filtre",
+    "Basic-Fit",
+    "téléphone en main",
+    "répond à voix haute",
+    "26,59 €",
+    "réactions"
+  ],
+  "hook": {
+    "dit": "Non mais depuis quand Basic-Fit ils autorisent ça ? Attends, regarde, il y a rien.",
+    "voit": "lui, allongé sur un canapé, avec un filtre qui lui fait des yeux et une bouche énormes, l'air choqué. Texte : « Depuis quand BASICFIT autorise ça ??? »."
+  },
+  "texte_ecran": [
+    "Depuis quand BASICFIT autorise ça ???"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 8,
+      "voit": "lui avec le filtre, sur un canapé, un mur en pierre derrière.",
+      "entend": "« depuis quand Basic-Fit ils autorisent ça ? Attends, regarde. »"
+    },
+    {
+      "debut": 8,
+      "fin": 30,
+      "voit": "le téléphone en main, dans le noir : « Quel physique vises-tu ? », « Où t'entraînes-tu ? » (Basic-Fit, Fitness Park, Keepcool, On Air), « Où fais-tu tes courses ? » (les logos), repas par semaine, séances par semaine, « Ça te tente ? » (photos de plats).",
+      "entend": "il répond à voix haute : « prendre du muscle… moi c'est Basic-Fit… Lidl… deux repas par jour… 5 fois par semaine… économique, c'est plus important. »"
+    },
+    {
+      "debut": 30,
+      "fin": 45,
+      "voit": "« Ton âge, ta taille, ton poids » (21, 180, 61), puis « Ton budget courses ? » : 60 € → 31 €.",
+      "entend": "« 21 ans, 1 m 80, 61 kilos, bonne prise de masse… budget : d'habitude je mettais 40, on va mettre 30. »"
+    },
+    {
+      "debut": 45,
+      "fin": 60,
+      "voit": "« On compose ta semaine », « Salut, on mange quoi ? » : calories, menus, 26,59 €.",
+      "entend": "« là j'ai mes calories, mes repas, 3 € d'économie… ah la vache… mardi, mercredi, jeudi je mange quoi. »"
+    },
+    {
+      "debut": 60,
+      "fin": 73,
+      "voit": "les recettes (tajine, poulet tikka, lasagnes), la liste de courses, la préparation.",
+      "entend": "« j'ai toute ma liste de courses… si je clique sur le repas, j'ai tous les ingrédients, toute la recette. C'est un truc de ouf. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "👁️",
+      "titre": "Le filtre",
+      "texte": "Des yeux et une bouche énormes : impossible de scroller sans regarder deux secondes. C'est un pattern interrupt."
+    },
+    {
+      "emoji": "🏋️",
+      "titre": "« Depuis quand Basic-Fit autorise ça ? »",
+      "texte": "Il cite une marque que tout le monde connaît et pose une question qui intrigue. Ceux qui vont à Basic-Fit s'arrêtent."
+    },
+    {
+      "emoji": "🗣️",
+      "titre": "Il répond aux questions à voix haute",
+      "texte": "L'app pose des questions, il répond comme à un pote. On apprend sur lui (21 ans, 61 kg) et on comprend l'app en même temps."
+    },
+    {
+      "emoji": "📱",
+      "titre": "Téléphone en main, dans le noir",
+      "texte": "Chaque écran tapoté avec le pouce. Pas de capture, pas de montage."
+    },
+    {
+      "emoji": "💶",
+      "titre": "« D'habitude 40, on va mettre 30 »",
+      "texte": "Il compare avec sa vraie vie. Puis « 3 € d'économie », « 26,59 € » : des chiffres précis."
+    },
+    {
+      "emoji": "😮",
+      "titre": "« Ah la vache », « c'est un truc de ouf »",
+      "texte": "Des réactions spontanées à chaque écran. On a l'impression de découvrir avec lui."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "(filtre déformant) Non mais depuis quand Leboncoin autorise ça ? Attends, regarde.",
+      "comment": "Puis le téléphone en main, dans le noir : l'annonce collée, Screen My Car qui pose ses questions, le verdict. Tu réagis à chaque écran : « ah la vache, 2 400 € de frais cachés ». Rien de récité : tu découvres."
+    },
+    {
+      "app": "revizio",
+      "hook": "(filtre) Non mais depuis quand les profs autorisent ça ? Attends, regarde.",
+      "comment": "Téléphone en main : la photo du cours, Revizio qui pose ses questions (quel exam, quand), les fiches, le quiz. Tu réponds à voix haute : « moi c'est le bac dans 3 semaines »."
+    }
+  ],
+  "ordre": 7
+}

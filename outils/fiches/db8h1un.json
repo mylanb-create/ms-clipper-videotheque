@@ -1,0 +1,130 @@
+{
+  "id": "db8h1un",
+  "fichier": "v26044gc0000db8h1unog65hcb38e0o0.MP4",
+  "compte": "@emma_cst7",
+  "plateforme": "TikTok",
+  "niche": "argent, side business",
+  "format": "duo",
+  "titre": "1 250 € en 10 minutes avec Google Maps (le couple)",
+  "sujet": "Un couple face caméra : « il vit en quelle année ?? ». Lui explique comment trouver un commerce sans site sur Google Maps, lui fabriquer un site avec ChatGPT + Codunk en 2 minutes, et le vendre. Elle réagit devant l'écran.",
+  "tags": [
+    "couple",
+    "école",
+    "Google Maps",
+    "étapes numérotées",
+    "réaction",
+    "1 250 €",
+    "texte rouge"
+  ],
+  "hook": {
+    "dit": "Non mais les gars, vraie question : pourquoi on n'apprend pas ça à l'école ? Parce que juste écouter ce qu'il dit, comment c'est grave utile.",
+    "voit": "elle devant, lui derrière, collés, face caméra sur un fond clair. Texte noir en haut : « Il vit en quelle année?? ». Puis un texte rouge : « T'as moins de 26 ans ? »"
+  },
+  "texte_ecran": [
+    "Il vit en quelle année??",
+    "T'as moins de 26 ans ?",
+    "1. Google Maps",
+    "2. Trouver un client",
+    "Cherche un business sans site 😉",
+    "3. Chatgpt",
+    "Copie le prompt",
+    "4. Aller sur Codunk.com",
+    "Colle le prompt de ChatGpt",
+    "Après 2min, le site est prêt 😅"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 6,
+      "voit": "le couple face caméra. Elle parle, lui regarde la caméra sans bouger.",
+      "entend": "le hook."
+    },
+    {
+      "debut": 6,
+      "fin": 9,
+      "voit": "lui seul, texte rouge « T'as moins de 26 ans ? ».",
+      "entend": "« Comment faire 1 250 € en seulement 10 minutes ? Là ça, je te montre. »"
+    },
+    {
+      "debut": 9,
+      "fin": 26,
+      "voit": "elle assise devant un ordi, Google Maps en grand derrière elle. Textes : « 1. Google Maps », « 2. Trouver un client », « Cherche un business sans site 😉 ».",
+      "entend": "sa voix à lui : « va sur Google Maps, prends un resto, regarde s'il a un site… non. Lui ? non. »"
+    },
+    {
+      "debut": 26,
+      "fin": 49,
+      "voit": "la fiche du restaurant copiée, puis « 3. Chatgpt », « Copie le prompt », « 4. Aller sur Codunk.com », « Colle le prompt de ChatGpt ».",
+      "entend": "« je copie, je vais sur ChatGPT, puis sur Codunk.com, je colle, on attend 2 minutes. »"
+    },
+    {
+      "debut": 49,
+      "fin": 72,
+      "voit": "le site généré « L'Art de la Table Parfaite », texte « Après 2min, le site est prêt 😅 », elle fait une tête bluffée.",
+      "entend": "« le site est prêt… incroyable, incroyable, incroyable, incroyable… magnifique. »"
+    },
+    {
+      "debut": 72,
+      "fin": 90,
+      "voit": "publication en cours, le site en ligne, le nom de domaine.",
+      "entend": "« je publie, le site est en ligne, après je peux mettre le nom de domaine que je veux. »"
+    },
+    {
+      "debut": 90,
+      "fin": 119,
+      "voit": "lui seul face caméra, elle en petit en bas.",
+      "entend": "« aucune formation à acheter, juste ChatGPT et Codunk. Appelez les clients. Si vous avez des questions, écrivez-moi en privé, je vous reprends tout le monde. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "👫",
+      "titre": "Le couple",
+      "texte": "Deux visages collés dans le cadre : on regarde une scène de vie, pas une pub."
+    },
+    {
+      "emoji": "🗓️",
+      "titre": "« Il vit en quelle année ?? »",
+      "texte": "Un texte qui taquine : elle se moque gentiment de lui. Ça intrigue et ça fait sourire."
+    },
+    {
+      "emoji": "🎯",
+      "titre": "« T'as moins de 26 ans ? »",
+      "texte": "Un texte rouge qui s'adresse à toi. Si c'est ton cas, tu restes."
+    },
+    {
+      "emoji": "💶",
+      "titre": "« 1 250 € en 10 minutes »",
+      "texte": "Un chiffre et un temps. Simple, énorme, on veut savoir comment."
+    },
+    {
+      "emoji": "🙀",
+      "titre": "Elle réagit, lui explique",
+      "texte": "Sa voix à lui fait le tuto, son visage à elle montre ce qu'on doit ressentir : bluffée."
+    },
+    {
+      "emoji": "🪜",
+      "titre": "Les étapes numérotées à l'écran",
+      "texte": "1, 2, 3, 4. Même sans le son, on peut refaire."
+    },
+    {
+      "emoji": "🔁",
+      "titre": "« Incroyable » × 8",
+      "texte": "Il répète le même mot en boucle pendant que le site se construit. Ça fait rire et ça remplit l'attente."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Non mais vraie question : pourquoi on n'apprend pas ça à l'école avant d'acheter une voiture ? Écoutez ce qu'il dit.",
+      "comment": "En couple ou entre potes : l'un explique, l'autre réagit devant l'écran. Textes : « Il vit en quelle année ?? » puis « Tu cherches ta première voiture ? ». Étapes numérotées à l'écran : 1. L'annonce. 2. Screen My Car. 3. Le verdict. 4. On négocie. Chiffre à la fin."
+    },
+    {
+      "app": "revizio",
+      "hook": "Vraie question : pourquoi on n'apprend pas ça à l'école ?",
+      "comment": "Elle réagit devant l'écran, lui explique : 1. Photo du cours. 2. Revizio. 3. Les fiches. 4. Le quiz. Texte rouge : « T'as un exam cette semaine ? ». Résultat à la fin : « 18/20 »."
+    }
+  ],
+  "note": "<b>À remarquer :</b> le même hook « pourquoi on n'apprend pas ça à l'école ? » est utilisé par la même créatrice sur deux comptes (@emma.viral80 et @emma_cst7). Quand un hook marche, on le réutilise.",
+  "ordre": 10
+}

@@ -1,0 +1,101 @@
+{
+  "id": "daebh1n",
+  "fichier": "v26300gc0001daebh1nog65jbrdv5uj0.MP4",
+  "compte": "@yanis.astuces.voy",
+  "plateforme": "TikTok",
+  "niche": "voyage",
+  "format": "choque",
+  "titre": "Bali dans 5 heures et je découvre ça (le choqué)",
+  "sujet": "Un mec dans son lit, casquette, qui part à Bali dans 5 heures, découvre une app qui fabrique tout l'itinéraire du voyage : on swipe les activités comme sur Tinder, et ça crée le planning jour par jour, avec la carte.",
+  "tags": [
+    "lit",
+    "urgence",
+    "swipe",
+    "voyage",
+    "téléphone en main",
+    "incroyable"
+  ],
+  "hook": {
+    "dit": "C'est quoi ce truc de fou, là ?",
+    "voit": "lui, allongé dans son lit, casquette, torse nu, l'air étonné. Texte : « Je pars pour Bali 🇮🇩 dans 5 HEURES et je viens seulement de découvrir ÇA ?? 🤯 »."
+  },
+  "texte_ecran": [
+    "Je pars pour Bali 🇮🇩 dans 5 HEURES et je viens seulement de découvrir ÇA ?? 🤯"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 4,
+      "voit": "lui dans son lit, étonné.",
+      "entend": "« C'est quoi ce truc de fou, là ? »"
+    },
+    {
+      "debut": 4,
+      "fin": 20,
+      "voit": "le téléphone en main, l'app : la carte, « Créer un voyage », Bali, le calendrier (23 → 30 septembre), solo, « culture et histoire », standard → premium.",
+      "entend": "« si je clique sur créer un voyage… je vais bientôt aller à Bali, du 23 au 30 septembre, solo, culture et histoire, c'est parfait, on va mettre premium. »"
+    },
+    {
+      "debut": 20,
+      "fin": 36,
+      "voit": "des cartes d'activités (temples, forêt des singes, plage) qu'il swipe à droite ou à gauche.",
+      "entend": "« ça me propose plusieurs activités à swiper : si j'ai envie, à droite, sinon à gauche. Et après ça me crée tout un planning. C'est incroyable. »"
+    },
+    {
+      "debut": 36,
+      "fin": 56,
+      "voit": "« Création de votre voyage », puis l'itinéraire jour par jour avec la carte et le trajet tracé ; il passe d'un jour à l'autre.",
+      "entend": "« je génère l'itinéraire… et voilà, l'itinéraire de chaque jour, les distances entre chaque lieu, le jour 2… sur la carte on voit tout. Incroyable. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "😮",
+      "titre": "La tête étonnée, 4 secondes",
+      "texte": "Il commence par sa réaction, pas par l'app. On veut savoir ce qui l'a étonné."
+    },
+    {
+      "emoji": "⏳",
+      "titre": "« Dans 5 heures »",
+      "texte": "Une urgence vraie : il part bientôt. Ça rend la scène réelle, et un peu drôle."
+    },
+    {
+      "emoji": "🤯",
+      "titre": "« Je viens seulement de découvrir ÇA »",
+      "texte": "Le texte dit : tu aurais dû le savoir avant. On se sent concerné si on voyage."
+    },
+    {
+      "emoji": "📱",
+      "titre": "Téléphone en main, il remplit en direct",
+      "texte": "Vraies dates, vrai voyage, vraies activités. On voit l'app faire son travail, pas une pub."
+    },
+    {
+      "emoji": "👉",
+      "titre": "Le swipe",
+      "texte": "Un geste que tout le monde connaît (Tinder). On comprend l'app sans explication."
+    },
+    {
+      "emoji": "🗺️",
+      "titre": "Le résultat visible",
+      "texte": "Le trajet tracé sur la carte, jour par jour. On voit que ça marche."
+    },
+    {
+      "emoji": "🔁",
+      "titre": "« Incroyable » × 2",
+      "texte": "Il ne vend pas, il réagit."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "C'est quoi ce truc de fou, là ? — Texte : « Je vais voir une voiture dans 2 HEURES et je viens seulement de découvrir ÇA ?? 🤯 »",
+      "comment": "Dans ton lit ou ta voiture, 4 secondes de tête étonnée. Puis le téléphone : tu colles l'annonce que tu vas voir, Screen My Car analyse, le verdict et les points à vérifier apparaissent. Tu finis sur « incroyable », et sur le chiffre."
+    },
+    {
+      "app": "revizio",
+      "hook": "C'est quoi ce truc de fou ? — Texte : « J'ai un exam dans 5 HEURES et je viens seulement de découvrir ÇA ?? 🤯 »",
+      "comment": "Téléphone en main : la photo du cours, Revizio fabrique les fiches, le quiz. Tu réponds en direct, tu réagis à chaque écran."
+    }
+  ],
+  "ordre": 5
+}

@@ -1,0 +1,114 @@
+{
+  "id": "db8rdpf",
+  "fichier": "v26044gc0000db8rdpfog65u6q6scrbg.MP4",
+  "compte": "@ismael.viral",
+  "plateforme": "TikTok",
+  "niche": "argent, side business",
+  "format": "fond-vert",
+  "titre": "« Elle a supprimé la vidéo, je l'ai enregistrée » (la serveuse du McDo)",
+  "sujet": "Le créateur annonce qu'une fille a supprimé une vidéo qui faisait trop de vues, et qu'il l'a gardée. Dedans, une serveuse du McDo raconte comment un client gagne 1 000 € par jour avec des comptines faites par IA, et montre sa première vidéo : 905,77 €.",
+  "tags": [
+    "fruit interdit",
+    "vidéo supprimée",
+    "McDo",
+    "incrustation",
+    "905 €",
+    "histoire racontée"
+  ],
+  "hook": {
+    "dit": "Les gars, cette meuf a supprimé une sale vidéo parce qu'elle faisait trop de vues, mais je l'ai enregistrée. Regardez ça.",
+    "voit": "le créateur en incrustation (petit cadre) devant la vidéo d'une fille, rideau gris derrière elle. Texte : « 3 ANS au macdo pour découvrir ÇA ?!? 💀💀 »."
+  },
+  "texte_ecran": [
+    "3 ANS au macdo pour découvrir ÇA ?!? 💀💀"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 5,
+      "voit": "lui en gros plan, incrusté devant la vidéo de la fille.",
+      "entend": "le hook : « elle a supprimé la vidéo, je l'ai enregistrée, regardez ça »."
+    },
+    {
+      "debut": 5,
+      "fin": 27,
+      "voit": "la fille en plein écran, lui en petit en bas à gauche. Elle raconte avec les mains.",
+      "entend": "« ça fait 3 ans que je travaille au McDo, payée le SMIC, je pue la friture… un couple de 22-23 ans, j'écoute leur conversation : le mec poste des vidéos pour enfants sur YouTube et se fait presque 1 000 euros par jour. »"
+    },
+    {
+      "debut": 27,
+      "fin": 32,
+      "voit": "un écran « Estimated revenue €905.77 » à côté de son visage.",
+      "entend": "« j'ai commencé il y a une semaine, regardez ce que j'ai gagné avec ma première vidéo. »"
+    },
+    {
+      "debut": 32,
+      "fin": 45,
+      "voit": "son ordi filmé à la main : YouTube « chanson enfant », une comptine à 146 millions de vues, la description copiée, ChatGPT.",
+      "entend": "« tu vas sur YouTube, comptines pour enfants, tu colles toute la description, ChatGPT te fait un prompt. »"
+    },
+    {
+      "debut": 45,
+      "fin": 57,
+      "voit": "shortfy.io, « AI Video Generator », Générer, puis la vidéo (un bébé en salopette jaune).",
+      "entend": "« le générateur vidéo IA de shortfy.io, colle, génère, 3-4 minutes, ça te fait une vidéo dans ce style. »"
+    },
+    {
+      "debut": 57,
+      "fin": 64,
+      "voit": "les stats de la vidéo, puis la fin.",
+      "entend": "« t'as plus qu'à la poster et encaisser. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🙈",
+      "titre": "Le fruit interdit",
+      "texte": "« Elle a supprimé la vidéo, je l'ai enregistrée » : si c'était supprimé, c'est que ça vaut le coup. On veut voir."
+    },
+    {
+      "emoji": "🍟",
+      "titre": "« 3 ans au McDo »",
+      "texte": "Un texte qui raconte une vie en quatre mots. Beaucoup de gens se reconnaissent."
+    },
+    {
+      "emoji": "🗣️",
+      "titre": "Une vraie personne raconte",
+      "texte": "Ce n'est pas lui qui vend : c'est elle qui raconte son histoire. Lui écoute, comme nous."
+    },
+    {
+      "emoji": "👂",
+      "titre": "La conversation surprise",
+      "texte": "« J'écoute leur conversation » : un secret entendu au McDo. On est dans l'histoire."
+    },
+    {
+      "emoji": "💶",
+      "titre": "Un chiffre précis",
+      "texte": "905,77 € : le centime rend le chiffre vrai."
+    },
+    {
+      "emoji": "🖐️",
+      "titre": "L'ordi filmé à la main, 5 étapes",
+      "texte": "YouTube, copier, ChatGPT, Shortfy, poster. Chaque étape en 3 secondes."
+    },
+    {
+      "emoji": "📌",
+      "titre": "Lui reste en incrustation",
+      "texte": "Même quand on voit la fille ou l'ordi, son visage reste en petit en bas à gauche. C'est sa vidéo."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Les gars, ce mec a supprimé sa vidéo parce qu'elle faisait trop de vues. Je l'ai enregistrée, regardez.",
+      "comment": "La vidéo (fournie par Screen My Car) : quelqu'un raconte comment il a négocié 2 000 € sur une voiture grâce à un rapport. Toi en incrustation en bas à gauche. Texte : « 3 ANS à chercher une voiture pour découvrir ÇA ?!? 💀 ». Puis ton téléphone : le Screen My Car, le verdict, le chiffre."
+    },
+    {
+      "app": "msclipper",
+      "hook": "Cette meuf a supprimé sa vidéo parce qu'elle faisait trop de vues. Je l'ai enregistrée.",
+      "comment": "Dans la vidéo : une créatrice montre ses gains MS Clipper (payée à la vue). Texte : « 2 ANS à poster gratuitement pour découvrir ÇA ?!? 💀 ». Toi en incrustation, puis l'écran des gains."
+    }
+  ],
+  "note": "<b>À remarquer :</b> c'est la 4ᵉ vidéo de cette vidéothèque qui vend le même site (Shortfy) : le dessin animé, la cagoule, le couple, la serveuse. Un seul produit, quatre histoires différentes. C'est exactement ce qu'on demande aux créateurs.",
+  "ordre": 13
+}

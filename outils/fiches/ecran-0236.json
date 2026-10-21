@@ -1,0 +1,104 @@
+{
+  "id": "ecran-0236",
+  "fichier": "ScreenRecording_10-21-2026 02-36-47_1.MP4",
+  "type": "carrousel",
+  "images": [
+    "carrousels/ecran-0236/1.jpg",
+    "carrousels/ecran-0236/2.jpg",
+    "carrousels/ecran-0236/3.jpg",
+    "carrousels/ecran-0236/4.jpg"
+  ],
+  "compte": "@theworkflowguy",
+  "plateforme": "TikTok",
+  "niche": "apps, productivité",
+  "format": "carrousel",
+  "titre": "Top 3 apps de niche pour ton téléphone (carrousel)",
+  "sujet": "Pas une vidéo : 4 photos qu'on fait défiler. Une photo de couverture (un café, un téléphone, des clés), puis une app par photo : son icône, une phrase, deux captures d'écran. 5 264 likes, 2 984 enregistrements.",
+  "tags": [
+    "carrousel",
+    "top 3",
+    "enregistrements",
+    "sans se filmer",
+    "une app par photo"
+  ],
+  "hook": {
+    "dit": "(pas de son : une photo) top 3 niche apps for ur phone",
+    "voit": "une photo prise d'en haut : un café, un bol de céréales, un téléphone, des clés de voiture, un carnet. Texte blanc : « top 3 niche apps for ur phone »."
+  },
+  "texte_ecran": [
+    "top 3 niche apps for ur phone",
+    "Claude — *the best AI assistant",
+    "Albo — *my second online brain",
+    "Notion — *turn ideas into action"
+  ],
+  "etapes": [
+    {
+      "photo": 1,
+      "voit": "la photo de couverture, style « ma vie d'entrepreneur » : café, téléphone, clés de voiture, carnet.",
+      "entend": "rien, la musique de fond."
+    },
+    {
+      "photo": 2,
+      "voit": "Claude : l'icône, « *the best AI assistant », deux captures d'écran de l'app."
+    },
+    {
+      "photo": 3,
+      "voit": "Albo : l'icône, « *my second online brain », deux captures."
+    },
+    {
+      "photo": 4,
+      "voit": "Notion : l'icône, « *turn ideas into action », deux captures."
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🖼️",
+      "titre": "Une photo, pas une vidéo",
+      "texte": "Pas besoin de se filmer ni de parler. Un carrousel se fabrique en 20 minutes."
+    },
+    {
+      "emoji": "📌",
+      "titre": "Ça s'enregistre",
+      "texte": "2 984 enregistrements pour 5 264 likes : les gens le gardent « pour plus tard ». TikTok pousse ce qui est enregistré."
+    },
+    {
+      "emoji": "🔢",
+      "titre": "« Top 3 »",
+      "texte": "Un petit chiffre : on sait que ça va être rapide."
+    },
+    {
+      "emoji": "☕",
+      "titre": "La photo de couverture",
+      "texte": "Café, clés de voiture, carnet : ça raconte une vie qu'on a envie d'avoir, avant même de lire."
+    },
+    {
+      "emoji": "📱",
+      "titre": "Une app par photo, toujours pareil",
+      "texte": "Icône + une phrase + deux captures. Le cerveau n'a rien à décoder."
+    },
+    {
+      "emoji": "⭐",
+      "titre": "L'astérisque",
+      "texte": "« *the best AI assistant » : une petite note perso, comme un avis d'ami, pas un slogan."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "top 3 apps avant d'acheter une voiture d'occasion",
+      "comment": "Photo de couverture : des clés de voiture, un café, une annonce imprimée. Puis une app par photo : Screen My Car (« *te dit si l'annonce est une arnaque », deux captures du verdict), puis deux autres apps utiles (HistoVec, un calculateur de cote). Screen My Car en photo 2, jamais seule : un top 3 crédible a trois apps."
+    },
+    {
+      "app": "revizio",
+      "hook": "top 3 apps pour réviser sans y passer la nuit",
+      "comment": "Couverture : un bureau, des cours, un café. Puis Revizio (« *transforme ton cours en quiz »), et deux autres apps que les étudiants connaissent."
+    },
+    {
+      "app": "msclipper",
+      "hook": "top 3 apps pour être payé à poster des vidéos",
+      "comment": "Couverture : un téléphone et un carnet. MS Clipper en photo 2 avec deux captures (la campagne, les gains)."
+    }
+  ],
+  "note": "<b>Le format carrousel pour nos apps :</b> une app par photo, une phrase simple, deux captures. On mélange nos apps avec d'autres apps connues : c'est ce qui rend le top crédible.",
+  "ordre": 19
+}

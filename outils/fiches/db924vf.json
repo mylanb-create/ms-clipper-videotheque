@@ -1,0 +1,102 @@
+{
+  "id": "db924vf",
+  "fichier": "v26044gc0000db924vfog65hah132qe0.MP4",
+  "compte": "@6min_ai",
+  "plateforme": "TikTok",
+  "niche": "argent, IA",
+  "format": "choque",
+  "titre": "6 ans au SMIC et je vois ça (sans un mot)",
+  "sujet": "Pas une parole. Un mec choqué, la bouche grande ouverte, dehors. Puis son téléphone à la main : un site qui pose 5 questions et « chiffre ton potentiel » : 10 823 €. Juste une musique et un texte.",
+  "tags": [
+    "sans parole",
+    "choqué",
+    "filtre",
+    "trottoir",
+    "10 823 €",
+    "33 secondes"
+  ],
+  "hook": {
+    "dit": "(aucune parole : seulement la musique)",
+    "voit": "un mec dehors, lunettes de soleil, la bouche grande ouverte (le visage déformé par un filtre), le ciel derrière lui. Texte : « 6 ans je galère au SMIC et Je VOIS ÇA ???😭 »."
+  },
+  "texte_ecran": [
+    "6 ans je galère au SMIC et Je VOIS ÇA ???😭"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 2,
+      "voit": "le visage choqué, bouche ouverte, filtre déformant.",
+      "entend": "la musique démarre."
+    },
+    {
+      "debut": 2,
+      "fin": 12,
+      "voit": "le téléphone à la main, sur le trottoir : « Quel revenu veux-tu atteindre ? 14 283 € », « Sur quoi tu veux recevoir tes paiements ? Stripe, PayPal, Revolut, Whop », « D'ici quand tu dois avoir tes premières ventes ? ».",
+      "entend": "la musique."
+    },
+    {
+      "debut": 12,
+      "fin": 22,
+      "voit": "« Tu veux tout faire derrière ton téléphone sans te montrer ? Oui », « Tu veux qu'on le fasse à ta place ? (automatisé) ».",
+      "entend": "la musique."
+    },
+    {
+      "debut": 22,
+      "fin": 30,
+      "voit": "« On chiffre ton potentiel. » puis le chiffre qui apparaît en gros : 10 823 €, et le bouton « Créer le site ».",
+      "entend": "la musique."
+    },
+    {
+      "debut": 30,
+      "fin": 33,
+      "voit": "le site qui se crée, fin.",
+      "entend": "la musique."
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "😱",
+      "titre": "La tête choquée en premier",
+      "texte": "Avant même de lire, on voit quelqu'un qui n'en revient pas. On veut savoir de quoi."
+    },
+    {
+      "emoji": "🔇",
+      "titre": "Zéro parole",
+      "texte": "Rien à écouter, tout à lire. Ça se regarde dans le métro sans le son."
+    },
+    {
+      "emoji": "🧾",
+      "titre": "Des questions qu'on se pose",
+      "texte": "« Quel revenu tu veux atteindre ? » « Sans te montrer ? » Chaque écran est une question, et on y répond dans sa tête."
+    },
+    {
+      "emoji": "💶",
+      "titre": "« 10 823 € »",
+      "texte": "Le résultat tombe à la fin, en gros. C'est la récompense d'avoir regardé jusqu'au bout."
+    },
+    {
+      "emoji": "🚶",
+      "titre": "Dehors, téléphone en main",
+      "texte": "Pas de bureau, pas de montage : un trottoir et un pouce. Ça a l'air de prendre 30 secondes."
+    },
+    {
+      "emoji": "⏱️",
+      "titre": "33 secondes",
+      "texte": "Court. Les gens la regardent deux fois, et TikTok adore ça."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "(tête choquée, sans un mot) Texte : « 3 mois à chercher une voiture et je VOIS ÇA ???😭 »",
+      "comment": "Puis ton téléphone sur le trottoir : l'annonce, Screen My Car qui analyse, et le verdict qui tombe en gros : FUIR, 2 400 € de frais cachés. Musique, aucune parole, 30 secondes."
+    },
+    {
+      "app": "revizio",
+      "hook": "(tête choquée) Texte : « 6 ans à réviser comme un con et je VOIS ÇA ???😭 »",
+      "comment": "Téléphone en main : la photo du cours, Revizio qui fabrique les fiches, le quiz, le score. Musique seulement."
+    }
+  ],
+  "ordre": 3
+}

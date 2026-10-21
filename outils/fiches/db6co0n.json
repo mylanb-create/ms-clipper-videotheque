@@ -1,0 +1,103 @@
+{
+  "id": "db6co0n",
+  "fichier": "v26044gc0000db6co0nog65nq3nlg4ig.MP4",
+  "compte": "@maydit4",
+  "plateforme": "TikTok",
+  "niche": "courses, budget",
+  "format": "fond-vert",
+  "reprise": true,
+  "titre": "184 € de courses et rien à manger (la reprise, version 1)",
+  "sujet": "On repart d'une vidéo virale : un mec râle, 184 € de courses et rien à manger. Puis la créatrice prend le relais : « c'est exactement pour ça que je me suis mise sur Pimzi », et montre l'app sur son ordi. 7 dîners pour 35 €.",
+  "tags": [
+    "vidéo reprise",
+    "coup de gueule",
+    "184 €",
+    "ordi filmé à la main",
+    "7 dîners pour 35 €"
+  ],
+  "hook": {
+    "dit": "La famille, un truc que je ne comprends pas : soit je ne sais pas faire les courses, soit les courses sont devenues trop, trop chères pour rien.",
+    "voit": "un couple face caméra : lui, barbu, râle en agitant la main ; elle, à côté, écoute. Bandeau blanc en haut : « 184€ de courses pour au final ne pas savoir quoi manger »."
+  },
+  "texte_ecran": [
+    "184€ de courses pour au final ne pas savoir quoi manger"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 21,
+      "voit": "la vidéo reprise : le couple, lui qui râle. Le bandeau « 184 € » reste en haut.",
+      "entend": "« la famille, un truc que je ne comprends pas… bip, bip, bip, 184 euros… je rentre, je range, et il n'y a rien à manger. Je vais manger quoi ? »"
+    },
+    {
+      "debut": 21,
+      "fin": 41,
+      "voit": "la créatrice seule, gros plan, bandeau dans les cheveux, fond clair.",
+      "entend": "« c'est exactement pour ça que je me suis mise sur Pimzi. J'en avais marre : super cher, et à la fin que dalle dans le caddie. Les petites courses à 3 euros, à la fin de la semaine, t'en as pour ultra cher. »"
+    },
+    {
+      "debut": 41,
+      "fin": 63,
+      "voit": "toujours elle, elle explique avec les mains.",
+      "entend": "« il te prépare toutes tes recettes, tous les ingrédients, t'as tout à l'avance. Niveau budget, tu divises par 4. Je vous montre. »"
+    },
+    {
+      "debut": 63,
+      "fin": 94,
+      "voit": "son ordi filmé à la main, l'app écran par écran : « Qu'est-ce qui t'amène ? », « Tu cuisines pour qui ? 2 », le budget 70 € → 35 €, allergies, « quelle vibe pour tes dîners », « ta cuisine, version réelle » (elle ajoute le blender).",
+      "entend": "« crée ton menu de la semaine… 2 personnes… Leclerc… le moins cher… je mange de tout… on a acheté un blender, hop, je le rajoute. »"
+    },
+    {
+      "debut": 94,
+      "fin": 118,
+      "voit": "« Pimzi compose ta semaine », puis « Tes 7 dîners chez E.Leclerc pour 35 € cette semaine », et la liste des recettes qu'elle fait défiler du doigt.",
+      "entend": "« 7 dîners chez Leclerc pour 35 euros. Si tu n'aimes pas une recette, tu régénères. Game changer, ça m'a changé ma vie. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🔁",
+      "titre": "On part d'une vidéo qui a déjà marché",
+      "texte": "Le mec qui râle a déjà fait des millions de vues. On réutilise son hook, pas besoin d'en inventer un."
+    },
+    {
+      "emoji": "💶",
+      "titre": "« 184 € » dans le bandeau",
+      "texte": "Un chiffre précis en haut de l'écran pendant 20 secondes. On le lit même sans le son."
+    },
+    {
+      "emoji": "😤",
+      "titre": "Un vrai coup de gueule",
+      "texte": "Il ne vend rien, il râle. On est d'accord avec lui, donc on écoute la suite."
+    },
+    {
+      "emoji": "🪝",
+      "titre": "« C'est exactement pour ça que… »",
+      "texte": "La première phrase de la créatrice colle au problème du mec. La solution arrive sans casser le rythme."
+    },
+    {
+      "emoji": "🖐️",
+      "titre": "L'ordi filmé à la main",
+      "texte": "Chaque écran de l'app est montré, le doigt dessus, en 30 secondes. On voit que c'est facile."
+    },
+    {
+      "emoji": "🧾",
+      "titre": "« 7 dîners pour 35 € »",
+      "texte": "Le résultat tient en une phrase et un chiffre."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "(vidéo reprise : quelqu'un qui râle sur une voiture d'occasion tombée en panne) puis : « C'est exactement pour ça que je fais un Screen My Car avant d'acheter. »",
+      "comment": "On garde une vidéo virale d'un acheteur qui s'est fait avoir (fournie par Screen My Car). Bandeau en haut : « 4 500 € de voiture, en panne au bout de 3 semaines ». Puis toi : « c'est exactement pour ça que… », et ton téléphone à la main : l'annonce, le verdict, les défauts, le prix négocié."
+    },
+    {
+      "app": "revizio",
+      "hook": "(vidéo reprise : un élève qui craque la veille d'un exam) puis : « C'est exactement pour ça que je révise avec Revizio. »",
+      "comment": "Bandeau : « 6 heures de révisions pour un 7/20 ». Puis toi, puis l'écran : ton cours envoyé, les fiches, le quiz, le score."
+    }
+  ],
+  "note": "<b>Règle MS Clipper :</b> une vidéo reprise (déjà virale), c'est seulement si c'est nous qui la donnons au créateur. Et notre version fait 30 à 60 secondes, pas 2 minutes.",
+  "ordre": 15
+}

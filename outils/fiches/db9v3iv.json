@@ -1,0 +1,96 @@
+{
+  "id": "db9v3iv",
+  "fichier": "v26044gc0000db9v3ivog65gk2c8rma0.MP4",
+  "compte": "@thomas.cleneau",
+  "plateforme": "TikTok",
+  "niche": "astuces téléphone",
+  "format": "flow",
+  "titre": "La fonction cachée d'Instagram (25 secondes, téléphone en main)",
+  "sujet": "Un mec en voiture, puis son téléphone à la main : il montre un réglage qui enlève les Reels et les stories d'Instagram, et met l'app en rose. 25 secondes, une seule phrase.",
+  "tags": [
+    "fonction cachée",
+    "25 secondes",
+    "téléphone en main",
+    "sceptique",
+    "Instagram",
+    "sans montage"
+  ],
+  "hook": {
+    "dit": "Si je reste appuyé ici, tu peux supprimer les Reels, supprimer les stories…",
+    "voit": "lui, dans une voiture la nuit, les yeux plissés, l'air pas convaincu. Texte : « c est qoi cette feature caché d insta de fou 😭😭 »."
+  },
+  "texte_ecran": [
+    "c est qoi cette feature caché d insta de fou 😭😭"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 2,
+      "voit": "lui en voiture, la nuit, l'air sceptique.",
+      "entend": "le début de la phrase."
+    },
+    {
+      "debut": 2,
+      "fin": 12,
+      "voit": "son téléphone à la main, au-dessus d'un clavier. Instagram « For you », puis un menu « FeedLite » : Block Reels, Block Stories, Block Videos, Block Explore.",
+      "entend": "« si je reste appuyé ici, tu peux supprimer les Reels, supprimer les stories. »"
+    },
+    {
+      "debut": 12,
+      "fin": 22,
+      "voit": "il active les boutons, choisit le thème rose : Instagram devient rose, plus de Reels.",
+      "entend": "« et même mettre mon Instagram en rose. Plus de stories, plus de Reels. Incroyable. »"
+    },
+    {
+      "debut": 22,
+      "fin": 25,
+      "voit": "la fin TikTok.",
+      "entend": "rien."
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🤫",
+      "titre": "« Fonction cachée »",
+      "texte": "Deux mots magiques : on veut savoir ce qu'on a raté."
+    },
+    {
+      "emoji": "😑",
+      "titre": "La tête sceptique",
+      "texte": "Il a l'air de ne pas y croire lui-même. Ça donne envie de vérifier."
+    },
+    {
+      "emoji": "⚡",
+      "titre": "25 secondes, une phrase",
+      "texte": "Il ne raconte pas sa vie : une phrase, un réglage, un résultat. On peut la revoir trois fois."
+    },
+    {
+      "emoji": "📱",
+      "titre": "Le doigt qui appuie",
+      "texte": "On voit le geste exact, téléphone en main. On peut le refaire tout de suite."
+    },
+    {
+      "emoji": "🎨",
+      "titre": "Le résultat visible",
+      "texte": "Instagram devient rose : on voit que ça a marché, pas besoin de le dire."
+    },
+    {
+      "emoji": "🫢",
+      "titre": "Les fautes dans le texte",
+      "texte": "« c est qoi cette feature caché » : écrit vite, comme un message à un pote. Ça fait vrai, pas pub."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "(texte) c'est quoi cette fonction cachée pour les voitures d'occasion 😭",
+      "comment": "2 secondes de ta tête sceptique, puis le téléphone en main : tu colles l'annonce, Screen My Car sort le verdict. Une phrase : « si je colle l'annonce ici, ça me dit si c'est une arnaque. Incroyable. » 25 secondes."
+    },
+    {
+      "app": "msclipper",
+      "hook": "(texte) c'est quoi cette app qui paie les vidéos de fou 😭",
+      "comment": "Téléphone en main : MS Clipper, le compteur de vues, les gains. Une phrase : « je poste, je colle le lien, et ça me paie à la vue. » 25 secondes."
+    }
+  ],
+  "ordre": 4
+}

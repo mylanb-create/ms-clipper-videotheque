@@ -1,0 +1,109 @@
+{
+  "id": "db4i0ff",
+  "fichier": "v26044gc0000db4i0ffog65q2f5gmk10.MP4",
+  "compte": "@emma.viral80",
+  "plateforme": "TikTok",
+  "niche": "argent, side business",
+  "format": "fond-vert",
+  "titre": "Le « glitch d'argent » des comptines YouTube",
+  "sujet": "Une fille réagit à un mec cagoulé qui explique comment gagner de l'argent avec des comptines faites par IA. Puis elle le fait en direct : 357 000 vues, 1 500 €.",
+  "tags": [
+    "cagoule",
+    "école",
+    "glitch",
+    "argent",
+    "réaction",
+    "preuve à la fin",
+    "deux voix"
+  ],
+  "hook": {
+    "dit": "Est-ce que quelqu'un peut m'expliquer pourquoi on n'apprend pas ça à l'école ?",
+    "voit": "elle, face caméra dans le noir, et derrière elle en grand un mec avec une cagoule noire. Texte en haut : « J'ai trouvé un p*tain de glitch d'argent IRL »."
+  },
+  "texte_ecran": [
+    "J'ai trouvé un p*tain de glitch d'argent IRL"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 3,
+      "voit": "elle devant, le mec cagoulé derrière. Le texte reste en haut.",
+      "entend": "la question-hook."
+    },
+    {
+      "debut": 3,
+      "fin": 30,
+      "voit": "le mec cagoulé parle en grand, elle écoute en petit en bas, elle réagit avec le visage.",
+      "entend": "« Écoutez juste ce qu'il dit », puis lui explique le plan : les comptines pour enfants font des millions de vues."
+    },
+    {
+      "debut": 30,
+      "fin": 36,
+      "voit": "elle reprend la main, toujours devant son grand écran.",
+      "entend": "« YouTube vous paye entre 1 000 et 6 000 € pour un million de vues. Je vais vous montrer combien ça m'a fait. »"
+    },
+    {
+      "debut": 36,
+      "fin": 47,
+      "voit": "l'écran derrière elle : YouTube « Comptines pour enfant », Google, les paroles copiées, ChatGPT.",
+      "entend": "« cliquer sur la vidéo, prendre toutes les paroles, demander à ChatGPT un prompt »."
+    },
+    {
+      "debut": 47,
+      "fin": 59,
+      "voit": "le site Shortify.io, le « AI Video Generator », le prompt collé, le bouton Générer.",
+      "entend": "« on va sur shortify.io, on colle le prompt, on clique sur générer »."
+    },
+    {
+      "debut": 59,
+      "fin": 65,
+      "voit": "la vidéo IA (un crocodile en dessin animé), puis l'écran « Statistiques de la vidéo : 357,9 k vues ».",
+      "entend": "« la vidéo a fait plus de 357 000 vues et m'a rapporté près de 1 500 € »."
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🏫",
+      "titre": "« Pourquoi on n'apprend pas ça à l'école ? »",
+      "texte": "Une question que tout le monde s'est déjà posée. On veut savoir ce que c'est, « ça »."
+    },
+    {
+      "emoji": "🥷",
+      "titre": "La cagoule",
+      "texte": "Un mec cagoulé dans le noir, ça sent le secret interdit. On n'a pas l'habitude, on s'arrête."
+    },
+    {
+      "emoji": "💶",
+      "titre": "Le mot « glitch »",
+      "texte": "Un glitch, c'est un bug qui donne de l'argent. Ça sonne comme une triche, et tout le monde veut la triche."
+    },
+    {
+      "emoji": "👥",
+      "titre": "Deux voix",
+      "texte": "Lui explique, elle réagit. On n'est pas seul face à un vendeur : on regarde avec elle, comme une amie."
+    },
+    {
+      "emoji": "🧾",
+      "titre": "La preuve à la fin",
+      "texte": "357 000 vues, 1 500 € : un vrai écran de statistiques. Sans ça, c'est du vent."
+    },
+    {
+      "emoji": "⚡",
+      "titre": "Les étapes vont vite",
+      "texte": "Clic, copie, ChatGPT, Shortify, publier. Aucun blabla entre deux étapes."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "msclipper",
+      "hook": "Est-ce que quelqu'un peut m'expliquer pourquoi on n'apprend pas ça à l'école ?",
+      "comment": "Un pote (cagoulé ou pas) explique derrière toi : « des apps te paient 1 € les 1 000 vues pour poster des vidéos ». Toi, tu réagis. Puis tu montres MS Clipper : la campagne, le brief, et surtout l'écran des gains à la fin, en vrai."
+    },
+    {
+      "app": "smc",
+      "hook": "Pourquoi on n'apprend pas ça à l'école avant d'acheter sa première voiture ?",
+      "comment": "Derrière toi : une annonce qui a l'air parfaite. Tu réagis, tu fais un Screen My Car, et la preuve à la fin en gros : FUIR, kilométrage incohérent, 2 400 € économisés."
+    }
+  ],
+  "ordre": 11
+}

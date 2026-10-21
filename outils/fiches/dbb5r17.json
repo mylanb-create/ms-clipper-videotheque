@@ -1,0 +1,103 @@
+{
+  "id": "dbb5r17",
+  "fichier": "v26300gc0001dbb5r17og65gs2a24ahg.MP4",
+  "compte": "@le.multipreneur",
+  "plateforme": "TikTok",
+  "niche": "IA, productivité",
+  "format": "face-camera",
+  "titre": "« Arrêtez tout de suite » (l'astuce des devs, dans le train)",
+  "sujet": "Dans un train, écouteurs aux oreilles, il s'adresse à ceux qui laissent leur ordi entrouvert pour que Claude continue de travailler : « arrêtez tout de suite ». L'astuce des devs : une petite app qui garde le Mac allumé, écran fermé. 31 secondes.",
+  "tags": [
+    "ordre",
+    "train",
+    "photo incrustée",
+    "devs",
+    "31 secondes",
+    "Claude"
+  ],
+  "hook": {
+    "dit": "Pour toutes les personnes qui laissent leur ordinateur comme ça pour que Claude continue à travailler : arrêtez tout de suite.",
+    "voit": "lui, face caméra dans un train, écouteurs filaires, cheveux bouclés. En haut, une petite photo incrustée : un ordi portable entrouvert sur une table. Texte : « comment faire bosser claude 24/24h »."
+  },
+  "texte_ecran": [
+    "comment faire bosser claude 24/24h",
+    "la photo incrustée de l'ordi entrouvert"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 5,
+      "voit": "lui dans le train, la photo de l'ordi entrouvert en incrustation.",
+      "entend": "le hook."
+    },
+    {
+      "debut": 5,
+      "fin": 12,
+      "voit": "lui, il montre les devs derrière lui (une fille sur son ordi), il sourit.",
+      "entend": "« j'ai passé une semaine avec des devs et ils m'ont donné une astuce de fou. Regardez, ils sont encore là, ils codent, ils codent. Je vous le montre. »"
+    },
+    {
+      "debut": 12,
+      "fin": 23,
+      "voit": "l'écran de l'ordi filmé à la main : la recherche Google de l'app, puis la petite icône dans la barre du haut et un menu avec un bouton.",
+      "entend": "« ça s'appelle [le nom de l'app], tu l'installes, t'as un petit truc ici, t'as juste à cliquer, et ton Mac reste activé même écran rabattu. »"
+    },
+    {
+      "debut": 23,
+      "fin": 31,
+      "voit": "le pouce levé devant l'écran.",
+      "entend": "« fais attention à ta batterie, mais sinon Claude continue à travailler, c'est vraiment pratique. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🛑",
+      "titre": "« Arrêtez tout de suite »",
+      "texte": "Un ordre, dès la première phrase. On s'arrête pour savoir ce qu'on fait mal."
+    },
+    {
+      "emoji": "🎯",
+      "titre": "« Pour toutes les personnes qui… »",
+      "texte": "Il vise un groupe précis. Si c'est toi, tu restes ; si ce n'est pas toi, tant pis, et c'est voulu."
+    },
+    {
+      "emoji": "🖼️",
+      "titre": "La photo incrustée",
+      "texte": "L'ordi entrouvert, en petit en haut : on voit le problème sans qu'il le décrive."
+    },
+    {
+      "emoji": "🚆",
+      "titre": "Le train, les écouteurs",
+      "texte": "Filmé n'importe où, sans décor. C'est un mec qui vient d'apprendre un truc et le partage."
+    },
+    {
+      "emoji": "👩‍💻",
+      "titre": "« Regardez, ils sont encore là »",
+      "texte": "Il montre les devs derrière lui : la preuve que l'astuce vient de gens qui s'y connaissent."
+    },
+    {
+      "emoji": "⏱️",
+      "titre": "31 secondes, une seule astuce",
+      "texte": "Un problème, une app, un clic. Fini."
+    },
+    {
+      "emoji": "⚠️",
+      "titre": "« Fais attention à ta batterie »",
+      "texte": "Un petit conseil honnête à la fin : il n'est pas là pour vendre."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Pour toutes les personnes qui achètent une voiture d'occasion en regardant juste les photos : arrêtez tout de suite.",
+      "comment": "Dans le train, le bus, où tu veux. Photo incrustée : une annonce Leboncoin. « J'ai passé une semaine avec un mécano, il m'a donné une astuce de fou. » Puis ton téléphone : le Screen My Car, le verdict. 30 secondes. Fin honnête : « ça ne remplace pas un essai, mais ça évite les arnaques »."
+    },
+    {
+      "app": "msclipper",
+      "hook": "Pour toutes les personnes qui postent des vidéos gratuitement : arrêtez tout de suite.",
+      "comment": "Photo incrustée : un écran de gains. « J'ai passé une semaine avec des créateurs, ils m'ont donné une astuce de fou. » Puis MS Clipper à l'écran. 30 secondes."
+    }
+  ],
+  "note": "<b>À remarquer :</b> deux vidéos de cette vidéothèque parlent de Claude (l'IA). Un outil que les gens utilisent déjà, c'est un sujet qui marche.",
+  "ordre": 18
+}

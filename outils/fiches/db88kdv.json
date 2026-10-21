@@ -1,0 +1,125 @@
+{
+  "id": "db88kdv",
+  "fichier": "v26044gc0000db88kdvog65nq3j2356g.MP4",
+  "compte": "@ismael.viral",
+  "plateforme": "TikTok",
+  "niche": "argent, side business",
+  "format": "troisieme-personne",
+  "titre": "« Tu ne gagneras jamais d'argent » (le dessin animé qui accroche)",
+  "sujet": "Un mini dessin animé fait par IA : une prof dit à Keo qu'il ne gagnera jamais d'argent sans diplôme. Keo revient en Lamborghini. Puis le créateur reprend la main : « j'ai trouvé un moyen plus éthique », et montre sa méthode sur son PC. 200 000 vues, 1 000 €.",
+  "tags": [
+    "dessin animé IA",
+    "prof",
+    "revanche",
+    "histoire",
+    "PC filmé à la main",
+    "preuve chiffrée"
+  ],
+  "hook": {
+    "dit": "Regarde ça ! — Vous deux, vous partez où après le bac ? — Moi, HEC. — Moi, Sciences Po. — Et toi, Keo ? — Moi, je lance mon business.",
+    "voit": "un dessin animé style Pixar (fait par IA) : une prof à lunettes, une salle de classe, des élèves qui répondent. Le créateur est en tout petit, en bas de l'écran. Sous-titres mot à mot."
+  },
+  "texte_ecran": [
+    "vous deux, vous partez où après le bac",
+    "moi HEC",
+    "moi Science-Po",
+    "et toi Keo",
+    "*choqué*",
+    "*travail à Décathlon en parallèle*",
+    "c'est qui ça"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 10,
+      "voit": "la classe en dessin animé, les trois élèves, le créateur en petit en bas.",
+      "entend": "« Regarde ça ! Vous partez où après le bac ? HEC. Sciences Po. Et toi, Keo ? Moi, je lance mon business. »"
+    },
+    {
+      "debut": 10,
+      "fin": 20,
+      "voit": "la classe choquée (*choqué*), la prof qui fait la leçon, puis Keo en gilet Décathlon (*travail à Décathlon en parallèle*).",
+      "entend": "la prof : « un avenir, ça passe par un diplôme, tu ne gagneras jamais d'argent. » Keo : « je vais te prouver le contraire. »"
+    },
+    {
+      "debut": 20,
+      "fin": 28,
+      "voit": "un paiement de 5 000 $ sur un téléphone, une élève : « c'est combien par an ? 30 000 € », puis la Lamborghini devant l'école.",
+      "entend": "« je viens d'être pris… 30 000 euros… C'est qui ça, qui arrive en Lamborghini ? »"
+    },
+    {
+      "debut": 28,
+      "fin": 39,
+      "voit": "le créateur en vrai, face caméra, t-shirt blanc.",
+      "entend": "« C'est cool, mais j'ai trouvé un moyen plus éthique de faire de l'argent : poster des vidéos YouTube pour enfants. Regardez ce que je me suis fait en une seule vidéo. Vas-y, je t'explique. »"
+    },
+    {
+      "debut": 39,
+      "fin": 57,
+      "voit": "son PC filmé à la main : YouTube « Chansons pour enfants », 158 millions de vues, puis Google « combien YouTube paye pour 1 million de vues ».",
+      "entend": "« vous cherchez une comptine pour enfants : 158 millions de vues. Pour un million de vues, YouTube paye entre 1 000 et 6 000 euros. Imaginez. »"
+    },
+    {
+      "debut": 57,
+      "fin": 74,
+      "voit": "ChatGPT avec la capture d'écran, le prompt, puis shortfy.io, « AI Video Generator », Veo 3.1.",
+      "entend": "« capture d'écran, ChatGPT fait un prompt détaillé, vous copiez, shortfy.io, vous collez, Générer. »"
+    },
+    {
+      "debut": 74,
+      "fin": 87,
+      "voit": "la vidéo du bus jaune générée, puis l'écran « Statistiques : 204,4 k vues · Revenus 1 027,05 € », son doigt dessus.",
+      "entend": "« en quelques secondes j'obtiens une vidéo complète, je la poste et j'encaisse. 200 000 vues, 1 000 euros en une seule vidéo. C'est parti ! »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🎬",
+      "titre": "Le dessin animé",
+      "texte": "Un film style Pixar sur TikTok, on ne s'y attend pas. Et une histoire, on veut toujours voir la fin."
+    },
+    {
+      "emoji": "😤",
+      "titre": "La prof qui dit non",
+      "texte": "« Tu ne gagneras jamais d'argent » : on a tous envie de voir quelqu'un lui prouver le contraire."
+    },
+    {
+      "emoji": "🏎️",
+      "titre": "La revanche",
+      "texte": "Keo arrive en Lamborghini. C'est le résultat, montré avant la méthode."
+    },
+    {
+      "emoji": "🤝",
+      "titre": "« Un moyen plus éthique »",
+      "texte": "Il prend ses distances avec la Lamborghini. Ça le rend plus crédible, pas moins."
+    },
+    {
+      "emoji": "🖐️",
+      "titre": "Le PC filmé à la main",
+      "texte": "Les étapes sont filmées, le doigt sur l'écran. Chaque étape dure 3 ou 4 secondes, pas plus."
+    },
+    {
+      "emoji": "🧾",
+      "titre": "La preuve, au centime",
+      "texte": "« 204 400 vues, 1 027,05 € ». Le centime en plus, ça fait vrai."
+    },
+    {
+      "emoji": "🔤",
+      "titre": "Le texte raconte tout seul",
+      "texte": "Dialogues sous-titrés, commentaires entre astérisques (*choqué*). Sans le son, on comprend tout."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Regarde ça ! — T'as acheté quoi comme première voiture ? — Une Clio à 6 000 €. — Et toi ? — La même… à 3 800.",
+      "comment": "Un mini dessin animé IA (ou juste deux potes) : l'un a payé plein pot, l'autre a négocié. Puis toi en vrai : « il a fait un Screen My Car », téléphone à la main, l'annonce, le verdict NÉGOCIER, les défauts trouvés, et le chiffre : 2 200 € de moins."
+    },
+    {
+      "app": "msclipper",
+      "hook": "Regarde ça ! — Vous faites quoi cet été ? — Serveur. — Caissier. — Et toi ? — Je poste des vidéos.",
+      "comment": "La classe choquée, puis toi en vrai : « je suis payé à la vue avec MS Clipper ». Écran filmé à la main : la campagne, une vidéo postée, le compteur de vues, l'écran des gains. On finit sur un chiffre."
+    }
+  ],
+  "ordre": 12
+}

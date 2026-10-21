@@ -1,0 +1,115 @@
+{
+  "id": "dbavvpn",
+  "fichier": "v26044gc0000dbavvpnog65r80im695g.MP4",
+  "compte": "@julie.tipsetudes",
+  "plateforme": "TikTok",
+  "niche": "études, révisions",
+  "format": "face-camera",
+  "titre": "Elle vend l'arrière de son MacBook (et montre son premier client)",
+  "sujet": "Elle a dessiné des cases avec des prix au dos de son MacBook : c'est de l'espace pub. Aujourd'hui, premier client : elle colle le sticker, puis montre l'app (Retain, des flashcards pour étudiants) sur son écran. Fin : « qui va acheter la prochaine case ? »",
+  "tags": [
+    "concept",
+    "MacBook",
+    "sticker",
+    "suspense",
+    "commentaires",
+    "mots en rouge"
+  ],
+  "hook": {
+    "dit": "Je vends l'arrière de mon MacBook comme espace publicitaire, et là, aujourd'hui, je viens d'avoir mon premier client.",
+    "voit": "elle, dans son salon, tient son MacBook fermé face caméra : au dos, des cases dessinées au feutre avec des prix (9,50 €, 6,50 €, 1,50 €, 50 €…). Texte : « Une entreprise vient de payer pour ça 👀🤣💸 »."
+  },
+  "texte_ecran": [
+    "Une entreprise vient de payer pour ça 👀🤣💸",
+    "* petit moment de stress",
+    "les sous-titres en bas, avec les mots importants surlignés en rouge"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 12,
+      "voit": "elle tient le MacBook, les cases au dos avec les prix.",
+      "entend": "« je vends l'arrière de mon MacBook comme espace publicitaire. Plusieurs cases, plusieurs tarifs, et aujourd'hui c'est celle-là qui a été achetée. »"
+    },
+    {
+      "debut": 12,
+      "fin": 20,
+      "voit": "elle décolle un sticker (« * petit moment de stress ») et le colle dans la case à 6,50 € : « Retain ».",
+      "entend": "« j'espère que ça va partir… c'est donc Retain qui a acheté cet espace. »"
+    },
+    {
+      "debut": 20,
+      "fin": 38,
+      "voit": "elle, puis son écran d'ordi filmé à la main : l'app, les flashcards (des questions d'anglais).",
+      "entend": "« une application qui aide les étudiants : tu importes tes cours, elle génère des flashcards. Tu révises, tu testes, tu revois ce que tu ne maîtrises pas. »"
+    },
+    {
+      "debut": 38,
+      "fin": 48,
+      "voit": "l'écran : « Anglais 14 %, 61 jours avant ton examen, 5 fiches à réviser aujourd'hui », son doigt dessus.",
+      "entend": "« ce que je trouve pratique : pas besoin de passer des heures à préparer tes fiches. Si t'as des examens qui approchent, ça vaut le coup d'aller jeter un œil. »"
+    },
+    {
+      "debut": 48,
+      "fin": 57,
+      "voit": "elle, le MacBook avec le sticker, sourire.",
+      "entend": "« dites-moi en commentaire : à votre avis, qui va acheter le prochain espace publicitaire sur mon MacBook ? »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "💡",
+      "titre": "Le concept",
+      "texte": "Vendre le dos de son ordi comme un panneau pub : personne n'a vu ça. Et ça rend le sponsor normal : c'est le jeu."
+    },
+    {
+      "emoji": "👀",
+      "titre": "« Une entreprise vient de payer pour ça »",
+      "texte": "On veut savoir qui a payé, et combien. Le texte pose la question, la vidéo répond."
+    },
+    {
+      "emoji": "🎟️",
+      "titre": "Les prix au feutre",
+      "texte": "9,50 €, 6,50 €, 1,50 € : écrit à la main, bancal, drôle. Et ça dit que la pub ne coûte presque rien."
+    },
+    {
+      "emoji": "🎬",
+      "titre": "Le sticker qui se décolle",
+      "texte": "« * petit moment de stress » : un mini-suspense de 3 secondes. On regarde ses doigts."
+    },
+    {
+      "emoji": "🖐️",
+      "titre": "L'app sur l'écran, le doigt dessus",
+      "texte": "Elle montre, elle ne récite pas. 61 jours avant l'examen, 5 fiches : des vrais chiffres à l'écran."
+    },
+    {
+      "emoji": "💬",
+      "titre": "La question finale",
+      "texte": "« Qui va acheter la prochaine case ? » : les gens répondent et taguent des marques. Les commentaires font monter la vidéo."
+    },
+    {
+      "emoji": "🔴",
+      "titre": "Les mots en rouge",
+      "texte": "Dans les sous-titres, les mots importants sont surlignés en rouge. On lit l'essentiel d'un coup d'œil."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "revizio",
+      "hook": "Je vends l'arrière de mon MacBook comme espace pub, et là, premier client.",
+      "comment": "Le sticker Revizio dans la case, puis l'écran : la photo du cours, les fiches, le quiz, les jours avant l'exam. C'est quasiment la même app que dans la vidéo : la recette marche telle quelle."
+    },
+    {
+      "app": "smc",
+      "hook": "Je vends l'arrière de mon téléphone comme espace pub, et aujourd'hui j'ai mon premier client.",
+      "comment": "Des cases au feutre sur une coque. Tu colles le sticker Screen My Car (« * petit moment de stress »), puis ton écran : « c'est une app qui te dit si une annonce de voiture est une arnaque », l'annonce, le verdict. Fin : « qui achète la prochaine case ? »"
+    },
+    {
+      "app": "msclipper",
+      "hook": "Je vends l'arrière de mon MacBook comme espace pub, premier client aujourd'hui.",
+      "comment": "Le sticker MS Clipper dans la case, puis l'écran : « une app où tu es payé à la vue », tes vidéos, tes gains. Fin : la question en commentaire."
+    }
+  ],
+  "note": "<b>À remarquer :</b> l'app de la vidéo (Retain) fait la même chose que Revizio. Cette vidéo est un modèle direct pour Revizio.",
+  "ordre": 9
+}

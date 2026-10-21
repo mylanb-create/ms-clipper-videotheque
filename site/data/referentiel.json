@@ -1,0 +1,31 @@
+{
+  "formats": {
+    "choque": { "emoji": "😱", "nom": "Choqué", "def": "On montre un truc qui choque, et on réagit devant la caméra." },
+    "fond-vert": { "emoji": "🟩", "nom": "Fond vert", "def": "Une vidéo déjà connue derrière, et toi devant qui commentes." },
+    "flow": { "emoji": "🎬", "nom": "Flow", "def": "L'outil en action, téléphone en main, dans la vraie vie, en accéléré." },
+    "face-camera": { "emoji": "🗣️", "nom": "Face caméra", "def": "Tu parles à la caméra, comme à un pote." },
+    "troisieme-personne": { "emoji": "👀", "nom": "Troisième personne", "def": "Tu racontes l'histoire de quelqu'un d'autre." },
+    "duo": { "emoji": "👯", "nom": "Duo", "def": "Deux personnes : une question, une réponse." },
+    "ecran": { "emoji": "📱", "nom": "Écran", "def": "Quelques secondes de toi, puis ton écran tout le long pendant que tu parles." },
+    "liste": { "emoji": "🔢", "nom": "Liste", "def": "3 apps, 5 astuces : une par une, vite, sans blabla." },
+    "storytime": { "emoji": "📖", "nom": "Story time", "def": "Une histoire vraie, racontée avec un rebondissement." },
+    "carrousel": { "emoji": "🖼️", "nom": "Carrousel photos", "def": "Pas une vidéo : des photos qu'on fait défiler, une app par photo." }
+  },
+  "apps": {
+    "smc": { "nom": "Screen My Car", "desc": "Tu colles une annonce de voiture d'occasion, ça te dit : acheter, négocier ou fuir." },
+    "revizio": { "nom": "Revizio", "desc": "Tu envoies ton cours, l'app en fait des fiches et des questions, tu révises en jouant." },
+    "msclipper": { "nom": "MS Clipper", "desc": "Tu postes des vidéos sur une app, tu es payé à la vue." }
+  },
+  "lexique": [
+    { "emoji": "🪝", "mot": "Le hook", "def": "Les 3 premières secondes. C'est l'hameçon : si on ne mord pas, on scrolle. Un hook, c'est une phrase, une image, ou les deux." },
+    { "emoji": "🏁", "mot": "Le résultat d'abord", "def": "On montre ce que la personne a gagné, évité ou économisé AVANT d'expliquer comment. Jamais l'inverse." },
+    { "emoji": "🔤", "mot": "Le texte à l'écran", "def": "Les mots écrits en gros sur la vidéo. Beaucoup de gens regardent sans le son : le texte doit raconter l'histoire tout seul." },
+    { "emoji": "🎥", "mot": "Le format", "def": "La façon de filmer : face caméra, écran, duo, fond vert… Chaque format a ses règles, et on ne les mélange pas." },
+    { "emoji": "🩹", "mot": "Le point sensible", "def": "Ce qui fait mal : perdre de l'argent, se faire avoir, rater un exam. Une bonne vidéo appuie dessus dès le début." },
+    { "emoji": "📺", "mot": "L'incrustation", "def": "Une petite fenêtre dans la vidéo (en bas à gauche chez nous) qui montre l'écran de l'app pendant que tu parles." },
+    { "emoji": "🔁", "mot": "La vidéo reprise", "def": "Une vidéo déjà virale qu'on remet avec soi devant. Chez nous, seulement si c'est nous qui la donnons au créateur." },
+    { "emoji": "✂️", "mot": "Le montage", "def": "On coupe les blancs, on garde l'énergie, on met des sous-titres, une musique très basse. Une vidéo qui traîne, c'est une vidéo qu'on quitte." },
+    { "emoji": "📣", "mot": "Le CTA", "def": "L'appel à l'action : « commente », « va voir », « dis-moi en commentaire ». Pas obligatoire, mais quand il y en a un, un seul." },
+    { "emoji": "🎭", "mot": "Le pattern interrupt", "def": "Un truc qu'on n'a pas l'habitude de voir (un masque, un décor bizarre, un objet) : le pouce s'arrête tout seul." }
+  ]
+}

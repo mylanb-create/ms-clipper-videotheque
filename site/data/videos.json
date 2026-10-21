@@ -1,0 +1,4490 @@
+[
+ {
+  "id": "dav75tf",
+  "fichier": "v26044gc0000dav75tfog65q35kpkq50.MP4",
+  "compte": "@kellyinsight",
+  "plateforme": "TikTok",
+  "niche": "amour, relations",
+  "format": "ecran",
+  "titre": "Est-ce que mon ex va revenir ? (la fille au masque)",
+  "sujet": "Une fille, un masque en tissu sur le visage, montre un site IA qui lit sa conversation WhatsApp et répond : « il va revenir à 84 % ».",
+  "tags": [
+   "masque",
+   "mystère",
+   "ex",
+   "rapport IA",
+   "tablette filmée à la main",
+   "chiffre qui claque"
+  ],
+  "hook": {
+   "dit": "Vous voulez que je vous donne ma technique pour savoir si mon ex va revenir ou pas ?",
+   "voit": "une fille avec un masque de beauté en tissu sur le visage, face caméra dans sa chambre. En haut, en gros : « Tuto comment savoir si son ex va REVENIR !!! »"
+  },
+  "texte_ecran": [
+   "Tuto comment savoir si son ex va REVENIR !!!"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 5,
+    "voit": "elle, face caméra, avec le masque. Le texte reste en haut toute la vidéo.",
+    "entend": "la question-mystère, puis « elle est très simple »."
+   },
+   {
+    "debut": 5,
+    "fin": 12,
+    "voit": "sa tablette filmée à la main : la conversation WhatsApp avec l'ex, puis le menu « Exporter la discussion ».",
+    "entend": "« je vais sur ma conversation WhatsApp avec lui, et vous exportez la discussion »."
+   },
+   {
+    "debut": 12,
+    "fin": 20,
+    "voit": "le site (Brandon) : « Importe ta discussion WhatsApp », puis le chargement : 28 503 messages.",
+    "entend": "« vous allez sur un site qui s'appelle What Brandon Thinks, vous importez la discussion »."
+   },
+   {
+    "debut": 20,
+    "fin": 30,
+    "voit": "elle revient face caméra 5 secondes pour expliquer.",
+    "entend": "« Brandon, c'est une IA qui fait un rapport sur ma discussion. Vous pouvez le faire avec votre pote, votre famille, votre mère »."
+   },
+   {
+    "debut": 30,
+    "fin": 38,
+    "voit": "le rapport sur la tablette : une grille de messages jaune et bleue, des chiffres (temps de réponse 2 min contre 41 min, 317 jours…).",
+    "entend": "elle commente les stats, vite."
+   },
+   {
+    "debut": 38,
+    "fin": 46,
+    "voit": "en gros à l'écran : « IL VA REVENIR (84 %). ÇA MARCHERA TOUJOURS PAS (19 %). » Son doigt pointe la phrase.",
+    "entend": "« il va revenir : 84 %. Ça ne marchera toujours pas : 19 %. C'est hilarant. »"
+   },
+   {
+    "debut": 46,
+    "fin": 62,
+    "voit": "elle fait défiler le reste du rapport (« Le casting », « Les trois fins », « Dictionnaire : du Louis au français »), puis un dernier plan sur elle.",
+    "entend": "« ça me fait un rapport sur tout : lui, moi… »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🎭",
+    "titre": "Le masque",
+    "texte": "On n'a pas l'habitude de voir quelqu'un parler avec un masque en tissu. Le pouce s'arrête tout seul."
+   },
+   {
+    "emoji": "❓",
+    "titre": "Le mystère",
+    "texte": "« Vous voulez ma technique ? » On veut la réponse, donc on reste jusqu'à la fin."
+   },
+   {
+    "emoji": "💔",
+    "titre": "Le point sensible",
+    "texte": "« Est-ce que mon ex va revenir ? » Tout le monde s'est déjà posé la question au moins une fois."
+   },
+   {
+    "emoji": "📱",
+    "titre": "L'écran, mais pas un tuto",
+    "texte": "Elle filme sa tablette à la main, ça bouge, c'est vivant. On voit le vrai site, le vrai rapport, le vrai chiffre."
+   },
+   {
+    "emoji": "🔢",
+    "titre": "Un chiffre qui claque",
+    "texte": "« Il va revenir : 84 % ». Un chiffre, c'est concret, et ça se répète en commentaire."
+   },
+   {
+    "emoji": "😂",
+    "titre": "Elle rit d'elle-même",
+    "texte": "« C'est hilarant » : elle se moque de sa propre situation. Ça donne envie d'essayer, pas l'impression d'une pub."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Vous voulez ma technique pour savoir si la voiture de l'annonce est une arnaque ?",
+    "comment": "5 secondes face caméra avec un truc bizarre sur toi (masque, lunettes de ski, casque de chantier…). Puis ton téléphone à la main : l'annonce Leboncoin, le verdict Screen My Car en gros (FUIR, 3 signaux d'arnaque), et tu fais défiler le rapport en le commentant. Finis par un chiffre : « 2 400 € de réparations cachées »."
+   },
+   {
+    "app": "revizio",
+    "hook": "Vous voulez ma technique pour savoir si je vais avoir mon bac ?",
+    "comment": "Tu envoies ton cours dans Revizio, tu montres les fiches et le quiz à l'écran, et tu annonces le score comme elle : « 84 % de chances de l'avoir ». Tu rigoles de tes mauvaises réponses."
+   }
+  ],
+  "note": "<b>Chez nous :</b> le téléphone (ou la tablette) filmé à la main comme ici, c'est bien. Ce qu'on ne fait pas : une capture d'écran plein écran du début à la fin.",
+  "ordre": 1,
+  "duree": 64.9,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 3.3,
+    "texte": "Vous voulez que je vous donne ma technique pour savoir si mon ex va revenir ou pas ?"
+   },
+   {
+    "debut": 3.3,
+    "fin": 3.9,
+    "texte": "Elle est très simple."
+   },
+   {
+    "debut": 4.3,
+    "fin": 7.3,
+    "texte": "En gros, ce que je fais, c'est que je vais sur ma conversation WhatsApp avec lui."
+   },
+   {
+    "debut": 8.3,
+    "fin": 11.6,
+    "texte": "Et en fait, vous allez exporter la discussion comme ça, sur le média."
+   },
+   {
+    "debut": 11.9,
+    "fin": 14.3,
+    "texte": "Ensuite, vous allez sur un site qui s'appelle What Brandon Things."
+   },
+   {
+    "debut": 14.4,
+    "fin": 15.5,
+    "texte": "Vous allez importer la discussion."
+   },
+   {
+    "debut": 20.1,
+    "fin": 21.1,
+    "texte": "Et là, ça va me faire un rapport."
+   },
+   {
+    "debut": 21.3,
+    "fin": 24.9,
+    "texte": "Et en fait, Brandon, c'est une IA qui va du coup faire un rapport sur ma discussion avec lui."
+   },
+   {
+    "debut": 25.0,
+    "fin": 27.3,
+    "texte": "Pour le faire avec votre pote, votre famille, votre mère ou quoi."
+   },
+   {
+    "debut": 27.8,
+    "fin": 29.9,
+    "texte": "Et là, ça va me faire du coup un rapport."
+   },
+   {
+    "debut": 30.1,
+    "fin": 31.2,
+    "texte": "Là, c'est par rapport aux amis."
+   },
+   {
+    "debut": 38.3,
+    "fin": 39.0,
+    "texte": "Par le rapport."
+   },
+   {
+    "debut": 39.0,
+    "fin": 41.4,
+    "texte": "Il va revenir 84%."
+   },
+   {
+    "debut": 41.4,
+    "fin": 44.5,
+    "texte": "Ça ne marchera toujours pas à 19%."
+   },
+   {
+    "debut": 44.5,
+    "fin": 46.4,
+    "texte": "C'est hilarant."
+   },
+   {
+    "debut": 46.6,
+    "fin": 48.0,
+    "texte": "Genre là, ça me fait un rapport sur tout."
+   },
+   {
+    "debut": 48.1,
+    "fin": 60.5,
+    "texte": "Lui, moi, André qui revienne."
+   }
+  ]
+ },
+ {
+  "id": "dbaapo7",
+  "fichier": "v26044gc0000dbaapo7og65k4bmiici0.MP4",
+  "compte": "@pyvaloche",
+  "plateforme": "TikTok",
+  "niche": "apps, astuces téléphone",
+  "format": "liste",
+  "titre": "3 apps en 19 secondes (et la 3ᵉ gardée pour la partie 2)",
+  "sujet": "Un mec face caméra, dans un salon aux poutres, débite 3 apps en 19 secondes : la météo, Roommate… et garde la troisième pour la partie suivante. Les sous-titres s'affichent un mot à la fois, en gros.",
+  "tags": [
+   "19 secondes",
+   "liste",
+   "un mot à la fois",
+   "partie 2",
+   "sans écran"
+  ],
+  "hook": {
+   "dit": "Trois apps qui pourraient peut-être te faire chier.",
+   "voit": "lui, face caméra, tout près, avec les trois icônes des apps en haut à gauche. Les sous-titres apparaissent UN MOT À LA FOIS, en gros, en majuscules."
+  },
+  "texte_ecran": [
+   "les 3 icônes des apps, en haut à gauche, pendant 2 secondes",
+   "les sous-titres, un mot à la fois, en majuscules : DE · APPUIE · VAS · C'EST · SUJETS · MAIS · ÇA · LA"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 2,
+    "voit": "lui, et les 3 icônes en haut à gauche.",
+    "entend": "« Trois apps qui pourraient peut-être te faire chier. »"
+   },
+   {
+    "debut": 2,
+    "fin": 6,
+    "voit": "lui, un mot à la fois à l'écran.",
+    "entend": "« Premier : météo. Appuie sur partage, plus météo, et tu vas comprendre ce que je veux te dire. »"
+   },
+   {
+    "debut": 6,
+    "fin": 14,
+    "voit": "toujours lui, face caméra, il bouge, il sourit.",
+    "entend": "« Deuxième : Roommate. Des groupes de chat publics où tu parles de tous les sujets. La plupart sont là pour se faire des potes, mais avec les manifs, là, ça parle français. »"
+   },
+   {
+    "debut": 14,
+    "fin": 19,
+    "voit": "lui, un signe de la main, fin.",
+    "entend": "« Like et abonne-toi pour la partie 3. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "⏱️",
+    "titre": "19 secondes",
+    "texte": "Le plus court possible. On la regarde en entier, et souvent deux fois."
+   },
+   {
+    "emoji": "🔢",
+    "titre": "« Trois apps »",
+    "texte": "On sait ce qu'on va avoir. Un petit chiffre, une promesse claire."
+   },
+   {
+    "emoji": "😏",
+    "titre": "« …te faire chier »",
+    "texte": "Une formule bizarre, un peu provoc, qu'on n'attend pas. On écoute pour comprendre."
+   },
+   {
+    "emoji": "🔤",
+    "titre": "Un mot à la fois",
+    "texte": "Les sous-titres en gros, mot par mot : l'œil est accroché, même sans le son."
+   },
+   {
+    "emoji": "🧩",
+    "titre": "Il ne montre rien",
+    "texte": "Pas d'écran, pas de capture. Juste les icônes 2 secondes et sa parole. Zéro montage."
+   },
+   {
+    "emoji": "🪤",
+    "titre": "La 3ᵉ app gardée pour la suite",
+    "texte": "« Abonne-toi pour la partie 3 » : il promet 3 apps, il en donne 2. On revient."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Trois apps qui pourraient peut-être te faire chier avant d'acheter une voiture.",
+    "comment": "Face caméra, 20 secondes, sous-titres mot à mot. « Premier : Screen My Car, tu colles l'annonce, ça te dit si c'est une arnaque. Deuxième : … » et tu gardes la 3ᵉ pour la partie 2. Les 3 icônes en haut à gauche au début."
+   },
+   {
+    "app": "msclipper",
+    "hook": "Trois apps qui te paient pour poster des vidéos.",
+    "comment": "Même recette : 20 secondes, un mot à la fois, MS Clipper en premier (« tu postes, t'es payé à la vue »), la 3ᵉ dans la partie 2."
+   }
+  ],
+  "ordre": 2,
+  "duree": 19.5,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 1.5,
+    "texte": "Trois apps pourraient peut-être te faire chier."
+   },
+   {
+    "debut": 1.7,
+    "fin": 2.6,
+    "texte": "Premier, météo."
+   },
+   {
+    "debut": 2.7,
+    "fin": 5.6,
+    "texte": "Appuie sur partage plus et météo et tu vas comprendre ce que je veux te dire."
+   },
+   {
+    "debut": 5.9,
+    "fin": 6.8,
+    "texte": "Deuxième, roommate."
+   },
+   {
+    "debut": 6.9,
+    "fin": 9.1,
+    "texte": "C'est des groupes de chat public où tu parles sur tous les sujets."
+   },
+   {
+    "debut": 9.2,
+    "fin": 10.8,
+    "texte": "La plupart des gens sont là pour se faire des potes,"
+   },
+   {
+    "debut": 10.9,
+    "fin": 13.6,
+    "texte": "mais avec les manifs là, ça parle français."
+   },
+   {
+    "debut": 13.9,
+    "fin": 15.2,
+    "texte": "Like et abonne-toi pour la partie 3."
+   }
+  ]
+ },
+ {
+  "id": "db924vf",
+  "fichier": "v26044gc0000db924vfog65hah132qe0.MP4",
+  "compte": "@6min_ai",
+  "plateforme": "TikTok",
+  "niche": "argent, IA",
+  "format": "choque",
+  "titre": "6 ans au SMIC et je vois ça (sans un mot)",
+  "sujet": "Pas une parole. Un mec choqué, la bouche grande ouverte, dehors. Puis son téléphone à la main : un site qui pose 5 questions et « chiffre ton potentiel » : 10 823 €. Juste une musique et un texte.",
+  "tags": [
+   "sans parole",
+   "choqué",
+   "filtre",
+   "trottoir",
+   "10 823 €",
+   "33 secondes"
+  ],
+  "hook": {
+   "dit": "(aucune parole : seulement la musique)",
+   "voit": "un mec dehors, lunettes de soleil, la bouche grande ouverte (le visage déformé par un filtre), le ciel derrière lui. Texte : « 6 ans je galère au SMIC et Je VOIS ÇA ???😭 »."
+  },
+  "texte_ecran": [
+   "6 ans je galère au SMIC et Je VOIS ÇA ???😭"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 2,
+    "voit": "le visage choqué, bouche ouverte, filtre déformant.",
+    "entend": "la musique démarre."
+   },
+   {
+    "debut": 2,
+    "fin": 12,
+    "voit": "le téléphone à la main, sur le trottoir : « Quel revenu veux-tu atteindre ? 14 283 € », « Sur quoi tu veux recevoir tes paiements ? Stripe, PayPal, Revolut, Whop », « D'ici quand tu dois avoir tes premières ventes ? ».",
+    "entend": "la musique."
+   },
+   {
+    "debut": 12,
+    "fin": 22,
+    "voit": "« Tu veux tout faire derrière ton téléphone sans te montrer ? Oui », « Tu veux qu'on le fasse à ta place ? (automatisé) ».",
+    "entend": "la musique."
+   },
+   {
+    "debut": 22,
+    "fin": 30,
+    "voit": "« On chiffre ton potentiel. » puis le chiffre qui apparaît en gros : 10 823 €, et le bouton « Créer le site ».",
+    "entend": "la musique."
+   },
+   {
+    "debut": 30,
+    "fin": 33,
+    "voit": "le site qui se crée, fin.",
+    "entend": "la musique."
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "😱",
+    "titre": "La tête choquée en premier",
+    "texte": "Avant même de lire, on voit quelqu'un qui n'en revient pas. On veut savoir de quoi."
+   },
+   {
+    "emoji": "🔇",
+    "titre": "Zéro parole",
+    "texte": "Rien à écouter, tout à lire. Ça se regarde dans le métro sans le son."
+   },
+   {
+    "emoji": "🧾",
+    "titre": "Des questions qu'on se pose",
+    "texte": "« Quel revenu tu veux atteindre ? » « Sans te montrer ? » Chaque écran est une question, et on y répond dans sa tête."
+   },
+   {
+    "emoji": "💶",
+    "titre": "« 10 823 € »",
+    "texte": "Le résultat tombe à la fin, en gros. C'est la récompense d'avoir regardé jusqu'au bout."
+   },
+   {
+    "emoji": "🚶",
+    "titre": "Dehors, téléphone en main",
+    "texte": "Pas de bureau, pas de montage : un trottoir et un pouce. Ça a l'air de prendre 30 secondes."
+   },
+   {
+    "emoji": "⏱️",
+    "titre": "33 secondes",
+    "texte": "Court. Les gens la regardent deux fois, et TikTok adore ça."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "(tête choquée, sans un mot) Texte : « 3 mois à chercher une voiture et je VOIS ÇA ???😭 »",
+    "comment": "Puis ton téléphone sur le trottoir : l'annonce, Screen My Car qui analyse, et le verdict qui tombe en gros : FUIR, 2 400 € de frais cachés. Musique, aucune parole, 30 secondes."
+   },
+   {
+    "app": "revizio",
+    "hook": "(tête choquée) Texte : « 6 ans à réviser comme un con et je VOIS ÇA ???😭 »",
+    "comment": "Téléphone en main : la photo du cours, Revizio qui fabrique les fiches, le quiz, le score. Musique seulement."
+   }
+  ],
+  "ordre": 3,
+  "duree": 33.0,
+  "transcription": []
+ },
+ {
+  "id": "db9v3iv",
+  "fichier": "v26044gc0000db9v3ivog65gk2c8rma0.MP4",
+  "compte": "@thomas.cleneau",
+  "plateforme": "TikTok",
+  "niche": "astuces téléphone",
+  "format": "flow",
+  "titre": "La fonction cachée d'Instagram (25 secondes, téléphone en main)",
+  "sujet": "Un mec en voiture, puis son téléphone à la main : il montre un réglage qui enlève les Reels et les stories d'Instagram, et met l'app en rose. 25 secondes, une seule phrase.",
+  "tags": [
+   "fonction cachée",
+   "25 secondes",
+   "téléphone en main",
+   "sceptique",
+   "Instagram",
+   "sans montage"
+  ],
+  "hook": {
+   "dit": "Si je reste appuyé ici, tu peux supprimer les Reels, supprimer les stories…",
+   "voit": "lui, dans une voiture la nuit, les yeux plissés, l'air pas convaincu. Texte : « c est qoi cette feature caché d insta de fou 😭😭 »."
+  },
+  "texte_ecran": [
+   "c est qoi cette feature caché d insta de fou 😭😭"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 2,
+    "voit": "lui en voiture, la nuit, l'air sceptique.",
+    "entend": "le début de la phrase."
+   },
+   {
+    "debut": 2,
+    "fin": 12,
+    "voit": "son téléphone à la main, au-dessus d'un clavier. Instagram « For you », puis un menu « FeedLite » : Block Reels, Block Stories, Block Videos, Block Explore.",
+    "entend": "« si je reste appuyé ici, tu peux supprimer les Reels, supprimer les stories. »"
+   },
+   {
+    "debut": 12,
+    "fin": 22,
+    "voit": "il active les boutons, choisit le thème rose : Instagram devient rose, plus de Reels.",
+    "entend": "« et même mettre mon Instagram en rose. Plus de stories, plus de Reels. Incroyable. »"
+   },
+   {
+    "debut": 22,
+    "fin": 25,
+    "voit": "la fin TikTok.",
+    "entend": "rien."
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🤫",
+    "titre": "« Fonction cachée »",
+    "texte": "Deux mots magiques : on veut savoir ce qu'on a raté."
+   },
+   {
+    "emoji": "😑",
+    "titre": "La tête sceptique",
+    "texte": "Il a l'air de ne pas y croire lui-même. Ça donne envie de vérifier."
+   },
+   {
+    "emoji": "⚡",
+    "titre": "25 secondes, une phrase",
+    "texte": "Il ne raconte pas sa vie : une phrase, un réglage, un résultat. On peut la revoir trois fois."
+   },
+   {
+    "emoji": "📱",
+    "titre": "Le doigt qui appuie",
+    "texte": "On voit le geste exact, téléphone en main. On peut le refaire tout de suite."
+   },
+   {
+    "emoji": "🎨",
+    "titre": "Le résultat visible",
+    "texte": "Instagram devient rose : on voit que ça a marché, pas besoin de le dire."
+   },
+   {
+    "emoji": "🫢",
+    "titre": "Les fautes dans le texte",
+    "texte": "« c est qoi cette feature caché » : écrit vite, comme un message à un pote. Ça fait vrai, pas pub."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "(texte) c'est quoi cette fonction cachée pour les voitures d'occasion 😭",
+    "comment": "2 secondes de ta tête sceptique, puis le téléphone en main : tu colles l'annonce, Screen My Car sort le verdict. Une phrase : « si je colle l'annonce ici, ça me dit si c'est une arnaque. Incroyable. » 25 secondes."
+   },
+   {
+    "app": "msclipper",
+    "hook": "(texte) c'est quoi cette app qui paie les vidéos de fou 😭",
+    "comment": "Téléphone en main : MS Clipper, le compteur de vues, les gains. Une phrase : « je poste, je colle le lien, et ça me paie à la vue. » 25 secondes."
+   }
+  ],
+  "ordre": 4,
+  "duree": 25.3,
+  "transcription": [
+   {
+    "debut": 0.1,
+    "fin": 21.2,
+    "texte": "Si je reste appuyé ici, tu peux supprimer les réels, supprimer les stories et même mettre mon téléphone, mon Instagram en rose, plus de stories, plus de réels, incroyable."
+   }
+  ]
+ },
+ {
+  "id": "daebh1n",
+  "fichier": "v26300gc0001daebh1nog65jbrdv5uj0.MP4",
+  "compte": "@yanis.astuces.voy",
+  "plateforme": "TikTok",
+  "niche": "voyage",
+  "format": "choque",
+  "titre": "Bali dans 5 heures et je découvre ça (le choqué)",
+  "sujet": "Un mec dans son lit, casquette, qui part à Bali dans 5 heures, découvre une app qui fabrique tout l'itinéraire du voyage : on swipe les activités comme sur Tinder, et ça crée le planning jour par jour, avec la carte.",
+  "tags": [
+   "lit",
+   "urgence",
+   "swipe",
+   "voyage",
+   "téléphone en main",
+   "incroyable"
+  ],
+  "hook": {
+   "dit": "C'est quoi ce truc de fou, là ?",
+   "voit": "lui, allongé dans son lit, casquette, torse nu, l'air étonné. Texte : « Je pars pour Bali 🇮🇩 dans 5 HEURES et je viens seulement de découvrir ÇA ?? 🤯 »."
+  },
+  "texte_ecran": [
+   "Je pars pour Bali 🇮🇩 dans 5 HEURES et je viens seulement de découvrir ÇA ?? 🤯"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 4,
+    "voit": "lui dans son lit, étonné.",
+    "entend": "« C'est quoi ce truc de fou, là ? »"
+   },
+   {
+    "debut": 4,
+    "fin": 20,
+    "voit": "le téléphone en main, l'app : la carte, « Créer un voyage », Bali, le calendrier (23 → 30 septembre), solo, « culture et histoire », standard → premium.",
+    "entend": "« si je clique sur créer un voyage… je vais bientôt aller à Bali, du 23 au 30 septembre, solo, culture et histoire, c'est parfait, on va mettre premium. »"
+   },
+   {
+    "debut": 20,
+    "fin": 36,
+    "voit": "des cartes d'activités (temples, forêt des singes, plage) qu'il swipe à droite ou à gauche.",
+    "entend": "« ça me propose plusieurs activités à swiper : si j'ai envie, à droite, sinon à gauche. Et après ça me crée tout un planning. C'est incroyable. »"
+   },
+   {
+    "debut": 36,
+    "fin": 56,
+    "voit": "« Création de votre voyage », puis l'itinéraire jour par jour avec la carte et le trajet tracé ; il passe d'un jour à l'autre.",
+    "entend": "« je génère l'itinéraire… et voilà, l'itinéraire de chaque jour, les distances entre chaque lieu, le jour 2… sur la carte on voit tout. Incroyable. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "😮",
+    "titre": "La tête étonnée, 4 secondes",
+    "texte": "Il commence par sa réaction, pas par l'app. On veut savoir ce qui l'a étonné."
+   },
+   {
+    "emoji": "⏳",
+    "titre": "« Dans 5 heures »",
+    "texte": "Une urgence vraie : il part bientôt. Ça rend la scène réelle, et un peu drôle."
+   },
+   {
+    "emoji": "🤯",
+    "titre": "« Je viens seulement de découvrir ÇA »",
+    "texte": "Le texte dit : tu aurais dû le savoir avant. On se sent concerné si on voyage."
+   },
+   {
+    "emoji": "📱",
+    "titre": "Téléphone en main, il remplit en direct",
+    "texte": "Vraies dates, vrai voyage, vraies activités. On voit l'app faire son travail, pas une pub."
+   },
+   {
+    "emoji": "👉",
+    "titre": "Le swipe",
+    "texte": "Un geste que tout le monde connaît (Tinder). On comprend l'app sans explication."
+   },
+   {
+    "emoji": "🗺️",
+    "titre": "Le résultat visible",
+    "texte": "Le trajet tracé sur la carte, jour par jour. On voit que ça marche."
+   },
+   {
+    "emoji": "🔁",
+    "titre": "« Incroyable » × 2",
+    "texte": "Il ne vend pas, il réagit."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "C'est quoi ce truc de fou, là ? — Texte : « Je vais voir une voiture dans 2 HEURES et je viens seulement de découvrir ÇA ?? 🤯 »",
+    "comment": "Dans ton lit ou ta voiture, 4 secondes de tête étonnée. Puis le téléphone : tu colles l'annonce que tu vas voir, Screen My Car analyse, le verdict et les points à vérifier apparaissent. Tu finis sur « incroyable », et sur le chiffre."
+   },
+   {
+    "app": "revizio",
+    "hook": "C'est quoi ce truc de fou ? — Texte : « J'ai un exam dans 5 HEURES et je viens seulement de découvrir ÇA ?? 🤯 »",
+    "comment": "Téléphone en main : la photo du cours, Revizio fabrique les fiches, le quiz. Tu réponds en direct, tu réagis à chaque écran."
+   }
+  ],
+  "ordre": 5,
+  "duree": 56.3,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 3.0,
+    "texte": "C'est quoi ce truc de fou là ?"
+   },
+   {
+    "debut": 3.0,
+    "fin": 4.2,
+    "texte": "Genre là si je clique sur"
+   },
+   {
+    "debut": 4.2,
+    "fin": 5.7,
+    "texte": "créer un voyage"
+   },
+   {
+    "debut": 5.7,
+    "fin": 8.0,
+    "texte": "je vais bientôt aller à Bali"
+   },
+   {
+    "debut": 8.0,
+    "fin": 8.8,
+    "texte": "donc on va voir"
+   },
+   {
+    "debut": 8.8,
+    "fin": 12.2,
+    "texte": "j'y vais du 23 au 30 septembre"
+   },
+   {
+    "debut": 12.2,
+    "fin": 13.5,
+    "texte": "je ferai solo"
+   },
+   {
+    "debut": 13.5,
+    "fin": 15.9,
+    "texte": "culture et histoire c'est parfait"
+   },
+   {
+    "debut": 15.9,
+    "fin": 18.3,
+    "texte": "standard, on va mettre premium ici"
+   },
+   {
+    "debut": 18.3,
+    "fin": 20.1,
+    "texte": "hop"
+   },
+   {
+    "debut": 20.1,
+    "fin": 22.6,
+    "texte": "là ça va me proposer"
+   },
+   {
+    "debut": 22.6,
+    "fin": 23.7,
+    "texte": "plusieurs activités à swiper"
+   },
+   {
+    "debut": 23.7,
+    "fin": 25.8,
+    "texte": "si j'ai envie de les faire je les mets à droite"
+   },
+   {
+    "debut": 25.8,
+    "fin": 27.3,
+    "texte": "sinon je les mets à gauche"
+   },
+   {
+    "debut": 27.3,
+    "fin": 29.0,
+    "texte": "et après ça va me créer"
+   },
+   {
+    "debut": 29.0,
+    "fin": 32.1,
+    "texte": "tout un planning et un itinéraire pour les vacances"
+   },
+   {
+    "debut": 32.1,
+    "fin": 33.7,
+    "texte": "c'est incroyable"
+   },
+   {
+    "debut": 33.7,
+    "fin": 36.4,
+    "texte": "hop j'ai mis tout ce que je voulais"
+   },
+   {
+    "debut": 36.4,
+    "fin": 37.8,
+    "texte": "je vais générer l'itinéraire"
+   },
+   {
+    "debut": 37.8,
+    "fin": 40.5,
+    "texte": "et voilà j'ai l'itinéraire de chaque jour"
+   },
+   {
+    "debut": 40.5,
+    "fin": 42.6,
+    "texte": "ce que je dois faire, les distances"
+   },
+   {
+    "debut": 42.6,
+    "fin": 45.1,
+    "texte": "entre chaque lieu, ça c'est le jour 2"
+   },
+   {
+    "debut": 45.1,
+    "fin": 47.4,
+    "texte": "toutes les activités que je dois faire"
+   },
+   {
+    "debut": 47.4,
+    "fin": 48.9,
+    "texte": "et en haut on voit sur la carte"
+   },
+   {
+    "debut": 48.9,
+    "fin": 51.2,
+    "texte": "exactement tout l'itinéraire"
+   },
+   {
+    "debut": 51.2,
+    "fin": 52.9,
+    "texte": "donc de tous les jours à chaque fois ça change"
+   },
+   {
+    "debut": 52.9,
+    "fin": 53.7,
+    "texte": "hop"
+   },
+   {
+    "debut": 53.7,
+    "fin": 55.8,
+    "texte": "incroyable"
+   }
+  ]
+ },
+ {
+  "id": "db7o7v7",
+  "fichier": "v26044gc0000db7o7v7og65mcqm7p1ig.MP4",
+  "compte": "@alex.brtnn",
+  "plateforme": "TikTok",
+  "niche": "sommeil, bien-être",
+  "format": "flow",
+  "titre": "S'endormir en 2 minutes (à 2 h 45 du matin)",
+  "sujet": "Un mec dans son lit à 2 h 45, qui n'arrive pas à dormir, montre l'astuce de sa mère psy : un test dans Apple Santé, puis une app qui fabrique un programme pour s'endormir.",
+  "tags": [
+   "nuit",
+   "lit",
+   "insomnie",
+   "mère psy",
+   "téléphone en main",
+   "vrai moment"
+  ],
+  "hook": {
+   "dit": "Les gars, je vais en sauver plus d'un. Écoutez ce mec, il a littéralement sauvé mes nuits.",
+   "voit": "lui en gros plan, casquette, torse nu dans son lit, dans le noir. Derrière lui, le visage d'un autre mec (la vidéo qu'il commente). Deux textes : « Les insomniaques à leur prime 😭😭 » et « Faut vraiment être fou pour réussir à trouver ça »."
+  },
+  "texte_ecran": [
+   "Les insomniaques à leur prime 😭😭",
+   "Faut vraiment être fou pour réussir à trouver ça"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 13,
+    "voit": "lui face caméra, le mec en fond. Les deux textes restent toute la vidéo.",
+    "entend": "le hook, puis « il est littéralement 2 h 45 du matin. Regardez ce que ma mère, qui est psy, a trouvé en moins de 2 minutes »."
+   },
+   {
+    "debut": 13,
+    "fin": 25,
+    "voit": "son téléphone en main, filmé de près : Apple Santé → Bien-être mental → questionnaire « risque d'anxiété ». Lui reste visible en bas de l'image.",
+    "entend": "« vous allez sur Apple Santé, section bien-être mental, vous répondez au questionnaire, vous avez vos résultats »."
+   },
+   {
+    "debut": 25,
+    "fin": 36,
+    "voit": "il ouvre une autre app (Louane) et discute avec l'IA, le doigt sur l'écran.",
+    "entend": "« vous demandez à Louane un programme pour vous endormir en 2 minutes, en fonction des résultats du test »."
+   },
+   {
+    "debut": 36,
+    "fin": 52,
+    "voit": "l'IA analyse (70 %, 87 %…), ses questions, puis le bouton « Créer mon programme ».",
+    "entend": "« elle analyse mes réponses… normalement elle pose plein de questions, mais moi j'avais la flemme »."
+   },
+   {
+    "debut": 52,
+    "fin": 61,
+    "voit": "« 7 jours pour apaiser tes nuits », puis « Ma première méditation, 6 min ».",
+    "entend": "« un programme sur 7 jours, une séance chaque soir. Vous cliquez là, et je vous jure… »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🌙",
+    "titre": "Le vrai moment",
+    "texte": "Il est vraiment 2 h 45, il est vraiment dans son lit. On le croit parce que c'est vrai, pas joué."
+   },
+   {
+    "emoji": "🛟",
+    "titre": "« Je vais en sauver plus d'un »",
+    "texte": "Il promet d'aider. Ceux qui ne dorment pas se sentent visés direct."
+   },
+   {
+    "emoji": "👩‍⚕️",
+    "titre": "La mère psy",
+    "texte": "Une psy, c'est quelqu'un qu'on croit. Il n'a pas besoin de prouver qu'il s'y connaît : il cite quelqu'un qui s'y connaît."
+   },
+   {
+    "emoji": "📱",
+    "titre": "Le téléphone à la main",
+    "texte": "On voit chaque écran tapoté avec le doigt. Pas de capture d'écran propre : du vrai, un peu flou, dans le noir."
+   },
+   {
+    "emoji": "😴",
+    "titre": "Le point sensible",
+    "texte": "Ne pas réussir à dormir, tout le monde connaît. Le texte « Les insomniaques à leur prime » annonce le résultat avant tout."
+   },
+   {
+    "emoji": "🫶",
+    "titre": "« J'avais la flemme »",
+    "texte": "Il avoue qu'il a sauté des étapes. Ça le rend humain, ça fait sourire, ça ne ressemble pas à une pub."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Les gars, je vais en sauver plus d'un. Regardez ce que mon père mécano m'a montré avant d'acheter ma voiture.",
+    "comment": "Dans ta voiture ou dans ton lit, téléphone en main, à une heure bizarre : l'annonce, le Screen My Car, le verdict NÉGOCIER et les 3 points à vérifier. Texte en haut : « Les premières voitures à leur prime 😭 »."
+   },
+   {
+    "app": "revizio",
+    "hook": "Les gars, je vais en sauver plus d'un. Il est 23 h, exam demain, regardez ce que ma sœur prof m'a montré.",
+    "comment": "Téléphone en main : la photo du cours envoyée à Revizio, les fiches, le quiz, le score. Texte en haut : « Les flemmards à leur prime 😭 »."
+   }
+  ],
+  "ordre": 6,
+  "duree": 65.2,
+  "transcription": [
+   {
+    "debut": 0.2,
+    "fin": 1.9,
+    "texte": "Les gars, je vais en sauver plus d'un."
+   },
+   {
+    "debut": 2.1,
+    "fin": 4.3,
+    "texte": "Écoutez ce mec, il a littéralement sauvé mes nuits."
+   },
+   {
+    "debut": 5.1,
+    "fin": 8.0,
+    "texte": "Il est littéralement 2h45 du matin."
+   },
+   {
+    "debut": 8.6,
+    "fin": 13.1,
+    "texte": "Et regardez ce que ma mère qui est psy, elle a réussi à trouver pour son ami apparemment en moins de 2 minutes."
+   },
+   {
+    "debut": 13.4,
+    "fin": 14.5,
+    "texte": "C'est si vous allez voir cette folie."
+   },
+   {
+    "debut": 14.7,
+    "fin": 19.8,
+    "texte": "Genre vous allez sur Apple Santé, dans la section bien-être mental, risque d'anxiété."
+   },
+   {
+    "debut": 20.3,
+    "fin": 22.4,
+    "texte": "Et là, vous répondez à ce questionnaire."
+   },
+   {
+    "debut": 22.7,
+    "fin": 25.0,
+    "texte": "Une fois que vous avez répondu à tout, vous avez vos résultats."
+   },
+   {
+    "debut": 25.0,
+    "fin": 30.2,
+    "texte": "Et avec ces résultats-là, vous allez vous rendre sur cette application-là, la Kieto, dans Louane."
+   },
+   {
+    "debut": 30.7,
+    "fin": 36.6,
+    "texte": "Et là, vous demandez à Louane de vous faire un programme pour vous endormir en 2 minutes, en fonction des résultats du test de santé."
+   },
+   {
+    "debut": 36.7,
+    "fin": 38.5,
+    "texte": "Donc là, carrément, elle est en train d'analyser mes réponses."
+   },
+   {
+    "debut": 38.6,
+    "fin": 42.7,
+    "texte": "Une fois qu'elle a fini, normalement, elle va vous poser plein de questions pour vraiment comprendre pourquoi vous ne dormez pas, etc."
+   },
+   {
+    "debut": 42.8,
+    "fin": 43.5,
+    "texte": "Mais moi, j'avais la flemme."
+   },
+   {
+    "debut": 43.9,
+    "fin": 45.4,
+    "texte": "Et là, vous cliquez sur « Créer mon programme »."
+   },
+   {
+    "debut": 45.4,
+    "fin": 49.7,
+    "texte": "En fonction de tout ce qu'elle connaît sur vous, vos résultats au test, vos habitudes de vie, etc."
+   },
+   {
+    "debut": 50.4,
+    "fin": 52.3,
+    "texte": "Elle va vous faire votre propre programme."
+   },
+   {
+    "debut": 52.3,
+    "fin": 53.6,
+    "texte": "Vous voyez, ça a fini de charger."
+   },
+   {
+    "debut": 53.9,
+    "fin": 57.5,
+    "texte": "Vous avez un programme sur 7 jours, avec une séance à écouter chaque soir avant de s'endormir."
+   },
+   {
+    "debut": 57.9,
+    "fin": 59.2,
+    "texte": "Vous cliquez là pour écouter la première."
+   },
+   {
+    "debut": 59.2,
+    "fin": 61.2,
+    "texte": "Et je vous jure, vous mettez une séance."
+   }
+  ]
+ },
+ {
+  "id": "dbbq9jv",
+  "fichier": "v26044gc0000dbbq9jvog65vko94bb80.MP4",
+  "compte": "@niooo690",
+  "plateforme": "TikTok",
+  "niche": "sport, courses",
+  "format": "flow",
+  "titre": "« Depuis quand Basic-Fit autorise ça ? » (le filtre + le téléphone)",
+  "sujet": "Un mec avec un filtre qui lui déforme le visage (yeux et bouche énormes) demande depuis quand Basic-Fit autorise ça. Puis son téléphone à la main : il répond en direct aux questions d'une app qui compose ses repas de la semaine selon sa salle, son magasin et son budget. 26,59 € la semaine.",
+  "tags": [
+   "filtre",
+   "Basic-Fit",
+   "téléphone en main",
+   "répond à voix haute",
+   "26,59 €",
+   "réactions"
+  ],
+  "hook": {
+   "dit": "Non mais depuis quand Basic-Fit ils autorisent ça ? Attends, regarde, il y a rien.",
+   "voit": "lui, allongé sur un canapé, avec un filtre qui lui fait des yeux et une bouche énormes, l'air choqué. Texte : « Depuis quand BASICFIT autorise ça ??? »."
+  },
+  "texte_ecran": [
+   "Depuis quand BASICFIT autorise ça ???"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 8,
+    "voit": "lui avec le filtre, sur un canapé, un mur en pierre derrière.",
+    "entend": "« depuis quand Basic-Fit ils autorisent ça ? Attends, regarde. »"
+   },
+   {
+    "debut": 8,
+    "fin": 30,
+    "voit": "le téléphone en main, dans le noir : « Quel physique vises-tu ? », « Où t'entraînes-tu ? » (Basic-Fit, Fitness Park, Keepcool, On Air), « Où fais-tu tes courses ? » (les logos), repas par semaine, séances par semaine, « Ça te tente ? » (photos de plats).",
+    "entend": "il répond à voix haute : « prendre du muscle… moi c'est Basic-Fit… Lidl… deux repas par jour… 5 fois par semaine… économique, c'est plus important. »"
+   },
+   {
+    "debut": 30,
+    "fin": 45,
+    "voit": "« Ton âge, ta taille, ton poids » (21, 180, 61), puis « Ton budget courses ? » : 60 € → 31 €.",
+    "entend": "« 21 ans, 1 m 80, 61 kilos, bonne prise de masse… budget : d'habitude je mettais 40, on va mettre 30. »"
+   },
+   {
+    "debut": 45,
+    "fin": 60,
+    "voit": "« On compose ta semaine », « Salut, on mange quoi ? » : calories, menus, 26,59 €.",
+    "entend": "« là j'ai mes calories, mes repas, 3 € d'économie… ah la vache… mardi, mercredi, jeudi je mange quoi. »"
+   },
+   {
+    "debut": 60,
+    "fin": 73,
+    "voit": "les recettes (tajine, poulet tikka, lasagnes), la liste de courses, la préparation.",
+    "entend": "« j'ai toute ma liste de courses… si je clique sur le repas, j'ai tous les ingrédients, toute la recette. C'est un truc de ouf. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "👁️",
+    "titre": "Le filtre",
+    "texte": "Des yeux et une bouche énormes : impossible de scroller sans regarder deux secondes. C'est un pattern interrupt."
+   },
+   {
+    "emoji": "🏋️",
+    "titre": "« Depuis quand Basic-Fit autorise ça ? »",
+    "texte": "Il cite une marque que tout le monde connaît et pose une question qui intrigue. Ceux qui vont à Basic-Fit s'arrêtent."
+   },
+   {
+    "emoji": "🗣️",
+    "titre": "Il répond aux questions à voix haute",
+    "texte": "L'app pose des questions, il répond comme à un pote. On apprend sur lui (21 ans, 61 kg) et on comprend l'app en même temps."
+   },
+   {
+    "emoji": "📱",
+    "titre": "Téléphone en main, dans le noir",
+    "texte": "Chaque écran tapoté avec le pouce. Pas de capture, pas de montage."
+   },
+   {
+    "emoji": "💶",
+    "titre": "« D'habitude 40, on va mettre 30 »",
+    "texte": "Il compare avec sa vraie vie. Puis « 3 € d'économie », « 26,59 € » : des chiffres précis."
+   },
+   {
+    "emoji": "😮",
+    "titre": "« Ah la vache », « c'est un truc de ouf »",
+    "texte": "Des réactions spontanées à chaque écran. On a l'impression de découvrir avec lui."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "(filtre déformant) Non mais depuis quand Leboncoin autorise ça ? Attends, regarde.",
+    "comment": "Puis le téléphone en main, dans le noir : l'annonce collée, Screen My Car qui pose ses questions, le verdict. Tu réagis à chaque écran : « ah la vache, 2 400 € de frais cachés ». Rien de récité : tu découvres."
+   },
+   {
+    "app": "revizio",
+    "hook": "(filtre) Non mais depuis quand les profs autorisent ça ? Attends, regarde.",
+    "comment": "Téléphone en main : la photo du cours, Revizio qui pose ses questions (quel exam, quand), les fiches, le quiz. Tu réponds à voix haute : « moi c'est le bac dans 3 semaines »."
+   }
+  ],
+  "ordre": 7,
+  "duree": 73.5,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 2.0,
+    "texte": "Non mais depuis quand BasicFit ils autorisent ça ?"
+   },
+   {
+    "debut": 2.0,
+    "fin": 4.0,
+    "texte": "Attends regarde il y a rien"
+   },
+   {
+    "debut": 4.0,
+    "fin": 6.0,
+    "texte": "Donc là t'arrives ici ça te demande"
+   },
+   {
+    "debut": 6.0,
+    "fin": 8.0,
+    "texte": "Quelle physique tu vises ?"
+   },
+   {
+    "debut": 8.0,
+    "fin": 10.0,
+    "texte": "Donc moi si je vais faire une prise de main je me prends des muscles"
+   },
+   {
+    "debut": 10.0,
+    "fin": 12.0,
+    "texte": "Ou tu t'entraînes"
+   },
+   {
+    "debut": 12.0,
+    "fin": 14.0,
+    "texte": "Moi c'est BasicFit"
+   },
+   {
+    "debut": 14.0,
+    "fin": 16.0,
+    "texte": "Ou tu fais tes courses moi Little"
+   },
+   {
+    "debut": 16.0,
+    "fin": 18.0,
+    "texte": "Deux repas par jour"
+   },
+   {
+    "debut": 18.0,
+    "fin": 20.0,
+    "texte": "Je mange de tout"
+   },
+   {
+    "debut": 20.0,
+    "fin": 22.0,
+    "texte": "J'entraîne 5 fois par semaine à côté j'ai un métier"
+   },
+   {
+    "debut": 22.0,
+    "fin": 24.0,
+    "texte": "Je suis debout je fais rien"
+   },
+   {
+    "debut": 24.0,
+    "fin": 26.0,
+    "texte": "Repas express ouais ouais"
+   },
+   {
+    "debut": 26.0,
+    "fin": 28.0,
+    "texte": "Ouais"
+   },
+   {
+    "debut": 28.0,
+    "fin": 30.0,
+    "texte": "Et ouais économique c'est plus important hein"
+   },
+   {
+    "debut": 30.0,
+    "fin": 32.0,
+    "texte": "J'ai 21 ans"
+   },
+   {
+    "debut": 32.0,
+    "fin": 34.0,
+    "texte": "Je fais 1m80"
+   },
+   {
+    "debut": 34.0,
+    "fin": 36.0,
+    "texte": "Pour 61 kilos"
+   },
+   {
+    "debut": 36.0,
+    "fin": 38.0,
+    "texte": "Donc je vais faire une bonne prise de masse"
+   },
+   {
+    "debut": 38.0,
+    "fin": 40.0,
+    "texte": "Ok donc là budget course par semaine"
+   },
+   {
+    "debut": 40.0,
+    "fin": 41.0,
+    "texte": "24"
+   },
+   {
+    "debut": 41.0,
+    "fin": 43.0,
+    "texte": "Ok bah écoute on va mettre aller 30"
+   },
+   {
+    "debut": 43.0,
+    "fin": 45.0,
+    "texte": "Sachant que d'habitude moi je mettais 40"
+   },
+   {
+    "debut": 45.0,
+    "fin": 47.0,
+    "texte": "Donc en compo cette semaine"
+   },
+   {
+    "debut": 47.0,
+    "fin": 49.0,
+    "texte": "Ok donc là du coup j'ai calories"
+   },
+   {
+    "debut": 49.0,
+    "fin": 51.0,
+    "texte": "Là j'ai mes repas"
+   },
+   {
+    "debut": 51.0,
+    "fin": 53.0,
+    "texte": "3€ d'économie ok intéressant"
+   },
+   {
+    "debut": 53.0,
+    "fin": 55.0,
+    "texte": "Du coup là si j'ai un de moins à semaine"
+   },
+   {
+    "debut": 55.0,
+    "fin": 56.0,
+    "texte": "Ouah ça de n'en vient"
+   },
+   {
+    "debut": 56.0,
+    "fin": 57.0,
+    "texte": "Ah la vache"
+   },
+   {
+    "debut": 57.0,
+    "fin": 58.0,
+    "texte": "C'est pour mardi"
+   },
+   {
+    "debut": 58.0,
+    "fin": 59.0,
+    "texte": "Pour mercredi"
+   },
+   {
+    "debut": 59.0,
+    "fin": 60.0,
+    "texte": "Pour jeudi je mange quoi"
+   },
+   {
+    "debut": 60.0,
+    "fin": 61.0,
+    "texte": "Je monte"
+   },
+   {
+    "debut": 61.0,
+    "fin": 62.0,
+    "texte": "Attends"
+   },
+   {
+    "debut": 62.0,
+    "fin": 63.0,
+    "texte": "Cours"
+   },
+   {
+    "debut": 63.0,
+    "fin": 64.0,
+    "texte": "Attends j'ai toute ma liste de courses"
+   },
+   {
+    "debut": 64.0,
+    "fin": 66.0,
+    "texte": "Genre là si je clique sur le repas"
+   },
+   {
+    "debut": 66.0,
+    "fin": 67.0,
+    "texte": "Moi j'ai tous les ingrédients"
+   },
+   {
+    "debut": 67.0,
+    "fin": 68.0,
+    "texte": "Toute la recette"
+   },
+   {
+    "debut": 68.0,
+    "fin": 69.0,
+    "texte": "Non c'est un truc de ouf"
+   },
+   {
+    "debut": 69.0,
+    "fin": 70.0,
+    "texte": "C'est un truc de ouf"
+   }
+  ]
+ },
+ {
+  "id": "db5ko7v",
+  "fichier": "v26044gc0000db5ko7vog65t744tgu50.MP4",
+  "compte": "@bon_plan8888",
+  "plateforme": "TikTok",
+  "niche": "courses, budget",
+  "format": "face-camera",
+  "titre": "Tes courses coûtent 20 € de plus ? (la question qui pique)",
+  "sujet": "Une fille dans sa cuisine parle à la caméra : les courses augmentent, mais une partie de ce que tu perds, tu la contrôles. Elle montre une app qui fait tes 7 dîners et ta liste. Résultat : 30 € par semaine.",
+  "tags": [
+   "question",
+   "spoiler",
+   "courses",
+   "copine",
+   "retournement",
+   "chiffre de fin",
+   "sous-titres"
+  ],
+  "hook": {
+   "dit": "Est-ce que toi aussi t'as l'impression que le prix de tes courses augmente littéralement plus vite que le prix de l'essence ?",
+   "voit": "elle, dans sa cuisine, t-shirt noir, sourire, les mains qui parlent. En haut, un bandeau blanc : « SPOILER : C'EST PAS QUE L'INFLATION. » Les sous-titres s'affichent mot à mot au milieu."
+  },
+  "texte_ecran": [
+   "SPOILER : C'EST PAS QUE L'INFLATION.",
+   "les sous-titres, mot à mot, au milieu de l'image"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 6,
+    "voit": "elle face caméra dans la cuisine, le bandeau « SPOILER » en haut.",
+    "entend": "la question-hook, puis « j'ai une solution pour toi »."
+   },
+   {
+    "debut": 6,
+    "fin": 17,
+    "voit": "elle, un peu plus près, beaucoup de gestes.",
+    "entend": "« les prix ont vraiment augmenté : tu prends les mêmes trucs qu'avant et t'as 20 balles de plus à la caisse. Et encore, 20 balles, je suis gentille. »"
+   },
+   {
+    "debut": 17,
+    "fin": 35,
+    "voit": "toujours elle, le bandeau a disparu, plan serré.",
+    "entend": "le retournement : « les prix, ni toi ni moi on n'y peut rien. Par contre, une partie de ce que tu perds, tu la contrôles : tout ce que t'achètes sans savoir et que tu jettes le dimanche. »"
+   },
+   {
+    "debut": 35,
+    "fin": 47,
+    "voit": "l'app (Pimzi) en plein écran : budget 67 €/semaine, objectif protéines, « Voici ta semaine : 7 dîners chez Lidl pour 45 € ».",
+    "entend": "« j'ai réglé ça avec un site qui s'appelle Pimzi : ton budget, ton magasin, ce que t'aimes, et ils composent les 7 dîners avec la liste et les prix du magasin. »"
+   },
+   {
+    "debut": 47,
+    "fin": 58,
+    "voit": "la liste de courses (44,55 €, 5 € sous le budget), puis elle.",
+    "entend": "« t'arrives au magasin, tu coches ta liste, t'achètes exactement ce que tu vas cuisiner et rien d'autre. »"
+   },
+   {
+    "debut": 58,
+    "fin": 76,
+    "voit": "elle, face caméra, pour conclure.",
+    "entend": "« 30 euros par semaine, excusez-moi, c'est énorme. C'est des trucs que je peux mettre dans l'essence. Le lien est en dessous, il faut essayer. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "❓",
+    "titre": "« Est-ce que toi aussi… »",
+    "texte": "Une question qui commence par « toi aussi » : on se sent concerné avant même de réfléchir."
+   },
+   {
+    "emoji": "🏷️",
+    "titre": "Le bandeau « SPOILER »",
+    "texte": "Il contredit ce que tout le monde pense (c'est l'inflation). Alors on veut savoir ce que c'est."
+   },
+   {
+    "emoji": "💶",
+    "titre": "« 20 balles de plus à la caisse »",
+    "texte": "Un chiffre vécu, pas un pourcentage. Tout le monde l'a senti."
+   },
+   {
+    "emoji": "🙋",
+    "titre": "Elle parle comme une copine",
+    "texte": "Cuisine, t-shirt, mains qui bougent, « on va pas se mentir ». Zéro posture de vendeuse."
+   },
+   {
+    "emoji": "🔀",
+    "titre": "Le retournement",
+    "texte": "« Les prix, on n'y peut rien. Par contre, ça, tu contrôles. » On passe du problème à la solution, et c'est pile là que l'app arrive."
+   },
+   {
+    "emoji": "🧾",
+    "titre": "Le chiffre de fin",
+    "texte": "« 30 € par semaine » : dit, répété, et comparé à de l'essence. On repart avec un chiffre en tête."
+   },
+   {
+    "emoji": "🔤",
+    "titre": "Les sous-titres mot à mot",
+    "texte": "Même sans le son, on suit tout."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Est-ce que toi aussi t'as l'impression que les voitures d'occasion coûtent presque le prix du neuf ?",
+    "comment": "Face caméra, dans ta voiture ou ta cuisine. Bandeau en haut : « SPOILER : C'EST PAS QUE LE MARCHÉ. » Le retournement : « le prix, tu n'y peux rien. Par contre, les 2 000 € de réparations cachées, ça, tu peux les éviter. » Puis l'écran Screen My Car : le verdict NÉGOCIER et les défauts trouvés. Chiffre de fin : « 1 800 € de moins »."
+   },
+   {
+    "app": "revizio",
+    "hook": "Est-ce que toi aussi t'as l'impression de réviser 3 heures et de ne rien retenir ?",
+    "comment": "Bandeau : « SPOILER : C'EST PAS TA MÉMOIRE. » Le retournement : « ta mémoire, tu n'y peux rien. Par contre, ta façon de réviser, ça tu contrôles. » L'écran Revizio : les fiches, le quiz, le score. Chiffre de fin : « 2 heures gagnées par soir »."
+   }
+  ],
+  "note": "<b>Chez nous :</b> on ne dit pas « j'ai réglé ça avec un site qui s'appelle… ». On dit « j'ai fait un Screen My Car » et on montre le résultat. Et pas de « lien en dessous » : le code promo est dans la description.",
+  "ordre": 8,
+  "duree": 76.4,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 5.6,
+    "texte": "Est-ce que toi aussi t'as l'impression que le prix de tes courses augmente littéralement plus vite que le prix de l'essence ?"
+   },
+   {
+    "debut": 5.6,
+    "fin": 6.6,
+    "texte": "J'ai une solution pour toi."
+   },
+   {
+    "debut": 6.7,
+    "fin": 11.0,
+    "texte": "Parce que bon, là les prix en ce moment, on va pas se mentir, ils ont vraiment augmenté."
+   },
+   {
+    "debut": 11.1,
+    "fin": 14.5,
+    "texte": "En gros tu prends exactement les mêmes trucs qu'avant et t'as 20 balles de plus à la caisse."
+   },
+   {
+    "debut": 14.8,
+    "fin": 16.7,
+    "texte": "Et encore 20 balles, 20 balles je suis gentille."
+   },
+   {
+    "debut": 17.4,
+    "fin": 20.1,
+    "texte": "Donc c'est là que je viens de sauver, c'est là que j'arrive."
+   },
+   {
+    "debut": 20.4,
+    "fin": 26.0,
+    "texte": "Parce que les prix clairement, ni toi ni moi, on peut y faire quelque chose, on peut pas y faire grand chose."
+   },
+   {
+    "debut": 26.0,
+    "fin": 30.2,
+    "texte": "Par contre il y a une partie de ce que tu perds chaque semaine que tu contrôles complètement."
+   },
+   {
+    "debut": 30.5,
+    "fin": 34.8,
+    "texte": "Et ça c'est tout ce que t'achètes sans savoir ce que tu veux en faire et que tu finis par jeter le dimanche."
+   },
+   {
+    "debut": 35.0,
+    "fin": 39.0,
+    "texte": "D'ailleurs, hein, mais moi j'ai réglé ça avec un site qui s'appelle Pimsy."
+   },
+   {
+    "debut": 39.3,
+    "fin": 43.3,
+    "texte": "Donc tu mets ton budget, t'as juste à choisir ton magasin, tu dis ce que t'aimes, ce que t'aimes pas."
+   },
+   {
+    "debut": 43.4,
+    "fin": 47.0,
+    "texte": "Et ils te composent les 7 dîners de la semaine avec ta liste de courses et les prix du magasin."
+   },
+   {
+    "debut": 47.1,
+    "fin": 49.3,
+    "texte": "Là la partie, c'est là la partie très importante."
+   },
+   {
+    "debut": 49.4,
+    "fin": 52.3,
+    "texte": "Du coup t'arrives au magasin et t'as juste à cocher ta liste."
+   },
+   {
+    "debut": 52.3,
+    "fin": 55.1,
+    "texte": "T'achètes exactement ce que tu vas cuisiner et rien d'autre."
+   },
+   {
+    "debut": 55.1,
+    "fin": 58.0,
+    "texte": "Tu t'éparpilles pas, du coup tu fais des économies."
+   },
+   {
+    "debut": 58.2,
+    "fin": 60.3,
+    "texte": "Pour ma part ça a été à peu près 30 euros par semaine."
+   },
+   {
+    "debut": 60.4,
+    "fin": 62.5,
+    "texte": "30 euros par semaine, excusez-moi c'est énorme."
+   },
+   {
+    "debut": 62.6,
+    "fin": 65.6,
+    "texte": "30 euros c'est justement des trucs que je peux mettre dans l'essence maintenant."
+   },
+   {
+    "debut": 66.3,
+    "fin": 69.0,
+    "texte": "Donc croyez-moi, ça va changer votre vie là."
+   },
+   {
+    "debut": 69.1,
+    "fin": 70.2,
+    "texte": "Ça va clairement changer votre vie."
+   },
+   {
+    "debut": 70.8,
+    "fin": 73.7,
+    "texte": "Et j'ai mis le lien en dessous de la vidéo pour que vous puissiez essayer."
+   },
+   {
+    "debut": 74.1,
+    "fin": 75.1,
+    "texte": "Parce que c'est vraiment..."
+   },
+   {
+    "debut": 75.7,
+    "fin": 76.1,
+    "texte": "Il faut essayer."
+   }
+  ]
+ },
+ {
+  "id": "dbavvpn",
+  "fichier": "v26044gc0000dbavvpnog65r80im695g.MP4",
+  "compte": "@julie.tipsetudes",
+  "plateforme": "TikTok",
+  "niche": "études, révisions",
+  "format": "face-camera",
+  "titre": "Elle vend l'arrière de son MacBook (et montre son premier client)",
+  "sujet": "Elle a dessiné des cases avec des prix au dos de son MacBook : c'est de l'espace pub. Aujourd'hui, premier client : elle colle le sticker, puis montre l'app (Retain, des flashcards pour étudiants) sur son écran. Fin : « qui va acheter la prochaine case ? »",
+  "tags": [
+   "concept",
+   "MacBook",
+   "sticker",
+   "suspense",
+   "commentaires",
+   "mots en rouge"
+  ],
+  "hook": {
+   "dit": "Je vends l'arrière de mon MacBook comme espace publicitaire, et là, aujourd'hui, je viens d'avoir mon premier client.",
+   "voit": "elle, dans son salon, tient son MacBook fermé face caméra : au dos, des cases dessinées au feutre avec des prix (9,50 €, 6,50 €, 1,50 €, 50 €…). Texte : « Une entreprise vient de payer pour ça 👀🤣💸 »."
+  },
+  "texte_ecran": [
+   "Une entreprise vient de payer pour ça 👀🤣💸",
+   "* petit moment de stress",
+   "les sous-titres en bas, avec les mots importants surlignés en rouge"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 12,
+    "voit": "elle tient le MacBook, les cases au dos avec les prix.",
+    "entend": "« je vends l'arrière de mon MacBook comme espace publicitaire. Plusieurs cases, plusieurs tarifs, et aujourd'hui c'est celle-là qui a été achetée. »"
+   },
+   {
+    "debut": 12,
+    "fin": 20,
+    "voit": "elle décolle un sticker (« * petit moment de stress ») et le colle dans la case à 6,50 € : « Retain ».",
+    "entend": "« j'espère que ça va partir… c'est donc Retain qui a acheté cet espace. »"
+   },
+   {
+    "debut": 20,
+    "fin": 38,
+    "voit": "elle, puis son écran d'ordi filmé à la main : l'app, les flashcards (des questions d'anglais).",
+    "entend": "« une application qui aide les étudiants : tu importes tes cours, elle génère des flashcards. Tu révises, tu testes, tu revois ce que tu ne maîtrises pas. »"
+   },
+   {
+    "debut": 38,
+    "fin": 48,
+    "voit": "l'écran : « Anglais 14 %, 61 jours avant ton examen, 5 fiches à réviser aujourd'hui », son doigt dessus.",
+    "entend": "« ce que je trouve pratique : pas besoin de passer des heures à préparer tes fiches. Si t'as des examens qui approchent, ça vaut le coup d'aller jeter un œil. »"
+   },
+   {
+    "debut": 48,
+    "fin": 57,
+    "voit": "elle, le MacBook avec le sticker, sourire.",
+    "entend": "« dites-moi en commentaire : à votre avis, qui va acheter le prochain espace publicitaire sur mon MacBook ? »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "💡",
+    "titre": "Le concept",
+    "texte": "Vendre le dos de son ordi comme un panneau pub : personne n'a vu ça. Et ça rend le sponsor normal : c'est le jeu."
+   },
+   {
+    "emoji": "👀",
+    "titre": "« Une entreprise vient de payer pour ça »",
+    "texte": "On veut savoir qui a payé, et combien. Le texte pose la question, la vidéo répond."
+   },
+   {
+    "emoji": "🎟️",
+    "titre": "Les prix au feutre",
+    "texte": "9,50 €, 6,50 €, 1,50 € : écrit à la main, bancal, drôle. Et ça dit que la pub ne coûte presque rien."
+   },
+   {
+    "emoji": "🎬",
+    "titre": "Le sticker qui se décolle",
+    "texte": "« * petit moment de stress » : un mini-suspense de 3 secondes. On regarde ses doigts."
+   },
+   {
+    "emoji": "🖐️",
+    "titre": "L'app sur l'écran, le doigt dessus",
+    "texte": "Elle montre, elle ne récite pas. 61 jours avant l'examen, 5 fiches : des vrais chiffres à l'écran."
+   },
+   {
+    "emoji": "💬",
+    "titre": "La question finale",
+    "texte": "« Qui va acheter la prochaine case ? » : les gens répondent et taguent des marques. Les commentaires font monter la vidéo."
+   },
+   {
+    "emoji": "🔴",
+    "titre": "Les mots en rouge",
+    "texte": "Dans les sous-titres, les mots importants sont surlignés en rouge. On lit l'essentiel d'un coup d'œil."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "revizio",
+    "hook": "Je vends l'arrière de mon MacBook comme espace pub, et là, premier client.",
+    "comment": "Le sticker Revizio dans la case, puis l'écran : la photo du cours, les fiches, le quiz, les jours avant l'exam. C'est quasiment la même app que dans la vidéo : la recette marche telle quelle."
+   },
+   {
+    "app": "smc",
+    "hook": "Je vends l'arrière de mon téléphone comme espace pub, et aujourd'hui j'ai mon premier client.",
+    "comment": "Des cases au feutre sur une coque. Tu colles le sticker Screen My Car (« * petit moment de stress »), puis ton écran : « c'est une app qui te dit si une annonce de voiture est une arnaque », l'annonce, le verdict. Fin : « qui achète la prochaine case ? »"
+   },
+   {
+    "app": "msclipper",
+    "hook": "Je vends l'arrière de mon MacBook comme espace pub, premier client aujourd'hui.",
+    "comment": "Le sticker MS Clipper dans la case, puis l'écran : « une app où tu es payé à la vue », tes vidéos, tes gains. Fin : la question en commentaire."
+   }
+  ],
+  "note": "<b>À remarquer :</b> l'app de la vidéo (Retain) fait la même chose que Revizio. Cette vidéo est un modèle direct pour Revizio.",
+  "ordre": 9,
+  "duree": 57.1,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 4.9,
+    "texte": "Je vais en arrière de mon Macbook comme espace publicitaire et là aujourd'hui je viens d'avoir mon premier client."
+   },
+   {
+    "debut": 5.3,
+    "fin": 11.3,
+    "texte": "Comme vous pouvez le voir, il y a plusieurs cases et avec plusieurs tarifs et aujourd'hui c'est celle-là qui a été achetée."
+   },
+   {
+    "debut": 11.5,
+    "fin": 14.1,
+    "texte": "Du coup, j'espère que ça va partir."
+   },
+   {
+    "debut": 15.7,
+    "fin": 20.1,
+    "texte": "C'est donc Retaincard qui a acheté cet espace publicitaire."
+   },
+   {
+    "debut": 20.3,
+    "fin": 23.2,
+    "texte": "En fait, c'est une application qui aide les étudiants dans leur révision."
+   },
+   {
+    "debut": 23.3,
+    "fin": 25.4,
+    "texte": "En gros, en fait, le principe il est hyper simple."
+   },
+   {
+    "debut": 25.4,
+    "fin": 29.7,
+    "texte": "Tu importes tes cours directement dans l'application et elle te génère automatiquement des flashcards."
+   },
+   {
+    "debut": 30.0,
+    "fin": 32.6,
+    "texte": "Pour t'aider à mémoriser les informations importantes."
+   },
+   {
+    "debut": 32.7,
+    "fin": 38.1,
+    "texte": "Tu peux ensuite réviser avec tes cartes, tester tes connaissances et surtout revoir les notions que tu ne maîtrises pas encore."
+   },
+   {
+    "debut": 38.3,
+    "fin": 43.4,
+    "texte": "Et moi, ce que je trouve vraiment pratique, c'est que tu n'as pas besoin de passer des heures à préparer tes propres fiches de révision."
+   },
+   {
+    "debut": 43.9,
+    "fin": 48.1,
+    "texte": "Si tu es étudiant et que tu as des examens qui approchent, ça vaut vraiment le coup d'aller jeter un oeil."
+   },
+   {
+    "debut": 48.4,
+    "fin": 53.1,
+    "texte": "Et dites-moi en commentaire, mais à votre avis, qui va acheter le prochain espace publicitaire sur mon Macbook ?"
+   }
+  ]
+ },
+ {
+  "id": "db8h1un",
+  "fichier": "v26044gc0000db8h1unog65hcb38e0o0.MP4",
+  "compte": "@emma_cst7",
+  "plateforme": "TikTok",
+  "niche": "argent, side business",
+  "format": "duo",
+  "titre": "1 250 € en 10 minutes avec Google Maps (le couple)",
+  "sujet": "Un couple face caméra : « il vit en quelle année ?? ». Lui explique comment trouver un commerce sans site sur Google Maps, lui fabriquer un site avec ChatGPT + Codunk en 2 minutes, et le vendre. Elle réagit devant l'écran.",
+  "tags": [
+   "couple",
+   "école",
+   "Google Maps",
+   "étapes numérotées",
+   "réaction",
+   "1 250 €",
+   "texte rouge"
+  ],
+  "hook": {
+   "dit": "Non mais les gars, vraie question : pourquoi on n'apprend pas ça à l'école ? Parce que juste écouter ce qu'il dit, comment c'est grave utile.",
+   "voit": "elle devant, lui derrière, collés, face caméra sur un fond clair. Texte noir en haut : « Il vit en quelle année?? ». Puis un texte rouge : « T'as moins de 26 ans ? »"
+  },
+  "texte_ecran": [
+   "Il vit en quelle année??",
+   "T'as moins de 26 ans ?",
+   "1. Google Maps",
+   "2. Trouver un client",
+   "Cherche un business sans site 😉",
+   "3. Chatgpt",
+   "Copie le prompt",
+   "4. Aller sur Codunk.com",
+   "Colle le prompt de ChatGpt",
+   "Après 2min, le site est prêt 😅"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 6,
+    "voit": "le couple face caméra. Elle parle, lui regarde la caméra sans bouger.",
+    "entend": "le hook."
+   },
+   {
+    "debut": 6,
+    "fin": 9,
+    "voit": "lui seul, texte rouge « T'as moins de 26 ans ? ».",
+    "entend": "« Comment faire 1 250 € en seulement 10 minutes ? Là ça, je te montre. »"
+   },
+   {
+    "debut": 9,
+    "fin": 26,
+    "voit": "elle assise devant un ordi, Google Maps en grand derrière elle. Textes : « 1. Google Maps », « 2. Trouver un client », « Cherche un business sans site 😉 ».",
+    "entend": "sa voix à lui : « va sur Google Maps, prends un resto, regarde s'il a un site… non. Lui ? non. »"
+   },
+   {
+    "debut": 26,
+    "fin": 49,
+    "voit": "la fiche du restaurant copiée, puis « 3. Chatgpt », « Copie le prompt », « 4. Aller sur Codunk.com », « Colle le prompt de ChatGpt ».",
+    "entend": "« je copie, je vais sur ChatGPT, puis sur Codunk.com, je colle, on attend 2 minutes. »"
+   },
+   {
+    "debut": 49,
+    "fin": 72,
+    "voit": "le site généré « L'Art de la Table Parfaite », texte « Après 2min, le site est prêt 😅 », elle fait une tête bluffée.",
+    "entend": "« le site est prêt… incroyable, incroyable, incroyable, incroyable… magnifique. »"
+   },
+   {
+    "debut": 72,
+    "fin": 90,
+    "voit": "publication en cours, le site en ligne, le nom de domaine.",
+    "entend": "« je publie, le site est en ligne, après je peux mettre le nom de domaine que je veux. »"
+   },
+   {
+    "debut": 90,
+    "fin": 119,
+    "voit": "lui seul face caméra, elle en petit en bas.",
+    "entend": "« aucune formation à acheter, juste ChatGPT et Codunk. Appelez les clients. Si vous avez des questions, écrivez-moi en privé, je vous reprends tout le monde. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "👫",
+    "titre": "Le couple",
+    "texte": "Deux visages collés dans le cadre : on regarde une scène de vie, pas une pub."
+   },
+   {
+    "emoji": "🗓️",
+    "titre": "« Il vit en quelle année ?? »",
+    "texte": "Un texte qui taquine : elle se moque gentiment de lui. Ça intrigue et ça fait sourire."
+   },
+   {
+    "emoji": "🎯",
+    "titre": "« T'as moins de 26 ans ? »",
+    "texte": "Un texte rouge qui s'adresse à toi. Si c'est ton cas, tu restes."
+   },
+   {
+    "emoji": "💶",
+    "titre": "« 1 250 € en 10 minutes »",
+    "texte": "Un chiffre et un temps. Simple, énorme, on veut savoir comment."
+   },
+   {
+    "emoji": "🙀",
+    "titre": "Elle réagit, lui explique",
+    "texte": "Sa voix à lui fait le tuto, son visage à elle montre ce qu'on doit ressentir : bluffée."
+   },
+   {
+    "emoji": "🪜",
+    "titre": "Les étapes numérotées à l'écran",
+    "texte": "1, 2, 3, 4. Même sans le son, on peut refaire."
+   },
+   {
+    "emoji": "🔁",
+    "titre": "« Incroyable » × 8",
+    "texte": "Il répète le même mot en boucle pendant que le site se construit. Ça fait rire et ça remplit l'attente."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Non mais vraie question : pourquoi on n'apprend pas ça à l'école avant d'acheter une voiture ? Écoutez ce qu'il dit.",
+    "comment": "En couple ou entre potes : l'un explique, l'autre réagit devant l'écran. Textes : « Il vit en quelle année ?? » puis « Tu cherches ta première voiture ? ». Étapes numérotées à l'écran : 1. L'annonce. 2. Screen My Car. 3. Le verdict. 4. On négocie. Chiffre à la fin."
+   },
+   {
+    "app": "revizio",
+    "hook": "Vraie question : pourquoi on n'apprend pas ça à l'école ?",
+    "comment": "Elle réagit devant l'écran, lui explique : 1. Photo du cours. 2. Revizio. 3. Les fiches. 4. Le quiz. Texte rouge : « T'as un exam cette semaine ? ». Résultat à la fin : « 18/20 »."
+   }
+  ],
+  "note": "<b>À remarquer :</b> le même hook « pourquoi on n'apprend pas ça à l'école ? » est utilisé par la même créatrice sur deux comptes (@emma.viral80 et @emma_cst7). Quand un hook marche, on le réutilise.",
+  "ordre": 10,
+  "duree": 118.8,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 2.5,
+    "texte": "Non mais les gars, vraie question, pourquoi on n'apprend pas ça à l'écope ?"
+   },
+   {
+    "debut": 2.5,
+    "fin": 5.6,
+    "texte": "Parce que juste écouter ce qu'il dit, comment c'est grave utile."
+   },
+   {
+    "debut": 5.7,
+    "fin": 8.2,
+    "texte": "Comment faire 1250€ en seulement 10 minutes ?"
+   },
+   {
+    "debut": 8.2,
+    "fin": 8.7,
+    "texte": "Là ça, je te montre."
+   },
+   {
+    "debut": 9.3,
+    "fin": 10.8,
+    "texte": "La première étape va sur Google Maps."
+   },
+   {
+    "debut": 11.6,
+    "fin": 14.2,
+    "texte": "Deuxième étape, share tes retons et capacités d'internet."
+   },
+   {
+    "debut": 14.8,
+    "fin": 16.8,
+    "texte": "Je prends un exemple, tac, je vais voir s'il y a un site d'internet."
+   },
+   {
+    "debut": 17.3,
+    "fin": 17.9,
+    "texte": "Oui, il a un site."
+   },
+   {
+    "debut": 18.3,
+    "fin": 21.6,
+    "texte": "Je continue, continue, continue, continue, tac, je vais chercher, il a un site."
+   },
+   {
+    "debut": 22.2,
+    "fin": 24.6,
+    "texte": "Est-ce qu'il a un site ? Est-ce qu'il a un site ? Je sais pas, on va voir ça."
+   },
+   {
+    "debut": 25.3,
+    "fin": 26.8,
+    "texte": "Donc lui par exemple, je vais voir s'il y a un site d'internet."
+   },
+   {
+    "debut": 26.8,
+    "fin": 36.0,
+    "texte": "Deuxième étape, va sur share tes retons, finalement j'ai pris un autre essor, je vais faire ça comme ça, tac."
+   },
+   {
+    "debut": 36.4,
+    "fin": 38.8,
+    "texte": "Je vais faire, j'ai copié, comme ça, comme ça."
+   },
+   {
+    "debut": 40.1,
+    "fin": 45.0,
+    "texte": "Prochaine étape, on va aller sur Kodak, donc ceci, Kodak.com, on va même le prendre, comme ça, tac."
+   },
+   {
+    "debut": 46.3,
+    "fin": 48.6,
+    "texte": "Sur share tes retons, on va appuyer sur ça, comme ça, et voilà."
+   },
+   {
+    "debut": 49.0,
+    "fin": 54.5,
+    "texte": "Donc on va attendre, on va dire 5 minutes, 5 minutes ou 10 fois 2 minutes, ça dépend, on va attendre, j'ai copié la partie."
+   },
+   {
+    "debut": 55.0,
+    "fin": 56.1,
+    "texte": "Parfait, le site est prêt."
+   },
+   {
+    "debut": 56.1,
+    "fin": 56.8,
+    "texte": "Voilà."
+   },
+   {
+    "debut": 58.5,
+    "fin": 60.7,
+    "texte": "J'ai mis un bon écran, incroyable."
+   },
+   {
+    "debut": 61.4,
+    "fin": 62.2,
+    "texte": "Incroyable, les gars."
+   },
+   {
+    "debut": 62.4,
+    "fin": 62.9,
+    "texte": "Incroyable."
+   },
+   {
+    "debut": 69.1,
+    "fin": 69.4,
+    "texte": "Magnifique."
+   },
+   {
+    "debut": 69.7,
+    "fin": 71.7,
+    "texte": "Ouais, magnifique."
+   },
+   {
+    "debut": 72.5,
+    "fin": 75.6,
+    "texte": "Après mes dates que je peux publier, je vais déjà publier le site, que je peux republier comme ça."
+   },
+   {
+    "debut": 76.1,
+    "fin": 76.9,
+    "texte": "Je vais vous montrer comment ça c'est."
+   },
+   {
+    "debut": 77.5,
+    "fin": 78.5,
+    "texte": "Tac, publication en cours."
+   },
+   {
+    "debut": 79.4,
+    "fin": 79.5,
+    "texte": "Voilà."
+   },
+   {
+    "debut": 80.3,
+    "fin": 81.3,
+    "texte": "Donc c'est pour ça qu'il veut aller voir."
+   },
+   {
+    "debut": 81.8,
+    "fin": 82.2,
+    "texte": "Le site, il est là."
+   },
+   {
+    "debut": 82.5,
+    "fin": 82.8,
+    "texte": "Je vais en ligne."
+   },
+   {
+    "debut": 82.9,
+    "fin": 83.9,
+    "texte": "Tac, tac, les distribuves en ligne."
+   },
+   {
+    "debut": 84.3,
+    "fin": 84.4,
+    "texte": "Voilà."
+   },
+   {
+    "debut": 84.4,
+    "fin": 89.3,
+    "texte": "Après, je peux personnaliser, mettre le nom dans le domaine que je veux, c'est à la maison du mire par exemple, mais attends, je vais vous montrer."
+   },
+   {
+    "debut": 89.8,
+    "fin": 91.4,
+    "texte": "Donc voilà, c'est très simple d'acheter aucune formation."
+   },
+   {
+    "debut": 91.9,
+    "fin": 94.2,
+    "texte": "Vous aurez juste besoin de chat GPT ou Google Maps qui est gratuit."
+   },
+   {
+    "debut": 94.7,
+    "fin": 96.9,
+    "texte": "Chat GPT personnellement, j'ai l'abonnement chat GPT+."
+   },
+   {
+    "debut": 96.9,
+    "fin": 98.8,
+    "texte": "Donc vous pouvez prendre l'abonnement chat GPT si vous voulez."
+   },
+   {
+    "debut": 98.8,
+    "fin": 101.5,
+    "texte": "Après, vous avez juste besoin de prendre celui de Kodunc."
+   },
+   {
+    "debut": 102.1,
+    "fin": 102.4,
+    "texte": "Et puis voilà."
+   },
+   {
+    "debut": 103.1,
+    "fin": 104.4,
+    "texte": "Appelez les clients, appelez, appelez."
+   },
+   {
+    "debut": 104.9,
+    "fin": 106.6,
+    "texte": "Si vous prenez des requêtes, continuez d'appeler."
+   },
+   {
+    "debut": 106.7,
+    "fin": 106.9,
+    "texte": "Et puis voilà."
+   },
+   {
+    "debut": 107.3,
+    "fin": 107.8,
+    "texte": "C'est très simple."
+   },
+   {
+    "debut": 107.8,
+    "fin": 109.1,
+    "texte": "Les gars, si vous avez des questions, écrivez-vous en privé."
+   },
+   {
+    "debut": 109.2,
+    "fin": 110.3,
+    "texte": "Je vous reprends, je vous reprends tout le monde."
+   },
+   {
+    "debut": 110.8,
+    "fin": 111.9,
+    "texte": "Aucune différence, je vous reprends tout le monde."
+   },
+   {
+    "debut": 112.0,
+    "fin": 113.9,
+    "texte": "Les femmes, garçons, noir, blanc, arabe, je vous reprends tout le monde."
+   }
+  ]
+ },
+ {
+  "id": "db4i0ff",
+  "fichier": "v26044gc0000db4i0ffog65q2f5gmk10.MP4",
+  "compte": "@emma.viral80",
+  "plateforme": "TikTok",
+  "niche": "argent, side business",
+  "format": "fond-vert",
+  "titre": "Le « glitch d'argent » des comptines YouTube",
+  "sujet": "Une fille réagit à un mec cagoulé qui explique comment gagner de l'argent avec des comptines faites par IA. Puis elle le fait en direct : 357 000 vues, 1 500 €.",
+  "tags": [
+   "cagoule",
+   "école",
+   "glitch",
+   "argent",
+   "réaction",
+   "preuve à la fin",
+   "deux voix"
+  ],
+  "hook": {
+   "dit": "Est-ce que quelqu'un peut m'expliquer pourquoi on n'apprend pas ça à l'école ?",
+   "voit": "elle, face caméra dans le noir, et derrière elle en grand un mec avec une cagoule noire. Texte en haut : « J'ai trouvé un p*tain de glitch d'argent IRL »."
+  },
+  "texte_ecran": [
+   "J'ai trouvé un p*tain de glitch d'argent IRL"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 3,
+    "voit": "elle devant, le mec cagoulé derrière. Le texte reste en haut.",
+    "entend": "la question-hook."
+   },
+   {
+    "debut": 3,
+    "fin": 30,
+    "voit": "le mec cagoulé parle en grand, elle écoute en petit en bas, elle réagit avec le visage.",
+    "entend": "« Écoutez juste ce qu'il dit », puis lui explique le plan : les comptines pour enfants font des millions de vues."
+   },
+   {
+    "debut": 30,
+    "fin": 36,
+    "voit": "elle reprend la main, toujours devant son grand écran.",
+    "entend": "« YouTube vous paye entre 1 000 et 6 000 € pour un million de vues. Je vais vous montrer combien ça m'a fait. »"
+   },
+   {
+    "debut": 36,
+    "fin": 47,
+    "voit": "l'écran derrière elle : YouTube « Comptines pour enfant », Google, les paroles copiées, ChatGPT.",
+    "entend": "« cliquer sur la vidéo, prendre toutes les paroles, demander à ChatGPT un prompt »."
+   },
+   {
+    "debut": 47,
+    "fin": 59,
+    "voit": "le site Shortify.io, le « AI Video Generator », le prompt collé, le bouton Générer.",
+    "entend": "« on va sur shortify.io, on colle le prompt, on clique sur générer »."
+   },
+   {
+    "debut": 59,
+    "fin": 65,
+    "voit": "la vidéo IA (un crocodile en dessin animé), puis l'écran « Statistiques de la vidéo : 357,9 k vues ».",
+    "entend": "« la vidéo a fait plus de 357 000 vues et m'a rapporté près de 1 500 € »."
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🏫",
+    "titre": "« Pourquoi on n'apprend pas ça à l'école ? »",
+    "texte": "Une question que tout le monde s'est déjà posée. On veut savoir ce que c'est, « ça »."
+   },
+   {
+    "emoji": "🥷",
+    "titre": "La cagoule",
+    "texte": "Un mec cagoulé dans le noir, ça sent le secret interdit. On n'a pas l'habitude, on s'arrête."
+   },
+   {
+    "emoji": "💶",
+    "titre": "Le mot « glitch »",
+    "texte": "Un glitch, c'est un bug qui donne de l'argent. Ça sonne comme une triche, et tout le monde veut la triche."
+   },
+   {
+    "emoji": "👥",
+    "titre": "Deux voix",
+    "texte": "Lui explique, elle réagit. On n'est pas seul face à un vendeur : on regarde avec elle, comme une amie."
+   },
+   {
+    "emoji": "🧾",
+    "titre": "La preuve à la fin",
+    "texte": "357 000 vues, 1 500 € : un vrai écran de statistiques. Sans ça, c'est du vent."
+   },
+   {
+    "emoji": "⚡",
+    "titre": "Les étapes vont vite",
+    "texte": "Clic, copie, ChatGPT, Shortify, publier. Aucun blabla entre deux étapes."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "msclipper",
+    "hook": "Est-ce que quelqu'un peut m'expliquer pourquoi on n'apprend pas ça à l'école ?",
+    "comment": "Un pote (cagoulé ou pas) explique derrière toi : « des apps te paient 1 € les 1 000 vues pour poster des vidéos ». Toi, tu réagis. Puis tu montres MS Clipper : la campagne, le brief, et surtout l'écran des gains à la fin, en vrai."
+   },
+   {
+    "app": "smc",
+    "hook": "Pourquoi on n'apprend pas ça à l'école avant d'acheter sa première voiture ?",
+    "comment": "Derrière toi : une annonce qui a l'air parfaite. Tu réagis, tu fais un Screen My Car, et la preuve à la fin en gros : FUIR, kilométrage incohérent, 2 400 € économisés."
+   }
+  ],
+  "ordre": 11,
+  "duree": 71.8,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 2.5,
+    "texte": "Est-ce que quelqu'un peut m'expliquer pourquoi on n'apprend pas ça à l'école ?"
+   },
+   {
+    "debut": 2.5,
+    "fin": 3.5,
+    "texte": "Écoutez juste ce qu'il dit."
+   },
+   {
+    "debut": 30.0,
+    "fin": 34.8,
+    "texte": "Juste pour une fois que YouTube vous paye entre 1000 et 6000€ pour un million de vues."
+   },
+   {
+    "debut": 34.9,
+    "fin": 36.4,
+    "texte": "Donc je vais s'imaginer combien de m'a fait."
+   },
+   {
+    "debut": 36.6,
+    "fin": 40.8,
+    "texte": "Donc là ce que tu vas faire en premier c'est de cliquer sur la vidéo et on va prendre toutes les paroles."
+   },
+   {
+    "debut": 41.0,
+    "fin": 46.8,
+    "texte": "Ensuite on va aller sur chat GPT et on va lui demander de nous générer un prompt pour une vidéo à partir des paroles du coup qu'on a copiées."
+   },
+   {
+    "debut": 47.0,
+    "fin": 52.5,
+    "texte": "Maintenant qu'on a un autre prompt on va venir le copier et on va venir se rendre sur cet IA là qui s'appelle shortplay.io."
+   },
+   {
+    "debut": 52.9,
+    "fin": 53.5,
+    "texte": "C'est très important."
+   },
+   {
+    "debut": 53.8,
+    "fin": 55.6,
+    "texte": "On va venir se rendre sur le vidéo générateur IA."
+   },
+   {
+    "debut": 55.6,
+    "fin": 59.2,
+    "texte": "Une fois que c'est fait on va venir coller notre prompt juste ici et cliquer sur générer."
+   },
+   {
+    "debut": 59.2,
+    "fin": 63.0,
+    "texte": "C'est bon, IA a fini de générer notre vidéo qu'on a plus qu'à poster sur YouTube."
+   },
+   {
+    "debut": 63.2,
+    "fin": 67.4,
+    "texte": "Et regardez la vidéo a fait plus de 357 000 vues et m'a rapporté près de 1500€."
+   }
+  ]
+ },
+ {
+  "id": "db88kdv",
+  "fichier": "v26044gc0000db88kdvog65nq3j2356g.MP4",
+  "compte": "@ismael.viral",
+  "plateforme": "TikTok",
+  "niche": "argent, side business",
+  "format": "troisieme-personne",
+  "titre": "« Tu ne gagneras jamais d'argent » (le dessin animé qui accroche)",
+  "sujet": "Un mini dessin animé fait par IA : une prof dit à Keo qu'il ne gagnera jamais d'argent sans diplôme. Keo revient en Lamborghini. Puis le créateur reprend la main : « j'ai trouvé un moyen plus éthique », et montre sa méthode sur son PC. 200 000 vues, 1 000 €.",
+  "tags": [
+   "dessin animé IA",
+   "prof",
+   "revanche",
+   "histoire",
+   "PC filmé à la main",
+   "preuve chiffrée"
+  ],
+  "hook": {
+   "dit": "Regarde ça ! — Vous deux, vous partez où après le bac ? — Moi, HEC. — Moi, Sciences Po. — Et toi, Keo ? — Moi, je lance mon business.",
+   "voit": "un dessin animé style Pixar (fait par IA) : une prof à lunettes, une salle de classe, des élèves qui répondent. Le créateur est en tout petit, en bas de l'écran. Sous-titres mot à mot."
+  },
+  "texte_ecran": [
+   "vous deux, vous partez où après le bac",
+   "moi HEC",
+   "moi Science-Po",
+   "et toi Keo",
+   "*choqué*",
+   "*travail à Décathlon en parallèle*",
+   "c'est qui ça"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 10,
+    "voit": "la classe en dessin animé, les trois élèves, le créateur en petit en bas.",
+    "entend": "« Regarde ça ! Vous partez où après le bac ? HEC. Sciences Po. Et toi, Keo ? Moi, je lance mon business. »"
+   },
+   {
+    "debut": 10,
+    "fin": 20,
+    "voit": "la classe choquée (*choqué*), la prof qui fait la leçon, puis Keo en gilet Décathlon (*travail à Décathlon en parallèle*).",
+    "entend": "la prof : « un avenir, ça passe par un diplôme, tu ne gagneras jamais d'argent. » Keo : « je vais te prouver le contraire. »"
+   },
+   {
+    "debut": 20,
+    "fin": 28,
+    "voit": "un paiement de 5 000 $ sur un téléphone, une élève : « c'est combien par an ? 30 000 € », puis la Lamborghini devant l'école.",
+    "entend": "« je viens d'être pris… 30 000 euros… C'est qui ça, qui arrive en Lamborghini ? »"
+   },
+   {
+    "debut": 28,
+    "fin": 39,
+    "voit": "le créateur en vrai, face caméra, t-shirt blanc.",
+    "entend": "« C'est cool, mais j'ai trouvé un moyen plus éthique de faire de l'argent : poster des vidéos YouTube pour enfants. Regardez ce que je me suis fait en une seule vidéo. Vas-y, je t'explique. »"
+   },
+   {
+    "debut": 39,
+    "fin": 57,
+    "voit": "son PC filmé à la main : YouTube « Chansons pour enfants », 158 millions de vues, puis Google « combien YouTube paye pour 1 million de vues ».",
+    "entend": "« vous cherchez une comptine pour enfants : 158 millions de vues. Pour un million de vues, YouTube paye entre 1 000 et 6 000 euros. Imaginez. »"
+   },
+   {
+    "debut": 57,
+    "fin": 74,
+    "voit": "ChatGPT avec la capture d'écran, le prompt, puis shortfy.io, « AI Video Generator », Veo 3.1.",
+    "entend": "« capture d'écran, ChatGPT fait un prompt détaillé, vous copiez, shortfy.io, vous collez, Générer. »"
+   },
+   {
+    "debut": 74,
+    "fin": 87,
+    "voit": "la vidéo du bus jaune générée, puis l'écran « Statistiques : 204,4 k vues · Revenus 1 027,05 € », son doigt dessus.",
+    "entend": "« en quelques secondes j'obtiens une vidéo complète, je la poste et j'encaisse. 200 000 vues, 1 000 euros en une seule vidéo. C'est parti ! »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🎬",
+    "titre": "Le dessin animé",
+    "texte": "Un film style Pixar sur TikTok, on ne s'y attend pas. Et une histoire, on veut toujours voir la fin."
+   },
+   {
+    "emoji": "😤",
+    "titre": "La prof qui dit non",
+    "texte": "« Tu ne gagneras jamais d'argent » : on a tous envie de voir quelqu'un lui prouver le contraire."
+   },
+   {
+    "emoji": "🏎️",
+    "titre": "La revanche",
+    "texte": "Keo arrive en Lamborghini. C'est le résultat, montré avant la méthode."
+   },
+   {
+    "emoji": "🤝",
+    "titre": "« Un moyen plus éthique »",
+    "texte": "Il prend ses distances avec la Lamborghini. Ça le rend plus crédible, pas moins."
+   },
+   {
+    "emoji": "🖐️",
+    "titre": "Le PC filmé à la main",
+    "texte": "Les étapes sont filmées, le doigt sur l'écran. Chaque étape dure 3 ou 4 secondes, pas plus."
+   },
+   {
+    "emoji": "🧾",
+    "titre": "La preuve, au centime",
+    "texte": "« 204 400 vues, 1 027,05 € ». Le centime en plus, ça fait vrai."
+   },
+   {
+    "emoji": "🔤",
+    "titre": "Le texte raconte tout seul",
+    "texte": "Dialogues sous-titrés, commentaires entre astérisques (*choqué*). Sans le son, on comprend tout."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Regarde ça ! — T'as acheté quoi comme première voiture ? — Une Clio à 6 000 €. — Et toi ? — La même… à 3 800.",
+    "comment": "Un mini dessin animé IA (ou juste deux potes) : l'un a payé plein pot, l'autre a négocié. Puis toi en vrai : « il a fait un Screen My Car », téléphone à la main, l'annonce, le verdict NÉGOCIER, les défauts trouvés, et le chiffre : 2 200 € de moins."
+   },
+   {
+    "app": "msclipper",
+    "hook": "Regarde ça ! — Vous faites quoi cet été ? — Serveur. — Caissier. — Et toi ? — Je poste des vidéos.",
+    "comment": "La classe choquée, puis toi en vrai : « je suis payé à la vue avec MS Clipper ». Écran filmé à la main : la campagne, une vidéo postée, le compteur de vues, l'écran des gains. On finit sur un chiffre."
+   }
+  ],
+  "ordre": 12,
+  "duree": 87.3,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 0.8,
+    "texte": "Regarde ça !"
+   },
+   {
+    "debut": 0.8,
+    "fin": 2.4,
+    "texte": "Vous deux, vous partez où après le bac ?"
+   },
+   {
+    "debut": 2.4,
+    "fin": 3.3,
+    "texte": "Moi, ABC."
+   },
+   {
+    "debut": 3.3,
+    "fin": 4.3,
+    "texte": "Moi, Sciences Po."
+   },
+   {
+    "debut": 4.3,
+    "fin": 5.1,
+    "texte": "Et toi, qui es où ?"
+   },
+   {
+    "debut": 5.1,
+    "fin": 6.8,
+    "texte": "Moi, je lance mon business."
+   },
+   {
+    "debut": 7.5,
+    "fin": 10.5,
+    "texte": "Un reine à venir, ça passe par un diplôme, tu ne gagneras jamais d'argent."
+   },
+   {
+    "debut": 10.5,
+    "fin": 11.6,
+    "texte": "Je vais te prouver le contraire."
+   },
+   {
+    "debut": 13.1,
+    "fin": 16.1,
+    "texte": "Un reine à venir, ça passe par un diplôme, tu ne gagneras jamais d'argent."
+   },
+   {
+    "debut": 20.0,
+    "fin": 21.3,
+    "texte": "Je viens d'être pris ASI."
+   },
+   {
+    "debut": 21.3,
+    "fin": 22.1,
+    "texte": "C'est combien par un ?"
+   },
+   {
+    "debut": 22.1,
+    "fin": 23.0,
+    "texte": "30 000 euros."
+   },
+   {
+    "debut": 24.3,
+    "fin": 26.0,
+    "texte": "C'est qui ça qui arrive en Lamborghini ?"
+   },
+   {
+    "debut": 28.0,
+    "fin": 30.5,
+    "texte": "Bon, c'est cool, mais j'ai trouvé un moyen plus éthique de faire de l'argent."
+   },
+   {
+    "debut": 30.5,
+    "fin": 34.0,
+    "texte": "En gros, c'est tout bête, on va poster des vidéos sur YouTube, mais pour enfants."
+   },
+   {
+    "debut": 34.0,
+    "fin": 35.2,
+    "texte": "Et oui, ça paye vraiment."
+   },
+   {
+    "debut": 35.2,
+    "fin": 38.2,
+    "texte": "Regardez, c'est ce que je me suis fait en une seule vidéo avec l'IA."
+   },
+   {
+    "debut": 38.2,
+    "fin": 39.2,
+    "texte": "Vas-y, je t'explique."
+   },
+   {
+    "debut": 39.2,
+    "fin": 42.0,
+    "texte": "Donc là, j'ai pris mon PC, mais ça marche aussi sur téléphone."
+   },
+   {
+    "debut": 42.0,
+    "fin": 45.2,
+    "texte": "Premièrement, vous allez sur YouTube et vous cherchez une comptine pour enfants."
+   },
+   {
+    "debut": 45.2,
+    "fin": 48.3,
+    "texte": "Regardez la vidéo, j'ai trouvé 158 millions de vues."
+   },
+   {
+    "debut": 48.3,
+    "fin": 52.2,
+    "texte": "Et pour info, pour un million de vues, YouTube paye entre 1 000 à 6 000 euros."
+   },
+   {
+    "debut": 52.2,
+    "fin": 54.0,
+    "texte": "Alors imaginez l'argent qui s'est fait."
+   },
+   {
+    "debut": 54.0,
+    "fin": 57.2,
+    "texte": "Donc là, vous cliquez sur la vidéo et vous prenez une capture d'écran."
+   },
+   {
+    "debut": 57.2,
+    "fin": 59.8,
+    "texte": "Ensuite, vous allez sur ChatGPT, vous mettez la photo"
+   },
+   {
+    "debut": 59.8,
+    "fin": 63.1,
+    "texte": "et vous lui demandez de faire un prompt détaillé à l'aide de cette image."
+   },
+   {
+    "debut": 63.1,
+    "fin": 64.1,
+    "texte": "Ok, là, c'est parfait."
+   },
+   {
+    "debut": 64.1,
+    "fin": 65.5,
+    "texte": "Vous copiez ce qu'il vous donne."
+   },
+   {
+    "debut": 65.5,
+    "fin": 68.3,
+    "texte": "Et ensuite, vous allez sur ce site-là qui s'appelle shortfy.io."
+   },
+   {
+    "debut": 68.3,
+    "fin": 70.8,
+    "texte": "Vous vous rendez sur le vidéo-générateur IA juste ici."
+   },
+   {
+    "debut": 70.8,
+    "fin": 74.7,
+    "texte": "Là, ici, vous collez ce que ChatGPT vous a donné et vous appuyez sur Générer."
+   },
+   {
+    "debut": 74.7,
+    "fin": 77.5,
+    "texte": "Et là, en quelques secondes, j'obtiens une vidéo complète"
+   },
+   {
+    "debut": 77.5,
+    "fin": 79.9,
+    "texte": "que j'ai plus qu'à ensuite poster sur YouTube et encaisser."
+   },
+   {
+    "debut": 79.9,
+    "fin": 83.2,
+    "texte": "Regardez, là, j'ai fait 200 000 vues, j'ai gagné 1 000 euros en une seule vidéo."
+   },
+   {
+    "debut": 83.2,
+    "fin": 88.5,
+    "texte": "C'est parti !"
+   }
+  ]
+ },
+ {
+  "id": "db8rdpf",
+  "fichier": "v26044gc0000db8rdpfog65u6q6scrbg.MP4",
+  "compte": "@ismael.viral",
+  "plateforme": "TikTok",
+  "niche": "argent, side business",
+  "format": "fond-vert",
+  "titre": "« Elle a supprimé la vidéo, je l'ai enregistrée » (la serveuse du McDo)",
+  "sujet": "Le créateur annonce qu'une fille a supprimé une vidéo qui faisait trop de vues, et qu'il l'a gardée. Dedans, une serveuse du McDo raconte comment un client gagne 1 000 € par jour avec des comptines faites par IA, et montre sa première vidéo : 905,77 €.",
+  "tags": [
+   "fruit interdit",
+   "vidéo supprimée",
+   "McDo",
+   "incrustation",
+   "905 €",
+   "histoire racontée"
+  ],
+  "hook": {
+   "dit": "Les gars, cette meuf a supprimé une sale vidéo parce qu'elle faisait trop de vues, mais je l'ai enregistrée. Regardez ça.",
+   "voit": "le créateur en incrustation (petit cadre) devant la vidéo d'une fille, rideau gris derrière elle. Texte : « 3 ANS au macdo pour découvrir ÇA ?!? 💀💀 »."
+  },
+  "texte_ecran": [
+   "3 ANS au macdo pour découvrir ÇA ?!? 💀💀"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 5,
+    "voit": "lui en gros plan, incrusté devant la vidéo de la fille.",
+    "entend": "le hook : « elle a supprimé la vidéo, je l'ai enregistrée, regardez ça »."
+   },
+   {
+    "debut": 5,
+    "fin": 27,
+    "voit": "la fille en plein écran, lui en petit en bas à gauche. Elle raconte avec les mains.",
+    "entend": "« ça fait 3 ans que je travaille au McDo, payée le SMIC, je pue la friture… un couple de 22-23 ans, j'écoute leur conversation : le mec poste des vidéos pour enfants sur YouTube et se fait presque 1 000 euros par jour. »"
+   },
+   {
+    "debut": 27,
+    "fin": 32,
+    "voit": "un écran « Estimated revenue €905.77 » à côté de son visage.",
+    "entend": "« j'ai commencé il y a une semaine, regardez ce que j'ai gagné avec ma première vidéo. »"
+   },
+   {
+    "debut": 32,
+    "fin": 45,
+    "voit": "son ordi filmé à la main : YouTube « chanson enfant », une comptine à 146 millions de vues, la description copiée, ChatGPT.",
+    "entend": "« tu vas sur YouTube, comptines pour enfants, tu colles toute la description, ChatGPT te fait un prompt. »"
+   },
+   {
+    "debut": 45,
+    "fin": 57,
+    "voit": "shortfy.io, « AI Video Generator », Générer, puis la vidéo (un bébé en salopette jaune).",
+    "entend": "« le générateur vidéo IA de shortfy.io, colle, génère, 3-4 minutes, ça te fait une vidéo dans ce style. »"
+   },
+   {
+    "debut": 57,
+    "fin": 64,
+    "voit": "les stats de la vidéo, puis la fin.",
+    "entend": "« t'as plus qu'à la poster et encaisser. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🙈",
+    "titre": "Le fruit interdit",
+    "texte": "« Elle a supprimé la vidéo, je l'ai enregistrée » : si c'était supprimé, c'est que ça vaut le coup. On veut voir."
+   },
+   {
+    "emoji": "🍟",
+    "titre": "« 3 ans au McDo »",
+    "texte": "Un texte qui raconte une vie en quatre mots. Beaucoup de gens se reconnaissent."
+   },
+   {
+    "emoji": "🗣️",
+    "titre": "Une vraie personne raconte",
+    "texte": "Ce n'est pas lui qui vend : c'est elle qui raconte son histoire. Lui écoute, comme nous."
+   },
+   {
+    "emoji": "👂",
+    "titre": "La conversation surprise",
+    "texte": "« J'écoute leur conversation » : un secret entendu au McDo. On est dans l'histoire."
+   },
+   {
+    "emoji": "💶",
+    "titre": "Un chiffre précis",
+    "texte": "905,77 € : le centime rend le chiffre vrai."
+   },
+   {
+    "emoji": "🖐️",
+    "titre": "L'ordi filmé à la main, 5 étapes",
+    "texte": "YouTube, copier, ChatGPT, Shortfy, poster. Chaque étape en 3 secondes."
+   },
+   {
+    "emoji": "📌",
+    "titre": "Lui reste en incrustation",
+    "texte": "Même quand on voit la fille ou l'ordi, son visage reste en petit en bas à gauche. C'est sa vidéo."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Les gars, ce mec a supprimé sa vidéo parce qu'elle faisait trop de vues. Je l'ai enregistrée, regardez.",
+    "comment": "La vidéo (fournie par Screen My Car) : quelqu'un raconte comment il a négocié 2 000 € sur une voiture grâce à un rapport. Toi en incrustation en bas à gauche. Texte : « 3 ANS à chercher une voiture pour découvrir ÇA ?!? 💀 ». Puis ton téléphone : le Screen My Car, le verdict, le chiffre."
+   },
+   {
+    "app": "msclipper",
+    "hook": "Cette meuf a supprimé sa vidéo parce qu'elle faisait trop de vues. Je l'ai enregistrée.",
+    "comment": "Dans la vidéo : une créatrice montre ses gains MS Clipper (payée à la vue). Texte : « 2 ANS à poster gratuitement pour découvrir ÇA ?!? 💀 ». Toi en incrustation, puis l'écran des gains."
+   }
+  ],
+  "note": "<b>À remarquer :</b> c'est la 4ᵉ vidéo de cette vidéothèque qui vend le même site (Shortfy) : le dessin animé, la cagoule, le couple, la serveuse. Un seul produit, quatre histoires différentes. C'est exactement ce qu'on demande aux créateurs.",
+  "ordre": 13,
+  "duree": 64.1,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 4.1,
+    "texte": "Les gars, cette meuf a supris une sale vidéo parce qu'elle faisait trop de vues, mais je l'ai enregistrée, regardez ça."
+   },
+   {
+    "debut": 4.7,
+    "fin": 6.1,
+    "texte": "Attendez, mais c'est une blague."
+   },
+   {
+    "debut": 6.3,
+    "fin": 9.6,
+    "texte": "Ça fait 3 ans que je travaille au McDo, je payais le SMIC à peine."
+   },
+   {
+    "debut": 9.7,
+    "fin": 13.2,
+    "texte": "À la fin de la journée, je pue la friture et c'est pas à la fin de journée aujourd'hui."
+   },
+   {
+    "debut": 13.4,
+    "fin": 15.0,
+    "texte": "Je suis en train de débarrasser les tables et tout."
+   },
+   {
+    "debut": 15.1,
+    "fin": 17.6,
+    "texte": "Il y avait un couple, ils avaient quoi, genre 22-23 ans ?"
+   },
+   {
+    "debut": 17.6,
+    "fin": 19.5,
+    "texte": "Et moi, petite chippie que je suis, j'écoute leur conversation."
+   },
+   {
+    "debut": 19.9,
+    "fin": 24.8,
+    "texte": "Et en gros, le mec poste des vidéos pour enfants sur YouTube et il se fait presque 1000 euros par jour."
+   },
+   {
+    "debut": 25.0,
+    "fin": 26.1,
+    "texte": "Oui, oui, 1000 euros par jour."
+   },
+   {
+    "debut": 26.4,
+    "fin": 27.3,
+    "texte": "Attendez, je vais vous expliquer."
+   },
+   {
+    "debut": 27.3,
+    "fin": 31.5,
+    "texte": "Parce que j'ai commencé à le faire il y a une semaine et regardez ce que j'ai gagné grâce à ma première vidéo."
+   },
+   {
+    "debut": 31.9,
+    "fin": 35.0,
+    "texte": "Première chose à faire, tu vas sur YouTube et tu regardes des comptines pour enfants."
+   },
+   {
+    "debut": 35.4,
+    "fin": 38.6,
+    "texte": "Une fois que c'est fait, tu en sélectionnes une et tu viens coller toute la description."
+   },
+   {
+    "debut": 39.3,
+    "fin": 43.7,
+    "texte": "Une fois que c'est fait, tu vas sur ChatGPT et tu lui demandes de te faire en prompte à partir de ce texte."
+   },
+   {
+    "debut": 44.1,
+    "fin": 45.1,
+    "texte": "Copie ce qu'il te donne."
+   },
+   {
+    "debut": 45.7,
+    "fin": 49.3,
+    "texte": "Et une fois que c'est fait, rentre-toi sur le génateur vidéo IA de short5.io."
+   },
+   {
+    "debut": 49.6,
+    "fin": 51.7,
+    "texte": "Colle ce que ChatGPT t'a dit et mets généré."
+   },
+   {
+    "debut": 52.2,
+    "fin": 53.9,
+    "texte": "Ça prend à peine 3-4 minutes."
+   },
+   {
+    "debut": 54.1,
+    "fin": 56.6,
+    "texte": "Une fois que c'est fait, ça te fait une vidéo dans ce style."
+   },
+   {
+    "debut": 57.3,
+    "fin": 59.5,
+    "texte": "T'as plus qu'à la poster et encaisser."
+   }
+  ]
+ },
+ {
+  "id": "db8kiaf",
+  "fichier": "v26044gc0000db8kiafog65n44nbv450.MP4",
+  "compte": "@kamevo.ai",
+  "plateforme": "TikTok",
+  "niche": "argent, IA",
+  "format": "duo",
+  "titre": "La formation à 500 € contre le site gratuit (filmé par un pote)",
+  "sujet": "Dans une chambre gaming violette, un mec regarde la vidéo d'un vendeur de formation à 500 €. Son pote le filme, ils discutent, et il montre sur son écran un site qui fait la même chose gratuitement : des comptines pour enfants, générées en 2 minutes.",
+  "tags": [
+   "pote qui filme",
+   "500 €",
+   "formation",
+   "duel",
+   "chambre gaming",
+   "dialogue"
+  ],
+  "hook": {
+   "dit": "Alors, le prix de la formation et de la rémunération YouTube, il devrait être à 500 €. — 500 € ? — Ouais, 500 €.",
+   "voit": "une chambre dans le noir, lumière violette, deux écrans. Sur le grand écran, la vidéo du vendeur de formation. Le créateur est de dos à son bureau, filmé par quelqu'un d'autre. Texte en bas : « Y penser me scam mdr…. 😂 »."
+  },
+  "texte_ecran": [
+   "Y penser me scam mdr…. 😂"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 16,
+    "voit": "le bureau, la vidéo du vendeur sur le grand écran, le créateur de dos.",
+    "entend": "le dialogue : « 500 € ? Ouais, 500 €. » « Je sais pas si c'est pas un peu cher. »"
+   },
+   {
+    "debut": 16,
+    "fin": 40,
+    "voit": "il se tourne vers son pote, montre l'écran, puis le site (shortkids.io).",
+    "entend": "« j'ai trouvé un site… shortkids.io… tu peux créer les vidéos. Tu m'as dit que c'était compliqué, mais je l'ai fait en deux minutes. T'en dis quoi ? »"
+   },
+   {
+    "debut": 40,
+    "fin": 50,
+    "voit": "retour sur la vidéo du vendeur, le pote réagit hors champ.",
+    "entend": "« Attends, quoi ? … Il a flippé. Tu vois que cette formation, c'est de la merde. »"
+   },
+   {
+    "debut": 50,
+    "fin": 68,
+    "voit": "YouTube, des comptines pour enfants, une vidéo à 146 millions de vues, le doigt sur le chiffre.",
+    "entend": "« je prends une vidéo qui a percé : 146 millions de vues. Je copie juste la description. »"
+   },
+   {
+    "debut": 68,
+    "fin": 85,
+    "voit": "le site : coller la description, choisir les personnages, le décor, l'ambiance (joyeux), la voix, le format, le titre.",
+    "entend": "« je colle, je choisis mes personnages, le décor, joyeux, la voix, le format, un titre, et je la poste sur YouTube. »"
+   },
+   {
+    "debut": 85,
+    "fin": 96,
+    "voit": "le tableau de bord du site, la vidéo prête, puis la chambre.",
+    "entend": "« c'est dingue… shortkids.io, les gens, pour ceux qui veulent. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🎥",
+    "titre": "Filmé par un pote",
+    "texte": "La caméra n'est pas face à lui : on est dans la pièce, on regarde par-dessus son épaule. Ça fait vrai."
+   },
+   {
+    "emoji": "💸",
+    "titre": "« 500 € ? »",
+    "texte": "Un prix qui choque, répété deux fois. On veut savoir s'il va payer."
+   },
+   {
+    "emoji": "😂",
+    "titre": "« Y penser me scam mdr »",
+    "texte": "Le texte annonce la couleur : quelqu'un essaie de l'arnaquer. On veut voir comment il s'en sort."
+   },
+   {
+    "emoji": "🆚",
+    "titre": "Le duel",
+    "texte": "La formation à 500 € contre le site gratuit. Un camp contre l'autre, c'est facile à suivre."
+   },
+   {
+    "emoji": "🟣",
+    "titre": "Le décor",
+    "texte": "Lumière violette, double écran, tapis de souris : on comprend tout de suite « c'est un mec qui s'y connaît »."
+   },
+   {
+    "emoji": "🗣️",
+    "titre": "Le dialogue",
+    "texte": "Deux voix, des vraies réactions (« attends, quoi ? »). Pas un monologue récité."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Le garage me demande 180 € pour vérifier la voiture avant d'acheter. — 180 € ? — Ouais, 180 €.",
+    "comment": "Un pote te filme dans ta chambre ou ta voiture, texte : « Y penser me scam mdr 😂 ». Tu lui montres l'annonce sur ton écran, tu fais un Screen My Car, et le verdict apparaît : NÉGOCIER, 3 défauts repérés. Lui : « attends, quoi ? »."
+   },
+   {
+    "app": "revizio",
+    "hook": "Les cours particuliers, c'est 40 € de l'heure. — 40 € ? — Ouais, 40 €.",
+    "comment": "Ton pote te filme à ton bureau. Tu lui montres Revizio : la photo du cours, les fiches, le quiz. Lui : « attends, quoi ? ». Texte : « Y penser me scam mdr 😂 »."
+   }
+  ],
+  "ordre": 14,
+  "duree": 96.3,
+  "transcription": [
+   {
+    "debut": 0.1,
+    "fin": 5.1,
+    "texte": "Alors sur le prix de la formation et de la rémunération YouTube, il devrait être 500€."
+   },
+   {
+    "debut": 5.1,
+    "fin": 7.1,
+    "texte": "500€ ?"
+   },
+   {
+    "debut": 7.1,
+    "fin": 9.1,
+    "texte": "Ouais, 500€."
+   },
+   {
+    "debut": 9.1,
+    "fin": 11.1,
+    "texte": "Il y a un truc que j'ai vu il n'y a pas longtemps."
+   },
+   {
+    "debut": 11.1,
+    "fin": 13.1,
+    "texte": "Je ne sais pas si c'est un peu cher, 500€ ou quoi."
+   },
+   {
+    "debut": 13.1,
+    "fin": 16.1,
+    "texte": "Après, je sais que c'est un mot d'immel, c'est nouveau, etc."
+   },
+   {
+    "debut": 16.1,
+    "fin": 20.1,
+    "texte": "Mais j'ai trouvé un site, ok ?"
+   },
+   {
+    "debut": 20.1,
+    "fin": 23.1,
+    "texte": "Genre, je vais te dire comment ça s'appelle ?"
+   },
+   {
+    "debut": 23.1,
+    "fin": 27.1,
+    "texte": "shortkid.fr et genre .io"
+   },
+   {
+    "debut": 27.1,
+    "fin": 30.1,
+    "texte": "Tu peux aller dessus et tu peux créer les vidéos et tout."
+   },
+   {
+    "debut": 30.1,
+    "fin": 35.1,
+    "texte": "Tu m'as dit que c'était compliqué mais avec ça, la dernière fois que j'ai testé, je l'ai créé en deux mondes."
+   },
+   {
+    "debut": 35.1,
+    "fin": 40.1,
+    "texte": "Je vais sur YouTube, je rentre le texte, les paroles, etc. et je peux le faire."
+   },
+   {
+    "debut": 40.1,
+    "fin": 42.1,
+    "texte": "T'en dis quoi de ça ?"
+   },
+   {
+    "debut": 42.1,
+    "fin": 44.1,
+    "texte": "Attends quoi ?"
+   },
+   {
+    "debut": 44.1,
+    "fin": 46.1,
+    "texte": "Short skills, je ne sais pas."
+   },
+   {
+    "debut": 46.1,
+    "fin": 48.1,
+    "texte": "Il a flippé."
+   },
+   {
+    "debut": 48.1,
+    "fin": 50.1,
+    "texte": "Tu vois que cette formation, c'est de la merde."
+   },
+   {
+    "debut": 50.1,
+    "fin": 56.1,
+    "texte": "Je fais continue pour enfants."
+   },
+   {
+    "debut": 56.1,
+    "fin": 58.1,
+    "texte": "Je prends une vidéo qui a percé."
+   },
+   {
+    "debut": 58.1,
+    "fin": 60.1,
+    "texte": "Genre là, elle est 68 millions de vies."
+   },
+   {
+    "debut": 60.1,
+    "fin": 62.1,
+    "texte": "Alors, elle est 146 millions de vies."
+   },
+   {
+    "debut": 62.1,
+    "fin": 64.1,
+    "texte": "Ça devrait être qu'il y a tout le monde m'a connu."
+   },
+   {
+    "debut": 64.1,
+    "fin": 68.0,
+    "texte": "Oui, après je vais là, je fais ça."
+   },
+   {
+    "debut": 68.0,
+    "fin": 72.0,
+    "texte": "Je copie juste la description ici."
+   },
+   {
+    "debut": 72.0,
+    "fin": 73.0,
+    "texte": "Hop, je fais ça, je la copine."
+   },
+   {
+    "debut": 73.0,
+    "fin": 75.0,
+    "texte": "Hop, je retourne sur shortkid."
+   },
+   {
+    "debut": 75.0,
+    "fin": 76.0,
+    "texte": "La code juste ici."
+   },
+   {
+    "debut": 76.0,
+    "fin": 77.0,
+    "texte": "Juste à choisir nos personnages."
+   },
+   {
+    "debut": 77.0,
+    "fin": 78.0,
+    "texte": "Le décor."
+   },
+   {
+    "debut": 78.0,
+    "fin": 80.0,
+    "texte": "Voilà, si je veux que ça soit joyeux."
+   },
+   {
+    "debut": 80.0,
+    "fin": 82.0,
+    "texte": "La voix, le format."
+   },
+   {
+    "debut": 82.0,
+    "fin": 83.0,
+    "texte": "Je mets un titre à ma vidéo."
+   },
+   {
+    "debut": 83.0,
+    "fin": 85.0,
+    "texte": "Et après, je la pose sur YouTube qui est déjà."
+   },
+   {
+    "debut": 85.0,
+    "fin": 86.0,
+    "texte": "C'est dingue."
+   },
+   {
+    "debut": 86.0,
+    "fin": 87.0,
+    "texte": "J'ai la rémunération en ce moment."
+   },
+   {
+    "debut": 87.0,
+    "fin": 88.0,
+    "texte": "Alors, c'est 1000 fois 1000 TikTok."
+   },
+   {
+    "debut": 88.0,
+    "fin": 89.0,
+    "texte": "D'accord ?"
+   },
+   {
+    "debut": 89.0,
+    "fin": 90.0,
+    "texte": "J'ai une merde."
+   },
+   {
+    "debut": 90.0,
+    "fin": 92.0,
+    "texte": "Shortkids.io les gens pour ce qu'ils veulent."
+   }
+  ]
+ },
+ {
+  "id": "db6co0n",
+  "fichier": "v26044gc0000db6co0nog65nq3nlg4ig.MP4",
+  "compte": "@maydit4",
+  "plateforme": "TikTok",
+  "niche": "courses, budget",
+  "format": "fond-vert",
+  "reprise": true,
+  "titre": "184 € de courses et rien à manger (la reprise, version 1)",
+  "sujet": "On repart d'une vidéo virale : un mec râle, 184 € de courses et rien à manger. Puis la créatrice prend le relais : « c'est exactement pour ça que je me suis mise sur Pimzi », et montre l'app sur son ordi. 7 dîners pour 35 €.",
+  "tags": [
+   "vidéo reprise",
+   "coup de gueule",
+   "184 €",
+   "ordi filmé à la main",
+   "7 dîners pour 35 €"
+  ],
+  "hook": {
+   "dit": "La famille, un truc que je ne comprends pas : soit je ne sais pas faire les courses, soit les courses sont devenues trop, trop chères pour rien.",
+   "voit": "un couple face caméra : lui, barbu, râle en agitant la main ; elle, à côté, écoute. Bandeau blanc en haut : « 184€ de courses pour au final ne pas savoir quoi manger »."
+  },
+  "texte_ecran": [
+   "184€ de courses pour au final ne pas savoir quoi manger"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 21,
+    "voit": "la vidéo reprise : le couple, lui qui râle. Le bandeau « 184 € » reste en haut.",
+    "entend": "« la famille, un truc que je ne comprends pas… bip, bip, bip, 184 euros… je rentre, je range, et il n'y a rien à manger. Je vais manger quoi ? »"
+   },
+   {
+    "debut": 21,
+    "fin": 41,
+    "voit": "la créatrice seule, gros plan, bandeau dans les cheveux, fond clair.",
+    "entend": "« c'est exactement pour ça que je me suis mise sur Pimzi. J'en avais marre : super cher, et à la fin que dalle dans le caddie. Les petites courses à 3 euros, à la fin de la semaine, t'en as pour ultra cher. »"
+   },
+   {
+    "debut": 41,
+    "fin": 63,
+    "voit": "toujours elle, elle explique avec les mains.",
+    "entend": "« il te prépare toutes tes recettes, tous les ingrédients, t'as tout à l'avance. Niveau budget, tu divises par 4. Je vous montre. »"
+   },
+   {
+    "debut": 63,
+    "fin": 94,
+    "voit": "son ordi filmé à la main, l'app écran par écran : « Qu'est-ce qui t'amène ? », « Tu cuisines pour qui ? 2 », le budget 70 € → 35 €, allergies, « quelle vibe pour tes dîners », « ta cuisine, version réelle » (elle ajoute le blender).",
+    "entend": "« crée ton menu de la semaine… 2 personnes… Leclerc… le moins cher… je mange de tout… on a acheté un blender, hop, je le rajoute. »"
+   },
+   {
+    "debut": 94,
+    "fin": 118,
+    "voit": "« Pimzi compose ta semaine », puis « Tes 7 dîners chez E.Leclerc pour 35 € cette semaine », et la liste des recettes qu'elle fait défiler du doigt.",
+    "entend": "« 7 dîners chez Leclerc pour 35 euros. Si tu n'aimes pas une recette, tu régénères. Game changer, ça m'a changé ma vie. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🔁",
+    "titre": "On part d'une vidéo qui a déjà marché",
+    "texte": "Le mec qui râle a déjà fait des millions de vues. On réutilise son hook, pas besoin d'en inventer un."
+   },
+   {
+    "emoji": "💶",
+    "titre": "« 184 € » dans le bandeau",
+    "texte": "Un chiffre précis en haut de l'écran pendant 20 secondes. On le lit même sans le son."
+   },
+   {
+    "emoji": "😤",
+    "titre": "Un vrai coup de gueule",
+    "texte": "Il ne vend rien, il râle. On est d'accord avec lui, donc on écoute la suite."
+   },
+   {
+    "emoji": "🪝",
+    "titre": "« C'est exactement pour ça que… »",
+    "texte": "La première phrase de la créatrice colle au problème du mec. La solution arrive sans casser le rythme."
+   },
+   {
+    "emoji": "🖐️",
+    "titre": "L'ordi filmé à la main",
+    "texte": "Chaque écran de l'app est montré, le doigt dessus, en 30 secondes. On voit que c'est facile."
+   },
+   {
+    "emoji": "🧾",
+    "titre": "« 7 dîners pour 35 € »",
+    "texte": "Le résultat tient en une phrase et un chiffre."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "(vidéo reprise : quelqu'un qui râle sur une voiture d'occasion tombée en panne) puis : « C'est exactement pour ça que je fais un Screen My Car avant d'acheter. »",
+    "comment": "On garde une vidéo virale d'un acheteur qui s'est fait avoir (fournie par Screen My Car). Bandeau en haut : « 4 500 € de voiture, en panne au bout de 3 semaines ». Puis toi : « c'est exactement pour ça que… », et ton téléphone à la main : l'annonce, le verdict, les défauts, le prix négocié."
+   },
+   {
+    "app": "revizio",
+    "hook": "(vidéo reprise : un élève qui craque la veille d'un exam) puis : « C'est exactement pour ça que je révise avec Revizio. »",
+    "comment": "Bandeau : « 6 heures de révisions pour un 7/20 ». Puis toi, puis l'écran : ton cours envoyé, les fiches, le quiz, le score."
+   }
+  ],
+  "note": "<b>Règle MS Clipper :</b> une vidéo reprise (déjà virale), c'est seulement si c'est nous qui la donnons au créateur. Et notre version fait 30 à 60 secondes, pas 2 minutes.",
+  "ordre": 15,
+  "duree": 118.3,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 21.0,
+    "texte": "C'est exactement pour ça que je me suis mise sur Pimzi,"
+   },
+   {
+    "debut": 21.0,
+    "fin": 23.1,
+    "texte": "parce qu'en fait, j'en avais marre de faire mes courses"
+   },
+   {
+    "debut": 23.1,
+    "fin": 24.7,
+    "texte": "et j'en avais pour super cher,"
+   },
+   {
+    "debut": 25.0,
+    "fin": 27.2,
+    "texte": "pour à la fin avoir dans ton caddie que dalle en fait."
+   },
+   {
+    "debut": 27.9,
+    "fin": 29.2,
+    "texte": "Et après, deux jours, trois jours après,"
+   },
+   {
+    "debut": 29.2,
+    "fin": 30.2,
+    "texte": "t'es obligé de refaire des courses."
+   },
+   {
+    "debut": 30.5,
+    "fin": 31.6,
+    "texte": "Et même un truc que j'ai arrêté,"
+   },
+   {
+    "debut": 31.9,
+    "fin": 33.4,
+    "texte": "c'est de faire des petites courses dans les supermarchés"
+   },
+   {
+    "debut": 33.4,
+    "fin": 36.2,
+    "texte": "où tu te dis, c'est que 3 euros, c'est que 2 euros."
+   },
+   {
+    "debut": 36.3,
+    "fin": 37.6,
+    "texte": "Et à la fin, quand tu cumules de la semaine,"
+   },
+   {
+    "debut": 37.7,
+    "fin": 39.0,
+    "texte": "vu que t'es allé plusieurs fois faire les courses,"
+   },
+   {
+    "debut": 39.5,
+    "fin": 41.1,
+    "texte": "à la fin, t'en as pour ultra cher."
+   },
+   {
+    "debut": 41.8,
+    "fin": 43.6,
+    "texte": "Et maintenant, du coup, sur Pimzi,"
+   },
+   {
+    "debut": 43.7,
+    "fin": 45.3,
+    "texte": "ce que j'aime bien, c'est qu'en fait, il te prépare."
+   },
+   {
+    "debut": 45.4,
+    "fin": 47.7,
+    "texte": "Je vais vous montrer, il te prépare toutes tes recettes,"
+   },
+   {
+    "debut": 47.9,
+    "fin": 49.9,
+    "texte": "en fait, exactement tous les ingrédients,"
+   },
+   {
+    "debut": 50.2,
+    "fin": 51.2,
+    "texte": "ce que tu peux cuisiner."
+   },
+   {
+    "debut": 51.5,
+    "fin": 52.6,
+    "texte": "En fait, déjà, t'as tout à l'avance."
+   },
+   {
+    "debut": 52.8,
+    "fin": 55.1,
+    "texte": "Donc, t'as un peu ce côté batch cooking que tu peux faire."
+   },
+   {
+    "debut": 55.1,
+    "fin": 56.0,
+    "texte": "Donc, c'est trop stylé."
+   },
+   {
+    "debut": 56.5,
+    "fin": 60.0,
+    "texte": "Et en plus de ça, niveau budget, ça n'a rien à voir."
+   },
+   {
+    "debut": 60.2,
+    "fin": 62.5,
+    "texte": "Tu divises en 4, en fait, les courses que tu fais d'habitude."
+   },
+   {
+    "debut": 62.7,
+    "fin": 63.0,
+    "texte": "Je vous montre."
+   },
+   {
+    "debut": 63.2,
+    "fin": 65.2,
+    "texte": "Crée ton menu de la semaine."
+   },
+   {
+    "debut": 65.6,
+    "fin": 68.0,
+    "texte": "Là, bon, forcément, on décide de dépenser moins aux courses."
+   },
+   {
+    "debut": 68.2,
+    "fin": 69.5,
+    "texte": "On va dire que c'est pour 2 personnes,"
+   },
+   {
+    "debut": 69.6,
+    "fin": 70.2,
+    "texte": "parce que nous, on est 2."
+   },
+   {
+    "debut": 70.9,
+    "fin": 72.7,
+    "texte": "Là, je fais mes courses chez Leclerc."
+   },
+   {
+    "debut": 72.8,
+    "fin": 73.7,
+    "texte": "Là, tu choisis ton budget."
+   },
+   {
+    "debut": 73.8,
+    "fin": 75.9,
+    "texte": "Donc, c'est vraiment à toi de voir en fonction de ta semaine."
+   },
+   {
+    "debut": 76.0,
+    "fin": 78.1,
+    "texte": "On va dire le moins cher en ce moment."
+   },
+   {
+    "debut": 78.3,
+    "fin": 78.8,
+    "texte": "Nous, c'est comme ça."
+   },
+   {
+    "debut": 78.9,
+    "fin": 80.6,
+    "texte": "Ton régime alimentaire, je mange de tout."
+   },
+   {
+    "debut": 81.3,
+    "fin": 82.8,
+    "texte": "Là, pas d'allergie, pas d'intolérance."
+   },
+   {
+    "debut": 82.8,
+    "fin": 83.7,
+    "texte": "Des aliments que tu détestes."
+   },
+   {
+    "debut": 83.7,
+    "fin": 85.0,
+    "texte": "Donc, ça, tu sélectionnes comme tu veux."
+   },
+   {
+    "debut": 85.7,
+    "fin": 86.4,
+    "texte": "Là, tu choisis un peu."
+   },
+   {
+    "debut": 86.5,
+    "fin": 88.6,
+    "texte": "Moi, personnellement, je préfère laisser choisir Pimzi."
+   },
+   {
+    "debut": 88.7,
+    "fin": 90.3,
+    "texte": "Là, tu choisis, en fait, ce que tu as chez toi."
+   },
+   {
+    "debut": 90.9,
+    "fin": 92.8,
+    "texte": "Donc, nous, on a acheté un blender il n'y a pas longtemps."
+   },
+   {
+    "debut": 93.1,
+    "fin": 93.8,
+    "texte": "Hop, je le rajoute."
+   },
+   {
+    "debut": 94.4,
+    "fin": 96.7,
+    "texte": "Et là, en fait, tu vois, il y a Pimzi qui te compose toute ta semaine"
+   },
+   {
+    "debut": 96.7,
+    "fin": 98.1,
+    "texte": "et qui te propose plus de 600 recettes."
+   },
+   {
+    "debut": 98.3,
+    "fin": 100.4,
+    "texte": "Et tu vas voir qui va te faire le choix des 7 dîners."
+   },
+   {
+    "debut": 100.5,
+    "fin": 102.3,
+    "texte": "Donc, 7 dîners chez Leclerc pour 35 euros."
+   },
+   {
+    "debut": 102.7,
+    "fin": 105.4,
+    "texte": "Et pour 35 euros, tu peux avoir tous ces repas."
+   },
+   {
+    "debut": 106.0,
+    "fin": 107.4,
+    "texte": "Tu peux faire tous ces repas, en fait."
+   },
+   {
+    "debut": 107.7,
+    "fin": 109.5,
+    "texte": "Et s'il y a des recettes que tu n'aimes pas,"
+   },
+   {
+    "debut": 109.9,
+    "fin": 111.2,
+    "texte": "tu régénères, en fait, la semaine."
+   },
+   {
+    "debut": 111.2,
+    "fin": 113.7,
+    "texte": "Et là, ils te ressortent d'autres recettes."
+   },
+   {
+    "debut": 114.0,
+    "fin": 116.0,
+    "texte": "Mais je trouve ça vraiment incroyable."
+   },
+   {
+    "debut": 116.2,
+    "fin": 117.2,
+    "texte": "Enfin, moi, c'est game changer."
+   },
+   {
+    "debut": 117.4,
+    "fin": 118.1,
+    "texte": "Ça m'a changé ma vie."
+   }
+  ]
+ },
+ {
+  "id": "db6hl0n",
+  "fichier": "v26044gc0000db6hl0nog65jlm6i89c0.MP4",
+  "compte": "@marlene.tips8888",
+  "plateforme": "TikTok",
+  "niche": "courses, budget",
+  "format": "fond-vert",
+  "reprise": true,
+  "titre": "184 € de courses et rien à manger (la reprise, version 2 : la réaction)",
+  "sujet": "La même vidéo virale (le mec qui râle, 184 € de courses), mais cette fois la créatrice annonce « Réaction dans quelques secondes », raconte sa vie d'étudiante, puis montre l'app sur son téléphone, en petit à côté d'elle.",
+  "tags": [
+   "vidéo reprise",
+   "réaction",
+   "histoire d'étudiante",
+   "téléphone en incrustation",
+   "même hook recyclé"
+  ],
+  "hook": {
+   "dit": "La famille, un truc que je ne comprends pas : soit je ne sais pas faire les courses, soit les courses sont devenues trop, trop chères pour rien.",
+   "voit": "le couple de la vidéo virale (lui, barbu, qui râle). Par-dessus, un bandeau noir : « Réaction dans quelques secondes », qui cache le bandeau d'origine « 184 € de courses… »."
+  },
+  "texte_ecran": [
+   "Réaction dans quelques secondes",
+   "(dessous, le bandeau d'origine : 184€ de courses pour au final ne pas savoir quoi manger)"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 34,
+    "voit": "la vidéo reprise, le couple, le bandeau « Réaction dans quelques secondes ».",
+    "entend": "le mec : « 184 euros… je m'attendais à deux chiffres, elle m'en sort trois… il n'y a rien à manger… je suis célibataire, pas d'enfant, c'est une dinguerie. »"
+   },
+   {
+    "debut": 34,
+    "fin": 52,
+    "voit": "la créatrice, en sweat, dans sa chambre (un tableau au mur), gros plan.",
+    "entend": "« posée tranquillement sur mon lit, je vois cette vidéo, je suis obligée de réagir. Ce qu'il dit, c'est extrêmement réel. J'ai été étudiante : quand tu sors de chez tes parents, t'as ton argent, ta liberté… »"
+   },
+   {
+    "debut": 52,
+    "fin": 72,
+    "voit": "elle, beaucoup de gestes, plan serré.",
+    "entend": "« je faisais comme lui, je prenais tout… je me suis dit, ça va être le festin. Que nenni : tu passes à la caisse, tout ton salaire étudiant… Il y a tellement de monde qui font encore leurs courses comme ça : arrêtez. »"
+   },
+   {
+    "debut": 72,
+    "fin": 96,
+    "voit": "l'app sur son téléphone, en petit à sa gauche (captures : « Où fais-tu tes courses ? » avec les logos des magasins, budget 50 €, « Pimzi compose ta semaine », la liste).",
+    "entend": "« j'ai découvert un truc de ouf, Pimzi : tu mets ce que t'aimes, ton magasin, ton budget, et ça te calcule tes repas de la semaine. Ta liste est reliée aux prix du magasin : impossible de dépasser ton budget. »"
+   },
+   {
+    "debut": 96,
+    "fin": 101,
+    "voit": "elle, dernier plan, le doigt levé.",
+    "entend": "« ça va changer votre vie, il faut absolument essayer. Merci. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "⏳",
+    "titre": "« Réaction dans quelques secondes »",
+    "texte": "Un bandeau qui promet quelque chose : on reste pour voir la réaction."
+   },
+   {
+    "emoji": "🔁",
+    "titre": "Le même hook, une autre fille",
+    "texte": "Deux comptes ont repris la même vidéo. Quand un hook marche, on le recycle."
+   },
+   {
+    "emoji": "🛏️",
+    "titre": "« Posée sur mon lit, je vois cette vidéo »",
+    "texte": "Elle raconte comment elle est tombée dessus. On est dans sa chambre avec elle, pas dans une pub."
+   },
+   {
+    "emoji": "📖",
+    "titre": "Son histoire d'étudiante",
+    "texte": "« Je faisais comme lui… que nenni. » Une histoire vraie, avec une chute, avant de parler de l'app."
+   },
+   {
+    "emoji": "📱",
+    "titre": "L'app en petit, à côté d'elle",
+    "texte": "Elle reste à l'écran, l'app est en incrustation. C'est exactement notre façon de faire."
+   },
+   {
+    "emoji": "🚫",
+    "titre": "« Impossible de dépasser ton budget »",
+    "texte": "La promesse tient en une phrase simple. Pas de liste de fonctions."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "(la même vidéo reprise qu'en version 1) avec le bandeau : « Réaction dans quelques secondes »",
+    "comment": "Puis toi : « posé sur mon lit, je vois cette vidéo… moi aussi j'ai failli me faire avoir pour ma première voiture ». Ton histoire en 15 secondes, puis Screen My Car en incrustation en bas à gauche : l'annonce, le verdict, et une phrase simple : « impossible de te faire avoir sur une annonce »."
+   },
+   {
+    "app": "msclipper",
+    "hook": "(une vidéo virale d'un créateur qui montre ses gains) avec le bandeau : « Réaction dans quelques secondes »",
+    "comment": "Puis toi : ton histoire (tu postais pour rien), puis MS Clipper en incrustation : la campagne, tes vues, tes gains. Une phrase simple : « tu es payé à la vue, point »."
+   }
+  ],
+  "note": "<b>Compare avec la version 1 :</b> même vidéo reprise, même app, deux montages différents (l'ordi filmé à la main, ou le téléphone en incrustation). Les deux marchent.",
+  "ordre": 16,
+  "duree": 101.3,
+  "transcription": [
+   {
+    "debut": 0.3,
+    "fin": 2.9,
+    "texte": "La famille, un truc que je ne comprends pas, c'est soit je ne sais pas faire les courses,"
+   },
+   {
+    "debut": 3.3,
+    "fin": 5.2,
+    "texte": "ou soit les courses sont devenues trop trop chères pour rien."
+   },
+   {
+    "debut": 5.5,
+    "fin": 7.5,
+    "texte": "Là, je suis parti faire les courses, je prends mon petit caddie,"
+   },
+   {
+    "debut": 8.1,
+    "fin": 10.5,
+    "texte": "j'achète ce que j'ai acheté, je fais tous les rayons, je prends ce que j'ai envie."
+   },
+   {
+    "debut": 11.2,
+    "fin": 15.2,
+    "texte": "J'arrive à la caisse, bip, bip, bip, bip, la mève me dit quoi ? 184 euros."
+   },
+   {
+    "debut": 15.5,
+    "fin": 17.7,
+    "texte": "Je commence à ce quoi le délire ? Comment ça, 184 ?"
+   },
+   {
+    "debut": 17.7,
+    "fin": 19.4,
+    "texte": "Déjà, je m'attendais à deux chiffres, elle m'en sort trois."
+   },
+   {
+    "debut": 19.8,
+    "fin": 20.4,
+    "texte": "Déjà, je ne suis pas content."
+   },
+   {
+    "debut": 20.7,
+    "fin": 23.1,
+    "texte": "Je rentre chez moi maintenant, je range les courses,"
+   },
+   {
+    "debut": 24.3,
+    "fin": 28.1,
+    "texte": "et c'est là que je me dis, en fait, il n'y a rien à manger là, je vais manger quoi ?"
+   },
+   {
+    "debut": 28.1,
+    "fin": 30.0,
+    "texte": "Vous savez, je vais manger quoi ?"
+   },
+   {
+    "debut": 30.0,
+    "fin": 34.1,
+    "texte": "Alors que je viens de payer 184 euros, je suis célibataire, je n'ai pas d'enfant, ça c'est une dingue."
+   },
+   {
+    "debut": 34.2,
+    "fin": 38.5,
+    "texte": "Posée tranquillement sur mon lit et je vois cette vidéo, je suis obligée de réagir."
+   },
+   {
+    "debut": 38.6,
+    "fin": 40.6,
+    "texte": "Ce qu'il dit là, c'est extrêmement réel."
+   },
+   {
+    "debut": 40.8,
+    "fin": 41.8,
+    "texte": "On a tous fait nos courses comme ça."
+   },
+   {
+    "debut": 42.0,
+    "fin": 44.5,
+    "texte": "J'ai été étudiante, votre sortie de tes parents, c'est un délire."
+   },
+   {
+    "debut": 44.8,
+    "fin": 48.4,
+    "texte": "Tu as ton argent, tu as ta liberté, tu n'as personne pour vérifier ce que tu fais,"
+   },
+   {
+    "debut": 48.4,
+    "fin": 51.8,
+    "texte": "ça y est, tu as ton libre arbitre et tu peux l'exercer comme tu veux."
+   },
+   {
+    "debut": 52.2,
+    "fin": 57.6,
+    "texte": "Je faisais comme lui, je mettais tout dans les rayons, je prenais tout, tout dans les caddies, tout ce que j'avais en vie."
+   },
+   {
+    "debut": 57.6,
+    "fin": 61.4,
+    "texte": "Je me suis dit, putain, je vais pouvoir bouffer ce que je veux, quand je veux et tout, ça va être le festin."
+   },
+   {
+    "debut": 62.3,
+    "fin": 66.1,
+    "texte": "Que nenni, déjà tu passes à la caisse, tout ton salaire étudiant, tu n'as plus rien."
+   },
+   {
+    "debut": 66.2,
+    "fin": 68.4,
+    "texte": "Et pareil, quand tu rentres chez toi, exactement, tu n'as rien à bouffer."
+   },
+   {
+    "debut": 68.5,
+    "fin": 71.7,
+    "texte": "Il y a tellement de monde qui font encore leurs courses comme ça, mais arrêtez."
+   },
+   {
+    "debut": 71.9,
+    "fin": 75.2,
+    "texte": "J'ai découvert un truc de ouf, c'est un site internet, ça s'appelle Pimsy."
+   },
+   {
+    "debut": 75.2,
+    "fin": 80.9,
+    "texte": "Tu mets tout ce que tu aimes, le magasin où tu fais tes courses, très important, ton budget, très important également."
+   },
+   {
+    "debut": 81.2,
+    "fin": 84.9,
+    "texte": "Et en fait, ça te calcule tous tes repas à la semaine en fonction de ton budget."
+   },
+   {
+    "debut": 84.9,
+    "fin": 90.7,
+    "texte": "Et en fonction du magasin où tu fais tes courses, hyper important, parce qu'en fait, ta liste de courses, elle est reliée au prix du magasin que tu as choisi."
+   },
+   {
+    "debut": 91.3,
+    "fin": 94.5,
+    "texte": "Du coup, c'est impossible que tu dépasses le budget que tu avais mis à la base, en fait."
+   },
+   {
+    "debut": 95.0,
+    "fin": 96.3,
+    "texte": "Et c'est juste un truc de ouf."
+   },
+   {
+    "debut": 96.4,
+    "fin": 101.1,
+    "texte": "Les gars, ça va changer votre vie, il faut absolument essayer, surtout avec les temps d'aujourd'hui, ça peut sauver."
+   },
+   {
+    "debut": 101.1,
+    "fin": 102.1,
+    "texte": "Merci."
+   }
+  ]
+ },
+ {
+  "id": "db8vc17",
+  "fichier": "v26300gc0001db8vc17og65iicq0km9g.MP4",
+  "compte": "@emilioabz",
+  "plateforme": "TikTok",
+  "niche": "argent, IA, humour",
+  "format": "duo",
+  "titre": "Le dialogue avec Claude (la flemme contre les 27 000 €)",
+  "sujet": "Un sketch à deux voix : lui, avachi, et Claude (l'IA, en vocal) au-dessus de sa tête. Il veut copier la vidéo de Yomi Denzel (« 27 000 € avec des PDF »). Claude crée le produit, la page de vente, le PDF… et lui a la flemme de faire la promo : il attend GTA 6.",
+  "tags": [
+   "IA",
+   "sketch",
+   "Claude",
+   "Yomi Denzel",
+   "flemme",
+   "écran coupé en deux",
+   "humour"
+  ],
+  "hook": {
+   "dit": "Claude, il y a Yomi Denzel, il vient de sortir une nouvelle vidéo. — Business en ligne hyper rentable qui génère 27 000 euros. — Ah, intéressant, ça.",
+   "voit": "l'écran coupé en deux : en haut, l'interface vocale de Claude (« Bonjour, Jean-Célestin », le texte qu'il dicte s'écrit) ; en bas, lui, casquette à l'envers, lunettes orange, une caméra sur l'épaule. Puis la miniature YouTube « C'EST OUF · + 27 000 € »."
+  },
+  "texte_ecran": [
+   "Bonjour, Jean-Célestin (l'écran de Claude)",
+   "la miniature YouTube : C'EST OUF · + 27 000 €",
+   "les mots-clés en jaune dans les sous-titres : Business en ligne · hyper rentable · 27 000 € · Arrête · je suis au RSA",
+   "les réponses de Claude, écrites en haut"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 10,
+    "voit": "l'écran de Claude en haut, lui en bas ; la miniature YouTube de Yomi Denzel.",
+    "entend": "« Claude, Yomi Denzel vient de sortir une vidéo : business hyper rentable, 27 000 euros. — Tu veux que j'aille regarder ? — Dépêche-toi. »"
+   },
+   {
+    "debut": 10,
+    "fin": 24,
+    "voit": "les réponses de Claude écrites en haut (« comme aider les parents à faire dormir leur bébé », « Il utilise Claude pour trouver la niche »).",
+    "entend": "Claude résume. Lui : « moi aussi je vais imprimer 27 000 balles en vendant des PDF. » Claude : « ambitieux. Mais l'argent viendra du sujet qu'on choisit, pas d'un chiffre qu'on se fixe. »"
+   },
+   {
+    "debut": 24,
+    "fin": 46,
+    "voit": "lui qui s'agace, puis le tableau de bord (« Bonjour, Emilio », 10 visiteurs, 1 vente, 490 €) et le produit « Dodo Paisible » à 19 €.",
+    "entend": "« garde la même niche que lui… arrête de parler, crée le business qui imprime 27 000 euros. — Le produit Dodo Paisible à 19 euros et sa page de vente sont créés en brouillon. »"
+   },
+   {
+    "debut": 46,
+    "fin": 64,
+    "voit": "la page de vente (la maman qui lit une histoire), le PDF « Dodo Paisible, le guide en 5 étapes », le fichier à télécharger.",
+    "entend": "« crée le PDF, comme ça les gens ne demanderont pas le remboursement. — Le PDF est prêt. — OK, j'ai upload le PDF qui imprime 27K. Elle est où, la thune ? »"
+   },
+   {
+    "debut": 64,
+    "fin": 90,
+    "voit": "lui, de plus en plus avachi.",
+    "entend": "« — Il manque la partie trafic. Yomi recommandait un shout-out chez un petit YouTubeur. — Faut payer ? J'ai pas de thune, je suis au RSA. — Il en donnait une gratuite : le contenu organique sur TikTok. — Ouais mais j'ai la flemme, il y a GTA 6 qui sort. — Je comprends, GTA 6, ça va tout dévorer. »"
+   },
+   {
+    "debut": 90,
+    "fin": 107,
+    "voit": "lui qui s'en va, la chaise vide.",
+    "entend": "« — Il me déçoit, Yomi. Moi aussi je voulais 27 000 euros. — C'est le travail de promotion qu'il a fait. — J'ai la flemme de travailler. — Tu veux que je te prépare deux ou trois idées de vidéos courtes, entre deux parties de GTA 6 ? »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🤖",
+    "titre": "Un duo avec une IA",
+    "texte": "Deux voix, mais la deuxième c'est Claude. Personne n'a l'habitude, et l'IA joue le pote raisonnable."
+   },
+   {
+    "emoji": "🎬",
+    "titre": "Un sketch, pas un tuto",
+    "texte": "Il joue le flemmard qui veut l'argent sans bosser. On rit de lui, et on se reconnaît un peu."
+   },
+   {
+    "emoji": "🧲",
+    "titre": "Yomi Denzel + 27 000 €",
+    "texte": "Un nom connu et un chiffre : le hook emprunte la curiosité d'une vidéo déjà virale."
+   },
+   {
+    "emoji": "🖥️",
+    "titre": "Les vrais écrans",
+    "texte": "Le produit, la page de vente, le PDF, le tableau de bord : tout est montré en vrai, pendant que le sketch continue."
+   },
+   {
+    "emoji": "😂",
+    "titre": "« Je suis au RSA », « GTA 6 »",
+    "texte": "Des répliques qui font rire. La chute (« entre deux parties de GTA 6 ? ») est la meilleure phrase."
+   },
+   {
+    "emoji": "🟡",
+    "titre": "Les mots-clés en jaune",
+    "texte": "Les mots importants sont surlignés en jaune dans les sous-titres."
+   },
+   {
+    "emoji": "📏",
+    "titre": "L'écran coupé en deux",
+    "texte": "L'IA en haut, lui en bas : on suit la conversation comme un chat, sans effort."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Claude, j'ai trouvé une Clio à 4 000 €, elle est parfaite. — Tu veux que je regarde l'annonce ? — Dépêche-toi.",
+    "comment": "Même sketch : toi en bas, l'IA en haut qui fait un Screen My Car. Elle trouve les défauts, toi tu veux acheter quand même (« j'ai la flemme d'en chercher une autre »). Chute drôle. Les écrans Screen My Car en vrai au milieu."
+   },
+   {
+    "app": "msclipper",
+    "hook": "Claude, il y a un mec qui gagne 2 000 € par mois en postant des vidéos. — Tu veux que je regarde ? — Dépêche-toi.",
+    "comment": "L'IA explique MS Clipper (payé à la vue), crée le compte, toi tu as la flemme de filmer. Chute : « tu veux que je te prépare trois idées de vidéos, entre deux parties de GTA 6 ? »"
+   }
+  ],
+  "ordre": 17,
+  "duree": 106.7,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 2.8,
+    "texte": "Claude, il y a Yomi Denzel, il vient de sortir une nouvelle vidéo."
+   },
+   {
+    "debut": 3.0,
+    "fin": 6.5,
+    "texte": "Business en ligne hyper rentable qui génère 27 000 euros."
+   },
+   {
+    "debut": 6.6,
+    "fin": 7.5,
+    "texte": "Ah, intéressant ça."
+   },
+   {
+    "debut": 7.7,
+    "fin": 9.5,
+    "texte": "Tu veux que j'aille regarder la vidéo pour te faire un..."
+   },
+   {
+    "debut": 9.5,
+    "fin": 9.7,
+    "texte": "Dépêche-toi."
+   },
+   {
+    "debut": 10.2,
+    "fin": 12.3,
+    "texte": "Yomi explique comment vendre des PDF guides,"
+   },
+   {
+    "debut": 12.4,
+    "fin": 14.7,
+    "texte": "comme aider les parents à faire dormir leur bébé."
+   },
+   {
+    "debut": 14.8,
+    "fin": 16.4,
+    "texte": "Il utilise Claude pour trouver la niche."
+   },
+   {
+    "debut": 16.4,
+    "fin": 17.0,
+    "texte": "Ah bah c'est trop bien."
+   },
+   {
+    "debut": 17.1,
+    "fin": 19.9,
+    "texte": "Moi aussi, je vais imprimer 27 000 balles en vendant des PDF."
+   },
+   {
+    "debut": 20.2,
+    "fin": 21.3,
+    "texte": "Haha, ambitieux."
+   },
+   {
+    "debut": 21.6,
+    "fin": 23.2,
+    "texte": "Mais l'argent viendra du sujet qu'on choisit."
+   },
+   {
+    "debut": 23.3,
+    "fin": 24.3,
+    "texte": "Pas d'un chiffre qu'on se fixe."
+   },
+   {
+    "debut": 24.3,
+    "fin": 27.1,
+    "texte": "C'est écrit dans le titre de sa vidéo que c'est 27 000 euros."
+   },
+   {
+    "debut": 27.1,
+    "fin": 30.5,
+    "texte": "Ah oui, ça c'est le résultat que lui a eu avec sa niche à lui."
+   },
+   {
+    "debut": 30.6,
+    "fin": 31.4,
+    "texte": "Les bébés qui dorment mal."
+   },
+   {
+    "debut": 31.4,
+    "fin": 32.4,
+    "texte": "Vas-y, on va le copier."
+   },
+   {
+    "debut": 32.6,
+    "fin": 33.8,
+    "texte": "Garde la même niche que lui."
+   },
+   {
+    "debut": 33.9,
+    "fin": 35.4,
+    "texte": "Comme ça, nous aussi, on pourrait imprimer du cash."
+   },
+   {
+    "debut": 35.5,
+    "fin": 37.1,
+    "texte": "D'accord, on part sur la parentalité."
+   },
+   {
+    "debut": 37.1,
+    "fin": 40.4,
+    "texte": "Arrête de parler, crée le business qui imprime 27 000 euros."
+   },
+   {
+    "debut": 40.7,
+    "fin": 44.1,
+    "texte": "Le produit Dodo Paisible à 19 euros et sa page de vente complète"
+   },
+   {
+    "debut": 44.1,
+    "fin": 46.3,
+    "texte": "sont créés en brouillon dans ton compte TinyPages."
+   },
+   {
+    "debut": 46.4,
+    "fin": 48.2,
+    "texte": "Page de vente, ok."
+   },
+   {
+    "debut": 48.4,
+    "fin": 51.0,
+    "texte": "Avec la maman qui lit une histoire au bébé."
+   },
+   {
+    "debut": 51.2,
+    "fin": 52.3,
+    "texte": "Ouais bon, je m'en bats les couilles en vrai."
+   },
+   {
+    "debut": 52.4,
+    "fin": 53.7,
+    "texte": "Du coup, crée le PDF maintenant."
+   },
+   {
+    "debut": 53.8,
+    "fin": 55.7,
+    "texte": "Comme ça, les gens, ils ne demanderont pas le remboursement."
+   },
+   {
+    "debut": 55.7,
+    "fin": 56.7,
+    "texte": "Le PDF est prêt."
+   },
+   {
+    "debut": 56.7,
+    "fin": 57.6,
+    "texte": "Dodo Paisible."
+   },
+   {
+    "debut": 57.8,
+    "fin": 60.3,
+    "texte": "Le guide en 5 étapes avec le chapitre bonus inclus."
+   },
+   {
+    "debut": 60.5,
+    "fin": 64.3,
+    "texte": "Ok, c'est bon, j'ai upload le PDF qui imprime 27K."
+   },
+   {
+    "debut": 64.4,
+    "fin": 65.5,
+    "texte": "Du coup, elle est où, la thune ?"
+   },
+   {
+    "debut": 65.5,
+    "fin": 66.8,
+    "texte": "Ha, pas encore dans les poches."
+   },
+   {
+    "debut": 66.9,
+    "fin": 67.9,
+    "texte": "Il manque la partie trafic."
+   },
+   {
+    "debut": 68.0,
+    "fin": 69.4,
+    "texte": "Je fais comme Yumi Denzel."
+   },
+   {
+    "debut": 69.6,
+    "fin": 69.8,
+    "texte": "D'accord."
+   },
+   {
+    "debut": 70.0,
+    "fin": 72.9,
+    "texte": "Il recommandait surtout payer un shout-out chez un petit YouTuber."
+   },
+   {
+    "debut": 73.1,
+    "fin": 74.3,
+    "texte": "Faut payer en plus ?"
+   },
+   {
+    "debut": 74.3,
+    "fin": 75.3,
+    "texte": "Ouais, forcément un minimum."
+   },
+   {
+    "debut": 75.4,
+    "fin": 76.9,
+    "texte": "J'ai pas de thune, je suis au RSA."
+   },
+   {
+    "debut": 77.1,
+    "fin": 79.5,
+    "texte": "Dans sa vidéo, il en donnait justement une gratuite."
+   },
+   {
+    "debut": 79.6,
+    "fin": 81.7,
+    "texte": "Le contenu organique sur TikTok et Instagram."
+   },
+   {
+    "debut": 81.7,
+    "fin": 82.7,
+    "texte": "Ouais, mais j'ai la flemme."
+   },
+   {
+    "debut": 82.7,
+    "fin": 85.2,
+    "texte": "Il y a GTA 6 qui va bientôt sortir, j'aurai pas le temps."
+   },
+   {
+    "debut": 85.2,
+    "fin": 86.2,
+    "texte": "Je comprends."
+   },
+   {
+    "debut": 86.3,
+    "fin": 88.0,
+    "texte": "GTA 6, ça va tout dévorer."
+   },
+   {
+    "debut": 88.0,
+    "fin": 89.6,
+    "texte": "Mais là, il me déçoit Yumi Denzel."
+   },
+   {
+    "debut": 89.6,
+    "fin": 91.3,
+    "texte": "Moi aussi, je voulais 27 000 euros."
+   },
+   {
+    "debut": 91.7,
+    "fin": 93.2,
+    "texte": "Ha, je comprends la déception."
+   },
+   {
+    "debut": 93.5,
+    "fin": 94.5,
+    "texte": "C'est le travail de promotion."
+   },
+   {
+    "debut": 94.5,
+    "fin": 95.6,
+    "texte": "Ouais, mais j'ai la flemme de travailler."
+   },
+   {
+    "debut": 96.0,
+    "fin": 97.3,
+    "texte": "Ha, ça je comprends."
+   },
+   {
+    "debut": 97.5,
+    "fin": 99.9,
+    "texte": "Tu veux que je te prépare quand même deux ou trois idées de vidéos courtes,"
+   },
+   {
+    "debut": 100.0,
+    "fin": 102.7,
+    "texte": "prêtes à copier-coller, entre deux parties de GTA 6 ?"
+   }
+  ]
+ },
+ {
+  "id": "dbb5r17",
+  "fichier": "v26300gc0001dbb5r17og65gs2a24ahg.MP4",
+  "compte": "@le.multipreneur",
+  "plateforme": "TikTok",
+  "niche": "IA, productivité",
+  "format": "face-camera",
+  "titre": "« Arrêtez tout de suite » (l'astuce des devs, dans le train)",
+  "sujet": "Dans un train, écouteurs aux oreilles, il s'adresse à ceux qui laissent leur ordi entrouvert pour que Claude continue de travailler : « arrêtez tout de suite ». L'astuce des devs : une petite app qui garde le Mac allumé, écran fermé. 31 secondes.",
+  "tags": [
+   "ordre",
+   "train",
+   "photo incrustée",
+   "devs",
+   "31 secondes",
+   "Claude"
+  ],
+  "hook": {
+   "dit": "Pour toutes les personnes qui laissent leur ordinateur comme ça pour que Claude continue à travailler : arrêtez tout de suite.",
+   "voit": "lui, face caméra dans un train, écouteurs filaires, cheveux bouclés. En haut, une petite photo incrustée : un ordi portable entrouvert sur une table. Texte : « comment faire bosser claude 24/24h »."
+  },
+  "texte_ecran": [
+   "comment faire bosser claude 24/24h",
+   "la photo incrustée de l'ordi entrouvert"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 5,
+    "voit": "lui dans le train, la photo de l'ordi entrouvert en incrustation.",
+    "entend": "le hook."
+   },
+   {
+    "debut": 5,
+    "fin": 12,
+    "voit": "lui, il montre les devs derrière lui (une fille sur son ordi), il sourit.",
+    "entend": "« j'ai passé une semaine avec des devs et ils m'ont donné une astuce de fou. Regardez, ils sont encore là, ils codent, ils codent. Je vous le montre. »"
+   },
+   {
+    "debut": 12,
+    "fin": 23,
+    "voit": "l'écran de l'ordi filmé à la main : la recherche Google de l'app, puis la petite icône dans la barre du haut et un menu avec un bouton.",
+    "entend": "« ça s'appelle [le nom de l'app], tu l'installes, t'as un petit truc ici, t'as juste à cliquer, et ton Mac reste activé même écran rabattu. »"
+   },
+   {
+    "debut": 23,
+    "fin": 31,
+    "voit": "le pouce levé devant l'écran.",
+    "entend": "« fais attention à ta batterie, mais sinon Claude continue à travailler, c'est vraiment pratique. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🛑",
+    "titre": "« Arrêtez tout de suite »",
+    "texte": "Un ordre, dès la première phrase. On s'arrête pour savoir ce qu'on fait mal."
+   },
+   {
+    "emoji": "🎯",
+    "titre": "« Pour toutes les personnes qui… »",
+    "texte": "Il vise un groupe précis. Si c'est toi, tu restes ; si ce n'est pas toi, tant pis, et c'est voulu."
+   },
+   {
+    "emoji": "🖼️",
+    "titre": "La photo incrustée",
+    "texte": "L'ordi entrouvert, en petit en haut : on voit le problème sans qu'il le décrive."
+   },
+   {
+    "emoji": "🚆",
+    "titre": "Le train, les écouteurs",
+    "texte": "Filmé n'importe où, sans décor. C'est un mec qui vient d'apprendre un truc et le partage."
+   },
+   {
+    "emoji": "👩‍💻",
+    "titre": "« Regardez, ils sont encore là »",
+    "texte": "Il montre les devs derrière lui : la preuve que l'astuce vient de gens qui s'y connaissent."
+   },
+   {
+    "emoji": "⏱️",
+    "titre": "31 secondes, une seule astuce",
+    "texte": "Un problème, une app, un clic. Fini."
+   },
+   {
+    "emoji": "⚠️",
+    "titre": "« Fais attention à ta batterie »",
+    "texte": "Un petit conseil honnête à la fin : il n'est pas là pour vendre."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Pour toutes les personnes qui achètent une voiture d'occasion en regardant juste les photos : arrêtez tout de suite.",
+    "comment": "Dans le train, le bus, où tu veux. Photo incrustée : une annonce Leboncoin. « J'ai passé une semaine avec un mécano, il m'a donné une astuce de fou. » Puis ton téléphone : le Screen My Car, le verdict. 30 secondes. Fin honnête : « ça ne remplace pas un essai, mais ça évite les arnaques »."
+   },
+   {
+    "app": "msclipper",
+    "hook": "Pour toutes les personnes qui postent des vidéos gratuitement : arrêtez tout de suite.",
+    "comment": "Photo incrustée : un écran de gains. « J'ai passé une semaine avec des créateurs, ils m'ont donné une astuce de fou. » Puis MS Clipper à l'écran. 30 secondes."
+   }
+  ],
+  "note": "<b>À remarquer :</b> deux vidéos de cette vidéothèque parlent de Claude (l'IA). Un outil que les gens utilisent déjà, c'est un sujet qui marche.",
+  "ordre": 18,
+  "duree": 31.5,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 5.0,
+    "texte": "Pour toutes les personnes qui laissent leur ordinateur comme ça pour que Claude continue à travailler, arrêtez tout de suite."
+   },
+   {
+    "debut": 5.3,
+    "fin": 8.3,
+    "texte": "J'ai passé une semaine avec des devs et ils m'ont donné une astuce de fou."
+   },
+   {
+    "debut": 8.7,
+    "fin": 12.0,
+    "texte": "Regardez, ils sont encore là, ils clodent, ils clodent, ils font des trucs, je vous le montre."
+   },
+   {
+    "debut": 12.6,
+    "fin": 17.6,
+    "texte": "En gros, ça s'appelle Vorsain, t'installe ça, et ensuite t'as un petit truc ici, t'as juste à cliquer."
+   },
+   {
+    "debut": 18.0,
+    "fin": 22.8,
+    "texte": "Et là, tu peux dire que ton Mac, même si l'écran est rabattu, il reste activé."
+   },
+   {
+    "debut": 22.8,
+    "fin": 27.3,
+    "texte": "Alors, fais attention à ta batterie, mais sinon, Claude continue à travailler et c'est vraiment pratique."
+   }
+  ]
+ },
+ {
+  "id": "ecran-0236",
+  "fichier": "ScreenRecording_10-21-2026 02-36-47_1.MP4",
+  "type": "carrousel",
+  "images": [
+   "carrousels/ecran-0236/1.jpg",
+   "carrousels/ecran-0236/2.jpg",
+   "carrousels/ecran-0236/3.jpg",
+   "carrousels/ecran-0236/4.jpg"
+  ],
+  "compte": "@theworkflowguy",
+  "plateforme": "TikTok",
+  "niche": "apps, productivité",
+  "format": "carrousel",
+  "titre": "Top 3 apps de niche pour ton téléphone (carrousel)",
+  "sujet": "Pas une vidéo : 4 photos qu'on fait défiler. Une photo de couverture (un café, un téléphone, des clés), puis une app par photo : son icône, une phrase, deux captures d'écran. 5 264 likes, 2 984 enregistrements.",
+  "tags": [
+   "carrousel",
+   "top 3",
+   "enregistrements",
+   "sans se filmer",
+   "une app par photo"
+  ],
+  "hook": {
+   "dit": "(pas de son : une photo) top 3 niche apps for ur phone",
+   "voit": "une photo prise d'en haut : un café, un bol de céréales, un téléphone, des clés de voiture, un carnet. Texte blanc : « top 3 niche apps for ur phone »."
+  },
+  "texte_ecran": [
+   "top 3 niche apps for ur phone",
+   "Claude — *the best AI assistant",
+   "Albo — *my second online brain",
+   "Notion — *turn ideas into action"
+  ],
+  "etapes": [
+   {
+    "photo": 1,
+    "voit": "la photo de couverture, style « ma vie d'entrepreneur » : café, téléphone, clés de voiture, carnet.",
+    "entend": "rien, la musique de fond."
+   },
+   {
+    "photo": 2,
+    "voit": "Claude : l'icône, « *the best AI assistant », deux captures d'écran de l'app."
+   },
+   {
+    "photo": 3,
+    "voit": "Albo : l'icône, « *my second online brain », deux captures."
+   },
+   {
+    "photo": 4,
+    "voit": "Notion : l'icône, « *turn ideas into action », deux captures."
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🖼️",
+    "titre": "Une photo, pas une vidéo",
+    "texte": "Pas besoin de se filmer ni de parler. Un carrousel se fabrique en 20 minutes."
+   },
+   {
+    "emoji": "📌",
+    "titre": "Ça s'enregistre",
+    "texte": "2 984 enregistrements pour 5 264 likes : les gens le gardent « pour plus tard ». TikTok pousse ce qui est enregistré."
+   },
+   {
+    "emoji": "🔢",
+    "titre": "« Top 3 »",
+    "texte": "Un petit chiffre : on sait que ça va être rapide."
+   },
+   {
+    "emoji": "☕",
+    "titre": "La photo de couverture",
+    "texte": "Café, clés de voiture, carnet : ça raconte une vie qu'on a envie d'avoir, avant même de lire."
+   },
+   {
+    "emoji": "📱",
+    "titre": "Une app par photo, toujours pareil",
+    "texte": "Icône + une phrase + deux captures. Le cerveau n'a rien à décoder."
+   },
+   {
+    "emoji": "⭐",
+    "titre": "L'astérisque",
+    "texte": "« *the best AI assistant » : une petite note perso, comme un avis d'ami, pas un slogan."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "top 3 apps avant d'acheter une voiture d'occasion",
+    "comment": "Photo de couverture : des clés de voiture, un café, une annonce imprimée. Puis une app par photo : Screen My Car (« *te dit si l'annonce est une arnaque », deux captures du verdict), puis deux autres apps utiles (HistoVec, un calculateur de cote). Screen My Car en photo 2, jamais seule : un top 3 crédible a trois apps."
+   },
+   {
+    "app": "revizio",
+    "hook": "top 3 apps pour réviser sans y passer la nuit",
+    "comment": "Couverture : un bureau, des cours, un café. Puis Revizio (« *transforme ton cours en quiz »), et deux autres apps que les étudiants connaissent."
+   },
+   {
+    "app": "msclipper",
+    "hook": "top 3 apps pour être payé à poster des vidéos",
+    "comment": "Couverture : un téléphone et un carnet. MS Clipper en photo 2 avec deux captures (la campagne, les gains)."
+   }
+  ],
+  "note": "<b>Le format carrousel pour nos apps :</b> une app par photo, une phrase simple, deux captures. On mélange nos apps avec d'autres apps connues : c'est ce qui rend le top crédible.",
+  "ordre": 19,
+  "duree": 5.1
+ },
+ {
+  "id": "ecran-0321",
+  "fichier": "ScreenRecording_10-21-2026 03-21-23_1.MP4",
+  "type": "carrousel",
+  "images": [
+   "carrousels/ecran-0321/1.jpg",
+   "carrousels/ecran-0321/2.jpg",
+   "carrousels/ecran-0321/3.jpg",
+   "carrousels/ecran-0321/4.jpg",
+   "carrousels/ecran-0321/5.jpg",
+   "carrousels/ecran-0321/6.jpg",
+   "carrousels/ecran-0321/7.jpg"
+  ],
+  "compte": "Lucas Martin",
+  "plateforme": "TikTok",
+  "niche": "apps iPhone",
+  "format": "carrousel",
+  "titre": "6 applications simples et utiles pour iPhone (carrousel)",
+  "sujet": "7 photos : une couverture avec les 6 icônes, puis une app par photo : une capture de l'app dans un iPhone, l'icône, le nom, deux lignes. Fond blanc, propre, en français. 283 enregistrements.",
+  "tags": [
+   "carrousel",
+   "fond blanc",
+   "6 apps",
+   "gabarit identique",
+   "App Store"
+  ],
+  "hook": {
+   "dit": "(pas de son : une photo) 6 applications simples et utiles pour iPhone :",
+   "voit": "fond blanc, un titre en gros et les 6 icônes en grille. On comprend tout en une seconde : il y en a 6, c'est pour iPhone."
+  },
+  "texte_ecran": [
+   "6 applications simples et utiles pour iPhone :",
+   "Not Evil Sudoku — Une expérience de Sudoku épurée, sans publicités ni distractions.",
+   "Pop Out Timer — Utilise l'image dans l'image pour offrir un minuteur flottant toujours à l'écran.",
+   "Ubecast — Diffusez des vidéos Web, partagez votre écran et profitez de vos contenus sur grand écran.",
+   "Pushr — Compte automatiquement vos pompes grâce à la reconnaissance faciale.",
+   "AerVPN — Restez en sécurité et protégez votre vie privée en ligne.",
+   "Endel — Écoutez des paysages sonores pour la concentration, la détente, le sommeil."
+  ],
+  "etapes": [
+   {
+    "photo": 1,
+    "voit": "la couverture : le titre et les 6 icônes en grille."
+   },
+   {
+    "photo": 2,
+    "voit": "Not Evil Sudoku : l'app dans un iPhone à gauche, l'icône + le nom + deux lignes à droite."
+   },
+   {
+    "photo": 3,
+    "voit": "Pop Out Timer : même mise en page."
+   },
+   {
+    "photo": 4,
+    "voit": "Ubecast : même mise en page."
+   },
+   {
+    "photo": 5,
+    "voit": "Pushr : même mise en page."
+   },
+   {
+    "photo": 6,
+    "voit": "AerVPN : même mise en page."
+   },
+   {
+    "photo": 7,
+    "voit": "Endel : même mise en page, écran sombre."
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🧮",
+    "titre": "Le chiffre dans le titre",
+    "texte": "« 6 applications » : on sait exactement ce qu'on va avoir."
+   },
+   {
+    "emoji": "🧊",
+    "titre": "Fond blanc, zéro décor",
+    "texte": "Pas de photo de vie : juste l'app, propre, comme sur l'App Store. Ça fait sérieux."
+   },
+   {
+    "emoji": "🔁",
+    "titre": "La même mise en page × 6",
+    "texte": "iPhone à gauche, icône + nom + deux lignes à droite. On fait défiler sans réfléchir."
+   },
+   {
+    "emoji": "🇫🇷",
+    "titre": "En français, phrase courte",
+    "texte": "Chaque app est décrite en une phrase qu'un enfant comprend."
+   },
+   {
+    "emoji": "📌",
+    "titre": "283 enregistrements",
+    "texte": "Les gens gardent la liste pour installer plus tard. C'est le but d'un carrousel."
+   },
+   {
+    "emoji": "🧩",
+    "titre": "Les icônes en couverture",
+    "texte": "Les 6 icônes font bande-annonce : si tu en reconnais une, tu veux voir les 5 autres."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "5 applications utiles avant d'acheter une voiture :",
+    "comment": "Couverture : les 5 icônes. Puis une app par photo, même mise en page : l'écran de l'app dans un iPhone, l'icône, le nom, deux lignes. Screen My Car : « Colle une annonce, ça te dit : acheter, négocier ou fuir. »"
+   },
+   {
+    "app": "revizio",
+    "hook": "5 applications pour réviser plus vite :",
+    "comment": "Même gabarit. Revizio : « Envoie ton cours, l'app en fait des fiches et un quiz. »"
+   },
+   {
+    "app": "msclipper",
+    "hook": "4 applications qui te paient pour poster des vidéos :",
+    "comment": "Même gabarit. MS Clipper : « Tu postes, tu es payé à la vue. »"
+   }
+  ],
+  "ordre": 20,
+  "duree": 3.5
+ }
+]

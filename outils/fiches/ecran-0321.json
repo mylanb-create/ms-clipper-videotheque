@@ -1,0 +1,120 @@
+{
+  "id": "ecran-0321",
+  "fichier": "ScreenRecording_10-21-2026 03-21-23_1.MP4",
+  "type": "carrousel",
+  "images": [
+    "carrousels/ecran-0321/1.jpg",
+    "carrousels/ecran-0321/2.jpg",
+    "carrousels/ecran-0321/3.jpg",
+    "carrousels/ecran-0321/4.jpg",
+    "carrousels/ecran-0321/5.jpg",
+    "carrousels/ecran-0321/6.jpg",
+    "carrousels/ecran-0321/7.jpg"
+  ],
+  "compte": "Lucas Martin",
+  "plateforme": "TikTok",
+  "niche": "apps iPhone",
+  "format": "carrousel",
+  "titre": "6 applications simples et utiles pour iPhone (carrousel)",
+  "sujet": "7 photos : une couverture avec les 6 icônes, puis une app par photo : une capture de l'app dans un iPhone, l'icône, le nom, deux lignes. Fond blanc, propre, en français. 283 enregistrements.",
+  "tags": [
+    "carrousel",
+    "fond blanc",
+    "6 apps",
+    "gabarit identique",
+    "App Store"
+  ],
+  "hook": {
+    "dit": "(pas de son : une photo) 6 applications simples et utiles pour iPhone :",
+    "voit": "fond blanc, un titre en gros et les 6 icônes en grille. On comprend tout en une seconde : il y en a 6, c'est pour iPhone."
+  },
+  "texte_ecran": [
+    "6 applications simples et utiles pour iPhone :",
+    "Not Evil Sudoku — Une expérience de Sudoku épurée, sans publicités ni distractions.",
+    "Pop Out Timer — Utilise l'image dans l'image pour offrir un minuteur flottant toujours à l'écran.",
+    "Ubecast — Diffusez des vidéos Web, partagez votre écran et profitez de vos contenus sur grand écran.",
+    "Pushr — Compte automatiquement vos pompes grâce à la reconnaissance faciale.",
+    "AerVPN — Restez en sécurité et protégez votre vie privée en ligne.",
+    "Endel — Écoutez des paysages sonores pour la concentration, la détente, le sommeil."
+  ],
+  "etapes": [
+    {
+      "photo": 1,
+      "voit": "la couverture : le titre et les 6 icônes en grille."
+    },
+    {
+      "photo": 2,
+      "voit": "Not Evil Sudoku : l'app dans un iPhone à gauche, l'icône + le nom + deux lignes à droite."
+    },
+    {
+      "photo": 3,
+      "voit": "Pop Out Timer : même mise en page."
+    },
+    {
+      "photo": 4,
+      "voit": "Ubecast : même mise en page."
+    },
+    {
+      "photo": 5,
+      "voit": "Pushr : même mise en page."
+    },
+    {
+      "photo": 6,
+      "voit": "AerVPN : même mise en page."
+    },
+    {
+      "photo": 7,
+      "voit": "Endel : même mise en page, écran sombre."
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🧮",
+      "titre": "Le chiffre dans le titre",
+      "texte": "« 6 applications » : on sait exactement ce qu'on va avoir."
+    },
+    {
+      "emoji": "🧊",
+      "titre": "Fond blanc, zéro décor",
+      "texte": "Pas de photo de vie : juste l'app, propre, comme sur l'App Store. Ça fait sérieux."
+    },
+    {
+      "emoji": "🔁",
+      "titre": "La même mise en page × 6",
+      "texte": "iPhone à gauche, icône + nom + deux lignes à droite. On fait défiler sans réfléchir."
+    },
+    {
+      "emoji": "🇫🇷",
+      "titre": "En français, phrase courte",
+      "texte": "Chaque app est décrite en une phrase qu'un enfant comprend."
+    },
+    {
+      "emoji": "📌",
+      "titre": "283 enregistrements",
+      "texte": "Les gens gardent la liste pour installer plus tard. C'est le but d'un carrousel."
+    },
+    {
+      "emoji": "🧩",
+      "titre": "Les icônes en couverture",
+      "texte": "Les 6 icônes font bande-annonce : si tu en reconnais une, tu veux voir les 5 autres."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "5 applications utiles avant d'acheter une voiture :",
+      "comment": "Couverture : les 5 icônes. Puis une app par photo, même mise en page : l'écran de l'app dans un iPhone, l'icône, le nom, deux lignes. Screen My Car : « Colle une annonce, ça te dit : acheter, négocier ou fuir. »"
+    },
+    {
+      "app": "revizio",
+      "hook": "5 applications pour réviser plus vite :",
+      "comment": "Même gabarit. Revizio : « Envoie ton cours, l'app en fait des fiches et un quiz. »"
+    },
+    {
+      "app": "msclipper",
+      "hook": "4 applications qui te paient pour poster des vidéos :",
+      "comment": "Même gabarit. MS Clipper : « Tu postes, tu es payé à la vue. »"
+    }
+  ],
+  "ordre": 20
+}

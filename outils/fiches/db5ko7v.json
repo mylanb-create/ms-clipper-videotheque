@@ -1,0 +1,116 @@
+{
+  "id": "db5ko7v",
+  "fichier": "v26044gc0000db5ko7vog65t744tgu50.MP4",
+  "compte": "@bon_plan8888",
+  "plateforme": "TikTok",
+  "niche": "courses, budget",
+  "format": "face-camera",
+  "titre": "Tes courses coûtent 20 € de plus ? (la question qui pique)",
+  "sujet": "Une fille dans sa cuisine parle à la caméra : les courses augmentent, mais une partie de ce que tu perds, tu la contrôles. Elle montre une app qui fait tes 7 dîners et ta liste. Résultat : 30 € par semaine.",
+  "tags": [
+    "question",
+    "spoiler",
+    "courses",
+    "copine",
+    "retournement",
+    "chiffre de fin",
+    "sous-titres"
+  ],
+  "hook": {
+    "dit": "Est-ce que toi aussi t'as l'impression que le prix de tes courses augmente littéralement plus vite que le prix de l'essence ?",
+    "voit": "elle, dans sa cuisine, t-shirt noir, sourire, les mains qui parlent. En haut, un bandeau blanc : « SPOILER : C'EST PAS QUE L'INFLATION. » Les sous-titres s'affichent mot à mot au milieu."
+  },
+  "texte_ecran": [
+    "SPOILER : C'EST PAS QUE L'INFLATION.",
+    "les sous-titres, mot à mot, au milieu de l'image"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 6,
+      "voit": "elle face caméra dans la cuisine, le bandeau « SPOILER » en haut.",
+      "entend": "la question-hook, puis « j'ai une solution pour toi »."
+    },
+    {
+      "debut": 6,
+      "fin": 17,
+      "voit": "elle, un peu plus près, beaucoup de gestes.",
+      "entend": "« les prix ont vraiment augmenté : tu prends les mêmes trucs qu'avant et t'as 20 balles de plus à la caisse. Et encore, 20 balles, je suis gentille. »"
+    },
+    {
+      "debut": 17,
+      "fin": 35,
+      "voit": "toujours elle, le bandeau a disparu, plan serré.",
+      "entend": "le retournement : « les prix, ni toi ni moi on n'y peut rien. Par contre, une partie de ce que tu perds, tu la contrôles : tout ce que t'achètes sans savoir et que tu jettes le dimanche. »"
+    },
+    {
+      "debut": 35,
+      "fin": 47,
+      "voit": "l'app (Pimzi) en plein écran : budget 67 €/semaine, objectif protéines, « Voici ta semaine : 7 dîners chez Lidl pour 45 € ».",
+      "entend": "« j'ai réglé ça avec un site qui s'appelle Pimzi : ton budget, ton magasin, ce que t'aimes, et ils composent les 7 dîners avec la liste et les prix du magasin. »"
+    },
+    {
+      "debut": 47,
+      "fin": 58,
+      "voit": "la liste de courses (44,55 €, 5 € sous le budget), puis elle.",
+      "entend": "« t'arrives au magasin, tu coches ta liste, t'achètes exactement ce que tu vas cuisiner et rien d'autre. »"
+    },
+    {
+      "debut": 58,
+      "fin": 76,
+      "voit": "elle, face caméra, pour conclure.",
+      "entend": "« 30 euros par semaine, excusez-moi, c'est énorme. C'est des trucs que je peux mettre dans l'essence. Le lien est en dessous, il faut essayer. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "❓",
+      "titre": "« Est-ce que toi aussi… »",
+      "texte": "Une question qui commence par « toi aussi » : on se sent concerné avant même de réfléchir."
+    },
+    {
+      "emoji": "🏷️",
+      "titre": "Le bandeau « SPOILER »",
+      "texte": "Il contredit ce que tout le monde pense (c'est l'inflation). Alors on veut savoir ce que c'est."
+    },
+    {
+      "emoji": "💶",
+      "titre": "« 20 balles de plus à la caisse »",
+      "texte": "Un chiffre vécu, pas un pourcentage. Tout le monde l'a senti."
+    },
+    {
+      "emoji": "🙋",
+      "titre": "Elle parle comme une copine",
+      "texte": "Cuisine, t-shirt, mains qui bougent, « on va pas se mentir ». Zéro posture de vendeuse."
+    },
+    {
+      "emoji": "🔀",
+      "titre": "Le retournement",
+      "texte": "« Les prix, on n'y peut rien. Par contre, ça, tu contrôles. » On passe du problème à la solution, et c'est pile là que l'app arrive."
+    },
+    {
+      "emoji": "🧾",
+      "titre": "Le chiffre de fin",
+      "texte": "« 30 € par semaine » : dit, répété, et comparé à de l'essence. On repart avec un chiffre en tête."
+    },
+    {
+      "emoji": "🔤",
+      "titre": "Les sous-titres mot à mot",
+      "texte": "Même sans le son, on suit tout."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Est-ce que toi aussi t'as l'impression que les voitures d'occasion coûtent presque le prix du neuf ?",
+      "comment": "Face caméra, dans ta voiture ou ta cuisine. Bandeau en haut : « SPOILER : C'EST PAS QUE LE MARCHÉ. » Le retournement : « le prix, tu n'y peux rien. Par contre, les 2 000 € de réparations cachées, ça, tu peux les éviter. » Puis l'écran Screen My Car : le verdict NÉGOCIER et les défauts trouvés. Chiffre de fin : « 1 800 € de moins »."
+    },
+    {
+      "app": "revizio",
+      "hook": "Est-ce que toi aussi t'as l'impression de réviser 3 heures et de ne rien retenir ?",
+      "comment": "Bandeau : « SPOILER : C'EST PAS TA MÉMOIRE. » Le retournement : « ta mémoire, tu n'y peux rien. Par contre, ta façon de réviser, ça tu contrôles. » L'écran Revizio : les fiches, le quiz, le score. Chiffre de fin : « 2 heures gagnées par soir »."
+    }
+  ],
+  "note": "<b>Chez nous :</b> on ne dit pas « j'ai réglé ça avec un site qui s'appelle… ». On dit « j'ai fait un Screen My Car » et on montre le résultat. Et pas de « lien en dessous » : le code promo est dans la description.",
+  "ordre": 8
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="30" y1="226" x2="214" y2="20">
+      <stop offset="0" stop-color="#EE3A32"/><stop offset="0.45" stop-color="#F23E6E"/>
+      <stop offset="0.78" stop-color="#E94AB8"/><stop offset="1" stop-color="#E35AD6"/>
+    </linearGradient>
+    <radialGradient id="glow" gradientUnits="userSpaceOnUse" cx="196" cy="36" r="120">
+      <stop offset="0" stop-color="#FFC4F0" stop-opacity="0.55"/><stop offset="1" stop-color="#FFC4F0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#9E1240" flood-opacity="0.18"/></filter>
+  </defs>
+  <rect x="16" y="16" width="208" height="208" rx="56" fill="url(#g)"/>
+  <rect x="16" y="16" width="208" height="208" rx="56" fill="url(#glow)"/>
+  <rect x="17" y="17" width="206" height="206" rx="55" fill="none" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="2"/>
+  <g filter="url(#sh)">
+    <path d="M62 150 C62 108 68 66 96 64 C113 63 118 80 120 92 C122 80 127 63 144 64 C172 66 178 108 178 150 C178 180 153 194 120 194 C87 194 62 180 62 150 Z" fill="#FFFFFF"/>
+    <ellipse cx="101" cy="140" rx="13" ry="18" fill="url(#g)" transform="rotate(-8 101 140)"/><ellipse cx="140" cy="140" rx="13" ry="18" fill="url(#g)" transform="rotate(8 140 140)"/>
+    <circle cx="98.45" cy="133.16" r="3.9" fill="#FFFFFF"/><circle cx="137.45" cy="133.16" r="3.9" fill="#FFFFFF"/>
+  </g>
+</svg>

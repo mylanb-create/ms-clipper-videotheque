@@ -1,0 +1,103 @@
+{
+  "id": "db7o7v7",
+  "fichier": "v26044gc0000db7o7v7og65mcqm7p1ig.MP4",
+  "compte": "@alex.brtnn",
+  "plateforme": "TikTok",
+  "niche": "sommeil, bien-être",
+  "format": "flow",
+  "titre": "S'endormir en 2 minutes (à 2 h 45 du matin)",
+  "sujet": "Un mec dans son lit à 2 h 45, qui n'arrive pas à dormir, montre l'astuce de sa mère psy : un test dans Apple Santé, puis une app qui fabrique un programme pour s'endormir.",
+  "tags": [
+    "nuit",
+    "lit",
+    "insomnie",
+    "mère psy",
+    "téléphone en main",
+    "vrai moment"
+  ],
+  "hook": {
+    "dit": "Les gars, je vais en sauver plus d'un. Écoutez ce mec, il a littéralement sauvé mes nuits.",
+    "voit": "lui en gros plan, casquette, torse nu dans son lit, dans le noir. Derrière lui, le visage d'un autre mec (la vidéo qu'il commente). Deux textes : « Les insomniaques à leur prime 😭😭 » et « Faut vraiment être fou pour réussir à trouver ça »."
+  },
+  "texte_ecran": [
+    "Les insomniaques à leur prime 😭😭",
+    "Faut vraiment être fou pour réussir à trouver ça"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 13,
+      "voit": "lui face caméra, le mec en fond. Les deux textes restent toute la vidéo.",
+      "entend": "le hook, puis « il est littéralement 2 h 45 du matin. Regardez ce que ma mère, qui est psy, a trouvé en moins de 2 minutes »."
+    },
+    {
+      "debut": 13,
+      "fin": 25,
+      "voit": "son téléphone en main, filmé de près : Apple Santé → Bien-être mental → questionnaire « risque d'anxiété ». Lui reste visible en bas de l'image.",
+      "entend": "« vous allez sur Apple Santé, section bien-être mental, vous répondez au questionnaire, vous avez vos résultats »."
+    },
+    {
+      "debut": 25,
+      "fin": 36,
+      "voit": "il ouvre une autre app (Louane) et discute avec l'IA, le doigt sur l'écran.",
+      "entend": "« vous demandez à Louane un programme pour vous endormir en 2 minutes, en fonction des résultats du test »."
+    },
+    {
+      "debut": 36,
+      "fin": 52,
+      "voit": "l'IA analyse (70 %, 87 %…), ses questions, puis le bouton « Créer mon programme ».",
+      "entend": "« elle analyse mes réponses… normalement elle pose plein de questions, mais moi j'avais la flemme »."
+    },
+    {
+      "debut": 52,
+      "fin": 61,
+      "voit": "« 7 jours pour apaiser tes nuits », puis « Ma première méditation, 6 min ».",
+      "entend": "« un programme sur 7 jours, une séance chaque soir. Vous cliquez là, et je vous jure… »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🌙",
+      "titre": "Le vrai moment",
+      "texte": "Il est vraiment 2 h 45, il est vraiment dans son lit. On le croit parce que c'est vrai, pas joué."
+    },
+    {
+      "emoji": "🛟",
+      "titre": "« Je vais en sauver plus d'un »",
+      "texte": "Il promet d'aider. Ceux qui ne dorment pas se sentent visés direct."
+    },
+    {
+      "emoji": "👩‍⚕️",
+      "titre": "La mère psy",
+      "texte": "Une psy, c'est quelqu'un qu'on croit. Il n'a pas besoin de prouver qu'il s'y connaît : il cite quelqu'un qui s'y connaît."
+    },
+    {
+      "emoji": "📱",
+      "titre": "Le téléphone à la main",
+      "texte": "On voit chaque écran tapoté avec le doigt. Pas de capture d'écran propre : du vrai, un peu flou, dans le noir."
+    },
+    {
+      "emoji": "😴",
+      "titre": "Le point sensible",
+      "texte": "Ne pas réussir à dormir, tout le monde connaît. Le texte « Les insomniaques à leur prime » annonce le résultat avant tout."
+    },
+    {
+      "emoji": "🫶",
+      "titre": "« J'avais la flemme »",
+      "texte": "Il avoue qu'il a sauté des étapes. Ça le rend humain, ça fait sourire, ça ne ressemble pas à une pub."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Les gars, je vais en sauver plus d'un. Regardez ce que mon père mécano m'a montré avant d'acheter ma voiture.",
+      "comment": "Dans ta voiture ou dans ton lit, téléphone en main, à une heure bizarre : l'annonce, le Screen My Car, le verdict NÉGOCIER et les 3 points à vérifier. Texte en haut : « Les premières voitures à leur prime 😭 »."
+    },
+    {
+      "app": "revizio",
+      "hook": "Les gars, je vais en sauver plus d'un. Il est 23 h, exam demain, regardez ce que ma sœur prof m'a montré.",
+      "comment": "Téléphone en main : la photo du cours envoyée à Revizio, les fiches, le quiz, le score. Texte en haut : « Les flemmards à leur prime 😭 »."
+    }
+  ],
+  "ordre": 6
+}

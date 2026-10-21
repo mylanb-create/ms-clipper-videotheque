@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Vidéothèque MS Clipper</title>
+  <meta name="description" content="Des vidéos qui ont marché, découpées pour les comprendre : le hook, ce qu'on voit, ce qu'on entend, pourquoi ça marche et comment le refaire.">
+  <meta name="theme-color" content="#f23e6e">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <meta property="og:title" content="Vidéothèque MS Clipper">
+  <meta property="og:description" content="Des vidéos qui ont marché, découpées pour les comprendre et les refaire.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#" aria-label="Vidéothèque MS Clipper, accueil">
+      <img src="img/icone.svg" alt="" width="34" height="34">
+      <span class="wordmark">MS <em>Clipper</em></span>
+      <span class="area">Vidéothèque</span>
+    </a>
+    <nav class="topnav">
+      <a href="#lexique">Les mots à connaître</a>
+      <a class="btn btn-ghost" href="https://ms-clipper.vercel.app" target="_blank" rel="noopener">MS Clipper ↗</a>
+    </nav>
+  </header>
+
+  <main id="accueil">
+    <section class="hero">
+      <div class="eyebrow">Des exemples, pas de la théorie</div>
+      <h1>
+        <span class="l1">Des vidéos qui ont marché.</span>
+        <span class="l2">Regarde, comprends, <b class="brand-text">refais.</b></span>
+      </h1>
+      <p class="lead">Chaque vidéo est découpée : les 3 premières secondes, ce qu'on voit, ce qu'on entend, pourquoi les gens restent jusqu'au bout, et comment faire pareil avec nos apps.</p>
+      <div class="stats" id="stats"></div>
+    </section>
+
+    <section class="filtres" aria-label="Filtres">
+      <div class="chips" id="chips-formats"></div>
+      <label class="recherche">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Chercher un mot : masque, écran, avant/après…" autocomplete="off">
+      </label>
+    </section>
+
+    <section class="grille" id="grille" aria-live="polite"></section>
+    <p class="vide" id="vide" hidden>Rien avec ce mot. Essaie un autre, ou enlève le filtre.</p>
+
+    <section class="lexique" id="lexique">
+      <div class="eyebrow">Les mots à connaître</div>
+      <h2 class="display">Pour lire une fiche sans se perdre.</h2>
+      <div class="defs" id="defs"></div>
+    </section>
+
+    <footer class="pied">
+      <img src="img/mascotte-degrade.svg" alt="" width="22" height="25">
+      <span>Vidéothèque <strong>MS Clipper</strong> · exemples repris de comptes TikTok publics, pour apprendre. Les vidéos restent à leurs auteurs.</span>
+    </footer>
+  </main>
+
+  <section id="fiche" class="fiche" hidden aria-modal="true" role="dialog">
+    <div class="fiche-barre">
+      <a class="btn btn-ghost retour" href="#" id="retour">← Toutes les vidéos</a>
+      <div class="fiche-nav">
+        <button class="btn btn-ghost" id="prec" title="Vidéo précédente (←)">←</button>
+        <span class="compteur" id="compteur"></span>
+        <button class="btn btn-ghost" id="suiv" title="Vidéo suivante (→)">→</button>
+      </div>
+    </div>
+    <div class="fiche-corps" id="fiche-corps"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

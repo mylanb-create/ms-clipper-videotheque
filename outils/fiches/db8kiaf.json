@@ -1,0 +1,108 @@
+{
+  "id": "db8kiaf",
+  "fichier": "v26044gc0000db8kiafog65n44nbv450.MP4",
+  "compte": "@kamevo.ai",
+  "plateforme": "TikTok",
+  "niche": "argent, IA",
+  "format": "duo",
+  "titre": "La formation à 500 € contre le site gratuit (filmé par un pote)",
+  "sujet": "Dans une chambre gaming violette, un mec regarde la vidéo d'un vendeur de formation à 500 €. Son pote le filme, ils discutent, et il montre sur son écran un site qui fait la même chose gratuitement : des comptines pour enfants, générées en 2 minutes.",
+  "tags": [
+    "pote qui filme",
+    "500 €",
+    "formation",
+    "duel",
+    "chambre gaming",
+    "dialogue"
+  ],
+  "hook": {
+    "dit": "Alors, le prix de la formation et de la rémunération YouTube, il devrait être à 500 €. — 500 € ? — Ouais, 500 €.",
+    "voit": "une chambre dans le noir, lumière violette, deux écrans. Sur le grand écran, la vidéo du vendeur de formation. Le créateur est de dos à son bureau, filmé par quelqu'un d'autre. Texte en bas : « Y penser me scam mdr…. 😂 »."
+  },
+  "texte_ecran": [
+    "Y penser me scam mdr…. 😂"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 16,
+      "voit": "le bureau, la vidéo du vendeur sur le grand écran, le créateur de dos.",
+      "entend": "le dialogue : « 500 € ? Ouais, 500 €. » « Je sais pas si c'est pas un peu cher. »"
+    },
+    {
+      "debut": 16,
+      "fin": 40,
+      "voit": "il se tourne vers son pote, montre l'écran, puis le site (shortkids.io).",
+      "entend": "« j'ai trouvé un site… shortkids.io… tu peux créer les vidéos. Tu m'as dit que c'était compliqué, mais je l'ai fait en deux minutes. T'en dis quoi ? »"
+    },
+    {
+      "debut": 40,
+      "fin": 50,
+      "voit": "retour sur la vidéo du vendeur, le pote réagit hors champ.",
+      "entend": "« Attends, quoi ? … Il a flippé. Tu vois que cette formation, c'est de la merde. »"
+    },
+    {
+      "debut": 50,
+      "fin": 68,
+      "voit": "YouTube, des comptines pour enfants, une vidéo à 146 millions de vues, le doigt sur le chiffre.",
+      "entend": "« je prends une vidéo qui a percé : 146 millions de vues. Je copie juste la description. »"
+    },
+    {
+      "debut": 68,
+      "fin": 85,
+      "voit": "le site : coller la description, choisir les personnages, le décor, l'ambiance (joyeux), la voix, le format, le titre.",
+      "entend": "« je colle, je choisis mes personnages, le décor, joyeux, la voix, le format, un titre, et je la poste sur YouTube. »"
+    },
+    {
+      "debut": 85,
+      "fin": 96,
+      "voit": "le tableau de bord du site, la vidéo prête, puis la chambre.",
+      "entend": "« c'est dingue… shortkids.io, les gens, pour ceux qui veulent. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🎥",
+      "titre": "Filmé par un pote",
+      "texte": "La caméra n'est pas face à lui : on est dans la pièce, on regarde par-dessus son épaule. Ça fait vrai."
+    },
+    {
+      "emoji": "💸",
+      "titre": "« 500 € ? »",
+      "texte": "Un prix qui choque, répété deux fois. On veut savoir s'il va payer."
+    },
+    {
+      "emoji": "😂",
+      "titre": "« Y penser me scam mdr »",
+      "texte": "Le texte annonce la couleur : quelqu'un essaie de l'arnaquer. On veut voir comment il s'en sort."
+    },
+    {
+      "emoji": "🆚",
+      "titre": "Le duel",
+      "texte": "La formation à 500 € contre le site gratuit. Un camp contre l'autre, c'est facile à suivre."
+    },
+    {
+      "emoji": "🟣",
+      "titre": "Le décor",
+      "texte": "Lumière violette, double écran, tapis de souris : on comprend tout de suite « c'est un mec qui s'y connaît »."
+    },
+    {
+      "emoji": "🗣️",
+      "titre": "Le dialogue",
+      "texte": "Deux voix, des vraies réactions (« attends, quoi ? »). Pas un monologue récité."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Le garage me demande 180 € pour vérifier la voiture avant d'acheter. — 180 € ? — Ouais, 180 €.",
+      "comment": "Un pote te filme dans ta chambre ou ta voiture, texte : « Y penser me scam mdr 😂 ». Tu lui montres l'annonce sur ton écran, tu fais un Screen My Car, et le verdict apparaît : NÉGOCIER, 3 défauts repérés. Lui : « attends, quoi ? »."
+    },
+    {
+      "app": "revizio",
+      "hook": "Les cours particuliers, c'est 40 € de l'heure. — 40 € ? — Ouais, 40 €.",
+      "comment": "Ton pote te filme à ton bureau. Tu lui montres Revizio : la photo du cours, les fiches, le quiz. Lui : « attends, quoi ? ». Texte : « Y penser me scam mdr 😂 »."
+    }
+  ],
+  "ordre": 14
+}

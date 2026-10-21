@@ -1,0 +1,96 @@
+{
+  "id": "dbaapo7",
+  "fichier": "v26044gc0000dbaapo7og65k4bmiici0.MP4",
+  "compte": "@pyvaloche",
+  "plateforme": "TikTok",
+  "niche": "apps, astuces téléphone",
+  "format": "liste",
+  "titre": "3 apps en 19 secondes (et la 3ᵉ gardée pour la partie 2)",
+  "sujet": "Un mec face caméra, dans un salon aux poutres, débite 3 apps en 19 secondes : la météo, Roommate… et garde la troisième pour la partie suivante. Les sous-titres s'affichent un mot à la fois, en gros.",
+  "tags": [
+    "19 secondes",
+    "liste",
+    "un mot à la fois",
+    "partie 2",
+    "sans écran"
+  ],
+  "hook": {
+    "dit": "Trois apps qui pourraient peut-être te faire chier.",
+    "voit": "lui, face caméra, tout près, avec les trois icônes des apps en haut à gauche. Les sous-titres apparaissent UN MOT À LA FOIS, en gros, en majuscules."
+  },
+  "texte_ecran": [
+    "les 3 icônes des apps, en haut à gauche, pendant 2 secondes",
+    "les sous-titres, un mot à la fois, en majuscules : DE · APPUIE · VAS · C'EST · SUJETS · MAIS · ÇA · LA"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 2,
+      "voit": "lui, et les 3 icônes en haut à gauche.",
+      "entend": "« Trois apps qui pourraient peut-être te faire chier. »"
+    },
+    {
+      "debut": 2,
+      "fin": 6,
+      "voit": "lui, un mot à la fois à l'écran.",
+      "entend": "« Premier : météo. Appuie sur partage, plus météo, et tu vas comprendre ce que je veux te dire. »"
+    },
+    {
+      "debut": 6,
+      "fin": 14,
+      "voit": "toujours lui, face caméra, il bouge, il sourit.",
+      "entend": "« Deuxième : Roommate. Des groupes de chat publics où tu parles de tous les sujets. La plupart sont là pour se faire des potes, mais avec les manifs, là, ça parle français. »"
+    },
+    {
+      "debut": 14,
+      "fin": 19,
+      "voit": "lui, un signe de la main, fin.",
+      "entend": "« Like et abonne-toi pour la partie 3. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "⏱️",
+      "titre": "19 secondes",
+      "texte": "Le plus court possible. On la regarde en entier, et souvent deux fois."
+    },
+    {
+      "emoji": "🔢",
+      "titre": "« Trois apps »",
+      "texte": "On sait ce qu'on va avoir. Un petit chiffre, une promesse claire."
+    },
+    {
+      "emoji": "😏",
+      "titre": "« …te faire chier »",
+      "texte": "Une formule bizarre, un peu provoc, qu'on n'attend pas. On écoute pour comprendre."
+    },
+    {
+      "emoji": "🔤",
+      "titre": "Un mot à la fois",
+      "texte": "Les sous-titres en gros, mot par mot : l'œil est accroché, même sans le son."
+    },
+    {
+      "emoji": "🧩",
+      "titre": "Il ne montre rien",
+      "texte": "Pas d'écran, pas de capture. Juste les icônes 2 secondes et sa parole. Zéro montage."
+    },
+    {
+      "emoji": "🪤",
+      "titre": "La 3ᵉ app gardée pour la suite",
+      "texte": "« Abonne-toi pour la partie 3 » : il promet 3 apps, il en donne 2. On revient."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Trois apps qui pourraient peut-être te faire chier avant d'acheter une voiture.",
+      "comment": "Face caméra, 20 secondes, sous-titres mot à mot. « Premier : Screen My Car, tu colles l'annonce, ça te dit si c'est une arnaque. Deuxième : … » et tu gardes la 3ᵉ pour la partie 2. Les 3 icônes en haut à gauche au début."
+    },
+    {
+      "app": "msclipper",
+      "hook": "Trois apps qui te paient pour poster des vidéos.",
+      "comment": "Même recette : 20 secondes, un mot à la fois, MS Clipper en premier (« tu postes, t'es payé à la vue »), la 3ᵉ dans la partie 2."
+    }
+  ],
+  "ordre": 2
+}
