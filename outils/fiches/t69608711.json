@@ -1,0 +1,181 @@
+{
+  "id": "t69608711",
+  "fichier": "tiktok-7696745892069608711-realdannydowns.mp4",
+  "compte": "@realdannydowns",
+  "plateforme": "TikTok",
+  "marche": "US",
+  "lien": "https://www.tiktok.com/@realdannydowns/video/7696745892069608711",
+  "niche": "argent, humour",
+  "format": "face-camera",
+  "titre": "« ChatGPT, millionnaire en 30 jours ? » — « Get a job » (perruque bol + moustache)",
+  "sujet": "Un mec avec une grosse toque noire en bonnet et une moustache demande à ChatGPT en vocal : « comment devenir millionnaire en 30 jours ? ». ChatGPT répond « Get a job. » Il halluсine, puis relance : « et si je veux pas de job ? ». 12 secondes, un seul plan, zéro effet.",
+  "tags": [
+    "ChatGPT vocal",
+    "perruque bol",
+    "moustache",
+    "millionnaire",
+    "Get a job",
+    "12 secondes",
+    "pattern-interrupt"
+  ],
+  "hook": {
+    "dit": "Chad, Chad GBT, Chad GBT, how I become a millionaire in 30 days? (Chad, Chad GBT, Chad GBT, comment je deviens millionnaire en 30 jours ?)",
+    "voit": "un mec de face dans un parking, une énorme toque noire sur la tête (comme un chapeau de cuisinier affaissé), une petite moustache, grosse chaîne en or, montre dorée, sweat blanc. Il tient son téléphone près de sa bouche et parle à ChatGPT en vocal."
+  },
+  "texte_ecran": [],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 5.7,
+      "voit": "le mec de profil, téléphone collé à la bouche, grosse toque qui tangue. Il insiste : « Chad, Chad GBT, Chad GBT… ».",
+      "entend": "« Chad, Chad GBT, Chad GBT, how I become a millionaire in 30 days ? »"
+    },
+    {
+      "debut": 5.7,
+      "fin": 6.8,
+      "voit": "il écoute la réponse, bouche entrouverte, regard un peu perdu.",
+      "entend": "la voix de ChatGPT : « Get a job. »"
+    },
+    {
+      "debut": 6.8,
+      "fin": 8.6,
+      "voit": "il se tourne vers la caméra, bouche grande ouverte, choqué par la réponse.",
+      "entend": "« Bro, what are they talking about ? »"
+    },
+    {
+      "debut": 8.6,
+      "fin": 12.1,
+      "voit": "il recolle le téléphone à la bouche et relance sa question, plus fort.",
+      "entend": "« Chad GBT, what if you don't want to get a job and you want to be a millionaire ? »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🎩",
+      "titre": "La toque et la moustache",
+      "texte": "Un bonnet énorme qui tient tout seul en l'air, une petite moustache, une chaîne en or. On n'a jamais vu ça : le pouce s'arrête."
+    },
+    {
+      "emoji": "🗣️",
+      "titre": "« Chad GBT »",
+      "texte": "Il prononce ChatGPT à sa façon, trois fois de suite. Rien que ça, ça fait sourire."
+    },
+    {
+      "emoji": "💭",
+      "titre": "La question que tout le monde se pose",
+      "texte": "« Comment devenir millionnaire en 30 jours ? » : rêve universel, demandé tout fort à une IA."
+    },
+    {
+      "emoji": "🧊",
+      "titre": "« Get a job »",
+      "texte": "La réponse la plus plate du monde, dite par une voix de robot. Le décalage fait rire tout seul."
+    },
+    {
+      "emoji": "😵",
+      "titre": "« Bro, what are they talking about ? »",
+      "texte": "Sa réaction choquée, en direct. Le visage dit ce qu'on pense : « sérieux ? »."
+    },
+    {
+      "emoji": "🔁",
+      "titre": "Il relance quand même",
+      "texte": "« Et si je veux pas de job ? » : il insiste, comme un gamin. On veut la suite."
+    },
+    {
+      "emoji": "⏱️",
+      "titre": "12 secondes, zéro gras",
+      "texte": "Un seul plan, pas de musique, pas de texte. Que la vanne. On la regarde deux fois."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "msclipper",
+      "hook": "« ChatGPT, comment je deviens millionnaire en 30 jours ? » — « Prends un travail. »",
+      "comment": "Même mécanique : tu demandes à ChatGPT en vocal, il te sort la réponse la plus plate. Tu fais la tête choquée, puis tu dis : « ou alors tu postes des vidéos et tu te fais payer à la vue — MS Clipper. » 15 s, un seul plan, un chapeau rigolo si tu veux faire comme lui."
+    },
+    {
+      "app": "smc",
+      "hook": "« ChatGPT, comment j'achète une occase sans me faire arnaquer ? » — « Regarde bien l'annonce. »",
+      "comment": "Tu demandes en vocal, ChatGPT te répond un truc évident. Tu halluсines face caméra, puis : « ou alors tu colles l'annonce dans Screen My Car, et tu sais en 10 secondes si tu dois fuir. » Même durée, même ton."
+    },
+    {
+      "app": "revizio",
+      "hook": "« ChatGPT, comment j'ai 20 au bac demain ? » — « Révise. »",
+      "comment": "Même format : vocal, réponse plate, tête choquée, relance. « Ou alors tu balances ton cours dans Revizio, ça te fait les fiches et le quiz, et tu révises en jouant. »"
+    }
+  ],
+  "note": "<b>À remarquer :</b> la vidéo fait 12 secondes et 3,7 M de vues avec 10 700 abonnés. Le ratio est énorme (320 900 likes, 81 900 partages). Trois ingrédients : un personnage visuellement unique (toque + moustache), une question universelle, une chute en un mot (« Get a job »). Pas de montage, pas de texte, pas de musique — juste la vanne.",
+  "reprise": false,
+  "mise_en_scene": "Un seul plan fixe, dehors dans un parking. Le mec de profil/trois-quarts, téléphone près de la bouche en mode vocal ChatGPT. Pas de coupe, pas d'incrustation, pas de texte.",
+  "hooks": [
+    "pattern-interrupt",
+    "question",
+    "chiffre"
+  ],
+  "point_sensible": "Vouloir devenir riche vite, sans travailler",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Chad GBT, comment je deviens millionnaire en 30 jours ? »"
+    },
+    "probleme": {
+      "t": 0,
+      "quoi": "devenir millionnaire sans effort"
+    },
+    "outil_nomme": {
+      "t": 0,
+      "quoi": "« Chad GBT » (ChatGPT) dès le premier mot"
+    },
+    "outil_montre": {
+      "t": null,
+      "quoi": "jamais : on n'entend que la voix, on ne voit pas l'écran"
+    },
+    "preuve": {
+      "t": null,
+      "quoi": "aucune preuve, la vidéo est une vanne pas un tuto"
+    },
+    "fin": {
+      "t": 8.6,
+      "quoi": "« et si je veux pas de job et je veux être millionnaire ? » — pas de CTA"
+    }
+  },
+  "montre_comment": "rien à l'écran, juste la voix de ChatGPT via le haut-parleur du téléphone",
+  "cta": "aucun",
+  "montage": "un seul plan, pas de coupe, pas de texte, pas de musique. 12 secondes.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "La vanne et le personnage portent toute la vidéo : pas besoin de budget."
+    },
+    {
+      "ok": "oui",
+      "texte": "L'outil (ChatGPT) nommé dès la seconde 0, en boucle."
+    },
+    {
+      "ok": "non",
+      "texte": "Pas de solution concrète : ChatGPT dit « prends un job ». Chez nous, il faut que l'app règle vraiment le problème (MS Clipper paie à la vue, Screen My Car tranche, Revizio fait les fiches)."
+    },
+    {
+      "ok": "bof",
+      "texte": "12 secondes : plus court que nos 30-60 s, mais la chute tombe net."
+    },
+    {
+      "ok": "oui",
+      "texte": "Zéro vidéo reprise, zéro capture d'écran : propre à refaire."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un téléphone avec ChatGPT en vocal, un chapeau ou un accessoire qui sort de l'ordinaire, dehors",
+    "temps": "15 min",
+    "niveau": "facile"
+  },
+  "stats": {
+    "vues": 3700000,
+    "likes": 320900,
+    "partages": 81900,
+    "enregistrements": 23122,
+    "commentaires": 3025,
+    "abonnes": 10700
+  },
+  "ordre": 0,
+  "ajout": "automatique"
+}
