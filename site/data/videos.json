@@ -1,5 +1,282 @@
 [
  {
+  "id": "t44462112",
+  "fichier": "tiktok-7697995078144462112-alex.brtnn.mp4",
+  "compte": "@alex.brtnn",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@alex.brtnn/video/7697995078144462112",
+  "niche": "santé mentale, anxiété",
+  "format": "fond-vert",
+  "titre": "« Elle a supprimé sa vidéo » (Apple Santé → Quieto, 50 s)",
+  "sujet": "Alex, cap, torse nu, dans sa chambre. Hook : « il y a cette meuf, elle a supprimé sa vidéo parce que son frère voulait pas qu'on découvre ça ». Pendant qu'il parle, la vidéo de la meuf en incrustation en bas. Puis téléphone en main : Apple Santé, questionnaire anxiété, résultats, Quieto, chat avec Louane, « crée mon programme », 7 jours. « C'est une dinguerie. »",
+  "tags": [
+   "secret",
+   "vidéo supprimée",
+   "Apple Santé",
+   "Quieto",
+   "Louane",
+   "anxiété",
+   "téléphone en main"
+  ],
+  "hook": {
+   "dit": "Les gars, il y a cette meuf, elle a supprimé sa vidéo parce que son frère, il ne voulait pas qu'on découvre ça.",
+   "voit": "Alex, cap, torse nu, dans sa chambre, face caméra. Texte en bas : « Où est-ce qu'il a trouvé ça ?? 😭 ». La vidéo de la meuf (bonnet rouge) en petite incrustation en bas."
+  },
+  "texte_ecran": [
+   "Où est-ce qu'il a trouvé ça ?? 😭"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 6,
+    "voit": "Alex face caméra, cap, torse nu. En bas, incrustation de la vidéo de la meuf (bonnet rouge).",
+    "entend": "« Les gars, il y a cette meuf, elle a supprimé sa vidéo parce que son frère voulait pas qu'on découvre ça. Écoutez la folie. »"
+   },
+   {
+    "debut": 6,
+    "fin": 14,
+    "voit": "Alex seul face caméra, il explique.",
+    "entend": "« son frère, en étude de psycho, a trouvé pour ne jamais te stresser par les cours. C'est pas compliqué, mais les gens connaissent pas. »"
+   },
+   {
+    "debut": 14,
+    "fin": 25,
+    "voit": "téléphone en main, iPhone, il ouvre Apple Santé (cœur rouge), tape « anxiété », remplit le questionnaire, résultats.",
+    "entend": "« tu vas sur Apple Santé, tu fais anxiété, tu réponds au questionnaire, tu as tes résultats. »"
+   },
+   {
+    "debut": 25,
+    "fin": 40,
+    "voit": "il ferme Santé, grille d'apps, ouvre Quieto (fond bleu nuit, « Bonsoir Paul »), va dans « Louane », tape sa demande, bulle de chat.",
+    "entend": "« tu vas sur cette application-là, Quieto. Tu vas dans Louane et tu lui demandes un programme pour être moins anxieux. »"
+   },
+   {
+    "debut": 40,
+    "fin": 50,
+    "voit": "bouton « créer mon programme », animation de chargement, programme sur 7 jours affiché, il clique sur la première séance. Fin, Alex sur le lit avec le téléphone.",
+    "entend": "« tu cliques sur créer mon programme, c'est un programme sur 7 jours. Tu écoutes une séance chaque soir avant de dormir. C'est une dinguerie. Énorme. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🤫",
+    "titre": "« Elle a supprimé sa vidéo »",
+    "texte": "Ce qui est caché attire. Le frère ne voulait pas qu'on découvre : on veut voir."
+   },
+   {
+    "emoji": "📼",
+    "titre": "La meuf en incrustation",
+    "texte": "On voit la vidéo supprimée en petit en bas pendant qu'il parle : la preuve qu'il y a une vraie histoire derrière."
+   },
+   {
+    "emoji": "📱",
+    "titre": "« L'application qu'on a tous »",
+    "texte": "Il commence par Apple Santé, qui est déjà sur ton iPhone. Pas d'app à télécharger, pas d'excuse."
+   },
+   {
+    "emoji": "🧠",
+    "titre": "Quieto + Louane",
+    "texte": "Une IA qui te fait un programme sur mesure à partir de tes résultats. Deux apps, un combo malin."
+   },
+   {
+    "emoji": "🗓️",
+    "titre": "« Un programme sur 7 jours »",
+    "texte": "Pas « essaie », pas « tu verras ». Un chiffre clair, un cadre, tu sais quoi faire chaque soir."
+   },
+   {
+    "emoji": "🔥",
+    "titre": "« C'est une dinguerie »",
+    "texte": "La conclusion punchy, deux fois : « dinguerie », « énorme ». On ferme la vidéo convaincu."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "revizio",
+    "hook": "Il y a ce mec, il a supprimé sa vidéo parce que son prof voulait pas qu'on découvre ça. Écoutez la folie.",
+    "comment": "Face caméra, incrustation de la vidéo supprimée en bas pendant le hook. Puis téléphone en main : 1. Photo du cours. 2. Revizio. 3. Les fiches arrivent. 4. Le quiz. Résultat à la fin : « 18/20, et t'as rien révisé ». Conclure : « c'est une dinguerie »."
+   },
+   {
+    "app": "smc",
+    "hook": "Il y a ce mec, il a supprimé sa vidéo parce que son père voulait pas qu'on découvre ça pour acheter une voiture.",
+    "comment": "Incrustation de la vidéo supprimée en bas. Puis téléphone en main : 1. L'annonce Leboncoin. 2. Screen My Car. 3. Le verdict (fuir / négocier / acheter). 4. Le prix à proposer. Conclure : « énorme »."
+   }
+  ],
+  "note": "<b>À remarquer :</b> le hook « elle a supprimé sa vidéo parce que X voulait pas qu'on découvre ça » marche parce qu'il combine deux hooks : <i>fruit interdit</i> (ce qui est caché) et <i>mystère</i> (on ne sait pas quoi avant d'écouter). Et la petite incrustation en bas donne la preuve visuelle qu'il y a vraiment une vidéo derrière. 57 abonnés, 26 400 vues : c'est le hook qui a tout fait.",
+  "reprise": true,
+  "reprise_quoi": "la vidéo de la meuf (bonnet rouge) en petite incrustation en bas pendant le hook, pour prouver qu'elle existe vraiment avant d'avoir été supprimée.",
+  "mise_en_scene": "Alex face caméra dans sa chambre (cap, torse nu), avec la meuf en incrustation en bas pour le hook. Puis téléphone en main, iPhone qui bouge, écran filmé en direct (pas une capture propre). Fin sur le lit.",
+  "hooks": [
+   "fruit-interdit",
+   "mystere"
+  ],
+  "point_sensible": "Le stress et l'anxiété liés aux études",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« elle a supprimé sa vidéo parce que son frère voulait pas qu'on découvre ça »"
+   },
+   "probleme": {
+    "t": 6.5,
+    "quoi": "« ne jamais te stresser par les cours, l'école et tout ça »"
+   },
+   "outil_nomme": {
+    "t": 14.2,
+    "quoi": "« tu vas sur Apple Santé »"
+   },
+   "outil_montre": {
+    "t": 14,
+    "quoi": "téléphone en main, Apple Santé qui s'ouvre"
+   },
+   "preuve": {
+    "t": 40.6,
+    "quoi": "« c'est un programme sur 7 jours » affiché à l'écran"
+   },
+   "fin": {
+    "t": 48.2,
+    "quoi": "« c'est une dinguerie. Énorme. »"
+   }
+  },
+  "montre_comment": "téléphone en main, iPhone filmé en direct (ça bouge), on voit chaque tap",
+  "cta": "aucun explicite (« c'est une dinguerie »)",
+  "montage": "une seule incrustation (la meuf au début), zéro texte à l'écran à part le hook en bas, une seule prise ou presque, 50 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Téléphone en main, écran qui bouge : on voit la vraie app, pas une capture plein écran."
+   },
+   {
+    "ok": "oui",
+    "texte": "50 s pile : la bonne durée chez nous."
+   },
+   {
+    "ok": "oui",
+    "texte": "Outil nommé à 14 s (Apple Santé). Bien avant 20 s."
+   },
+   {
+    "ok": "non",
+    "texte": "Vidéo reprise en incrustation : seulement si Screen My Car la fournit."
+   },
+   {
+    "ok": "bof",
+    "texte": "Pas de vanne, pas de punchline marrante : juste « dinguerie ». On peut ajouter une blague au milieu."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un téléphone, une chambre, un bout de vidéo à mettre en incrustation",
+   "temps": "15 min",
+   "niveau": "facile"
+  },
+  "stats": {
+   "vues": 26400,
+   "likes": 176,
+   "partages": 31,
+   "commentaires": 3,
+   "abonnes": 57
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "approuvee_le": "2026-10-22T00:03:46",
+  "duree": 50.7,
+  "transcription": [
+   {
+    "debut": 0.2,
+    "fin": 4.5,
+    "texte": "Les gars, il y a cette meuf, elle a supprimé sa vidéo parce que son frère, il ne voulait pas qu'on découvre ça."
+   },
+   {
+    "debut": 5.1,
+    "fin": 6.3,
+    "texte": "Écoutez la folie."
+   },
+   {
+    "debut": 6.5,
+    "fin": 11.9,
+    "texte": "Il n'y a pas parce que mon frère, qui est en étude de psycho, a trouvé pour ne jamais te stresser par les cours, l'école et tout ça."
+   },
+   {
+    "debut": 12.2,
+    "fin": 14.1,
+    "texte": "En plus, ce n'est pas compliqué, mais c'est juste que les gens ne connaissent pas."
+   },
+   {
+    "debut": 14.2,
+    "fin": 16.7,
+    "texte": "Tu vas sur Apple Sinté, l'application qu'on a tous là."
+   },
+   {
+    "debut": 17.1,
+    "fin": 19.6,
+    "texte": "Tu fais anxiété, risque d'anxiété."
+   },
+   {
+    "debut": 20.1,
+    "fin": 22.1,
+    "texte": "Et là, genre, tu réponds au questionnaire d'Apple."
+   },
+   {
+    "debut": 22.3,
+    "fin": 24.5,
+    "texte": "Ensuite, une fois que tu as répondu à tout, là, tu as tes résultats."
+   },
+   {
+    "debut": 24.7,
+    "fin": 26.6,
+    "texte": "Et avec ces résultats-là, c'est là que ça devient stylé."
+   },
+   {
+    "debut": 26.9,
+    "fin": 28.6,
+    "texte": "Tu vas sur cette application-là, Kieto."
+   },
+   {
+    "debut": 28.6,
+    "fin": 35.5,
+    "texte": "Tu vas dans Louane et là, tu demandes à Louane de te faire un programme pour être moins anxieux par rapport au résultat du test de santé."
+   },
+   {
+    "debut": 35.9,
+    "fin": 38.2,
+    "texte": "Et là, tu as juste à cliquer sur créer mon programme."
+   },
+   {
+    "debut": 38.9,
+    "fin": 40.4,
+    "texte": "Là, tu vois, ça a fini de charger."
+   },
+   {
+    "debut": 40.6,
+    "fin": 42.1,
+    "texte": "C'est un programme sur 7 jours."
+   },
+   {
+    "debut": 42.5,
+    "fin": 43.4,
+    "texte": "Tu n'as vraiment pas à réfléchir."
+   },
+   {
+    "debut": 43.5,
+    "fin": 45.0,
+    "texte": "Tu fais juste écouter la première séance."
+   },
+   {
+    "debut": 45.4,
+    "fin": 48.1,
+    "texte": "Tu cliques là et tu t'en mets une chaque soir avant de dormir."
+   },
+   {
+    "debut": 48.2,
+    "fin": 50.1,
+    "texte": "Et vraiment, c'est une dinguerie."
+   },
+   {
+    "debut": 50.3,
+    "fin": 50.7,
+    "texte": "Énorme."
+   }
+  ]
+ },
+ {
   "id": "t24401440",
   "fichier": "tiktok-7697241423124401440-alex.brtnn.mp4",
   "compte": "@alex.brtnn",
