@@ -1,0 +1,198 @@
+{
+  "id": "t20439584",
+  "fichier": "tiktok-7696924097120439584-6min_ai.mp4",
+  "compte": "@6min_ai",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@6min_ai/video/7696924097120439584",
+  "niche": "argent, side business",
+  "format": "choque",
+  "titre": "5 ans de SMIC et je découvre TrendSaaS (face choquée, supermarché)",
+  "sujet": "Un gars dans un rayon de supermarché, filtre « gros yeux » et bouche grande ouverte, texte en haut : « 5 ans de SMIC et je découvre ça que MTN 😭 ». Puis son téléphone en main : un quiz sur trendsaas.ai qui lui promet un revenu chiffré (12 160 €, 14 840 €, 10 901 €). Zéro parole, juste un « Oh! » et une musique.",
+  "tags": [
+    "choqué",
+    "filtre gros yeux",
+    "SMIC",
+    "supermarché",
+    "téléphone en main",
+    "quiz",
+    "TrendSaaS"
+  ],
+  "hook": {
+    "dit": "(pas de parole, juste un « Oh! » à 3 s)",
+    "voit": "un gars dans un rayon de supermarché, filtre « gros yeux » + bouche grande ouverte, chaîne argentée, pull gris. Texte en haut : « 5 ans de SMIC et je découvre ça que MTN 😭 »."
+  },
+  "texte_ecran": [
+    "5 ans de SMIC et je découvre ça que MTN 😭",
+    "Quel revenu veux-tu atteindre ?",
+    "0 €",
+    "12,160 €",
+    "14,840 €",
+    "Sur quoi tu veux recevoir tes paiements ? (Stripe, PayPal, Revolut, Wise)",
+    "D'ici quand tu dois avoir tes premières ventes ?",
+    "Tu veux tout faire derrière ton téléphone ?",
+    "Tu veux qu'on le fasse à ta place ?",
+    "On chiffre ton potentiel",
+    "6,817 €",
+    "10,901 €"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 5,
+      "voit": "le gars face caméra, filtre « gros yeux » + bouche ouverte, dans un rayon de supermarché. Texte en haut qui ne bouge pas.",
+      "entend": "juste la musique, puis un « Oh! » à 3 s."
+    },
+    {
+      "debut": 5,
+      "fin": 10,
+      "voit": "transition vers son téléphone en main, toujours dans le supermarché. Site trendsaas.ai : « Quel revenu veux-tu atteindre ? », curseur qui monte de 0 € à 12 160 €.",
+      "entend": "musique."
+    },
+    {
+      "debut": 10,
+      "fin": 16,
+      "voit": "le curseur continue à 14 840 €, « Continuer », puis l'écran des paiements : Stripe, PayPal, Revolut, Wise. Il tape.",
+      "entend": "musique."
+    },
+    {
+      "debut": 16,
+      "fin": 22,
+      "voit": "« D'ici quand tu dois avoir tes premières ventes ? », puis « Tu veux tout faire derrière ton téléphone ? », puis « Tu veux qu'on le fasse à ta place ? ». Il appuie sur « Oui ».",
+      "entend": "musique."
+    },
+    {
+      "debut": 22,
+      "fin": 26,
+      "voit": "écran « On chiffre ton potentiel. » qui calcule : 6 817 €, puis 10 901 €, puis une page avec une barre de progression (« 16 »).",
+      "entend": "musique."
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "😳",
+      "titre": "Le filtre « gros yeux »",
+      "texte": "Les yeux énormes et la bouche ouverte, on n'a pas l'habitude. Le pouce s'arrête tout seul."
+    },
+    {
+      "emoji": "🛒",
+      "titre": "Le supermarché",
+      "texte": "Un rayon de courses, pas un bureau. On croit à un vrai moment de vie, pas à une pub."
+    },
+    {
+      "emoji": "💼",
+      "titre": "« 5 ans de SMIC »",
+      "texte": "Une phrase qui parle à tout le monde. Si tu bosses au SMIC, tu te sens visé."
+    },
+    {
+      "emoji": "📱",
+      "titre": "Le téléphone en main",
+      "texte": "Pas une capture d'écran propre : ça bouge, c'est vrai. Comme si on regardait par-dessus son épaule."
+    },
+    {
+      "emoji": "🔢",
+      "titre": "Les chiffres qui défilent",
+      "texte": "0 €, 12 160 €, 14 840 €, 10 901 €. Les montants bougent devant toi, on veut voir le total."
+    },
+    {
+      "emoji": "🤫",
+      "titre": "Zéro parole",
+      "texte": "Pas un mot. Juste la musique et les textes du site. Les gens lisent, ça les tient."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "msclipper",
+      "hook": "5 ans de SMIC et je découvre ça que MTN 😭. Filtre « gros yeux », rayon de supermarché, téléphone en main.",
+      "comment": "Même mise en scène : filtre choqué + supermarché. Puis le téléphone en main qui ouvre MS Clipper : on crée un compte, on poste un clip, on voit le compteur des vues monter. À la fin, le solde en euros qui s'affiche. Zéro parole, musique."
+    },
+    {
+      "app": "smc",
+      "hook": "5 ans de SMIC et je découvre que je peux pas acheter cette voiture 😭.",
+      "comment": "Filtre choqué devant la vitrine d'un concessionnaire. Puis le téléphone en main : on colle l'annonce dans Screen My Car, le verdict tombe : « Fuis ». Texte à l'écran : « 5 ans d'économies sauvées »."
+    },
+    {
+      "app": "revizio",
+      "hook": "5 ans d'études et je découvre ça que MTN 😭.",
+      "comment": "Filtre choqué dans un couloir de fac. Puis Revizio en main : photo du cours, les fiches sortent, le quiz, 20/20. Texte à l'écran : « Si seulement j'avais eu ça au lycée »."
+    }
+  ],
+  "note": "<b>À remarquer :</b> le compte @6min_ai a 251 abonnés et fait 102 000 vues sur cette vidéo. Preuve que la mécanique (filtre choqué + un texte, muet, 26 s) peut faire exploser un petit compte. <b>Le piège :</b> trendsaas.ai promet un revenu sans rien livrer, juste un quiz. Chez nous, il faut un vrai résultat à l'écran.",
+  "reprise": false,
+  "mise_en_scene": "Dans un rayon de supermarché. D'abord face caméra avec filtre choqué, puis le téléphone en main qui remplit un quiz sur un site. Un seul texte en haut tout du long.",
+  "hooks": [
+    "reaction",
+    "pattern-interrupt",
+    "cible"
+  ],
+  "point_sensible": "Être coincé au SMIC et voir les autres gagner des milliers d'euros",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "filtre « gros yeux » + texte « 5 ans de SMIC et je découvre ça que MTN 😭 »"
+    },
+    "probleme": {
+      "t": 0,
+      "quoi": "« 5 ans de SMIC » dans le texte du haut"
+    },
+    "outil_nomme": {
+      "t": null,
+      "quoi": "jamais dit à l'oral ; le nom « TrendSaaS.ai » apparaît en haut du téléphone à partir de 16 s"
+    },
+    "outil_montre": {
+      "t": 5,
+      "quoi": "téléphone en main, site trendsaas.ai, quiz « Quel revenu veux-tu atteindre ? »"
+    },
+    "preuve": {
+      "t": null,
+      "quoi": "aucune preuve, juste des chiffres hypothétiques du quiz (6 817 €, 10 901 €)"
+    },
+    "fin": {
+      "t": 26,
+      "quoi": "la page du site qui se charge, pas de CTA parlé"
+    }
+  },
+  "montre_comment": "téléphone filmé à la main, à bout de bras, pendant qu'il remplit le quiz du site",
+  "cta": "aucun CTA parlé ; le site s'affiche en haut (trendsaas.ai)",
+  "montage": "un seul texte en haut qui ne bouge jamais, filtre « gros yeux » sur le visage, cut net vers le téléphone en main. Zéro voix, juste une musique et un « Oh! ». 26 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Filtre choqué + un texte fort = pattern-interrupt gratuit, à voler."
+    },
+    {
+      "ok": "oui",
+      "texte": "Téléphone en main, pas capture d'écran : ça bouge, ça fait vrai."
+    },
+    {
+      "ok": "oui",
+      "texte": "Supermarché, pas un bureau : contexte de vie, pas de pub."
+    },
+    {
+      "ok": "non",
+      "texte": "Aucune preuve : juste un quiz qui invente un chiffre. Chez nous, il faut un vrai résultat (verdict Screen My Car, fiche Revizio, compteur de vues MS Clipper)."
+    },
+    {
+      "ok": "bof",
+      "texte": "Outil jamais nommé à l'oral. On lit « TrendSaaS.ai » en haut du téléphone, mais c'est petit."
+    },
+    {
+      "ok": "oui",
+      "texte": "26 s, muet, musique : parfait pour notre format court."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un filtre « gros yeux » TikTok, un supermarché, un téléphone, l'app",
+    "temps": "15 min",
+    "niveau": "facile"
+  },
+  "stats": {
+    "vues": 102200,
+    "likes": 1544,
+    "partages": 77,
+    "commentaires": 28,
+    "abonnes": 251
+  },
+  "ordre": 0,
+  "ajout": "automatique"
+}
