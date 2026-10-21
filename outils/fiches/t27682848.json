@@ -1,0 +1,194 @@
+{
+  "id": "t27682848",
+  "fichier": "tiktok-7690638861327682848-kellyinsight.mp4",
+  "compte": "@kellyinsight",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@kellyinsight/video/7690638861327682848",
+  "niche": "IA, WhatsApp",
+  "format": "flow",
+  "titre": "Elle balance sa convo WhatsApp avec son mec dans une IA (WhatBrandonThinks)",
+  "sujet": "Face caméra 2 secondes, puis tablette en main : elle exporte sa conversation WhatsApp avec son copain, l'importe sur WhatBrandonThinks (une IA qui s'appelle Brandon), et lit le rapport : « Kelly et Lucas — un couple un peu mignon, extrêmement catastrophique », avec des stats de ouf.",
+  "tags": [
+    "WhatsApp",
+    "IA",
+    "couple",
+    "export de conversation",
+    "DINGUERIE",
+    "Brandon",
+    "rapport"
+  ],
+  "hook": {
+    "dit": "Depuis quand on peut faire ça avec Whatsapp ?",
+    "voit": "elle face caméra, écouteurs AirPods, cheveux blonds attachés, sweat noir. Texte blanc en gros : « c'est quoi cette DINGUERIE que j'ai découvert sur whatsapp 💀⚠️ »."
+  },
+  "texte_ecran": [
+    "c'est quoi cette DINGUERIE que j'ai découvert sur whatsapp 💀⚠️"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 4,
+      "voit": "elle face caméra, mains qui bougent, texte blanc en gros sur l'écran : « c'est quoi cette DINGUERIE que j'ai découvert sur whatsapp 💀⚠️ ».",
+      "entend": "« Depuis quand on peut faire ça avec Whatsapp ? Là je suis sur la conversation avec mon mec et je vais venir l'exporter. »"
+    },
+    {
+      "debut": 4,
+      "fin": 10,
+      "voit": "la tablette en main, WhatsApp ouvert sur sa discussion « Mv », elle fait défiler, puis le menu d'export : « Exporter la discussion ».",
+      "entend": "« Je pense sur un site qui s'appelle WhatBrandonThinks. »"
+    },
+    {
+      "debut": 10,
+      "fin": 18,
+      "voit": "le site whatbrandonthinks.com sur la tablette, « Importe ta discussion WhatsApp », une case « Clique ici », puis le fichier qui part en upload.",
+      "entend": "« Et c'est une IA qui s'appelle Brandon et je vais importer la discussion. »"
+    },
+    {
+      "debut": 18,
+      "fin": 25,
+      "voit": "le compteur « 507 » qui tourne (Brandon lit les messages), petites bulles vertes qui défilent. Elle revient face caméra, air amusé.",
+      "entend": "« Brandon c'est une IA qui va faire une analyse de ma conversation avec mon mec. Vous pouvez faire ça avec tout le monde, à votre famille, votre maire, votre quoi, et vous allez voir c'est franchement assez marrant. »"
+    },
+    {
+      "debut": 25,
+      "fin": 35,
+      "voit": "le rapport s'ouvre : « Kelly et Lucas — un couple un peu mignon, extrêmement catastrophique ». Puis « Le diagnostic », « Qui parle, qui commence » : 3 978 vs 3 656 messages, 40 % / 38 %, 5 211 / 4 789, 52 % / 48 %.",
+      "entend": "« Donc là c'est bon, j'ai le rapport. »"
+    },
+    {
+      "debut": 35,
+      "fin": 43,
+      "voit": "d'autres pages du rapport : « Votre rythme » (13 min / 13 min), « Le plus long silence » 0, « Le plus long message » 95, « Tout a commencé là » (5 janvier 2026), « Et pour l'instant, ça finit là » (avril 2026), « Vos mots », « Les emojis qui reviennent ». Elle revient face caméra à la toute fin.",
+      "entend": "(musique, pas de parole, puis fin cut)."
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "📱",
+      "titre": "WhatsApp, tout le monde connaît",
+      "texte": "L'appli que tout le monde a dans la poche. Rien que le mot, on écoute."
+    },
+    {
+      "emoji": "❓",
+      "titre": "« Depuis quand on peut faire ça ? »",
+      "texte": "Une question qui sent la fonction cachée. On veut savoir ce qu'on a loupé."
+    },
+    {
+      "emoji": "💀",
+      "titre": "« DINGUERIE » en gros + 💀⚠️",
+      "texte": "Un mot cash et deux emojis flippants. Même sans le son, on sent que c'est gros."
+    },
+    {
+      "emoji": "💑",
+      "titre": "Sa convo avec son mec",
+      "texte": "C'est intime. On a envie de regarder par-dessus son épaule, c'est voyeur et c'est bon."
+    },
+    {
+      "emoji": "🤖",
+      "titre": "Brandon, l'IA qui te juge",
+      "texte": "On ne nomme pas « une IA » : on nomme Brandon. Un prénom, c'est un personnage, c'est marrant."
+    },
+    {
+      "emoji": "📊",
+      "titre": "Les chiffres du rapport",
+      "texte": "3 978 messages, 52 % / 48 %, « catastrophique » : on veut lire chaque case, on scrolle avec elle."
+    },
+    {
+      "emoji": "😏",
+      "titre": "« Votre maire, votre quoi »",
+      "texte": "La petite vanne qui glisse : on peut faire ça avec n'importe qui. Ça fait sourire et ça donne des idées."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Depuis quand on peut faire ça avec Leboncoin ? Attendez, je vous montre.",
+      "comment": "Face caméra 2 s avec un gros texte « c'est quoi cette DINGUERIE que j'ai trouvé sur Leboncoin 💀⚠️ ». Puis téléphone en main : tu colles une annonce de voiture dans Screen My Car, le verdict tombe (« fuis »), les chiffres s'affichent. Fin : « vous pouvez faire ça avec la caisse de votre pote, de votre voisin, de votre maire. »"
+    },
+    {
+      "app": "revizio",
+      "hook": "Depuis quand on peut faire ça avec ses cours ? C'est une DINGUERIE.",
+      "comment": "Pareil : hook face caméra avec texte en gros, puis tablette en main. Tu prends ton cours en photo, tu l'envoies à Revizio, l'IA génère des fiches, tu fais le quiz, score 18/20 à l'écran. Vanne de fin : « vous pouvez faire ça avec le cours de français, de maths, de votre maire. »"
+    },
+    {
+      "app": "msclipper",
+      "hook": "Depuis quand on peut gagner de l'argent avec TikTok sans être connu ?",
+      "comment": "Face caméra 2 s, texte « c'est quoi cette DINGUERIE 💀⚠️ ». Puis téléphone en main : tu ouvres MS Clipper, tu postes une vidéo, et tu montres les vues qui montent et le compteur d'euros qui tourne. Rapport final à l'écran : vues, gains."
+    }
+  ],
+  "note": "<b>À remarquer :</b> compte à 288 abonnés, 108 400 vues et 737 partages. Le ratio partages/vues est énorme : les gens envoient la vidéo à leur meuf, leur mec, leur groupe. L'astuce, c'est que l'outil se partage tout seul une fois qu'on l'a vu.",
+  "reprise": false,
+  "mise_en_scene": "Face caméra 2 secondes en gros plan avec texte DINGUERIE, puis tablette en main qui filme son écran du début à la fin (WhatsApp → site Brandon → rapport), petits retours face caméra entre deux.",
+  "hooks": [
+    "question",
+    "fruit-interdit",
+    "marque"
+  ],
+  "point_sensible": "Vouloir savoir ce que l'autre pense vraiment dans sa relation",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Depuis quand on peut faire ça avec Whatsapp ? » + texte DINGUERIE"
+    },
+    "probleme": {
+      "t": 2,
+      "quoi": "« la conversation avec mon mec » — on va la décortiquer"
+    },
+    "outil_nomme": {
+      "t": 5,
+      "quoi": "« un site qui s'appelle WhatBrandonThinks »"
+    },
+    "outil_montre": {
+      "t": 10,
+      "quoi": "le site Brandon sur la tablette, « Importe ta discussion WhatsApp »"
+    },
+    "preuve": {
+      "t": 26,
+      "quoi": "le rapport « Kelly et Lucas — un couple un peu mignon, extrêmement catastrophique » + stats 3 978 / 3 656"
+    },
+    "fin": {
+      "t": 43,
+      "quoi": "cut sur les derniers écrans du rapport, pas de CTA"
+    }
+  },
+  "montre_comment": "tablette filmée en main (ça bouge), on voit WhatsApp, puis le site Brandon, puis le rapport page par page",
+  "cta": "aucun (pas d'appel à agir, pas de « lien en bio »)",
+  "montage": "un seul gros texte au tout début (« DINGUERIE »), aucun texte après, musique douce, cuts rapides entre face caméra et écran. 43 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Pile dans la bonne durée : 43 s."
+    },
+    {
+      "ok": "oui",
+      "texte": "L'outil est nommé à 5 s, puis le vrai écran est montré, tablette en main."
+    },
+    {
+      "ok": "oui",
+      "texte": "La vanne « votre maire, votre quoi » et le prénom « Brandon » : c'est marrant, on retient."
+    },
+    {
+      "ok": "bof",
+      "texte": "Le résultat (le rapport) arrive à 26 s : un peu tard, on pourrait le teaser dès 3 s."
+    },
+    {
+      "ok": "non",
+      "texte": "Zéro CTA à la fin : chez nous, toujours finir par « essayez-le »."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un téléphone pour filmer, une tablette (ou un autre téléphone) pour montrer l'écran, un gros texte au début",
+    "temps": "15 min",
+    "niveau": "facile"
+  },
+  "stats": {
+    "vues": 108400,
+    "likes": 1984,
+    "partages": 737,
+    "commentaires": 25,
+    "abonnes": 288
+  },
+  "ordre": 0,
+  "ajout": "automatique"
+}
