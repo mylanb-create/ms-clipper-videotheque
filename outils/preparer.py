@@ -22,6 +22,9 @@ def ident(f):
     m = re.search(r"gc000[01](\w{7})", f.stem)
     if m:
         return m.group(1)
+    m = re.search(r"tiktok-(\d{15,20})", f.stem)  # téléchargée par scruter.py : « t » + les 8 derniers chiffres de l'id TikTok
+    if m:
+        return "t" + m.group(1)[-8:]
     m = re.search(r"(\d\d)-(\d\d)-\d\d_\d", f.stem)
     return f"ecran-{m.group(1)}{m.group(2)}" if m else re.sub(r"\W+", "-", f.stem.lower())
 

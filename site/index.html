@@ -16,24 +16,46 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
-  <header class="top">
-    <a class="brand" href="#" aria-label="Vidéothèque MS Clipper, accueil">
-      <img src="img/icone.svg" alt="" width="34" height="34">
-      <span class="wordmark">MS <em>Clipper</em></span>
-      <span class="area">Vidéothèque</span>
+  <aside class="side" id="side" aria-label="Menu">
+    <a class="side-marque" href="#fr" aria-label="Vidéothèque MS Clipper, accueil">
+      <img src="img/icone.svg" alt="" width="32" height="32">
+      <span>
+        <span class="wordmark">MS <em>Clipper</em></span>
+        <span class="side-sous">Vidéothèque</span>
+      </span>
     </a>
-    <nav class="topnav">
-      <a class="btn" href="#guide">📖 Le guide</a>
-      <a class="btn btn-ghost" href="https://ms-clipper.vercel.app" target="_blank" rel="noopener">MS Clipper ↗</a>
+    <nav class="side-nav">
+      <div class="side-titre">📚 Vidéothèque</div>
+      <a class="side-lien" href="#fr" data-route="fr"><span>🇫🇷 Vidéos FR</span><span class="pastille" id="n-fr"></span></a>
+      <a class="side-lien" href="#us" data-route="us"><span>🇺🇸 Vidéos US</span><span class="pastille" id="n-us"></span></a>
+
+      <div id="side-revue" hidden>
+        <div class="side-titre">🔎 Revue de vidéos</div>
+        <a class="side-lien" href="#revue/fr" data-route="revue/fr"><span>🇫🇷 À revoir FR</span><span class="pastille" id="r-fr"></span></a>
+        <a class="side-lien" href="#revue/us" data-route="revue/us"><span>🇺🇸 À revoir US</span><span class="pastille" id="r-us"></span></a>
+      </div>
+
+      <div class="side-titre">📖 Apprendre</div>
+      <a class="side-lien" href="#guide" data-route="guide"><span>Le guide</span></a>
     </nav>
+    <div class="side-pied">
+      <a href="https://ms-clipper.vercel.app" target="_blank" rel="noopener">MS Clipper ↗</a>
+    </div>
+  </aside>
+  <div class="voile" id="voile" hidden></div>
+
+  <header class="barre-mobile">
+    <button class="btn btn-ghost" id="menu" aria-label="Ouvrir le menu">☰</button>
+    <a class="side-marque" href="#fr"><img src="img/icone.svg" alt="" width="28" height="28"><span class="wordmark">MS <em>Clipper</em></span></a>
+    <span class="barre-titre" id="barre-titre"></span>
   </header>
 
   <main id="accueil">
     <section class="hero">
-      <div class="eyebrow">Des exemples, pas de la théorie</div>
+      <div class="eyebrow" id="hero-marche">🇫🇷 Vidéos FR</div>
       <h1>
         <span class="l1">Des vidéos qui ont marché.</span>
         <span class="l2">Regarde, comprends, <b class="brand-text">refais.</b></span>
@@ -49,13 +71,13 @@
     </section>
 
     <section class="grille" id="grille" aria-live="polite"></section>
-    <p class="vide" id="vide" hidden>Rien avec ce mot. Essaie un autre, ou enlève le filtre.</p>
+    <div class="vide" id="vide" hidden></div>
 
     <a class="guide-teaser" href="#guide">
       <span class="gt-emoji">📖</span>
       <span>
         <b>Le guide : comment lire une vidéo</b>
-        <span>Les 5 façons de filmer, les 12 types de hooks, et nos règles. Avec les exemples de la vidéothèque.</span>
+        <span>Les façons de filmer, les 12 types de hooks, et nos règles. Avec les exemples de la vidéothèque.</span>
       </span>
       <span class="gt-fleche">→</span>
     </a>
@@ -66,9 +88,13 @@
     </footer>
   </main>
 
+  <section id="revue" class="revue-vue" hidden>
+    <iframe id="revue-cadre" title="Revue des vidéos"></iframe>
+  </section>
+
   <section id="fiche" class="fiche" hidden aria-modal="true" role="dialog">
     <div class="fiche-barre">
-      <a class="btn btn-ghost retour" href="#">← Toutes les vidéos</a>
+      <a class="btn btn-ghost retour" href="#fr" id="retour">← Toutes les vidéos</a>
       <div class="fiche-nav">
         <button class="btn btn-ghost" id="prec" title="Vidéo précédente (←)">←</button>
         <span class="compteur" id="compteur"></span>
@@ -80,7 +106,7 @@
 
   <section id="guide" class="fiche guide" hidden>
     <div class="fiche-barre">
-      <a class="btn btn-ghost retour" href="#">← Toutes les vidéos</a>
+      <a class="btn btn-ghost retour" href="#fr" id="retour-guide">← Toutes les vidéos</a>
       <nav class="guide-nav">
         <a href="#guide-lire">Lire une vidéo</a>
         <a href="#guide-formats">Les formats</a>
@@ -132,6 +158,6 @@
     </div>
   </section>
 
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>

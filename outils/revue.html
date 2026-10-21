@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revue des vidéos — MS Clipper</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/img/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+@font-face { font-family: "iBrand"; src: url("/fonts/Ibrand.woff2") format("woff2"); font-weight: 700; font-display: swap; unicode-range: U+0000-00F8, U+00FD-FFFF; }
+:root {
+  --brand: #e3285e; --brand-50: #fff1f5; --brand-100: #ffe1ea; --brand-200: #ffc5d7; --brand-700: #bf1b4f;
+  --canvas: #faf7f9; --carte: #ffffff; --bord: #e8e2e7; --texte: #1a1020; --texte-2: #5b5262; --texte-3: #8d8493;
+  --vert: #1a8a4a; --vert-50: #e9f8ef;
+  --ombre: 0 1px 2px rgba(26, 16, 32, 0.04), 0 10px 30px -18px rgba(26, 16, 32, 0.25);
+  --degrade: linear-gradient(60deg, #ee3a32, #f23e6e 45%, #e94ab8 78%, #e35ad6);
+  --rayon: 18px; --display: "iBrand", "Outfit", system-ui, sans-serif; --sans: "Outfit", system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --canvas: #150d1a; --carte: #1f1526; --bord: #33263c; --texte: #f6f0f4; --texte-2: #c3b7c6; --texte-3: #8d8493; --brand-50: #2a1522; --brand-100: #3a1a2d; --brand-200: #52223c; --brand-700: #ff8fb0; --vert: #5bd38c; --vert-50: #16301f; --ombre: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px -18px rgba(0,0,0,.6); }
+}
+:root[data-theme="dark"] { --canvas: #150d1a; --carte: #1f1526; --bord: #33263c; --texte: #f6f0f4; --texte-2: #c3b7c6; --texte-3: #8d8493; --brand-50: #2a1522; --brand-100: #3a1a2d; --brand-200: #52223c; --brand-700: #ff8fb0; --vert: #5bd38c; --vert-50: #16301f; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--canvas); color: var(--texte); font-family: var(--sans); font-size: 15px; }
+html.embed header.top img, html.embed header.top .wordmark, html.embed header.top .area, html.embed #marches { display: none; }
+html.embed header.top { padding-top: 14px; }
+header.top { display: flex; align-items: center; gap: 12px; padding: 12px 20px; border-bottom: 1px solid var(--bord); background: var(--carte); position: sticky; top: 0; z-index: 5; flex-wrap: wrap; }
+.wordmark { font-family: var(--display); font-size: 22px; white-space: nowrap; }
+.wordmark em { font-style: normal; background: var(--degrade); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.area { color: var(--texte-3); font-weight: 500; }
+.onglets { margin-left: auto; display: flex; gap: 6px; flex-wrap: wrap; }
+.puce { padding: 7px 13px; border-radius: 999px; background: var(--brand-50); color: var(--brand-700); font-weight: 600; font-size: 14px; cursor: pointer; border: 1px solid transparent; font-family: inherit; }
+.puce.active { background: var(--brand); color: #fff; }
+.puce.marche { background: var(--canvas); color: var(--texte-2); border-color: var(--bord); }
+.puce.marche.active { background: var(--texte); color: var(--carte); border-color: var(--texte); }
+.puce.cle { background: var(--canvas); color: var(--texte-2); border-color: var(--bord); }
+.puce.cle.ok { color: var(--vert); }
+main { max-width: 1180px; margin: 0 auto; padding: 20px 16px 60px; }
+.carte { background: var(--carte); border: 1px solid var(--bord); border-radius: var(--rayon); box-shadow: var(--ombre); }
+.revue { display: grid; grid-template-columns: 340px 1fr; gap: 24px; padding: 20px; }
+.lecteur { width: 325px; max-height: 745px; border: 0; border-radius: 12px; background: #000; display: block; }
+.attente { height: 578px; display: flex; align-items: center; justify-content: center; text-align: center; color: #fff; padding: 20px; line-height: 1.5; }
+.attente small { color: #c3b7c6; font-size: 12px; }
+.vignette { width: 325px; height: 578px; object-fit: cover; border-radius: 12px; display: block; background: #000; }
+h1.titre { font-family: var(--display); font-size: 24px; line-height: 1.25; margin: 0 0 6px; font-weight: 700; }
+.compte { color: var(--texte-2); margin-bottom: 4px; }
+.compte b { color: var(--texte); }
+.meta { color: var(--texte-3); font-size: 14px; }
+.chiffres { display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 10px; margin: 16px 0; }
+.chiffre { background: var(--canvas); border-radius: 12px; padding: 10px 12px; }
+.chiffre b { display: block; font-size: 22px; font-weight: 800; line-height: 1.1; }
+.chiffre span { color: var(--texte-3); font-size: 13px; }
+.chiffre.fort b { background: var(--degrade); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.pourquoi { background: var(--brand-50); border-radius: 12px; padding: 12px 14px; color: var(--brand-700); font-weight: 500; line-height: 1.45; }
+.legende { margin-top: 12px; color: var(--texte-2); line-height: 1.45; }
+.etat { margin-top: 12px; font-weight: 600; }
+.etat.ok { color: var(--vert); } .etat.err { color: var(--brand-700); } .etat.att { color: var(--texte-2); }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.btn { border: 1px solid var(--bord); background: var(--carte); color: var(--texte); border-radius: 999px; padding: 11px 18px; font: inherit; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; }
+.btn:disabled { opacity: .45; cursor: default; }
+.btn kbd { font: 12px/1 var(--sans); background: var(--canvas); border: 1px solid var(--bord); border-radius: 6px; padding: 3px 6px; color: var(--texte-3); }
+.btn-oui { background: var(--degrade); color: #fff; border: 0; }
+.btn-oui kbd { background: rgba(255,255,255,.2); color: #fff; border-color: transparent; }
+.btn-non { color: var(--brand-700); border-color: var(--brand-200); }
+.nav { display: flex; gap: 8px; margin-top: 14px; color: var(--texte-3); font-size: 14px; align-items: center; }
+.file { margin-top: 20px; overflow: hidden; }
+.file h2 { font-size: 16px; margin: 0; padding: 14px 18px; color: var(--texte-2); font-weight: 600; }
+.ligne { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; padding: 11px 18px; border-top: 1px solid var(--bord); cursor: pointer; }
+.ligne:hover { background: var(--brand-50); }
+.ligne.active { background: var(--brand-100); }
+.ligne .t { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ligne .s { color: var(--texte-3); font-size: 13px; }
+.ligne .d { font-size: 13px; color: var(--texte-2); text-align: right; white-space: nowrap; }
+.ligne .d.ok { color: var(--vert); } .ligne .d.err { color: var(--brand-700); }
+details.panneau { margin-top: 20px; padding: 14px 20px; }
+details summary { cursor: pointer; font-weight: 700; font-size: 16px; }
+.champs { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 14px 0; }
+label { display: block; font-size: 13px; color: var(--texte-2); margin-bottom: 4px; }
+input[type=text], input[type=number], input[type=password] { width: 100%; padding: 10px 12px; border: 1px solid var(--bord); border-radius: 10px; background: var(--canvas); color: var(--texte); font: inherit; }
+.ligne-opt { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin: 10px 0; }
+.ligne-opt label { margin: 0; display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: var(--texte); }
+.vitesses { display: flex; gap: 6px; margin-top: 8px; max-width: 325px; align-items: center; }
+.vitesses span { color: var(--texte-3); font-size: 13px; margin-right: 2px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.tag { padding: 4px 10px; border-radius: 999px; background: var(--canvas); border: 1px solid var(--bord); font-size: 13px; color: var(--texte-2); }
+.tag b { font-weight: 700; margin-left: 4px; }
+.tag.fort { border-color: var(--vert); color: var(--vert); background: var(--vert-50); }
+.tag.faible { opacity: .7; }
+table.percer { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 14px; }
+table.percer th { text-align: left; color: var(--texte-3); font-weight: 600; padding: 8px 6px; border-bottom: 1px solid var(--bord); white-space: nowrap; }
+table.percer td { padding: 8px 6px; border-bottom: 1px solid var(--bord); vertical-align: middle; }
+table.percer tr.generique td { color: var(--texte-3); }
+.barre { height: 8px; border-radius: 4px; background: var(--brand-100); min-width: 60px; position: relative; overflow: hidden; }
+.barre i { position: absolute; inset: 0 auto 0 0; background: var(--degrade); border-radius: 4px; }
+.mini-btn { border: 1px solid var(--bord); background: var(--carte); color: var(--texte-2); border-radius: 999px; padding: 4px 10px; font: inherit; font-size: 13px; cursor: pointer; }
+.table-defile { overflow-x: auto; }
+.journal { white-space: pre-wrap; font: 13px/1.5 ui-monospace, Menlo, monospace; background: var(--canvas); border-radius: 10px; padding: 10px 12px; max-height: 260px; overflow: auto; margin-top: 10px; }
+.vide { padding: 48px 20px; text-align: center; color: var(--texte-2); line-height: 1.5; }
+.aide { color: var(--texte-3); font-size: 13px; margin-top: 8px; line-height: 1.45; }
+@media (max-width: 780px) { .revue { grid-template-columns: 1fr; } .lecteur, .vignette { margin: 0 auto; max-width: 100%; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <img src="/img/icone.svg" alt="" width="34" height="34">
+  <span class="wordmark">MS <em>Clipper</em></span>
+  <span class="area">Revue des vidéos</span>
+  <nav class="onglets" id="marches" style="margin-left: 18px"></nav>
+  <nav class="onglets" id="onglets"></nav>
+  <button class="puce cle" id="cle-etat" type="button" title="Clé Apify"></button>
+</header>
+<main>
+  <section class="carte revue" id="revue"></section>
+  <section class="carte file" id="file"></section>
+  <details class="carte panneau" id="p-percer">
+    <summary>📈 Les hashtags qui font percer</summary>
+    <div class="aide" id="percer-intro"></div>
+    <div class="ligne-opt"><label><input type="checkbox" id="p-generiques" checked> Masquer les hashtags génériques (#fyp, #pourtoi, #viral…)</label></div>
+    <div id="percer"></div>
+    <div class="aide">À lire comme un indice, pas une preuve : les vidéos viennent de nos recherches (mots-clés, comptes), pas de tout TikTok. Plus il y a de recherches, plus le tableau est fiable. Sous chaque vidéo, le pourcentage à côté d'un hashtag est ce même chiffre (en vert : nettement au-dessus de la moyenne).</div>
+  </details>
+  <details class="carte panneau" id="p-recherche">
+    <summary>🔍 Lancer une recherche</summary>
+    <div class="champs">
+      <div><label for="f-marche">Marché</label><select id="f-marche" style="width: 100%; padding: 10px 12px; border: 1px solid var(--bord); border-radius: 10px; background: var(--canvas); color: var(--texte); font: inherit"><option value="FR">🇫🇷 France (vidéos en français)</option><option value="US">🇺🇸 US (vidéos en anglais)</option></select></div>
+      <div><label for="f-mots">Mots-clés (séparés par des virgules)</label><input type="text" id="f-mots" placeholder="app, astuce, IA, side business"></div>
+      <div><label for="f-hashtags">Hashtags</label><input type="text" id="f-hashtags" placeholder="astuce, ia"></div>
+      <div><label for="f-comptes">Comptes : « reperes », « fiches », « aucun » ou @a, @b</label><input type="text" id="f-comptes" value="aucun"></div>
+      <div><label for="f-max">Résultats par mot ou hashtag</label><input type="number" id="f-max" value="20" min="1" max="200"></div>
+    </div>
+    <div class="ligne-opt">
+      <label><input type="checkbox" id="f-sans-apify"> Sans Apify (gratuit : les comptes seulement, pas les enregistrements)</label>
+      <button class="btn btn-oui" type="button" id="f-lancer">Lancer</button>
+      <span class="meta" id="f-estimation"></span>
+    </div>
+    <div class="aide">Chaque mot est aussi cherché comme hashtag (« argent en ligne » → #argentenligne). Seules les vidéos dans la langue du marché sont gardées. Les mots-clés et les hashtags passent par Apify (≈ 0,004 $ par vidéo lue, pris sur les 5 $ offerts chaque mois ; l'estimation s'affiche ici). Les comptes marchent aussi sans clé. Tout ce qui est trouvé arrive dans « À revoir ».</div>
+    <div class="journal" id="f-journal" hidden></div>
+  </details>
+  <details class="carte panneau" id="p-cle">
+    <summary>🔑 Clé Apify</summary>
+    <div class="aide">Compte sur <a href="https://console.apify.com/sign-up" target="_blank" rel="noopener">apify.com</a>, puis Settings → API &amp; Integrations → Personal API tokens. La clé est vérifiée puis écrite dans le fichier <code>.env</code> de la vidéothèque (ignoré par git) : elle ne part jamais sur GitHub.</div>
+    <div class="ligne-opt">
+      <input type="password" id="k-cle" placeholder="apify_api_…" style="max-width: 420px" autocomplete="off">
+      <button class="btn" type="button" id="k-enregistrer">Vérifier et enregistrer</button>
+      <span class="meta" id="k-retour"></span>
+    </div>
+  </details>
+</main>
+<script>
+const $ = (s) => document.querySelector(s);
+const GROUPES = [["propose", "À revoir"], ["approuve", "Approuvées"], ["plus_tard", "Plus tard"], ["ecarte", "Refusées"]];
+let etat = { candidats: [], cle: false, recherche: {} };
+let onglet = "propose";
+let courant = null;
+
+const groupe = (c) => (c.statut === "telecharge" ? "approuve" : (c.statut || "propose"));
+const fmt = (n) => n == null ? "?" : (n >= 10000 ? new Intl.NumberFormat("fr-FR", { notation: "compact", maximumFractionDigits: 1 }).format(n) : new Intl.NumberFormat("fr-FR").format(n));
+const PARAMS = new URLSearchParams(location.search);
+if (PARAMS.has("embed")) document.documentElement.classList.add("embed");
+let marche = "FR";
+try { marche = localStorage.getItem("marche") || "FR"; } catch (e) {}
+if (["FR", "US", "tous"].includes(PARAMS.get("marche"))) marche = PARAMS.get("marche");
+const dansMarche = (c) => marche === "tous" || c.marche === marche;
+const liste = () => etat.candidats.filter((c) => groupe(c) === onglet && dansMarche(c));
+const sel = () => etat.candidats.find((c) => c.id === courant);
+
+async function charger() {
+  const r = await fetch("/api/etat");
+  etat = await r.json();
+  if (!sel() || groupe(sel()) !== onglet) courant = (liste()[0] || {}).id || null;
+  rendre();
+}
+
+function rendre() {
+  const n = Object.fromEntries(GROUPES.map(([g]) => [g, etat.candidats.filter((c) => groupe(c) === g && dansMarche(c)).length]));
+  const ms = [...Object.entries(etat.marches || {}).map(([m, d]) => [m, d.drapeau + " " + m]), ["tous", "Tous"]];
+  $("#marches").innerHTML = ms.map(([m, nom]) => `<button class="puce marche ${m === marche ? "active" : ""}" type="button" data-m="${m}">${nom} · ${etat.candidats.filter((c) => groupe(c) === "propose" && (m === "tous" || c.marche === m)).length}</button>`).join("");
+  $("#marches").querySelectorAll("button").forEach((b) => b.onclick = () => {
+    marche = b.dataset.m;
+    try { localStorage.setItem("marche", marche); } catch (e) {}
+    courant = (liste()[0] || {}).id || null;
+    derniereSig = null;
+    if (marche !== "tous") $("#f-marche").value = marche;
+    remplirMots();
+    rendre();
+    chargerStats();
+  });
+  $("#onglets").innerHTML = GROUPES.map(([g, nom]) => `<button class="puce ${g === onglet ? "active" : ""}" type="button" data-g="${g}">${nom} · ${n[g]}</button>`).join("");
+  $("#onglets").querySelectorAll("button").forEach((b) => b.onclick = () => { onglet = b.dataset.g; courant = (liste()[0] || {}).id || null; rendre(); });
+  const k = $("#cle-etat");
+  k.textContent = etat.cle ? "🔑 Apify : clé OK" : "🔑 Apify : pas de clé";
+  k.className = "puce cle" + (etat.cle ? " ok" : "");
+  $("#f-sans-apify").checked = !etat.cle && !$("#f-sans-apify").dataset.touche;
+  const c = sel();
+  const ap = (c && c.apercu) || {};
+  const sig = c ? [c.id, c.statut, ap.pret, ap.erreur, ap.jumeau, c.erreur, c.fichier, onglet].join("|") : "vide|" + etat.candidats.length;
+  if (sig !== derniereSig) { derniereSig = sig; rendreCarte(); }
+  rendreFile();
+  rendreRecherche();
+  if (window.parent !== window) {
+    const aRevoir = (m) => etat.candidats.filter((x) => groupe(x) === "propose" && x.marche === m).length;
+    window.parent.postMessage({ type: "revue", aRevoir: { FR: aRevoir("FR"), US: aRevoir("US") } }, location.origin);
+  }
+}
+let derniereSig = null;
+
+function etatTexte(c) {
+  if (c.erreur) return ["err", "✗ téléchargement raté : " + c.erreur];
+  if ((c.statut === "telecharge" || c.statut === "approuve") && c.fiche) return ["ok", "✓ analysée, dans la vidéothèque (fiche " + c.fiche + ")"];
+  if (c.statut === "telecharge" && c.remarque) return ["ok", "✓ " + c.remarque + (c.fichier ? " : " + c.fichier : "")];
+  if (c.statut === "telecharge") return ["ok", "✓ téléchargée" + (c.fichier ? " · " + c.fichier : "") + " · à analyser"];
+  if (c.statut === "approuve") return ["att", "⏳ téléchargement en cours…"];
+  if (c.statut === "ecarte") return ["att", "refusée"];
+  if (c.statut === "plus_tard") return ["att", "mise de côté"];
+  return ["", ""];
+}
+
+function rendreCarte() {
+  const c = sel();
+  const zone = $("#revue");
+  if (!c) {
+    zone.innerHTML = `<div class="vide" style="grid-column: 1 / -1">${etat.candidats.length ? "Rien dans cet onglet." : "Aucune vidéo à revoir pour l'instant.<br>Lance une recherche ci-dessous : ce qu'elle trouve arrive ici."}</div>`;
+    if (!etat.candidats.length) $("#p-recherche").open = true;
+    return;
+  }
+  const [cls, txt] = etatTexte(c);
+  const ap = c.apercu || {};
+  const i = liste().findIndex((x) => x.id === c.id);
+  const ratio = c.ratio == null ? "abonnés inconnus" : (c.ratio >= 10 ? Math.round(c.ratio) + "×" : c.ratio.toFixed(1).replace(".", ",") + "×");
+  zone.innerHTML = `
+    <div>
+      ${ap.pret ? `<video class="lecteur" id="lecteur" src="${esc(ap.url)}" controls autoplay playsinline></video>`
+        : `<div class="lecteur attente">${ap.erreur ? "✗ Vidéo impossible à récupérer.<br><small>" + esc(ap.erreur) + "</small>" : "⏳ La vidéo arrive…"}</div>`}
+      ${ap.pret ? `<div class="vitesses"><span>Vitesse</span>${[1, 1.5, 2].map((v) => `<button class="puce ${v === vitesse ? "active" : ""}" type="button" data-v="${v}">x${String(v).replace(".", ",")}</button>`).join("")}</div>` : ""}
+      ${ap.jumeau ? `<div class="etat err" style="max-width: 325px">⚠️ Déjà dans le dossier des exemples : ${esc(ap.jumeau)}</div>` : ""}
+      <div class="aide" style="max-width: 325px"><a href="${esc(c.lien)}" target="_blank" rel="noopener">Ouvrir sur TikTok</a> (touche O).</div>
+    </div>
+    <div>
+      <h1 class="titre">${esc(c.titre)}</h1>
+      <div class="compte"><b>${esc(c.compte)}</b>${c.nom && c.nom !== c.compte.slice(1) ? " · " + esc(c.nom) : ""} · ${fmt(c.abonnes)} abonnés</div>
+      <div class="meta">${((etat.marches || {})[c.marche] || {}).drapeau || (c.marche === "autre" ? "🌍 " + esc(c.langue) : "❔")} · ${c.date_fr || "date inconnue"}${c.age != null ? " (il y a " + c.age + " j)" : ""}${c.duree ? " · " + c.duree + " s" : " · carrousel de photos"} · trouvée par ${esc((c.via || []).join(", "))}</div>
+      <div class="chiffres">
+        <div class="chiffre fort"><b>${fmt(c.vues)}</b><span>vues</span></div>
+        <div class="chiffre"><b>${ratio}</b><span>ses abonnés</span></div>
+        <div class="chiffre"><b>${fmt(c.likes)}</b><span>likes</span></div>
+        <div class="chiffre"><b>${fmt(c.partages)}</b><span>partages</span></div>
+        <div class="chiffre"><b>${fmt(c.enregistrements)}</b><span>enregistrements</span></div>
+        <div class="chiffre"><b>${fmt(c.commentaires)}</b><span>commentaires</span></div>
+      </div>
+      <div class="pourquoi">${esc(c.pourquoi || "")}</div>
+      ${c.doublon ? `<div class="etat err">⚠️ même compte et même durée que la fiche « ${esc(c.doublon)} » : sans doute déjà dans la vidéothèque</div>` : ""}
+      ${c.legende ? `<div class="legende">${esc(c.legende)}</div>` : ""}
+      ${(c.hashtags || []).length ? `<div class="tags">${c.hashtags.map(puceHashtag).join("")}</div>` : ""}
+      ${txt ? `<div class="etat ${cls}">${esc(txt)}</div>` : ""}
+      <div class="actions">
+        <button class="btn btn-oui" data-d="approuver" ${groupe(c) === "approuve" && !c.erreur ? "disabled" : ""}>✅ Approuver <kbd>A</kbd></button>
+        <button class="btn btn-non" data-d="refuser" ${c.statut === "ecarte" ? "disabled" : ""}>✗ Refuser <kbd>R</kbd></button>
+        <button class="btn" data-d="plus_tard" ${c.statut === "plus_tard" ? "disabled" : ""}>⏭ Plus tard <kbd>S</kbd></button>
+        <button class="btn" data-d="annuler" ${groupe(c) === "propose" ? "disabled" : ""}>↩ Remettre à revoir <kbd>Z</kbd></button>
+        <a class="btn" href="${esc(c.lien)}" target="_blank" rel="noopener">↗ Ouvrir sur TikTok <kbd>O</kbd></a>
+      </div>
+      <div class="nav">${i + 1} / ${liste().length} dans « ${GROUPES.find(([g]) => g === onglet)[1]} » · <kbd>←</kbd> <kbd>→</kbd> pour passer d'une vidéo à l'autre</div>
+    </div>`;
+  zone.querySelectorAll("button[data-d]").forEach((b) => b.onclick = () => decider(b.dataset.d));
+  zone.querySelectorAll("button[data-v]").forEach((b) => b.onclick = () => changerVitesse(Number(b.dataset.v)));
+  appliquerVitesse();
+  demanderApercu(c);
+  demanderApercu(liste()[i + 1]);
+}
+
+let vitesse = 1;
+try { vitesse = Number(localStorage.getItem("vitesse")) || 1; } catch (e) {}
+function appliquerVitesse() {
+  const v = $("#lecteur");
+  if (v && v.tagName === "VIDEO") { v.defaultPlaybackRate = vitesse; v.playbackRate = vitesse; }
+}
+function changerVitesse(v) {
+  vitesse = v;
+  try { localStorage.setItem("vitesse", String(v)); } catch (e) {}
+  appliquerVitesse();
+  document.querySelectorAll("button[data-v]").forEach((b) => b.classList.toggle("active", Number(b.dataset.v) === v));
+}
+
+let stats = null;
+const parTag = () => Object.fromEntries(((stats || {}).hashtags || []).map((l) => [l.hashtag, l]));
+function puceHashtag(h) {
+  const l = parTag()[h.toLowerCase()];
+  if (!l) return `<span class="tag" title="Pas assez de vidéos avec ce hashtag pour juger">#${esc(h)}</span>`;
+  const fort = stats.pct > 0 ? l.pct >= stats.pct * 1.5 : l.pct > 0;
+  const faible = l.pct < stats.pct * 0.5;
+  return `<span class="tag ${fort ? "fort" : ""} ${faible ? "faible" : ""}" title="${l.percees} vidéos sur ${l.videos} ont percé avec ce hashtag (moyenne : ${Math.round(stats.pct * 100)} %)">#${esc(h)}<b>${Math.round(l.pct * 100)} %</b></span>`;
+}
+async function chargerStats() {
+  try { stats = await (await fetch("/api/hashtags?marche=" + (marche === "tous" ? "" : marche))).json(); } catch (e) { return; }
+  derniereSig = null;
+  rendre();
+  rendrePercer();
+}
+function rendrePercer() {
+  const zone = $("#percer");
+  if (!stats) return;
+  const masquer = $("#p-generiques").checked;
+  const lignes = stats.hashtags.filter((l) => !(masquer && l.generique));
+  $("#percer-intro").innerHTML = stats.videos
+    ? `${stats.marche ? "<b>" + ((etat.marches || {})[stats.marche] || {}).drapeau + " " + stats.marche + "</b> · " : "<b>Tous les marchés</b> · "}Sur <b>${stats.videos}</b> vidéos lues (moins de ${stats.jours} jours), <b>${stats.percees}</b> ont percé, soit <b>${Math.round(stats.pct * 100)} %</b>. « Percer » = au moins ${new Intl.NumberFormat("fr-FR").format(stats.seuil_vues)} vues et ${stats.seuil_ratio} fois les abonnés du compte. Un hashtag au-dessus de ${Math.round(stats.pct * 100)} % fait mieux que la moyenne. Seuls les hashtags vus sur au moins ${stats.mini} vidéos apparaissent.`
+    : "Pas encore de vidéos lues : lance une recherche.";
+  zone.innerHTML = lignes.length ? `<div class="table-defile"><table class="percer"><thead><tr><th>Hashtag</th><th>Vidéos</th><th>Ont percé</th><th></th><th>Vues médianes</th><th>× abonnés</th><th>Comptes</th><th></th></tr></thead><tbody>${
+    lignes.map((l) => `<tr class="${l.generique ? "generique" : ""}">
+      <td><b>#${esc(l.hashtag)}</b>${l.generique ? " <span class=\"meta\">(générique)</span>" : ""}</td>
+      <td>${l.videos}</td>
+      <td><b>${Math.round(l.pct * 100)} %</b> <span class="meta">(${l.percees})</span></td>
+      <td style="width: 18%"><div class="barre"><i style="width: ${Math.round(l.pct * 100)}%"></i></div></td>
+      <td>${fmt(Math.round(l.vues_med))}</td>
+      <td>${l.ratio_med >= 10 ? Math.round(l.ratio_med) : l.ratio_med.toFixed(1).replace(".", ",")}×</td>
+      <td>${l.comptes}</td>
+      <td><button class="mini-btn" type="button" data-h="${esc(l.hashtag)}">🔍 Chercher</button></td>
+    </tr>`).join("")}</tbody></table></div>` : `<div class="aide">Aucun hashtag vu sur au moins ${stats.mini} vidéos.</div>`;
+  zone.querySelectorAll("button[data-h]").forEach((b) => b.onclick = () => {
+    $("#f-hashtags").value = b.dataset.h; $("#f-mots").value = ""; $("#f-comptes").value = "aucun";
+    $("#p-recherche").open = true; $("#p-recherche").scrollIntoView({ behavior: "smooth" }); estimer();
+  });
+}
+
+const demandes = new Set();
+function demanderApercu(c) {
+  if (!c || demandes.has(c.id)) return;
+  const ap = c.apercu || {};
+  if (ap.pret || ap.en_cours || ap.erreur) return;
+  demandes.add(c.id);
+  fetch("/api/apercu?id=" + c.id).catch(() => demandes.delete(c.id));
+}
+
+function rendreFile() {
+  const l = liste();
+  $("#file").innerHTML = `<h2>${l.length} vidéo${l.length > 1 ? "s" : ""} · ${GROUPES.find(([g]) => g === onglet)[1]}</h2>` + l.map((c) => {
+    const [cls, txt] = etatTexte(c);
+    return `<div class="ligne ${c.id === courant ? "active" : ""}" data-id="${c.id}">
+      <div><div class="t">${c.doublon ? "⚠️ " : ""}${esc(c.titre)}</div><div class="s">${esc(c.compte)} · ${fmt(c.abonnes)} abonnés · ${c.date_fr || ""}</div></div>
+      <div class="d ${cls}">${txt ? esc(txt) + "<br>" : ""}<b>${fmt(c.vues)} vues</b> · ${c.ratio == null ? "?" : Math.round(c.ratio)}× · ${fmt(c.partages)} partages</div>
+    </div>`;
+  }).join("");
+  $("#file").querySelectorAll(".ligne").forEach((el) => el.onclick = () => { courant = el.dataset.id; rendre(); window.scrollTo({ top: 0, behavior: "smooth" }); });
+}
+
+let rechercheAvant = false;
+function rendreRecherche() {
+  const r = etat.recherche || {};
+  if (rechercheAvant && !r.en_cours) chargerStats();
+  rechercheAvant = !!r.en_cours;
+  const j = $("#f-journal");
+  const lignes = (r.journal || []).slice();
+  if (r.erreur) lignes.push("✗ " + r.erreur);
+  if (r.fini && !r.en_cours) lignes.push("✓ terminé : " + r.fini);
+  j.hidden = !lignes.length;
+  j.textContent = lignes.join("\n");
+  $("#f-lancer").disabled = !!r.en_cours;
+  $("#f-lancer").textContent = r.en_cours ? "Recherche en cours…" : "Lancer";
+}
+
+async function decider(d) {
+  const c = sel();
+  if (!c) return;
+  const l = liste();
+  const i = l.findIndex((x) => x.id === c.id);
+  await fetch("/api/decision", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id: c.id, decision: d }) });
+  const r = await fetch("/api/etat");
+  etat = await r.json();
+  const l2 = liste();
+  courant = (l2[i] || l2[i - 1] || l2[0] || {}).id || null;
+  rendre();
+}
+
+function bouger(pas) {
+  const l = liste();
+  const i = l.findIndex((x) => x.id === courant);
+  const n = l[Math.min(l.length - 1, Math.max(0, i + pas))];
+  if (n) { courant = n.id; rendre(); }
+}
+
+function esc(s) { return String(s ?? "").replace(/[&<>"']/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m])); }
+
+document.addEventListener("keydown", (e) => {
+  if (e.target.matches("input, textarea") || e.metaKey || e.ctrlKey || e.altKey) return;
+  const k = e.key.toLowerCase();
+  if (k === "a") decider("approuver");
+  else if (k === "r") decider("refuser");
+  else if (k === "s") decider("plus_tard");
+  else if (k === "z") decider("annuler");
+  else if (k === "o") { const c = sel(); if (c) window.open(c.lien, "_blank"); }
+  else if (e.key === "ArrowRight") bouger(1);
+  else if (e.key === "ArrowLeft") bouger(-1);
+  else return;
+  e.preventDefault();
+});
+
+$("#cle-etat").onclick = () => { $("#p-cle").open = true; $("#p-cle").scrollIntoView({ behavior: "smooth" }); $("#k-cle").focus(); };
+$("#k-enregistrer").onclick = async () => {
+  const cle = $("#k-cle").value.trim();
+  if (!cle) return;
+  $("#k-retour").textContent = "vérification…";
+  const r = await fetch("/api/cle", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ cle }) });
+  const d = await r.json();
+  $("#k-retour").textContent = d.ok ? "✓ clé enregistrée (compte " + d.utilisateur + ")" : "✗ " + (d.erreur || "refusée");
+  if (d.ok) { $("#k-cle").value = ""; charger(); }
+};
+$("#f-sans-apify").onchange = () => { $("#f-sans-apify").dataset.touche = "1"; estimer(); };
+let motsAuto = "";
+function remplirMots() {
+  const d = (etat.marches || {})[$("#f-marche").value];
+  if (!d) return;
+  if (!$("#f-mots").value.trim() || $("#f-mots").value === motsAuto) { motsAuto = d.mots.join(", "); $("#f-mots").value = motsAuto; }
+  estimer();
+}
+$("#f-marche").onchange = remplirMots;
+const formulaire = () => ({ marche: $("#f-marche").value, mots: $("#f-mots").value, hashtags: $("#f-hashtags").value, comptes: $("#f-comptes").value, max: $("#f-max").value, sans_apify: $("#f-sans-apify").checked });
+let minuteur;
+async function estimer() {
+  clearTimeout(minuteur);
+  minuteur = setTimeout(async () => {
+    const r = await fetch("/api/recherche", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...formulaire(), estimer: true }) });
+    const d = await r.json();
+    $("#f-estimation").textContent = d.erreur ? d.erreur : (d.gratuit ? `gratuit · au plus ${d.resultats} vidéos` : `≈ ${String(d.cout).replace(".", ",")} $ sur Apify · au plus ${d.resultats} résultats`);
+  }, 350);
+}
+["#f-mots", "#f-hashtags", "#f-comptes", "#f-max"].forEach((s) => $(s).addEventListener("input", estimer));
+$("#f-lancer").onclick = async () => {
+  const r = await fetch("/api/recherche", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(formulaire()) });
+  const d = await r.json();
+  if (d.erreur) { $("#f-estimation").textContent = "✗ " + d.erreur; return; }
+  $("#f-journal").hidden = false;
+  charger();
+};
+$("#p-recherche").addEventListener("toggle", () => { if ($("#p-recherche").open) { if (marche !== "tous") $("#f-marche").value = marche; remplirMots(); } });
+$("#p-generiques").onchange = rendrePercer;
+$("#p-percer").addEventListener("toggle", () => { if ($("#p-percer").open) chargerStats(); });
+
+setInterval(() => {
+  const c = sel();
+  const ap = (c && c.apercu) || {};
+  if ((etat.recherche || {}).en_cours || etat.candidats.some((x) => x.statut === "approuve" && !x.erreur) || (c && !ap.pret && !ap.erreur)) charger();
+}, 1500);
+chargerStats();
+if (location.hash === "#cle") { $("#p-cle").open = true; setTimeout(() => { $("#p-cle").scrollIntoView(); $("#k-cle").focus(); }, 300); }
+charger();
+</script>
+</body>
+</html>

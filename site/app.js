@@ -1,5 +1,7 @@
 /* Vidéothèque MS Clipper — tout en JavaScript simple, sans dépendance.
-   Les données : data/referentiel.json (formats, hooks, apps, règles, lexique) et data/videos.json (une fiche par vidéo). */
+   Les données : data/referentiel.json (formats, hooks, apps, règles, lexique) et data/videos.json (une fiche par vidéo).
+   Le même site tourne à deux endroits : sur GitHub Pages (public, pour les créateurs) et sur le Mac de Mylan, servi par
+   outils/scruter.py --revue. Là, /api/etat répond et le menu montre en plus la revue des vidéos TikTok (iframe /revue). */
 
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -9,6 +11,10 @@ let REF = { formats: {}, hooks: {}, apps: {}, regles: [], lexique: [] };
 let VIDEOS = [];
 let filtre = { format: "tous", q: "" };
 let ouverte = null;
+let marche = "FR"; // le marché affiché dans la vidéothèque : FR ou US
+let local = false; // vrai quand le site est servi par scruter.py (la revue est disponible)
+let aRevoir = { FR: 0, US: 0 };
+const MARCHES = { FR: "🇫🇷 Vidéos FR", US: "🇺🇸 Vidéos US" };
 
 async function init() {
   const [ref, videos] = await Promise.all([
@@ -16,10 +22,12 @@ async function init() {
     fetch("data/videos.json").then((r) => r.json()),
   ]);
   REF = ref;
-  VIDEOS = videos.filter((v) => v.titre);
-  rendreChips();
-  rendreGrille();
+  VIDEOS = videos.filter((v) => v.titre).map((v) => ({ ...v, marche: v.marche || "FR" }));
+  $("#n-fr").textContent = VIDEOS.filter((v) => v.marche === "FR").length;
+  $("#n-us").textContent = VIDEOS.filter((v) => v.marche === "US").length || "";
   rendreGuide();
+  brancherMenu();
+  await detecterRevue();
   $("#q").addEventListener("input", (e) => { filtre.q = e.target.value.trim().toLowerCase(); rendreGrille(); });
   $("#prec").addEventListener("click", () => voisine(-1));
   $("#suiv").addEventListener("click", () => voisine(1));
@@ -34,17 +42,67 @@ async function init() {
   router();
 }
 
+/* ——— Menu de gauche ——— */
+
+function brancherMenu() {
+  const fermerMenu = () => { document.body.classList.remove("menu-ouvert"); $("#voile").hidden = true; };
+  $("#menu").addEventListener("click", () => { document.body.classList.add("menu-ouvert"); $("#voile").hidden = false; });
+  $("#voile").addEventListener("click", fermerMenu);
+  document.querySelectorAll(".side-lien, .side-marque").forEach((a) => a.addEventListener("click", fermerMenu));
+}
+
+function surligner(route) {
+  document.querySelectorAll(".side-lien").forEach((a) => a.classList.toggle("actif", a.dataset.route === route));
+  const lien = document.querySelector(`.side-lien[data-route="${route}"] span`);
+  $("#barre-titre").textContent = lien ? lien.textContent : "";
+}
+
+// La revue n'existe que sur le Mac de Mylan : on la montre seulement si le serveur local répond.
+async function detecterRevue() {
+  try {
+    const r = await fetch("api/etat", { cache: "no-store" });
+    if (!r.ok) return;
+    const etat = await r.json();
+    if (!Array.isArray(etat.candidats)) return;
+    local = true;
+    $("#side-revue").hidden = false;
+    compterRevue(etat.candidats);
+    window.addEventListener("message", (e) => {
+      if (e.origin === location.origin && e.data?.type === "revue") { aRevoir = e.data.aRevoir; afficherRevue(); }
+    });
+    setInterval(async () => {
+      if (!$("#revue").hidden) return; // la revue ouverte envoie déjà ses chiffres
+      try { compterRevue((await (await fetch("api/etat", { cache: "no-store" })).json()).candidats); } catch (e) {}
+    }, 60000);
+  } catch (e) {}
+}
+
+function compterRevue(candidats) {
+  const n = (m) => candidats.filter((c) => (!c.statut || c.statut === "propose") && c.marche === m).length;
+  aRevoir = { FR: n("FR"), US: n("US") };
+  afficherRevue();
+}
+
+function afficherRevue() {
+  $("#r-fr").textContent = aRevoir.FR || "";
+  $("#r-us").textContent = aRevoir.US || "";
+}
+
 const poster = (v) => (v.type === "carrousel" ? v.images?.[0] : `posters/${v.id}.jpg`);
 const dureeTexte = (v) => (v.type === "carrousel" ? `${v.images?.length || 0} photos` : mmss(v.duree));
 const formatDe = (v) => REF.formats[v.format] || { nom: v.format, emoji: "", def: "" };
 
 /* ——— Accueil ——— */
 
+const duMarche = () => VIDEOS.filter((v) => v.marche === marche);
+
 function rendreChips() {
   const compte = {};
-  VIDEOS.forEach((v) => { compte[v.format] = (compte[v.format] || 0) + 1; });
+  const videos = duMarche();
+  videos.forEach((v) => { compte[v.format] = (compte[v.format] || 0) + 1; });
   const ordre = Object.keys(REF.formats).filter((k) => compte[k]);
-  const chips = [["tous", "Tout", VIDEOS.length], ...ordre.map((k) => [k, `${REF.formats[k].emoji} ${REF.formats[k].nom}`, compte[k]])];
+  if (filtre.format !== "tous" && !compte[filtre.format]) filtre.format = "tous";
+  const chips = videos.length ? [["tous", "Tout", videos.length], ...ordre.map((k) => [k, `${REF.formats[k].emoji} ${REF.formats[k].nom}`, compte[k]])] : [];
   $("#chips-formats").innerHTML = chips
     .map(([k, nom, n]) => `<button class="chip${filtre.format === k ? " actif" : ""}" data-f="${k}">${nom}<span class="n">${n}</span></button>`)
     .join("");
@@ -62,7 +120,7 @@ function texteRecherche(v) {
 }
 
 function filtrees() {
-  return VIDEOS.filter((v) => (filtre.format === "tous" || v.format === filtre.format) && (!filtre.q || texteRecherche(v).includes(filtre.q)));
+  return duMarche().filter((v) => (filtre.format === "tous" || v.format === filtre.format) && (!filtre.q || texteRecherche(v).includes(filtre.q)));
 }
 
 function carte(v) {
@@ -84,8 +142,36 @@ function carte(v) {
 
 function rendreGrille() {
   const liste = filtrees();
+  const rien = !duMarche().length;
   $("#vide").hidden = liste.length > 0;
+  $("#vide").innerHTML = !rien
+    ? "Rien avec ce mot. Essaie un autre, ou enlève le filtre."
+    : local
+      ? `<b>Pas encore de vidéo ${marche} ici.</b><br>Approuve des vidéos dans la <a href="#revue/${marche.toLowerCase()}">revue ${marche}</a> : une fois analysées, elles arrivent ici, rangées par format.`
+      : `<b>Les vidéos ${marche} arrivent bientôt.</b><br>En attendant, regarde les <a href="#fr">vidéos FR</a> : la mécanique est la même.`;
   $("#grille").innerHTML = liste.map(carte).join("");
+}
+
+function afficherVideotheque(m) {
+  if (m !== marche) { marche = m; filtre = { format: "tous", q: "" }; $("#q").value = ""; }
+  $("#hero-marche").textContent = MARCHES[marche];
+  rendreChips();
+  rendreGrille();
+  $("#accueil").hidden = false;
+  $("#revue").hidden = true;
+  surligner(marche.toLowerCase());
+  document.title = `${MARCHES[marche].slice(5)} · Vidéothèque MS Clipper`;
+}
+
+function afficherRevuePage(m) {
+  const cadre = $("#revue-cadre");
+  const src = `revue?embed=1&marche=${m}`;
+  if (cadre.getAttribute("src") !== src) cadre.setAttribute("src", src);
+  $("#accueil").hidden = true;
+  $("#revue").hidden = false;
+  surligner(`revue/${m.toLowerCase()}`);
+  document.title = `Revue ${m} · Vidéothèque MS Clipper`;
+  cadre.addEventListener("load", () => cadre.contentWindow?.focus(), { once: true });
 }
 
 /* ——— Guide ——— */
@@ -124,18 +210,31 @@ function rendreGuide() {
 /* ——— Navigation ——— */
 
 function router() {
-  const m = location.hash.match(/^#v\/([\w-]+)/);
+  const h = location.hash;
+  const m = h.match(/^#v\/([\w-]+)/);
   const v = m && VIDEOS.find((x) => x.id === m[1]);
-  if (v) { fermerGuide(); ouvrir(v); return; }
+  if (v) {
+    fermerGuide();
+    if (v.marche !== marche || $("#accueil").hidden) afficherVideotheque(v.marche);
+    ouvrir(v);
+    return;
+  }
   fermer();
-  if (location.hash.startsWith("#guide")) {
+  if (h.startsWith("#guide")) {
     ouvrirGuide();
-    const cible = location.hash.length > 6 ? document.getElementById(location.hash.slice(1)) : null;
+    surligner("guide");
+    const cible = h.length > 6 ? document.getElementById(h.slice(1)) : null;
     if (cible) cible.scrollIntoView({ behavior: "smooth", block: "start" });
-  } else fermerGuide();
+    return;
+  }
+  fermerGuide();
+  const r = h.match(/^#revue\/(fr|us)$/);
+  if (r && local) return afficherRevuePage(r[1].toUpperCase());
+  afficherVideotheque(h === "#us" ? "US" : "FR");
 }
 
 function ouvrirGuide() {
+  $("#retour-guide").setAttribute("href", `#${marche.toLowerCase()}`);
   if (!$("#guide").hidden) return;
   $("#guide").hidden = false;
   document.body.classList.add("fige");
@@ -216,6 +315,8 @@ function ouvrir(v) {
   $("#prec").disabled = i <= 0;
   $("#suiv").disabled = i < 0 || i >= liste.length - 1;
   document.title = `${v.titre} · Vidéothèque MS Clipper`;
+  $("#retour").setAttribute("href", `#${v.marche.toLowerCase()}`);
+  surligner(v.marche.toLowerCase());
 
   const f = formatDe(v);
   const carrousel = v.type === "carrousel";
