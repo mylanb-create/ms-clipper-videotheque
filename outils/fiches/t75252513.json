@@ -1,0 +1,200 @@
+{
+  "id": "t75252513",
+  "fichier": "tiktok-7689131668275252513-ismael.viral.mp4",
+  "compte": "@ismael.viral",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@ismael.viral/video/7689131668275252513",
+  "niche": "argent facile, IA",
+  "format": "flow",
+  "titre": "1 000 € par jour avec des comptines IA (c'est flippant)",
+  "sujet": "Un gars seul face caméra, chambre/salon : « j'ai trouvé la façon la plus débile pour faire 1000€ par jour ». Il bascule sur son PC filmé à la main (on voit le pouce) et déroule la recette : chercher une comptine pour enfants virale sur YouTube, capture d'écran, demander un prompt à ChatGPT, coller sur shortfire.io, générer la vidéo, poster sur YouTube, encaisser.",
+  "tags": [
+    "YouTube Kids",
+    "comptines",
+    "ChatGPT",
+    "shortfire.io",
+    "1000€ par jour",
+    "IA",
+    "écran filmé"
+  ],
+  "hook": {
+    "dit": "Ok, là c'est vraiment flippant, je crois que j'ai trouvé la façon la plus débile pour faire 1000€ par jour.",
+    "voit": "lui seul face caméra, t-shirt gris, salon avec une lampe en osier derrière. Texte noir en haut : « J'ai trouvé la façon la plus débile pour faire 1000€ par jour »."
+  },
+  "texte_ecran": [
+    "J'ai trouvé la façon la plus débile pour faire 1000€ par jour",
+    "Estimation revenus €905.77",
+    "Cette vidéo a enregistré 204 353 vues",
+    "204,4 k",
+    "+794",
+    "1 027,0 €"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 7,
+      "voit": "lui face caméra, texte noir en haut « J'ai trouvé la façon la plus débile pour faire 1000€ par jour ».",
+      "entend": "« c'est vraiment flippant, j'ai trouvé la façon la plus débile pour faire 1000€ par jour. C'est tellement simple que regardez ici ce que j'ai fait en une seule journée. »"
+    },
+    {
+      "debut": 7,
+      "fin": 16,
+      "voit": "capture d'écran « €905.77 » (estimation revenus), puis retour face caméra.",
+      "entend": "« je poste des vidéos sur YouTube pour enfants. Pour tous ceux qui demandent, ça paye vraiment bien. On va utiliser l'IA, je vais vous expliquer. »"
+    },
+    {
+      "debut": 16,
+      "fin": 26,
+      "voit": "bascule sur le PC filmé à la main (le pouce apparaît), YouTube ouvert, résultats « Chansons pour Enfants », vidéos de comptines.",
+      "entend": "« j'ai pris mon PC, ça marche aussi sur téléphone. Vous allez sur YouTube, vous cherchez une comptine pour enfants. »"
+    },
+    {
+      "debut": 26,
+      "fin": 34,
+      "voit": "il pointe une vidéo de bus scolaire jaune, « 158 millions de vues », capture d'écran.",
+      "entend": "« j'ai trouvé 158 millions de vues. Pour un million de vues, YouTube paye entre 1000 à 6000€. Imaginez l'argent qui s'est fait. »"
+    },
+    {
+      "debut": 34,
+      "fin": 42,
+      "voit": "ChatGPT ouvert, il colle la photo et demande un prompt détaillé, le texte s'affiche.",
+      "entend": "« vous allez sur ChatGPT, vous mettez la photo et vous lui demandez de faire un prompt détaillé à l'aide de cette image. »"
+    },
+    {
+      "debut": 42,
+      "fin": 52,
+      "voit": "shortfire.io / « AI Video Generator », il colle le prompt dans le champ.",
+      "entend": "« vous allez sur ce site, shortfire.io, le vidéogénérateur, vous collez ce que ChatGPT vous a donné et vous appuyez sur générer. »"
+    },
+    {
+      "debut": 52,
+      "fin": 60,
+      "voit": "une vidéo générée Veo-3.1 Lite d'un bus scolaire jaune, puis stats YouTube : « Cette vidéo a enregistré 204 353 vues », « 204,4 k », « +794 », « 1 027,0 € ».",
+      "entend": "« en quelques secondes, j'obtiens une vidéo complète que j'ai plus qu'à poster sur YouTube et encaisser. Là je fais 200 000 vues, j'ai gagné 1000€ en une seule vidéo. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "💶",
+      "titre": "« 1000€ par jour »",
+      "texte": "Un chiffre énorme dans la toute première phrase. On veut savoir comment, forcément."
+    },
+    {
+      "emoji": "😨",
+      "titre": "« C'est vraiment flippant »",
+      "texte": "Un mot fort qui dit : c'est trop simple pour être vrai. On reste pour vérifier."
+    },
+    {
+      "emoji": "🧒",
+      "titre": "YouTube pour enfants",
+      "texte": "Tout le monde connaît ces vidéos de comptines avec des millions de vues. Un marché qu'on comprend tout de suite."
+    },
+    {
+      "emoji": "📱",
+      "titre": "Écran filmé à la main",
+      "texte": "On voit son pouce bouger sur l'écran du PC. Pas une capture propre : c'est fait en vrai, en direct."
+    },
+    {
+      "emoji": "🪜",
+      "titre": "3 outils, 3 étapes",
+      "texte": "YouTube → ChatGPT → shortfire.io. Simple à retenir, simple à refaire."
+    },
+    {
+      "emoji": "💰",
+      "titre": "La preuve à la fin",
+      "texte": "Les vraies stats YouTube : 204 353 vues et 1 027 €. On ne peut pas inventer un chiffre comme ça."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "msclipper",
+      "hook": "C'est vraiment flippant, j'ai trouvé la façon la plus débile pour gagner 500€ par semaine sans rien faire.",
+      "comment": "Toi face caméra 10 s, puis ton téléphone filmé à la main (pouce visible). 1. Tu ouvres TikTok, tu trouves une vidéo virale. 2. Tu l'enregistres. 3. Tu la postes sur MS Clipper. 4. Tu encaisses. Capture des gains à la fin."
+    },
+    {
+      "app": "smc",
+      "hook": "C'est tellement simple que ça en devient flippant : voilà comment je trouve une voiture d'occasion sans me faire avoir.",
+      "comment": "Face caméra 10 s, puis l'écran filmé à la main. 1. Leboncoin, tu copies l'annonce. 2. Screen My Car, tu colles. 3. Le verdict : acheter, négocier ou fuir. Capture d'un vrai verdict à la fin."
+    },
+    {
+      "app": "revizio",
+      "hook": "La façon la plus débile pour avoir 18/20 sans réviser, c'est flippant tellement c'est simple.",
+      "comment": "Face caméra 10 s, puis le téléphone filmé à la main. 1. Photo du cours. 2. Revizio, tu uploades. 3. Les fiches arrivent. 4. Le quiz. Capture de la note à la fin."
+    }
+  ],
+  "note": "<b>À remarquer :</b> c'est la 4e vidéo « comptines pour enfants IA » dans la vidéothèque (après « le mec en cagoule », « le mec à 3h du matin », « il vit en 2067 »). Même recette (YouTube Kids → ChatGPT → générateur IA), hooks différents : cagoule, horaire, vieillissement, flippant. Un filon qui tourne en boucle sur TikTok FR.",
+  "reprise": false,
+  "mise_en_scene": "Lui seul face caméra 15 s (chambre, lampe en osier), puis bascule sur son PC filmé à la main — on voit son pouce — qui occupe presque tout le reste de la vidéo. Captures d'écran de gains insérées.",
+  "hooks": [
+    "chiffre",
+    "resultat",
+    "mystere"
+  ],
+  "point_sensible": "Vouloir gagner beaucoup d'argent sans compétence, en copiant une recette",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« la façon la plus débile pour faire 1000€ par jour »"
+    },
+    "probleme": {
+      "t": 11,
+      "quoi": "« pour tous ceux qui demandent, ça paye vraiment bien »"
+    },
+    "outil_nomme": {
+      "t": 43,
+      "quoi": "« ce site qui s'appelle shortfire.io »"
+    },
+    "outil_montre": {
+      "t": 20,
+      "quoi": "YouTube filmé sur le PC, à la main"
+    },
+    "preuve": {
+      "t": 57,
+      "quoi": "« 200 000 vues, j'ai gagné 1000€ en une seule vidéo » + stats YouTube à l'écran"
+    },
+    "fin": {
+      "t": 60,
+      "quoi": "« encaisser » (coupe sèche)"
+    }
+  },
+  "montre_comment": "PC filmé à la main (pouce visible), captures d'écran de chiffres (€905.77, 1 027 €)",
+  "cta": "aucun (coupe sèche sur la preuve)",
+  "montage": "texte noir fixe pendant 10 s, puis bascule sur écran PC filmé à la main. Captures d'écran de gains insérées. 1 min pile.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Écran filmé à la main (le pouce bouge) : c'est notre style, pas une capture propre."
+    },
+    {
+      "ok": "oui",
+      "texte": "Chiffre + preuve en captures à la fin : 204 353 vues et 1 027 €, du concret."
+    },
+    {
+      "ok": "non",
+      "texte": "Outil nommé à 43 s : beaucoup trop tard (règle : avant 20 s)."
+    },
+    {
+      "ok": "bof",
+      "texte": "60 s pile : à la limite haute pour une recette qui pourrait tenir en 30."
+    },
+    {
+      "ok": "non",
+      "texte": "Pas de vanne, pas de rire : juste le ton « flippant » qui porte tout."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un PC ou un téléphone, une capture d'écran de gains, l'app",
+    "temps": "15 min",
+    "niveau": "facile"
+  },
+  "stats": {
+    "vues": 346000,
+    "likes": 13200,
+    "partages": 4737,
+    "commentaires": 30,
+    "abonnes": 14100
+  },
+  "ordre": 0,
+  "ajout": "automatique"
+}
