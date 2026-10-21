@@ -1,0 +1,205 @@
+{
+  "id": "t34029857",
+  "fichier": "tiktok-7688900698834029857-creating.kj.mp4",
+  "compte": "@creating.kj",
+  "plateforme": "TikTok",
+  "marche": "US",
+  "lien": "https://www.tiktok.com/@creating.kj/video/7688900698834029857",
+  "niche": "argent, side business",
+  "format": "fond-vert",
+  "titre": "10 000 $/mois avec des apps à 23 ans (scam ou pas ?)",
+  "sujet": "Une blonde réagit, bluffée, à la vidéo d'une brunette qui promet 10 000 $/mois en fabriquant des apps sans coder, avec Claude + newly.app. À la fin, elle teste elle-même et montre le résultat.",
+  "tags": [
+    "scam ou pas",
+    "10 000 $/mois",
+    "sans coder",
+    "Claude",
+    "newly.app",
+    "RevenueCat",
+    "réaction"
+  ],
+  "hook": {
+    "dit": "i was genuinely convinced she was trying to scam us (j'étais vraiment persuadée qu'elle essayait de nous arnaquer)",
+    "voit": "la blonde en grand, face caméra, débit rapide. En haut, la brunette incrustée (la vidéo reprise). Sous-titre blanc : « I was genuinely convinced she was trying to scam us »."
+  },
+  "texte_ecran": [
+    "I was genuinely convinced",
+    "she was trying to scam us",
+    "$10,000/ month at 23 (Tutorial)",
+    "this is exactly how i make",
+    "Idea → To App Store → In Minutes"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 6,
+      "voit": "la blonde face caméra en grand. La brunette incrustée en haut, elle montre « 23 » avec les doigts. Sous-titre : « I was genuinely convinced she was trying to scam us ».",
+      "entend": "« i was genuinely convinced she was trying to scam us »."
+    },
+    {
+      "debut": 6,
+      "fin": 17,
+      "voit": "même split : la blonde parle, la brunette gesticule en haut. Texte à l'écran : « $10,000/ month at 23 (Tutorial) ».",
+      "entend": "« this is exactly how i make ten thousand dollars a month at 23. no it's not only fans, no i'm not going to sell you a course, i will tell you exactly what i do : i make apps. »"
+    },
+    {
+      "debut": 17,
+      "fin": 28,
+      "voit": "la brunette passe en grand, elle parle depuis son canapé, puis un laptop apparaît avec Claude ouvert.",
+      "entend": "« i don't know how to code either. phone, laptop, ipad, you're good to go. first thing : go to claude, ask it a list of app ideas in high demand. »"
+    },
+    {
+      "debut": 28,
+      "fin": 48,
+      "voit": "l'écran du laptop : « Idea → To App Store → In Minutes » (newly.app). Mock-up iPhone. La brunette tape dans l'app, scanne le QR code.",
+      "entend": "« copy and paste it into newly.app, type your idea, hit build. in a couple of minutes it pops out a full working app. scan the QR code, test on your phone. need edits ? just type in the chat. »"
+    },
+    {
+      "debut": 48,
+      "fin": 65,
+      "voit": "la brunette parle, phone en main. Elle explique le paywall.",
+      "entend": "« hit publish, upload to the app store. important : add a paywall. every time someone downloads, you get paid. market it, you're on your way to ten thousand dollar months. »"
+    },
+    {
+      "debut": 65,
+      "fin": 77,
+      "voit": "retour sur la blonde, elle sort son propre laptop, montre newly.app : « Idea → To App Store → In Minutes », elle pointe le téléphone.",
+      "entend": "« so i tried out her side hustle, went to claude, generated the app idea, went to newly.app, and this is the app it made me in five minutes. »"
+    },
+    {
+      "debut": 77,
+      "fin": 83,
+      "voit": "la blonde face caméra, elle tient son téléphone, sourire bluffée.",
+      "entend": "« i even found out she adds a paywall through this thing called revenue cat. so i guess it's not a scam. follow to see if i can get to 10k through this method. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🚨",
+      "titre": "« J'étais convaincue que c'était un scam »",
+      "texte": "La première phrase accuse. On veut savoir si c'est vrai ou pas : on reste pour le verdict."
+    },
+    {
+      "emoji": "💵",
+      "titre": "« 10 000 $/mois à 23 ans »",
+      "texte": "Un chiffre énorme, un âge précis, affiché gros à l'écran. Simple et bluffant."
+    },
+    {
+      "emoji": "🙅",
+      "titre": "« C'est pas OnlyFans, c'est pas une formation »",
+      "texte": "Elle élimine tout de suite ce qu'on soupçonne. Il reste la curiosité : alors c'est quoi ?"
+    },
+    {
+      "emoji": "📱",
+      "titre": "La recette en 4 mots",
+      "texte": "Claude → newly.app → paywall → App Store. On peut la refaire sans réécouter."
+    },
+    {
+      "emoji": "👯",
+      "titre": "Deux visages, deux rôles",
+      "texte": "La brunette fait le tuto, la blonde fait la réaction. On a le prof et l'élève dans la même vidéo."
+    },
+    {
+      "emoji": "🧪",
+      "titre": "« J'ai essayé moi-même »",
+      "texte": "À la fin, elle teste la méthode et montre son app. Ce n'est plus une promesse, c'est une preuve."
+    },
+    {
+      "emoji": "👉",
+      "titre": "« Follow pour voir si j'arrive à 10k »",
+      "texte": "Elle laisse l'histoire ouverte : on s'abonne pour la suite, pas pour aujourd'hui."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "msclipper",
+      "hook": "J'étais convaincue que c'était un scam : elle poste 3 vidéos par jour et elle est payée à la vue.",
+      "comment": "Même split : la copine en bas, la vidéo d'origine en haut. Textes à l'écran : « Payée à la vue (Tutorial) », « Pas de dropshipping, pas de formation ». 4 étapes : 1. Tu filmes. 2. Tu postes sur MS Clipper. 3. Les vues tombent. 4. Tu es payée. À la fin : « j'ai essayé — voilà ce que ça a donné en 5 jours »."
+    },
+    {
+      "app": "revizio",
+      "hook": "J'étais convaincue que c'était un scam : elle a 18/20 sans ouvrir ses cours.",
+      "comment": "Même split : toi en réaction, la copine qui explique en haut. Textes : « 18/20 sans réviser (Tutorial) », « Pas de triche, pas d'IA à l'exam ». 1. Photo du cours. 2. Revizio fait les fiches. 3. Le quiz. 4. L'exam. Preuve à la fin : la note."
+    }
+  ],
+  "note": "<b>À remarquer :</b> le compte @creating.kj a 6 949 abonnés et la vidéo fait 1,1 M de vues, 54 700 likes et <b>50 510 enregistrements</b> (presque autant que les likes). Les gens sauvegardent pour refaire : la vidéo est un mode d'emploi déguisé en réaction.",
+  "reprise": true,
+  "reprise_quoi": "la vidéo de la brunette (@ la créatrice originale) qui promet 10 000 $/mois avec des apps : au début elle est incrustée en haut, puis elle passe en grand pour expliquer, avec son laptop et son téléphone.",
+  "mise_en_scene": "La blonde face caméra, la brunette incrustée en haut au début, puis la brunette prend tout l'écran pour le tuto (laptop Claude, newly.app, mock-up iPhone). À la fin, retour sur la blonde qui teste elle-même.",
+  "hooks": [
+    "mystere",
+    "chiffre",
+    "resultat"
+  ],
+  "point_sensible": "Gagner beaucoup d'argent sans compétence et sans formation à acheter",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« i was genuinely convinced she was trying to scam us »"
+    },
+    "probleme": {
+      "t": 6,
+      "quoi": "« $10,000/month at 23 (Tutorial) »"
+    },
+    "outil_nomme": {
+      "t": 24,
+      "quoi": "« first thing : go to claude »"
+    },
+    "outil_montre": {
+      "t": 22,
+      "quoi": "le laptop avec Claude ouvert, puis newly.app : « Idea → To App Store → In Minutes »"
+    },
+    "preuve": {
+      "t": 66,
+      "quoi": "« this is the app it made me in five minutes » — elle montre son propre résultat"
+    },
+    "fin": {
+      "t": 79,
+      "quoi": "« follow to see if i can get to 10k through this method »"
+    }
+  },
+  "montre_comment": "incrustation en haut au début (la brunette), puis passage en plein écran sur le laptop et le téléphone, textes blancs façon sous-titres",
+  "cta": "« follow to see if i can get to 10k »",
+  "montage": "sous-titres blancs mot-à-mot, textes posés (« $10,000/month at 23 (Tutorial) », « Idea → To App Store → In Minutes »), split visage/vidéo au début, 1 min 23.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Résultat annoncé dans la première phrase : « 10 000 $/mois à 23 ans »."
+    },
+    {
+      "ok": "oui",
+      "texte": "Vrai écran montré (laptop + téléphone en main), pas une capture plein écran figée."
+    },
+    {
+      "ok": "oui",
+      "texte": "Format fond-vert propre : réaction + vidéo reprise, puis test perso à la fin."
+    },
+    {
+      "ok": "bof",
+      "texte": "Outil nommé à 24 s : un peu après notre seuil des 20 s."
+    },
+    {
+      "ok": "non",
+      "texte": "83 s : trop long chez nous (viser 30-60 s)."
+    },
+    {
+      "ok": "non",
+      "texte": "Pas vraiment de vanne, juste le « no it's not only fans » qui fait sourire."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "la vidéo d'origine (fournie), ton téléphone, ton laptop pour tester l'app",
+    "temps": "25 min",
+    "niveau": "moyen"
+  },
+  "stats": {
+    "vues": 1100000,
+    "likes": 54700,
+    "partages": 6308,
+    "enregistrements": 50510,
+    "commentaires": 144,
+    "abonnes": 6949
+  },
+  "ordre": 0,
+  "ajout": "automatique"
+}
