@@ -287,6 +287,340 @@
   ]
  },
  {
+  "id": "t40256032",
+  "fichier": "tiktok-7691398077940256032-ismael.viral.mp4",
+  "compte": "@ismael.viral",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@ismael.viral/video/7691398077940256032",
+  "niche": "argent, side business, IA",
+  "format": "fond-vert",
+  "titre": "1 500 € avec des comptines IA (il vit en 2067)",
+  "sujet": "Un gars face caméra la nuit, avec la photo d'un autre mec collée derrière lui et le texte « Il vit en 2067 ». Il raconte qu'il a trouvé un glitch pour faire de l'argent : prendre une comptine YouTube qui a fait des millions de vues, demander un prompt à ChatGPT, générer une vidéo IA sur shortfall.io, la republier sur YouTube et toucher les vues.",
+  "tags": [
+   "comptines",
+   "YouTube",
+   "2h du matin",
+   "glitch IRL",
+   "Il vit en 2067",
+   "1 500 €",
+   "shortfall.io"
+  ],
+  "hook": {
+   "dit": "Si quelqu'un connait ce mec, s'il vous plaît, taggez-le dans les commentaires, j'ai besoin de le remercier pour ses conseils.",
+   "voit": "lui face caméra, t-shirt noir avec un logo « F », dans une pièce sombre. Derrière lui, en vignette, la photo d'un autre garçon. En petit tout en haut : « J'ai trouvé un p*tain de glitch d'argent IRL ». En grand en dessous : « Il vit en 2067 »."
+  },
+  "texte_ecran": [
+   "J'ai trouvé un p*tain de glitch d'argent IRL",
+   "Il vit en 2067"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 5,
+    "voit": "lui face caméra, la photo du mec en vignette derrière, textes « Il vit en 2067 » et « J'ai trouvé un p*tain de glitch d'argent IRL ».",
+    "entend": "« si quelqu'un connait ce mec, taggez-le, j'ai besoin de le remercier pour ses conseils. »"
+   },
+   {
+    "debut": 5,
+    "fin": 25,
+    "voit": "toujours face caméra, mêmes textes. Il gesticule avec les mains.",
+    "entend": "« il est littéralement 2h du matin, j'ai trouvé le moyen le plus simple de faire de l'argent. Faut un téléphone et un cerveau plus intelligent qu'un enfant de 5 ans. On va utiliser l'IA. »"
+   },
+   {
+    "debut": 25,
+    "fin": 45,
+    "voit": "son écran de PC filmé, lui en petit en bas à gauche. YouTube avec une chaîne de comptines pour enfants (petits personnages dessin animé). Il pointe du doigt.",
+    "entend": "« je prends mon PC, je vais sur YouTube, je cherche une comptine pour enfants. Regardez : 349 millions de vues. YouTube paye entre 100 et 600 € pour 100 000 vues. Je copie les paroles dans la description. »"
+   },
+   {
+    "debut": 45,
+    "fin": 66,
+    "voit": "ChatGPT à l'écran, le texte collé, puis le site shortfall.io et son générateur de vidéo. Il colle le prompt.",
+    "entend": "« tu demandes à ChatGPT un prompt pour une vidéo avec les paroles. Tu copies, tu vas sur shortfall.io, générateur de vidéo, tu colles, 30 secondes, générer. »"
+   },
+   {
+    "debut": 66,
+    "fin": 75,
+    "voit": "la vidéo IA générée : petit éléphant mignon dans une forêt dessin animé, puis d'autres personnages cartoon.",
+    "entend": "« regardez ce que l'IA m'a fait : une vidéo complète, avec la musique. Après tu la postes sur YouTube. »"
+   },
+   {
+    "debut": 75,
+    "fin": 82,
+    "voit": "la page Statistiques YouTube Studio « Cette vidéo a enregistré 212 301 vues », puis son téléphone en main avec les gains.",
+    "entend": "« regardez : 212 000 vues, 600 €. Et une autre vidéo a fait 1 500 €. C'est incroyable, c'est incroyable. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "👤",
+    "titre": "La photo du mec collée derrière",
+    "texte": "On ne sait pas qui c'est, mais il est là, en vignette floue, comme un fantôme. Le pouce s'arrête."
+   },
+   {
+    "emoji": "🛸",
+    "titre": "« Il vit en 2067 »",
+    "texte": "Un texte énorme qui ne veut rien dire tout de suite. On veut comprendre pourquoi 2067."
+   },
+   {
+    "emoji": "🕳️",
+    "titre": "« Glitch d'argent IRL »",
+    "texte": "Un mot de jeu vidéo pour la vraie vie : ça sent le secret, la faille, ce qu'on n'est pas censé savoir."
+   },
+   {
+    "emoji": "🌙",
+    "titre": "« Il est 2h du matin »",
+    "texte": "Il raconte en direct, de nuit, pièce sombre. On a l'impression d'être dans la confidence."
+   },
+   {
+    "emoji": "🙏",
+    "titre": "« Taggez-le, je dois le remercier »",
+    "texte": "Il met en scène un héros qu'on ne voit pas. On veut savoir qui c'est, et ce qu'il a trouvé."
+   },
+   {
+    "emoji": "🧒",
+    "titre": "« Plus intelligent qu'un enfant de 5 ans »",
+    "texte": "Une vanne qui rassure : si lui a réussi, toi aussi."
+   },
+   {
+    "emoji": "💶",
+    "titre": "212 000 vues, 600 €, 1 500 €",
+    "texte": "Trois chiffres à la fin : vues, premiers gains, deuxième essai. On visualise la machine."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "msclipper",
+    "hook": "Si quelqu'un connait ce mec, taggez-le, j'ai besoin de le remercier. Il m'a montré comment être payé à la vue avec mon téléphone.",
+    "comment": "Même mise en scène : nuit, photo d'un autre mec collée derrière toi, texte « Il vit en 2067 ». Tu racontes qu'un pote t'a montré MS Clipper : tu postes des clips sur une app, tu es payé à la vue. Montre ton tableau de bord avec les vues et les gains à la fin."
+   },
+   {
+    "app": "smc",
+    "hook": "Si quelqu'un connait ce mec, taggez-le, il m'a sauvé 3 000 € sur ma voiture.",
+    "comment": "Photo d'un vendeur douteux derrière toi, texte « Il vit en 2067 ». Tu racontes : un pote m'a montré Screen My Car. Je colle l'annonce, l'IA me dit si c'est une arnaque, combien ça vaut, comment négocier. Capture d'écran du verdict à la fin."
+   },
+   {
+    "app": "revizio",
+    "hook": "Si quelqu'un connait ce mec, taggez-le, grâce à lui j'ai eu 18/20 sans réviser.",
+    "comment": "Photo d'un pote derrière toi, texte « Il vit en 2067 ». Tu racontes : il m'a montré Revizio, je prends mon cours en photo, l'app fait les fiches et le quiz, je joue, je retiens. Note à la fin."
+   }
+  ],
+  "note": "<b>À remarquer :</b> c'est le même tuto que « le mec en cagoule » et « le mec à 3h du matin » déjà dans la vidéothèque : prendre une comptine YouTube virale, la refaire en IA, la republier. Trois comptes différents, trois mises en scène différentes, exactement le même pitch. <b>Quand une recette marche, elle est reprise par tout le monde en une semaine.</b> Ici la touche personnelle : la photo du mec collée derrière, et le texte « Il vit en 2067 ».",
+  "reprise": true,
+  "reprise_quoi": "la photo d'un autre garçon en vignette derrière lui pendant tout le hook, puis les vidéos de comptines pour enfants d'une chaîne YouTube qu'il montre à l'écran.",
+  "mise_en_scene": "Face caméra la nuit dans une pièce sombre, photo d'un inconnu collée derrière lui, puis écran de PC filmé avec lui en petit en bas à gauche, puis son téléphone en main pour montrer les gains.",
+  "hooks": [
+   "pattern-interrupt",
+   "mystere",
+   "urgence"
+  ],
+  "point_sensible": "Gagner de l'argent facile pendant qu'on dort, sans compétence",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« si quelqu'un connait ce mec, taggez-le, j'ai besoin de le remercier » + photo collée derrière"
+   },
+   "probleme": {
+    "t": 5,
+    "quoi": "« il est 2h du matin, le moyen le plus simple de faire de l'argent »"
+   },
+   "outil_nomme": {
+    "t": 56,
+    "quoi": "« shortfall.io »"
+   },
+   "outil_montre": {
+    "t": 28,
+    "quoi": "YouTube avec la chaîne de comptines pour enfants (349 M de vues)"
+   },
+   "preuve": {
+    "t": 71,
+    "quoi": "YouTube Studio : 212 301 vues, puis « 600 € » et « 1 500 € »"
+   },
+   "fin": {
+    "t": 81,
+    "quoi": "« c'est incroyable, c'est incroyable »"
+   }
+  },
+  "montre_comment": "écran de PC filmé à la main (ça bouge), lui en petit en bas à gauche, puis téléphone en main à la fin",
+  "cta": "aucun CTA explicite (seulement « taggez-le dans les commentaires » au hook)",
+  "montage": "deux textes gros plan collés en haut, photo d'un autre garçon en vignette derrière lui tout le long du hook, puis passage en écran de PC avec lui en incrustation. 1 min 22.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Pattern-interrupt fort : la photo d'un inconnu collée derrière le visage. On n'a jamais vu ça."
+   },
+   {
+    "ok": "oui",
+    "texte": "Vrai écran filmé main et téléphone en main à la fin, pas une capture d'écran propre."
+   },
+   {
+    "ok": "non",
+    "texte": "Outil nommé à 56 s : beaucoup trop tard, chez nous c'est avant 20 s."
+   },
+   {
+    "ok": "bof",
+    "texte": "1 min 22 : plus long que notre fourchette 30-60 s, mais ça reste tenable."
+   },
+   {
+    "ok": "non",
+    "texte": "Vidéos reprises d'une autre chaîne YouTube : chez nous, seulement si Screen My Car la fournit."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un téléphone, un PC avec l'écran filmé, une photo d'inconnu collée en vignette derrière toi",
+   "temps": "25 min",
+   "niveau": "moyen"
+  },
+  "stats": {
+   "vues": 393400,
+   "likes": 16600,
+   "partages": 4930,
+   "commentaires": 19,
+   "abonnes": 14100
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "duree": 82.1,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 4.1,
+    "texte": "Si quelqu'un connait ce mec, s'il vous plaît, taggez-le dans les commentaires, j'ai besoin de le remercier pour ses conseils."
+   },
+   {
+    "debut": 4.7,
+    "fin": 9.8,
+    "texte": "Il est littéralement 2h du matin, et je crois que j'ai trouvé le moyen le plus simple de faire de l'argent."
+   },
+   {
+    "debut": 10.0,
+    "fin": 15.2,
+    "texte": "En fait, c'est tellement facile que j'arrive pas à dormir, parce que je fais que refaire, refaire, pour me faire un max d'argent."
+   },
+   {
+    "debut": 15.5,
+    "fin": 20.3,
+    "texte": "Tout ce dont t'as besoin, c'est d'un téléphone et un cerveau plus intelligent qu'un enfant de 5 ans."
+   },
+   {
+    "debut": 20.5,
+    "fin": 22.7,
+    "texte": "Et on va utiliser l'IA pour que ça aille plus vite."
+   },
+   {
+    "debut": 23.2,
+    "fin": 25.0,
+    "texte": "Bon, je vais arrêter de parler et je vais vous expliquer."
+   },
+   {
+    "debut": 25.3,
+    "fin": 27.7,
+    "texte": "Là, j'ai pris mon PC, mais tu peux le faire aussi sur téléphone."
+   },
+   {
+    "debut": 27.7,
+    "fin": 31.0,
+    "texte": "On est j'ai, on va aller sur YouTube et on va chercher une consigne pour enfants."
+   },
+   {
+    "debut": 31.2,
+    "fin": 34.1,
+    "texte": "Voilà, regardez celle-ci qui a fait 349 millions de vues."
+   },
+   {
+    "debut": 34.4,
+    "fin": 37.8,
+    "texte": "Par info, YouTube paye pour 100 000 vues, entre 100 et 600 euros."
+   },
+   {
+    "debut": 37.9,
+    "fin": 39.1,
+    "texte": "Donc, imaginez ce qu'il a fait."
+   },
+   {
+    "debut": 39.4,
+    "fin": 41.3,
+    "texte": "Donc, ce que tu vas faire, c'est cliquer sur la vidéo."
+   },
+   {
+    "debut": 42.1,
+    "fin": 45.4,
+    "texte": "Et là, dans la description, tu vas copier toutes les paroles."
+   },
+   {
+    "debut": 45.9,
+    "fin": 52.6,
+    "texte": "Ok, donc là, vous allez sur le tchat GPT et vous allez lui demander de vous faire un prompt pour une vidéo à l'aide des paroles que vous allez copier."
+   },
+   {
+    "debut": 52.9,
+    "fin": 55.1,
+    "texte": "Donc voilà, là, on a le prompt, donc on va le copier."
+   },
+   {
+    "debut": 55.1,
+    "fin": 58.5,
+    "texte": "Et vous allez vous rendre sur ce site-là, shortfall.io."
+   },
+   {
+    "debut": 58.7,
+    "fin": 60.5,
+    "texte": "Et vous allez sur le vidéogénérateur."
+   },
+   {
+    "debut": 60.9,
+    "fin": 62.8,
+    "texte": "Là, juste ici, vous collez votre prompt."
+   },
+   {
+    "debut": 63.2,
+    "fin": 66.1,
+    "texte": "Mettez bien 30 secondes et cliquez sur générer."
+   },
+   {
+    "debut": 66.5,
+    "fin": 67.8,
+    "texte": "Ok, regardez ce que l'IA m'a fait."
+   },
+   {
+    "debut": 67.9,
+    "fin": 69.1,
+    "texte": "Elle m'a fait une vidéo complète."
+   },
+   {
+    "debut": 69.3,
+    "fin": 70.6,
+    "texte": "Il y a même la musique avec."
+   },
+   {
+    "debut": 70.8,
+    "fin": 75.2,
+    "texte": "Ensuite, après qu'à pousser ta vidéo sur YouTube, regardez cette vidéo, j'ai fait 212 000 vues."
+   },
+   {
+    "debut": 75.4,
+    "fin": 76.5,
+    "texte": "Et j'ai gagné 600 euros."
+   },
+   {
+    "debut": 77.0,
+    "fin": 79.0,
+    "texte": "Et du coup, j'ai utilisé avec l'IA qui l'utilise."
+   },
+   {
+    "debut": 79.1,
+    "fin": 81.0,
+    "texte": "Et j'ai fait une vidéo, elle a fait 1 500 euros."
+   },
+   {
+    "debut": 81.1,
+    "fin": 81.6,
+    "texte": "C'est incroyable."
+   }
+  ]
+ },
+ {
   "id": "t96632097",
   "fichier": "tiktok-7692548532896632097-ismael.viral.mp4",
   "compte": "@ismael.viral",
