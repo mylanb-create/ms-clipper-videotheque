@@ -1,0 +1,183 @@
+{
+  "id": "t24401440",
+  "fichier": "tiktok-7697241423124401440-alex.brtnn.mp4",
+  "compte": "@alex.brtnn",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@alex.brtnn/video/7697241423124401440",
+  "niche": "sommeil, stress",
+  "format": "flow",
+  "titre": "« Comment elle arrive à trouver ça ? » (Quieto, le mec qui a supprimé sa vidéo)",
+  "sujet": "Un gars torse nu avec casquette, en extérieur, raconte qu'un autre créateur a supprimé sa vidéo parce qu'elle marchait trop fort — mais lui l'a enregistrée. On écoute la voix de l'autre pendant qu'il filme son téléphone en main : l'app Quieto fait un test de santé, chatte avec toi, et te génère un programme de méditation du soir pour mieux dormir.",
+  "tags": [
+    "Quieto",
+    "sommeil",
+    "anxiété",
+    "torse nu",
+    "fruit interdit",
+    "téléphone en main",
+    "IA à mémoire"
+  ],
+  "hook": {
+    "dit": "Les gars, dites-vous, ce mec, il a supprimé sa vidéo parce qu'elle faisait trop de vues, mais je l'ai enregistré, écoutez ce qu'il dit.",
+    "voit": "un gars torse nu, casquette noire, ciel bleu derrière (plage/bateau). Texte blanc en haut : « Comment elle arrive à trouver ça ? »."
+  },
+  "texte_ecran": [
+    "Comment elle arrive à trouver ça ?"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 12,
+      "voit": "le gars face caméra, torse nu, casquette noire, extérieur plein soleil. Il parle, il sourit, il lève le doigt.",
+      "entend": "le hook : « ce mec a supprimé sa vidéo parce qu'elle faisait trop de vues, mais je l'ai enregistré, écoutez ce qu'il dit »."
+    },
+    {
+      "debut": 12,
+      "fin": 24,
+      "voit": "le téléphone en main, dehors (poubelle en métal au sol). Écran d'accueil iPhone, puis ouverture d'une app : liste de catégories de santé, un clavier qui tape. Le visage du créateur reste en petit, en bas à gauche.",
+      "entend": "la voix de « l'autre » qui enchaîne (coupée dans les sous-titres), il remplit un test de santé dans l'app."
+    },
+    {
+      "debut": 24,
+      "fin": 36,
+      "voit": "l'app Quieto : « Bel après-midi Paul », catégories de méditation, puis un chat avec l'IA (bulles bleues et vertes). Insert du gars toujours en bas.",
+      "entend": "« pour être moins anxieux par rapport au résultat du test de santé que vous venez de faire, et là, vous avez juste à cliquer sur créer mon programme »."
+    },
+    {
+      "debut": 36,
+      "fin": 45,
+      "voit": "le bouton « créer mon programme », puis une barre de chargement : 80 %, 100 %. Le téléphone bouge dans la main.",
+      "entend": "« en fonction de tout ce qu'elle connaît sur vous, de vos habitudes, de ce qui vous rend anxieux, de toutes vos discussions, parce qu'elle a une mémoire, elle va vous faire votre programme »."
+    },
+    {
+      "debut": 45,
+      "fin": 52,
+      "voit": "écran « Ma première méditation », un bouton play rond en bas.",
+      "entend": "« ça a fini de charger, vous avez juste à faire écouter la première séance, vous cliquez là, vous mettez une séance chaque soir avant de dormir, et je vous jure, c'est… »."
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🚫",
+      "titre": "« Il a supprimé sa vidéo »",
+      "texte": "Le fruit interdit : si c'était si bien que ça a été effacé, on veut absolument le voir."
+    },
+    {
+      "emoji": "🎧",
+      "titre": "« Écoutez ce qu'il dit »",
+      "texte": "On ne nous dit pas quoi, juste qu'il faut écouter. Le mystère tient 30 secondes."
+    },
+    {
+      "emoji": "❓",
+      "titre": "« Comment elle arrive à trouver ça ? »",
+      "texte": "Un texte en haut tout du long. Même sans comprendre, on reste pour voir ce qu'« elle » trouve."
+    },
+    {
+      "emoji": "📱",
+      "titre": "Téléphone en main, dehors",
+      "texte": "Pas une capture d'écran propre : ça bouge, il y a le sol, le soleil. On croit que c'est vrai."
+    },
+    {
+      "emoji": "👤",
+      "titre": "Son visage en insert",
+      "texte": "On ne le perd jamais, même quand l'écran prend toute la place. On reste accroché à lui."
+    },
+    {
+      "emoji": "🧠",
+      "titre": "« Elle a une mémoire »",
+      "texte": "L'IA te connaît : tes habitudes, tes angoisses, tes discussions. Ça fait peur et envie en même temps."
+    },
+    {
+      "emoji": "😴",
+      "titre": "« Une séance chaque soir avant de dormir »",
+      "texte": "Une consigne simple, concrète, qu'on peut faire ce soir même."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Les gars, ce vendeur a supprimé son annonce parce que trop de gens avaient flairé l'arnaque. Je l'ai enregistrée, écoutez ce qu'il dit.",
+      "comment": "Toi torse nu/dehors face caméra 5 s pour le hook. Puis téléphone en main : tu colles l'annonce dans Screen My Car, insert de ton visage en bas à gauche, texte en haut tout du long : « Comment elle sait tout ça ? ». Verdict à l'écran : à fuir."
+    },
+    {
+      "app": "revizio",
+      "hook": "Les gars, cette prof a supprimé sa vidéo parce que les élèves cartonnaient trop. Je l'ai enregistré, écoutez.",
+      "comment": "Même mise en scène : hook face caméra, puis téléphone en main sur Revizio. Photo du cours, fiches qui apparaissent, quiz. Insert visage en bas. Texte en haut : « Comment elle sait ce qui va tomber ? ». Fin : « 18/20 »."
+    }
+  ],
+  "note": "<b>À remarquer :</b> 57 abonnés, 67 800 vues. Un énorme ratio porté par le « fruit interdit » (« il a supprimé sa vidéo ») + le mystère (« écoutez ce qu'il dit »). L'app n'est <b>jamais</b> nommée dans la vidéo, seulement en légende — « si j'ai bien compris, c'est Quieto ». C'est volontaire : ça pousse à aller lire les commentaires et la légende.",
+  "reprise": false,
+  "mise_en_scene": "Face caméra torse nu en extérieur pour le hook (12 s), puis téléphone en main filmé dehors avec son visage inséré en bas à gauche jusqu'à la fin. Texte « Comment elle arrive à trouver ça ? » affiché en haut tout du long.",
+  "hooks": [
+    "fruit-interdit",
+    "mystere",
+    "question"
+  ],
+  "point_sensible": "Mal dormir et être anxieux à cause des résultats de santé",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« ce mec a supprimé sa vidéo parce qu'elle faisait trop de vues, écoutez »"
+    },
+    "probleme": {
+      "t": 30,
+      "quoi": "« pour être moins anxieux par rapport au résultat du test de santé »"
+    },
+    "outil_nomme": {
+      "t": null,
+      "quoi": "jamais nommé à l'oral ; seulement en légende (« si j'ai bien compris c'est Quieto »)"
+    },
+    "outil_montre": {
+      "t": 12,
+      "quoi": "téléphone en main, ouverture de l'app, catégories de santé"
+    },
+    "preuve": {
+      "t": 44,
+      "quoi": "« ça a fini de charger », écran « Ma première méditation » avec bouton play"
+    },
+    "fin": {
+      "t": 50,
+      "quoi": "« une séance chaque soir avant de dormir, et je vous jure c'est… » (coupe)"
+    }
+  },
+  "montre_comment": "téléphone en main filmé dehors, visage du créateur en insert en bas à gauche, texte-question figé en haut",
+  "cta": "aucun CTA explicite (pas de lien, pas de « écrivez-moi »)",
+  "montage": "texte « Comment elle arrive à trouver ça ? » affiché en haut tout du long, visage inséré en bas à gauche dès que l'app est à l'écran, voix off de « l'autre » par-dessus. 52 s, coupe nette à la fin.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Téléphone en main dans la vraie vie (ça bouge, on voit le sol) : exactement ce qu'on veut."
+    },
+    {
+      "ok": "oui",
+      "texte": "Visage en insert en bas à gauche quand l'app est à l'écran : on garde la tête du créateur, l'écran reste visible."
+    },
+    {
+      "ok": "oui",
+      "texte": "52 s : pile dans la fourchette 30–60 s."
+    },
+    {
+      "ok": "non",
+      "texte": "L'outil n'est jamais nommé à l'oral (ni avant 20 s, ni après). Chez nous : « j'ai fait un Screen My Car » tôt."
+    },
+    {
+      "ok": "bof",
+      "texte": "Pas de vanne, pas de résultat chiffré : ça repose à 100 % sur le mystère du hook."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un téléphone, un extérieur ensoleillé, l'app en question, un bout d'audio (le tien ou en voix off)",
+    "temps": "15 min",
+    "niveau": "facile"
+  },
+  "stats": {
+    "vues": 67800,
+    "likes": 476,
+    "partages": 170,
+    "commentaires": 5,
+    "abonnes": 57
+  },
+  "ordre": 0,
+  "ajout": "automatique"
+}
