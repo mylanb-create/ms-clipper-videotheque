@@ -1,5 +1,228 @@
 [
  {
+  "id": "t04044054",
+  "fichier": "tiktok-7641642370404044054-thomas.cleneau.mp4",
+  "compte": "@thomas.cleneau",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@thomas.cleneau/video/7641642370404044054",
+  "niche": "temps d'écran, détox digitale",
+  "format": "flow",
+  "titre": "1 pompe = 1 minute de scroll (l'app PUSHOUT)",
+  "sujet": "Thomas, seul, filme une app qui bloque son téléphone tant qu'il n'a pas fait de pompes. On le voit au sol, téléphone devant lui qui compte 14, 15… puis l'écran « Bloqué par PUSHOUT » devant TikTok, YouTube, Insta. Chaque pompe débloque 1 minute de scroll.",
+  "tags": [
+   "PUSHOUT",
+   "pompes",
+   "temps d'écran",
+   "addiction scroll",
+   "sport",
+   "pattern-interrupt",
+   "16 secondes"
+  ],
+  "hook": {
+   "dit": "Mon pote ne peut pas scroller sur TikTok tant qu'il n'a pas fait des pompes.",
+   "voit": "lui au sol, en pleine pompe, le téléphone posé devant lui sur le parquet. Texte permanent en haut : « Bro doit faire des pompes pour scroller 😅💔 »."
+  },
+  "texte_ecran": [
+   "Bro doit faire des pompes pour scroller 😅💔",
+   "PUSHOUT",
+   "14",
+   "15",
+   "Bloqué par PUSHOUT",
+   "Tu as 40 min",
+   "Choisis la durée du déblocage",
+   "Déverrouiller",
+   "Ajouter 2 min"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 3,
+    "voit": "lui au sol en train de faire des pompes, le téléphone posé devant lui sur le parquet. Le téléphone montre un compteur qui monte : 14, 15. Texte en haut : « Bro doit faire des pompes pour scroller 😅💔 ».",
+    "entend": "« Mon pote ne peut pas scroller sur TikTok tant qu'il n'a pas fait des pompes. »"
+   },
+   {
+    "debut": 3,
+    "fin": 5,
+    "voit": "face caméra une seconde, puis gros plan du téléphone en main : écran d'accueil avec TikTok, YouTube, X, Instagram. Les apps se font « manger » par un écran bleu « Bloqué par PUSHOUT ».",
+    "entend": "« Mon téléphone est bloqué tant que je n'ai pas fait des pompes. »"
+   },
+   {
+    "debut": 5,
+    "fin": 10,
+    "voit": "gros plan du téléphone PUSHOUT : « Tu as 40 min », slider « Choisis la durée du déblocage », bouton bleu « Déverrouiller ». On comprend qu'une pompe = une minute.",
+    "entend": "« Et chaque pompe me fait gagner une minute de temps d'écran pour scroller. »"
+   },
+   {
+    "debut": 10,
+    "fin": 13,
+    "voit": "nouvelle scène de pompes devant un miroir, un bouton « Ajouter 2 min » apparaît par-dessus.",
+    "entend": "« Donc scroller est une addiction et tu peux la battre en faisant du sport. »"
+   },
+   {
+    "debut": 13,
+    "fin": 16,
+    "voit": "lui face caméra, qui tient son téléphone débloqué à la main (écran vert avec un petit chat qui bouge). Léger sourire.",
+    "entend": "« Et si tu finis par scroller, là au moins tu l'auras mérité. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "💪",
+    "titre": "Un mec qui fait des pompes dans un TikTok",
+    "texte": "On s'arrête parce qu'on n'a pas l'habitude. Le pouce freine tout seul : qu'est-ce qu'il fait ?"
+   },
+   {
+    "emoji": "📱",
+    "titre": "« Bro doit faire des pompes pour scroller »",
+    "texte": "Un seul texte, tout en haut, pendant toute la vidéo. 6 mots qui résument l'idée, même sans le son."
+   },
+   {
+    "emoji": "🔢",
+    "titre": "Le compteur qui monte : 14, 15",
+    "texte": "On voit la mécanique en direct. Pas besoin d'expliquer : chaque pompe = un chiffre de plus."
+   },
+   {
+    "emoji": "🚫",
+    "titre": "TikTok, YouTube, Insta… bloqués",
+    "texte": "L'écran bleu « Bloqué par PUSHOUT » recouvre les apps que tout le monde a. Tout le monde comprend."
+   },
+   {
+    "emoji": "🎯",
+    "titre": "« Scroller est une addiction »",
+    "texte": "Il nomme un vrai problème que beaucoup ressentent sans l'avouer. On se sent concerné."
+   },
+   {
+    "emoji": "😂",
+    "titre": "« Au moins tu l'auras mérité »",
+    "texte": "La vanne finale. Il ne juge pas, il taquine. On sourit et on envoie la vidéo à un pote."
+   },
+   {
+    "emoji": "⏱️",
+    "titre": "16 secondes, pas une de plus",
+    "texte": "Pas de blabla, pas de CTA. Il montre, il dit, il part. 194 k vues avec 63 abonnés."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "msclipper",
+    "hook": "Mon pote ne peut pas scroller tant qu'il n'a pas posté une vidéo. Et chaque vue lui rapporte des centimes.",
+    "comment": "Pattern-interrupt : on le voit poser son téléphone, enregistrer une vidéo rapide, l'uploader sur MS Clipper, puis un gros plan sur les vues qui montent. Texte permanent en haut : « Bro doit poster pour pouvoir scroller 😅💶 ». Punchline finale : « Si tu finis par scroller, au moins tu seras payé pour. »"
+   },
+   {
+    "app": "revizio",
+    "hook": "Mon pote ne peut pas scroller sur TikTok tant qu'il n'a pas répondu à 3 questions de son cours.",
+    "comment": "Il est assis à son bureau, cours ouvert à côté. Gros plan sur Revizio : question, bonne réponse, +1 minute d'écran. Texte en haut : « Bro doit réviser pour scroller 📚💔 ». Fin face caméra : « Et si tu finis par scroller, au moins t'auras révisé. »"
+   }
+  ],
+  "note": "<b>À remarquer :</b> 63 abonnés, 194 k vues. Le secret : un pattern-interrupt visuel très fort (un mec qui fait des pompes au sol avec son téléphone devant), un seul texte permanent, 16 secondes, aucune promo, une vanne à la fin. L'app n'est jamais nommée à l'oral — seulement « PUSHOUT » qui s'affiche à l'écran.",
+  "reprise": false,
+  "mise_en_scene": "Thomas, seul chez lui, filme plusieurs scènes courtes : lui au sol en train de faire des pompes avec le téléphone posé devant qui compte, gros plans du téléphone en main (apps bloquées, écran PUSHOUT), nouvelle scène de pompes devant un miroir, puis face caméra avec le téléphone débloqué à la main.",
+  "hooks": [
+   "pattern-interrupt",
+   "mystere",
+   "resultat"
+  ],
+  "point_sensible": "Trop de temps passé à scroller, addiction aux réseaux sociaux",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Mon pote ne peut pas scroller sur TikTok tant qu'il n'a pas fait des pompes. » + un mec qui fait des pompes avec son téléphone au sol."
+   },
+   "probleme": {
+    "t": 10,
+    "quoi": "« scroller est une addiction »"
+   },
+   "outil_nomme": {
+    "t": null,
+    "quoi": "jamais nommé à l'oral — l'app « PUSHOUT » n'apparaît que sur les écrans du téléphone (logo + écran bleu « Bloqué par PUSHOUT »)."
+   },
+   "outil_montre": {
+    "t": 2,
+    "quoi": "gros plan du téléphone au sol qui compte les pompes : 14, 15."
+   },
+   "preuve": {
+    "t": 5,
+    "quoi": "écran PUSHOUT « Tu as 40 min » + slider « Choisis la durée du déblocage » + apps TikTok/YouTube/Insta bloquées."
+   },
+   "fin": {
+    "t": 13,
+    "quoi": "« si tu finis par scroller, là au moins tu l'auras mérité »"
+   }
+  },
+  "montre_comment": "téléphone filmé en vrai (posé au sol pendant les pompes, puis en main) avec l'app PUSHOUT ouverte. Pas de capture d'écran propre : on voit le parquet, les reflets, les doigts.",
+  "cta": "aucun CTA explicite — la punchline finale « au moins tu l'auras mérité » suffit.",
+  "montage": "un seul texte permanent en haut (« Bro doit faire des pompes pour scroller 😅💔 »), pas de musique forte, débit rapide, cuts secs entre pompes / écran / face caméra. 16 secondes.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Pattern-interrupt visuel : un mec qui fait des pompes avec le téléphone au sol, on s'arrête tout de suite."
+   },
+   {
+    "ok": "oui",
+    "texte": "Un texte permanent en haut qui résume tout en 6 mots. Même sans le son, on comprend."
+   },
+   {
+    "ok": "oui",
+    "texte": "Vrai écran filmé (compteur de pompes, écran de blocage), pas une capture plein écran."
+   },
+   {
+    "ok": "oui",
+    "texte": "Punchline à la fin : « au moins tu l'auras mérité ». La vanne qu'il nous faut."
+   },
+   {
+    "ok": "bof",
+    "texte": "L'outil n'est jamais nommé à l'oral — seulement visible à l'écran. Chez nous on dit « j'ai fait un Screen My Car »."
+   },
+   {
+    "ok": "non",
+    "texte": "16 secondes : trop court pour nos règles (30-60 s)."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un smartphone, un trépied (ou un pote qui filme), un endroit pour faire des pompes, l'app visible à l'écran",
+   "temps": "20 min",
+   "niveau": "facile"
+  },
+  "stats": {
+   "vues": 194700,
+   "likes": 1869,
+   "partages": 233,
+   "commentaires": 54,
+   "abonnes": 63
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "duree": 16.3,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 2.6,
+    "texte": "Mon bot ne peut pas scroller sur TikTok tant qu'il n'a pas fait des pompes."
+   },
+   {
+    "debut": 2.7,
+    "fin": 5.3,
+    "texte": "Mon téléphone est bloqué tant que je n'ai pas fait des pompes."
+   },
+   {
+    "debut": 5.4,
+    "fin": 8.4,
+    "texte": "Et chaque pompe me fait gagner une minute de temps d'écran pour scroller."
+   },
+   {
+    "debut": 10.4,
+    "fin": 13.2,
+    "texte": "Donc scroller est une addiction et tu peux la battre en faisant du sport."
+   },
+   {
+    "debut": 13.4,
+    "fin": 15.9,
+    "texte": "Et si tu finis par scroller, là au moins tu l'auras mérité."
+   }
+  ]
+ },
+ {
   "id": "t06305057",
   "fichier": "tiktok-7672078428006305057-margauxlikes.mp4",
   "compte": "@margauxlikes",
