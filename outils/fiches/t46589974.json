@@ -1,0 +1,178 @@
+{
+  "id": "t46589974",
+  "fichier": "tiktok-7696598752546589974-j_banj.mp4",
+  "compte": "@j_banj",
+  "plateforme": "TikTok",
+  "marche": "US",
+  "lien": "https://www.tiktok.com/@j_banj/video/7696598752546589974",
+  "niche": "ChatGPT, humour",
+  "format": "face-camera",
+  "titre": "« Chat GPT, comment devenir millionnaire en 30 jours ? » — « Trouve un boulot. »",
+  "sujet": "Un ado seul dehors, téléphone à la main, parle à ChatGPT en vocal. Il demande comment devenir millionnaire en 30 jours. ChatGPT répond froidement « Trouve un boulot ». Il est outré, il relance. Mini-sketch, zéro écran montré.",
+  "tags": [
+    "ChatGPT",
+    "vocal",
+    "sketch",
+    "ado",
+    "millionnaire",
+    "réaction",
+    "dehors"
+  ],
+  "hook": {
+    "dit": "Chat GPT, chat GPT, how I become a millionaire in 30 days? (Chat GPT, Chat GPT, comment je deviens millionnaire en 30 jours ?)",
+    "voit": "un ado en sweat noir « FUTUR », dehors sur un parking, téléphone collé à la bouche. Texte blanc en haut : « that one friend who asks chat gbt everything: »."
+  },
+  "texte_ecran": [
+    "that one friend who asks chat gbt everything:"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 5,
+      "voit": "l'ado dehors, téléphone près de la bouche, l'air sérieux, un peu agité.",
+      "entend": "« Chat GPT, Chat GPT, comment je deviens millionnaire en 30 jours ? »"
+    },
+    {
+      "debut": 5,
+      "fin": 7,
+      "voit": "il attend, regarde le téléphone, bouche entrouverte.",
+      "entend": "la voix de ChatGPT, sèche : « Trouve un boulot. »"
+    },
+    {
+      "debut": 7,
+      "fin": 9,
+      "voit": "il recule la tête, air outré, il parle à la caméra.",
+      "entend": "« Mais frère, de quoi il parle ?! »"
+    },
+    {
+      "debut": 9,
+      "fin": 13,
+      "voit": "il relance, téléphone à la bouche, en marchant un peu.",
+      "entend": "« Chat GPT, et si tu veux pas d'un boulot et que tu veux être millionnaire ? »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🎙️",
+      "titre": "ChatGPT en vocal, zéro écran",
+      "texte": "On ne voit jamais l'app. On entend juste la voix robotique qui répond. C'est la bande-son qui fait la vidéo."
+    },
+    {
+      "emoji": "💸",
+      "titre": "« Millionnaire en 30 jours »",
+      "texte": "Une question énorme, naïve, que tout le monde a déjà pensée en secret."
+    },
+    {
+      "emoji": "🥶",
+      "titre": "La réponse qui douche : « Get a job »",
+      "texte": "Trois mots, cash. L'IA casse le rêve en une seconde. C'est le punch."
+    },
+    {
+      "emoji": "😤",
+      "titre": "La vraie réaction",
+      "texte": "« Bro, what are they talking about ?! » On croit à son indignation : c'est pas joué, c'est vécu."
+    },
+    {
+      "emoji": "🏷️",
+      "titre": "Le texte « that one friend who asks chat gbt everything »",
+      "texte": "Même sans le son, on sait que c'est lui, le pote qui demande TOUT à l'IA. On se reconnaît ou on reconnaît un pote."
+    },
+    {
+      "emoji": "⏱️",
+      "titre": "13 secondes, c'est tout",
+      "texte": "Question, réponse, réaction, relance. Pas une seconde de trop. Replay garanti."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "« Chat GPT, elle vaut combien cette caisse à 2 500 € sur Leboncoin ? »",
+      "comment": "Tu es dehors, téléphone à la bouche. Texte en haut : « ce pote qui demande à ChatGPT d'acheter sa voiture ». ChatGPT répond un truc nul (« ça dépend »). Tu fais une tête outrée. Tu enchaînes : « Non en fait j'ai fait un Screen My Car, verdict en 3 secondes : FUIR. » Incrustation du résultat en bas à gauche."
+    },
+    {
+      "app": "revizio",
+      "hook": "« Chat GPT, comment j'ai 20 à mon bac demain ? »",
+      "comment": "Même mise en scène, dehors, téléphone à la bouche. ChatGPT : « Révise. » Toi, outré : « Mais frère, de quoi il parle ?! » Puis : « J'ai fait un Revizio, photo du cours, fiches + quiz, 18/20 au blanc. »"
+    },
+    {
+      "app": "msclipper",
+      "hook": "« Chat GPT, comment je me fais 1 000 € ce mois-ci sans bosser 8h par jour ? »",
+      "comment": "ChatGPT : « Trouve un boulot. » Tu lèves les yeux au ciel. Tu enchaînes : « Non en fait je poste des clips sur MS Clipper, je suis payé à la vue. » Incrustation du dashboard en bas à gauche."
+    }
+  ],
+  "note": "<b>À remarquer :</b> 3,5 M de vues avec 2 938 abonnés. Zéro montage, zéro écran, un seul plan, un seul texte. Juste une vraie question + la réponse froide de l'IA + une vraie réaction. La vidéo tient sur la voix de ChatGPT en vocal : c'est elle qui fait le punch, pas le créateur.",
+  "reprise": false,
+  "mise_en_scene": "Un seul plan, dehors sur un parking, l'ado seul, téléphone à la bouche en mode vocal ChatGPT. Un texte blanc fixe en haut tout du long. Rien d'autre.",
+  "hooks": [
+    "question",
+    "marque",
+    "resultat"
+  ],
+  "point_sensible": "Vouloir devenir riche vite sans bosser",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Chat GPT, comment je deviens millionnaire en 30 jours ? »"
+    },
+    "probleme": {
+      "t": 5,
+      "quoi": "ChatGPT répond « Get a job » — la douche froide"
+    },
+    "outil_nomme": {
+      "t": 0,
+      "quoi": "« Chat GPT, Chat GPT »"
+    },
+    "outil_montre": {
+      "t": null,
+      "quoi": "jamais : on ne voit pas l'écran, on entend juste la voix"
+    },
+    "preuve": {
+      "t": null,
+      "quoi": "aucune preuve, c'est un sketch"
+    },
+    "fin": {
+      "t": 9,
+      "quoi": "relance : « et si tu veux pas d'un boulot ? »"
+    }
+  },
+  "montre_comment": "pas d'écran, juste la voix de ChatGPT en vocal + un texte fixe en haut",
+  "cta": "aucun (chute ouverte)",
+  "montage": "un seul plan brut, pas de coupe, un texte blanc fixe en haut. 13 secondes.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "13 secondes, format parfait : court, punchy, replay facile."
+    },
+    {
+      "ok": "oui",
+      "texte": "L'outil (ChatGPT) nommé dès la seconde 0."
+    },
+    {
+      "ok": "oui",
+      "texte": "Une vraie vanne : la réponse de l'IA fait la chute."
+    },
+    {
+      "ok": "non",
+      "texte": "Aucun écran montré : pour nous, il FAUT voir Screen My Car ou Revizio à l'écran (téléphone en main ou incrust bas-gauche)."
+    },
+    {
+      "ok": "bof",
+      "texte": "Aucune preuve, aucun résultat : marche en sketch, mais chez nous le résultat doit arriver."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un téléphone, ChatGPT vocal, un lieu dehors, un texte fixe en haut",
+    "temps": "10 min",
+    "niveau": "facile"
+  },
+  "stats": {
+    "vues": 3500000,
+    "likes": 375600,
+    "partages": 40700,
+    "enregistrements": 21451,
+    "commentaires": 1319,
+    "abonnes": 2938
+  },
+  "ordre": 0,
+  "ajout": "automatique"
+}
