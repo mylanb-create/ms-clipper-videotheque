@@ -1,0 +1,191 @@
+{
+  "id": "t34911520",
+  "fichier": "tiktok-7693237826434911520-ismael.viral.mp4",
+  "compte": "@ismael.viral",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@ismael.viral/video/7693237826434911520",
+  "niche": "argent, IA",
+  "format": "flow",
+  "titre": "1 000 € par jour avec des comptines IA sur YouTube",
+  "sujet": "Un gars face caméra avoue avoir trouvé « la façon la plus débile » pour faire 1 000 € par jour : poster des vidéos pour enfants sur YouTube, générées en 5 minutes avec l'IA. Il filme son écran à la main pour montrer les étapes : screen d'une comptine, prompt ChatGPT, shortfire.io, puis la preuve : 357 665 vues et 1 587 €.",
+  "tags": [
+    "YouTube",
+    "comptines enfants",
+    "IA",
+    "1000€/jour",
+    "shortfire.io",
+    "écran filmé main",
+    "aveu"
+  ],
+  "hook": {
+    "dit": "J'en suis pas fier, mais j'ai les couilles de le dire, j'ai trouvé la façon la plus débile pour faire 1 000 € par jour.",
+    "voit": "lui face caméra, chambre beige, t-shirt noir, la main qui bouge à côté du visage. Une bulle blanche en haut : « J'en suis pas fier mais j'ai les c*uilles de le dire »."
+  },
+  "texte_ecran": [
+    "J'en suis pas fier mais j'ai les c*uilles de le dire",
+    "€965.77",
+    "Statistiques de la vidéo",
+    "Cette vidéo a enregistré 357 665 vues",
+    "357 665 vues depuis sa publication",
+    "+1,5 k",
+    "1 587,72"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 5,
+      "voit": "lui face caméra, main qui gesticule, bulle blanche en haut avec le hook écrit.",
+      "entend": "le hook : « j'ai trouvé la façon la plus débile pour faire 1 000 € par jour »."
+    },
+    {
+      "debut": 5,
+      "fin": 15,
+      "voit": "toujours face caméra. Vers 12 s, une petite étiquette flotte à côté de lui : « €965.77 ».",
+      "entend": "« ça fait 2 ans que je fais ça, je poste des vidéos YouTube pour enfants. Voilà ce que je me suis fait avec une seule vidéo IA en 5 minutes. »"
+    },
+    {
+      "debut": 15,
+      "fin": 26,
+      "voit": "face caméra, il annonce les étapes.",
+      "entend": "« YouTube paye 100 à 800 € pour 100 000 vues. Allez chercher une comptine pour enfants. »"
+    },
+    {
+      "debut": 26,
+      "fin": 39,
+      "voit": "écran d'ordi filmé à la main : une comptine pour enfants sur YouTube, puis ChatGPT ouvert, son doigt sur l'écran.",
+      "entend": "« prenez un screen, collez la photo sur ChatGPT, demandez-lui un prompt basé sur ce visuel. »"
+    },
+    {
+      "debut": 39,
+      "fin": 50,
+      "voit": "l'écran montre shortfire.io, puis la page « AI Video Generator », il clique.",
+      "entend": "« allez sur shortfire.io, dans le vidéogénérateur IA, collez le prompt, cliquez sur générer. »"
+    },
+    {
+      "debut": 50,
+      "fin": 57,
+      "voit": "une vidéo de comptine IA toute faite sur un petit écran à droite, puis les stats YouTube : « 357 665 vues », « +1,5 k », « 1 587,72 ».",
+      "entend": "« l'IA a généré la vidéo avec musique et montage. Regarde : 300 000 vues, 1 500 € gagnés. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🫣",
+      "titre": "« J'en suis pas fier »",
+      "texte": "Il commence par un aveu, pas par une pub. On se penche pour écouter le secret."
+    },
+    {
+      "emoji": "💶",
+      "titre": "1 000 € par jour",
+      "texte": "Un chiffre énorme, lâché dans la première phrase. On veut savoir comment."
+    },
+    {
+      "emoji": "👶",
+      "titre": "Des comptines pour enfants",
+      "texte": "La niche surprend : personne ne pense à ça. C'est débile, donc crédible."
+    },
+    {
+      "emoji": "🤖",
+      "titre": "« 5 minutes avec l'IA »",
+      "texte": "Pas de talent, pas de caméra. Juste un prompt. On se dit : moi aussi je peux."
+    },
+    {
+      "emoji": "👆",
+      "titre": "L'écran filmé à la main",
+      "texte": "Son doigt pointe les boutons sur un vrai écran. Ça fait vrai, pas tuto léché."
+    },
+    {
+      "emoji": "📊",
+      "titre": "La preuve chiffrée à la fin",
+      "texte": "357 665 vues et 1 587 € affichés en gros. Avant/après en une image."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "msclipper",
+      "hook": "J'en suis pas fier, mais j'ai trouvé la façon la plus débile de gagner 500 € par semaine : je poste des clips et je suis payé à la vue.",
+      "comment": "Toi face caméra, aveu + chiffre dans les 3 premières secondes. Puis téléphone en main : 1. Un extrait de podcast. 2. MS Clipper qui coupe. 3. On poste. 4. Les stats : 120 000 vues, 180 €. Preuve chiffrée en gros à la fin."
+    },
+    {
+      "app": "revizio",
+      "hook": "J'ai trouvé la façon la plus débile d'avoir 18 en philo sans ouvrir un livre.",
+      "comment": "Aveu face caméra, puis écran du téléphone filmé à la main : 1. Je prends en photo le cours. 2. Revizio fait les fiches. 3. Le quiz. 4. Le résultat : 18/20 affiché en gros à la fin."
+    }
+  ],
+  "note": "<b>À remarquer :</b> le hook « j'en suis pas fier mais j'ai les c*uilles de le dire » est écrit en gros en haut pendant 20 secondes. Même sans le son, on lit l'aveu. L'étiquette flottante « €965.77 » qui apparaît à 12 s est une preuve d'argent glissée avant la démo, pour qu'on reste jusqu'au bout.",
+  "reprise": false,
+  "mise_en_scene": "Face caméra en chambre (lumière chaude, mur beige) pendant les 24 premières secondes. Puis il filme un écran d'ordi à la main : navigateur, ChatGPT, shortfire.io, YouTube Studio. Zéro coupe propre, ça bouge.",
+  "hooks": [
+    "chiffre",
+    "mystere",
+    "provoc"
+  ],
+  "point_sensible": "Vouloir gagner beaucoup d'argent vite, sans compétence ni visage à montrer",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« j'ai trouvé la façon la plus débile pour faire 1 000 € par jour »"
+    },
+    "probleme": {
+      "t": 5,
+      "quoi": "« ça paye vraiment bien » + étiquette €965.77 à 12 s"
+    },
+    "outil_nomme": {
+      "t": 35,
+      "quoi": "« shortfire.io »"
+    },
+    "outil_montre": {
+      "t": 26,
+      "quoi": "écran d'ordi filmé à la main : comptine YouTube, ChatGPT"
+    },
+    "preuve": {
+      "t": 52,
+      "quoi": "stats YouTube : 357 665 vues et 1 587,72 €"
+    },
+    "fin": {
+      "t": 51,
+      "quoi": "« tu n'as plus qu'à poster sur YouTube »"
+    }
+  },
+  "montre_comment": "écran d'ordi filmé à la main, le doigt pointe les boutons",
+  "cta": "« je vais vous montrer étape par étape comment je fais, comme ça tu peux le faire toi aussi »",
+  "montage": "une seule bulle de texte en haut pendant 24 s (le hook écrit), étiquette flottante €965.77 à 12 s, puis écrans filmés main. 57 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Le résultat en gros à la fin (357 665 vues, 1 587 €) : la preuve avant tout."
+    },
+    {
+      "ok": "oui",
+      "texte": "L'écran filmé à la main, pas une capture propre : ça fait vrai."
+    },
+    {
+      "ok": "oui",
+      "texte": "57 secondes : pile dans la fourchette 30-60 s."
+    },
+    {
+      "ok": "non",
+      "texte": "Outil nommé à 35 s : trop tard, il faut nommer avant 20 s."
+    },
+    {
+      "ok": "bof",
+      "texte": "Pas de vanne, juste l'aveu « j'en suis pas fier ». À muscler chez nous."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "toi face caméra dans une chambre, un ordi ou un téléphone à filmer en main, un compte avec des stats à montrer",
+    "temps": "25 min",
+    "niveau": "facile"
+  },
+  "stats": {
+    "vues": 119500,
+    "likes": 3078,
+    "partages": 1365,
+    "commentaires": 14,
+    "abonnes": 14100
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "approuvee_le": "2026-10-22T00:04:02"
+}

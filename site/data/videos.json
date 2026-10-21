@@ -1,5 +1,491 @@
 [
  {
+  "id": "t34911520",
+  "fichier": "tiktok-7693237826434911520-ismael.viral.mp4",
+  "compte": "@ismael.viral",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@ismael.viral/video/7693237826434911520",
+  "niche": "argent, IA",
+  "format": "flow",
+  "titre": "1 000 € par jour avec des comptines IA sur YouTube",
+  "sujet": "Un gars face caméra avoue avoir trouvé « la façon la plus débile » pour faire 1 000 € par jour : poster des vidéos pour enfants sur YouTube, générées en 5 minutes avec l'IA. Il filme son écran à la main pour montrer les étapes : screen d'une comptine, prompt ChatGPT, shortfire.io, puis la preuve : 357 665 vues et 1 587 €.",
+  "tags": [
+   "YouTube",
+   "comptines enfants",
+   "IA",
+   "1000€/jour",
+   "shortfire.io",
+   "écran filmé main",
+   "aveu"
+  ],
+  "hook": {
+   "dit": "J'en suis pas fier, mais j'ai les couilles de le dire, j'ai trouvé la façon la plus débile pour faire 1 000 € par jour.",
+   "voit": "lui face caméra, chambre beige, t-shirt noir, la main qui bouge à côté du visage. Une bulle blanche en haut : « J'en suis pas fier mais j'ai les c*uilles de le dire »."
+  },
+  "texte_ecran": [
+   "J'en suis pas fier mais j'ai les c*uilles de le dire",
+   "€965.77",
+   "Statistiques de la vidéo",
+   "Cette vidéo a enregistré 357 665 vues",
+   "357 665 vues depuis sa publication",
+   "+1,5 k",
+   "1 587,72"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 5,
+    "voit": "lui face caméra, main qui gesticule, bulle blanche en haut avec le hook écrit.",
+    "entend": "le hook : « j'ai trouvé la façon la plus débile pour faire 1 000 € par jour »."
+   },
+   {
+    "debut": 5,
+    "fin": 15,
+    "voit": "toujours face caméra. Vers 12 s, une petite étiquette flotte à côté de lui : « €965.77 ».",
+    "entend": "« ça fait 2 ans que je fais ça, je poste des vidéos YouTube pour enfants. Voilà ce que je me suis fait avec une seule vidéo IA en 5 minutes. »"
+   },
+   {
+    "debut": 15,
+    "fin": 26,
+    "voit": "face caméra, il annonce les étapes.",
+    "entend": "« YouTube paye 100 à 800 € pour 100 000 vues. Allez chercher une comptine pour enfants. »"
+   },
+   {
+    "debut": 26,
+    "fin": 39,
+    "voit": "écran d'ordi filmé à la main : une comptine pour enfants sur YouTube, puis ChatGPT ouvert, son doigt sur l'écran.",
+    "entend": "« prenez un screen, collez la photo sur ChatGPT, demandez-lui un prompt basé sur ce visuel. »"
+   },
+   {
+    "debut": 39,
+    "fin": 50,
+    "voit": "l'écran montre shortfire.io, puis la page « AI Video Generator », il clique.",
+    "entend": "« allez sur shortfire.io, dans le vidéogénérateur IA, collez le prompt, cliquez sur générer. »"
+   },
+   {
+    "debut": 50,
+    "fin": 57,
+    "voit": "une vidéo de comptine IA toute faite sur un petit écran à droite, puis les stats YouTube : « 357 665 vues », « +1,5 k », « 1 587,72 ».",
+    "entend": "« l'IA a généré la vidéo avec musique et montage. Regarde : 300 000 vues, 1 500 € gagnés. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🫣",
+    "titre": "« J'en suis pas fier »",
+    "texte": "Il commence par un aveu, pas par une pub. On se penche pour écouter le secret."
+   },
+   {
+    "emoji": "💶",
+    "titre": "1 000 € par jour",
+    "texte": "Un chiffre énorme, lâché dans la première phrase. On veut savoir comment."
+   },
+   {
+    "emoji": "👶",
+    "titre": "Des comptines pour enfants",
+    "texte": "La niche surprend : personne ne pense à ça. C'est débile, donc crédible."
+   },
+   {
+    "emoji": "🤖",
+    "titre": "« 5 minutes avec l'IA »",
+    "texte": "Pas de talent, pas de caméra. Juste un prompt. On se dit : moi aussi je peux."
+   },
+   {
+    "emoji": "👆",
+    "titre": "L'écran filmé à la main",
+    "texte": "Son doigt pointe les boutons sur un vrai écran. Ça fait vrai, pas tuto léché."
+   },
+   {
+    "emoji": "📊",
+    "titre": "La preuve chiffrée à la fin",
+    "texte": "357 665 vues et 1 587 € affichés en gros. Avant/après en une image."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "msclipper",
+    "hook": "J'en suis pas fier, mais j'ai trouvé la façon la plus débile de gagner 500 € par semaine : je poste des clips et je suis payé à la vue.",
+    "comment": "Toi face caméra, aveu + chiffre dans les 3 premières secondes. Puis téléphone en main : 1. Un extrait de podcast. 2. MS Clipper qui coupe. 3. On poste. 4. Les stats : 120 000 vues, 180 €. Preuve chiffrée en gros à la fin."
+   },
+   {
+    "app": "revizio",
+    "hook": "J'ai trouvé la façon la plus débile d'avoir 18 en philo sans ouvrir un livre.",
+    "comment": "Aveu face caméra, puis écran du téléphone filmé à la main : 1. Je prends en photo le cours. 2. Revizio fait les fiches. 3. Le quiz. 4. Le résultat : 18/20 affiché en gros à la fin."
+   }
+  ],
+  "note": "<b>À remarquer :</b> le hook « j'en suis pas fier mais j'ai les c*uilles de le dire » est écrit en gros en haut pendant 20 secondes. Même sans le son, on lit l'aveu. L'étiquette flottante « €965.77 » qui apparaît à 12 s est une preuve d'argent glissée avant la démo, pour qu'on reste jusqu'au bout.",
+  "reprise": false,
+  "mise_en_scene": "Face caméra en chambre (lumière chaude, mur beige) pendant les 24 premières secondes. Puis il filme un écran d'ordi à la main : navigateur, ChatGPT, shortfire.io, YouTube Studio. Zéro coupe propre, ça bouge.",
+  "hooks": [
+   "chiffre",
+   "mystere",
+   "provoc"
+  ],
+  "point_sensible": "Vouloir gagner beaucoup d'argent vite, sans compétence ni visage à montrer",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« j'ai trouvé la façon la plus débile pour faire 1 000 € par jour »"
+   },
+   "probleme": {
+    "t": 5,
+    "quoi": "« ça paye vraiment bien » + étiquette €965.77 à 12 s"
+   },
+   "outil_nomme": {
+    "t": 35,
+    "quoi": "« shortfire.io »"
+   },
+   "outil_montre": {
+    "t": 26,
+    "quoi": "écran d'ordi filmé à la main : comptine YouTube, ChatGPT"
+   },
+   "preuve": {
+    "t": 52,
+    "quoi": "stats YouTube : 357 665 vues et 1 587,72 €"
+   },
+   "fin": {
+    "t": 51,
+    "quoi": "« tu n'as plus qu'à poster sur YouTube »"
+   }
+  },
+  "montre_comment": "écran d'ordi filmé à la main, le doigt pointe les boutons",
+  "cta": "« je vais vous montrer étape par étape comment je fais, comme ça tu peux le faire toi aussi »",
+  "montage": "une seule bulle de texte en haut pendant 24 s (le hook écrit), étiquette flottante €965.77 à 12 s, puis écrans filmés main. 57 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Le résultat en gros à la fin (357 665 vues, 1 587 €) : la preuve avant tout."
+   },
+   {
+    "ok": "oui",
+    "texte": "L'écran filmé à la main, pas une capture propre : ça fait vrai."
+   },
+   {
+    "ok": "oui",
+    "texte": "57 secondes : pile dans la fourchette 30-60 s."
+   },
+   {
+    "ok": "non",
+    "texte": "Outil nommé à 35 s : trop tard, il faut nommer avant 20 s."
+   },
+   {
+    "ok": "bof",
+    "texte": "Pas de vanne, juste l'aveu « j'en suis pas fier ». À muscler chez nous."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "toi face caméra dans une chambre, un ordi ou un téléphone à filmer en main, un compte avec des stats à montrer",
+   "temps": "25 min",
+   "niveau": "facile"
+  },
+  "stats": {
+   "vues": 119500,
+   "likes": 3078,
+   "partages": 1365,
+   "commentaires": 14,
+   "abonnes": 14100
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "approuvee_le": "2026-10-22T00:04:02",
+  "duree": 56.9,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 4.8,
+    "texte": "J'en suis pas fier, mais j'ai les couilles de le dire, j'ai trouvé la façon la plus débile pour faire 1000€ par jour."
+   },
+   {
+    "debut": 5.1,
+    "fin": 9.3,
+    "texte": "Ça fait 2 ans que je fais ça et en gros, je poste des vidéos sur YouTube, mais pour enfants."
+   },
+   {
+    "debut": 9.5,
+    "fin": 14.9,
+    "texte": "Et oui, ça paye vraiment bien à regarder, c'est ce que je me suis fait avec une seule vidéo avec l'IA en 5 minutes."
+   },
+   {
+    "debut": 15.1,
+    "fin": 18.5,
+    "texte": "Et je vais vous montrer étape par étape comment je fais, comme ça tu peux le faire toi aussi."
+   },
+   {
+    "debut": 18.9,
+    "fin": 22.3,
+    "texte": "Premièrement, YouTube paye pour 100 000 vues entre 100 à 800€."
+   },
+   {
+    "debut": 22.8,
+    "fin": 25.7,
+    "texte": "Vous allez sur YouTube et vous allez rechercher une comptine pour enfants."
+   },
+   {
+    "debut": 26.1,
+    "fin": 29.0,
+    "texte": "Ensuite, vous n'avez plus qu'à prendre un screen, ça marche même sur téléphone."
+   },
+   {
+    "debut": 29.0,
+    "fin": 34.5,
+    "texte": "Vous collez cette photo sur ChatGPT et vous lui demandez de faire un prompt en se basant sur ce visuel."
+   },
+   {
+    "debut": 34.6,
+    "fin": 39.3,
+    "texte": "Ensuite, vous copiez et vous rendez sur ce site-là qui s'appelle shortfire.io."
+   },
+   {
+    "debut": 39.5,
+    "fin": 41.2,
+    "texte": "Vous allez dans le vidéogénérateur IA."
+   },
+   {
+    "debut": 41.5,
+    "fin": 46.3,
+    "texte": "Puis, vous allez simplement coller ce que ChatGPT vous a donné et vous allez cliquer sur générer juste ici."
+   },
+   {
+    "debut": 46.6,
+    "fin": 50.7,
+    "texte": "Et l'Aliam a généré une vidéo avec la musique, tout le montage déjà fait."
+   },
+   {
+    "debut": 51.1,
+    "fin": 52.6,
+    "texte": "Et ensuite, tu n'as plus qu'à poster sur YouTube."
+   },
+   {
+    "debut": 52.8,
+    "fin": 56.4,
+    "texte": "Là, regarde, j'ai fait 300 000 vues, j'ai gagné 1500€."
+   }
+  ]
+ },
+ {
+  "id": "t98164483",
+  "fichier": "tiktok-7644853687898164483-thomas.cleneau.mp4",
+  "compte": "@thomas.cleneau",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@thomas.cleneau/video/7644853687898164483",
+  "niche": "addiction scroll, temps d'écran",
+  "format": "fond-vert",
+  "titre": "Mon pote fait des pompes pour scroller TikTok (PUSHOUT)",
+  "sujet": "Thomas reprend la vidéo virale d'un mec en combinaison blanche qui fait des pompes dans un parking devant un panneau « vélos interdits », téléphone posé par terre. Puis il montre PUSHOUT, l'app qui bloque son propre téléphone tant qu'il n'a pas fait de pompes : chaque pompe = une minute de scroll.",
+  "tags": [
+   "pompes",
+   "PUSHOUT",
+   "parking",
+   "temps d'écran",
+   "addiction TikTok",
+   "sport",
+   "mon pote"
+  ],
+  "hook": {
+   "dit": "Mon pote peut pas scroller sur TikTok tant qu'il a pas fait des pompes.",
+   "voit": "un mec en combinaison blanche de peintre, à quatre pattes dans un parking, qui enchaîne les pompes devant un gros panneau rond « vélos et motos interdits ». Son téléphone est posé par terre contre le mur. Texte en haut : « bro doit faire des pompes pour scroller 😭❤️ »."
+  },
+  "texte_ecran": [
+   "bro doit faire des pompes pour scroller 😭❤️",
+   "Bloqué par PUSHOUT",
+   "1. Appuie sur Commencer",
+   "2. Appuie sur la notification pour débloquer les apps",
+   "Tu as 45 min",
+   "Choisis la durée du déblocage",
+   "Gagner plus de temps",
+   "Déverrouiller",
+   "Ajouter 10 min",
+   "😭😭"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 3,
+    "voit": "la vidéo reprise : le pote en combinaison blanche qui fait des pompes dans un parking, panneau « vélos interdits », son téléphone par terre. Texte « bro doit faire des pompes pour scroller 😭❤️ ».",
+    "entend": "« Mon pote peut pas scroller sur TikTok tant qu'il a pas fait des pompes. »"
+   },
+   {
+    "debut": 3,
+    "fin": 5,
+    "voit": "gros plan sur le téléphone posé contre le mur, l'app PUSHOUT ouverte qui compte les pompes (« 7 »).",
+    "entend": "« Mon téléphone est bloqué tant que je n'ai pas fait des pompes. »"
+   },
+   {
+    "debut": 5,
+    "fin": 10,
+    "voit": "Thomas face caméra, air étonné, puis le téléphone dans sa main : écran d'accueil avec TikTok, YouTube, X, Instagram, puis l'écran bleu « Bloqué par PUSHOUT » et le compteur « Tu as 45 min » avec le bouton « Déverrouiller ».",
+    "entend": "« Et chaque pompe me fait gagner une minute de temps d'écran pour scroller. »"
+   },
+   {
+    "debut": 10,
+    "fin": 13,
+    "voit": "Thomas chez lui fait des pompes sur le parquet, son téléphone par terre affiche le bouton « Ajouter 10 min », émojis « 😭😭 » en haut.",
+    "entend": "« Scroller est une addiction et tu peux la battre en faisant du sport. »"
+   },
+   {
+    "debut": 13,
+    "fin": 15.7,
+    "voit": "Thomas face caméra, puis il brandit un téléphone à coque verte qui affiche un chat choqué, petit sourire en coin.",
+    "entend": "« Et si tu finis par scroller, là au moins tu l'auras mérité. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🥷",
+    "titre": "Le mec en combinaison blanche",
+    "texte": "On n'a jamais vu ça : un type habillé en peintre qui fait des pompes dans un parking. Le pouce s'arrête tout seul."
+   },
+   {
+    "emoji": "📱",
+    "titre": "Le téléphone posé par terre",
+    "texte": "On comprend la règle sans qu'on l'explique : il doit pomper pour attraper son tel."
+   },
+   {
+    "emoji": "🏋️",
+    "titre": "« Une pompe = une minute »",
+    "texte": "La règle du jeu tient en 5 mots. Clair, chiffré, on peut refaire chez soi."
+   },
+   {
+    "emoji": "🎯",
+    "titre": "« Scroller est une addiction »",
+    "texte": "Il te parle à toi. Si t'as ouvert la vidéo en scrollant, tu te sens visé."
+   },
+   {
+    "emoji": "😏",
+    "titre": "« Au moins tu l'auras mérité »",
+    "texte": "La punchline de fin. Ça rigole, ça culpabilise, ça relâche en 5 mots."
+   },
+   {
+    "emoji": "⚡",
+    "titre": "15 secondes montre en main",
+    "texte": "Vidéo reprise, démo de l'app, Thomas qui pompe, chute : tout rentre. Zéro gras."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Mon pote peut pas acheter sa première caisse tant qu'il a pas fait un Screen My Car.",
+    "comment": "Même mécanique : vidéo reprise d'un pote devant une annonce douteuse, puis toi tu dégaines Screen My Car sur ton téléphone, verdict à l'écran. Punchline : « au moins si tu te fais avoir, tu l'auras mérité »."
+   },
+   {
+    "app": "revizio",
+    "hook": "Mon pote peut pas scroller tant qu'il a pas fait une fiche Revizio.",
+    "comment": "Toi face caméra : chaque bonne réponse au quiz Revizio = une minute de TikTok. Montre l'app, un cours transformé en fiches, le quiz, le score. Chute : « au moins si tu scrolles, t'as révisé »."
+   },
+   {
+    "app": "msclipper",
+    "hook": "Mon pote peut pas scroller tant qu'il a pas posté une vidéo.",
+    "comment": "Reprise d'un clipper qui filme un extrait, puis toi tu postes sur MS Clipper, compteur de vues qui grimpe. Chaque vue = une minute de scroll. Chute : « scroller, mais en étant payé »."
+   }
+  ],
+  "note": "<b>À remarquer :</b> 63 abonnés, 39 100 vues. C'est la vidéo reprise (le mec en combinaison blanche dans le parking) qui porte tout le hook — Thomas se contente d'enchaîner avec son app. Modèle à copier quand on a peu d'abonnés : prendre une vidéo déjà virale et la raccrocher à son outil en 3 secondes.",
+  "reprise": true,
+  "reprise_quoi": "la vidéo virale d'un mec en combinaison blanche de peintre qui fait des pompes dans un parking devant un panneau « vélos interdits », téléphone posé par terre. Thomas la met en plein écran au début.",
+  "mise_en_scene": "Vidéo reprise plein écran (le pote dans le parking), puis gros plan sur le téléphone avec l'app PUSHOUT, puis Thomas face caméra dans son salon, puis Thomas qui fait des pompes chez lui, puis face caméra avec le téléphone en main.",
+  "hooks": [
+   "pattern-interrupt",
+   "cible",
+   "provoc"
+  ],
+  "point_sensible": "l'addiction au scroll, le temps d'écran qu'on n'arrive pas à couper",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Mon pote peut pas scroller sur TikTok tant qu'il a pas fait des pompes » + vidéo du mec en combinaison blanche"
+   },
+   "probleme": {
+    "t": 3,
+    "quoi": "« Mon téléphone est bloqué tant que je n'ai pas fait des pompes »"
+   },
+   "outil_nomme": {
+    "t": 6,
+    "quoi": "écran bleu « Bloqué par PUSHOUT » dans la main de Thomas"
+   },
+   "outil_montre": {
+    "t": 4,
+    "quoi": "gros plan sur le téléphone par terre, PUSHOUT compte les pompes (« 7 »)"
+   },
+   "preuve": {
+    "t": 10,
+    "quoi": "Thomas fait des pompes chez lui, bouton « Ajouter 10 min » qui s'affiche"
+   },
+   "fin": {
+    "t": 13,
+    "quoi": "« Et si tu finis par scroller, là au moins tu l'auras mérité. »"
+   }
+  },
+  "montre_comment": "téléphone en main et au sol, filmé en vrai (ça bouge), avec les écrans PUSHOUT bien lisibles",
+  "cta": "aucun CTA explicite, la punchline sert de chute",
+  "montage": "coupe rapide entre la vidéo reprise, le gros plan téléphone, la face caméra et la démo pompes. Textes de l'app lisibles à l'écran. 15,7 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "L'outil est montré en vrai dès 4 s, téléphone en main : c'est notre règle."
+   },
+   {
+    "ok": "oui",
+    "texte": "Punchline à la fin (« au moins tu l'auras mérité ») : on aime les vannes."
+   },
+   {
+    "ok": "bof",
+    "texte": "L'outil n'est jamais nommé à l'oral, seulement à l'écran. Chez nous il faut dire « j'ai fait un Screen My Car »."
+   },
+   {
+    "ok": "non",
+    "texte": "Vidéo reprise d'un autre créateur : chez nous, seulement si Screen My Car la fournit."
+   },
+   {
+    "ok": "non",
+    "texte": "15,7 s : trop court. On vise 30 à 60 s pour avoir le temps de montrer le résultat."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un pote prêt à faire des pompes, un parking ou un lieu avec un décor fort, un téléphone, l'app",
+   "temps": "30 min",
+   "niveau": "moyen"
+  },
+  "stats": {
+   "vues": 39100,
+   "likes": 332,
+   "partages": 39,
+   "commentaires": 10,
+   "abonnes": 63
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "approuvee_le": "2026-10-22T00:03:56",
+  "duree": 15.7,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 2.9,
+    "texte": "Mon pote peut pas scroller sur TikTok tant qu'il a pas fait des pompes."
+   },
+   {
+    "debut": 3.0,
+    "fin": 4.9,
+    "texte": "Mon téléphone est bloqué tant que je n'ai pas fait des pompes."
+   },
+   {
+    "debut": 5.1,
+    "fin": 7.8,
+    "texte": "Et chaque pompe me fait gagner une minute de temps d'écran pour scroller."
+   },
+   {
+    "debut": 10.2,
+    "fin": 12.8,
+    "texte": "Scroller est une addiction et tu peux la battre en faisant du sport."
+   },
+   {
+    "debut": 13.0,
+    "fin": 15.6,
+    "texte": "Et si tu finis par scroller, là au moins tu l'auras mérité."
+   }
+  ]
+ },
+ {
   "id": "t44462112",
   "fichier": "tiktok-7697995078144462112-alex.brtnn.mp4",
   "compte": "@alex.brtnn",
