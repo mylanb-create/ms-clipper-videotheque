@@ -1429,6 +1429,260 @@
   ]
  },
  {
+  "id": "t91161121",
+  "fichier": "tiktok-7659854602791161121-ismael.viral.mp4",
+  "compte": "@ismael.viral",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@ismael.viral/video/7659854602791161121",
+  "niche": "argent, IA",
+  "format": "flow",
+  "titre": "7 000 € par mois dans sa chambre avec ChatGPT + shortfy.io (preuve 1 587 €)",
+  "sujet": "Un gars face caméra promet 7 000 € par mois en 30 minutes. Puis il filme son écran : il tape « comptine pour enfants » sur YouTube, prend un screen, le colle sur ChatGPT pour un prompt, va sur shortfy.io, colle dans le générateur vidéo IA, et montre une vidéo animée prête. Il finit par ses stats YouTube : 357 865 vues, 1 587 €.",
+  "tags": [
+   "7000€",
+   "YouTube",
+   "comptines",
+   "ChatGPT",
+   "shortfy.io",
+   "30 minutes",
+   "vidéo IA"
+  ],
+  "hook": {
+   "dit": "Comment faire plus de 7000€ par mois dans sa chambre en seulement 30 minutes ? C'est parti !",
+   "voit": "le gars face caméra, assis sur son lit, index levé vers le haut, texte blanc en gros : « Comment faire 7000€ par mois en seulement 30 minutes »."
+  },
+  "texte_ecran": [
+   "Comment faire 7000€ par mois en seulement 30 minutes"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 3,
+    "voit": "lui face caméra, doigt levé, grand texte blanc en haut.",
+    "entend": "le hook : « Comment faire plus de 7000€ par mois dans sa chambre en seulement 30 minutes ? C'est parti ! »"
+   },
+   {
+    "debut": 3,
+    "fin": 7,
+    "voit": "son écran d'ordi filmé main : recherche Google « combien youtube paye pour 100k vue de vue », résultat « entre 100 € et 800 € » surligné.",
+    "entend": "« YouTube paye pour 100 000 vues entre 100 à 800 €. »"
+   },
+   {
+    "debut": 7,
+    "fin": 14,
+    "voit": "YouTube ouvert, recherche « comptine pour enfants », une vignette de dessin animé, puis le geste de screenshot.",
+    "entend": "« Vous allez sur YouTube, rechercher une comptine pour enfants. Ensuite, un screen, ça marche même sur téléphone. »"
+   },
+   {
+    "debut": 14,
+    "fin": 19,
+    "voit": "ChatGPT ouvert, l'image collée, un prompt qui apparaît.",
+    "entend": "« Vous collez cette photo sur ChatGPT et vous lui demandez de faire un prompt en se basant sur ce visuel. »"
+   },
+   {
+    "debut": 19,
+    "fin": 31,
+    "voit": "le site shortfy.io, puis « AI Video Generator », le prompt collé, bouton « Générer » cliqué.",
+    "entend": "« Vous copiez et vous rendez sur ce site-là qui s'appelle shortfile.io. Vous allez dans le vidéogénérateur IA. Puis vous collez ce que ChatGPT vous a donné et vous cliquez sur générer. »"
+   },
+   {
+    "debut": 31,
+    "fin": 37,
+    "voit": "la vidéo générée : un bus scolaire animé, des personnages, musique et montage prêts.",
+    "entend": "« Et là, Liam a généré une vidéo avec la musique, tout le montage déjà fait. Ensuite, tu n'as plus qu'à poster sur YouTube. »"
+   },
+   {
+    "debut": 37,
+    "fin": 41,
+    "voit": "ses stats YouTube : « Cette vidéo a enregistré 357 865 vues depuis sa publication », revenu « 1 587,73 € », son doigt qui pointe.",
+    "entend": "« Là, regarde, j'ai fait 300 000 vues, j'ai gagné 1500 €. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "💶",
+    "titre": "« 7 000 € par mois »",
+    "texte": "Un chiffre énorme dès la première seconde. On veut savoir comment."
+   },
+   {
+    "emoji": "🛏️",
+    "titre": "« Dans sa chambre, en 30 minutes »",
+    "texte": "Pas besoin de bureau, de matériel, de temps. C'est pour toi, chez toi, maintenant."
+   },
+   {
+    "emoji": "📱",
+    "titre": "L'écran filmé à la main",
+    "texte": "Ça bouge, ça tremble un peu, le doigt pointe. Ce n'est pas une pub, c'est quelqu'un qui te montre pour de vrai."
+   },
+   {
+    "emoji": "🤖",
+    "titre": "ChatGPT + un site IA",
+    "texte": "Deux noms que tout le monde entend partout. On se sent dans le train de l'IA."
+   },
+   {
+    "emoji": "🪜",
+    "titre": "La recette en 5 gestes",
+    "texte": "Recherche, screen, ChatGPT, coller, générer. Même sans le son on peut refaire."
+   },
+   {
+    "emoji": "📊",
+    "titre": "La preuve à la fin",
+    "texte": "357 865 vues, 1 587,73 €. Un vrai dashboard, pas une promesse."
+   }
+  ],
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Un chiffre énorme dès la première seconde (7 000 €)."
+   },
+   {
+    "ok": "oui",
+    "texte": "Écran filmé main, pas une capture plein écran propre."
+   },
+   {
+    "ok": "oui",
+    "texte": "Preuve chiffrée à la fin (357 865 vues, 1 587,73 €)."
+   },
+   {
+    "ok": "bof",
+    "texte": "Outil nommé à 19 s, mais façon « ce site-là qui s'appelle… ». Chez nous : « j'ai fait un MS Clipper »."
+   },
+   {
+    "ok": "non",
+    "texte": "Aucune vanne, aucun second degré. Froid de bout en bout."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "msclipper",
+    "hook": "Comment faire 1 500 € par mois dans ton lit en seulement 10 minutes par jour ? C'est parti !",
+    "comment": "Flow sur téléphone : 1. tu ouvres MS Clipper. 2. tu choisis une vidéo virale. 3. tu la rhabilles en 1 clic. 4. tu postes. Preuve à la fin : capture du dashboard « 220 000 vues, 180 € ce mois »."
+   },
+   {
+    "app": "revizio",
+    "hook": "Comment passer de 8/20 à 18/20 en seulement 30 minutes dans ta chambre ? C'est parti !",
+    "comment": "Flow sur téléphone : 1. tu prends ton cours en photo. 2. tu l'envoies dans Revizio. 3. les fiches sortent. 4. le quiz. Preuve : note de contrôle en gros plan à la fin."
+   },
+   {
+    "app": "smc",
+    "hook": "Comment éviter de perdre 3 000 € sur ta prochaine voiture en seulement 30 secondes ? C'est parti !",
+    "comment": "Flow sur téléphone : 1. tu copies l'annonce Leboncoin. 2. tu la colles dans Screen My Car. 3. le verdict (acheter / négocier / fuir). 4. le prix juste. Preuve : capture d'une annonce « fuir » avec le vrai défaut caché."
+   }
+  ],
+  "note": "<b>À remarquer :</b> il dit « shortfile.io » à l'oral mais écrit « shortfy.io » en légende — mauvaise prononciation. Le son dit « 300 000 vues, 1 500 € », l'écran montre 357 865 vues et 1 587,73 € : il arrondit à la baisse pour que ça sonne rond.",
+  "reprise": false,
+  "mise_en_scene": "3 secondes face caméra assis sur son lit (doigt levé), puis bascule en filmant son écran d'ordi à la main pendant 34 s, retour implicite sur les stats YouTube à la fin.",
+  "hooks": [
+   "chiffre",
+   "question",
+   "resultat"
+  ],
+  "point_sensible": "Vouloir gagner beaucoup d'argent sans compétence, sans sortir de sa chambre",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Comment faire plus de 7000€ par mois dans sa chambre en seulement 30 minutes ? »"
+   },
+   "probleme": {
+    "t": 3,
+    "quoi": "« YouTube paye pour 100 000 vues entre 100 à 800 €. »"
+   },
+   "outil_nomme": {
+    "t": 19,
+    "quoi": "« ce site-là qui s'appelle shortfile.io »"
+   },
+   "outil_montre": {
+    "t": 19,
+    "quoi": "l'écran shortfy.io, puis « AI Video Generator »"
+   },
+   "preuve": {
+    "t": 37,
+    "quoi": "stats YouTube : 357 865 vues, 1 587,73 €"
+   },
+   "fin": {
+    "t": 37,
+    "quoi": "« regarde, j'ai fait 300 000 vues, j'ai gagné 1500 € »"
+   }
+  },
+  "montre_comment": "téléphone filmé main sur son écran d'ordi, chaque étape montrée en gros plan",
+  "cta": "aucun (la preuve chiffrée fait office de CTA)",
+  "montage": "gros texte blanc en haut pendant le hook (3 s), puis zoom sur l'écran d'ordi filmé main jusqu'à la fin. 41 s. Aucun texte numéroté à l'écran.",
+  "pour_refaire": {
+   "materiel": "un téléphone, un écran d'ordi, les apps (YouTube, ChatGPT, shortfy.io)",
+   "temps": "15 min",
+   "niveau": "facile"
+  },
+  "stats": {
+   "vues": 708000,
+   "likes": 39400,
+   "partages": 12700,
+   "enregistrements": 44158,
+   "commentaires": 68,
+   "abonnes": 14100
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "duree": 41.7,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 3.6,
+    "texte": "Comment faire plus de 7000€ par mois dans sa chambre en seulement 30 minutes ? C'est parti !"
+   },
+   {
+    "debut": 3.6,
+    "fin": 7.2,
+    "texte": "Premièrement, YouTube paye pour 100 000 vues entre 100 à 800€."
+   },
+   {
+    "debut": 7.6,
+    "fin": 10.6,
+    "texte": "Vous allez sur YouTube et vous allez rechercher une comptine pour enfants."
+   },
+   {
+    "debut": 11.0,
+    "fin": 13.8,
+    "texte": "Ensuite, vous n'avez plus qu'à prendre un screen, ça marche même sur téléphone."
+   },
+   {
+    "debut": 14.2,
+    "fin": 19.3,
+    "texte": "Vous collez cette photo sur ChatGPT et vous lui demandez de faire un prompt en se basant sur ce visuel."
+   },
+   {
+    "debut": 19.5,
+    "fin": 24.1,
+    "texte": "Ensuite, vous copiez et vous rendez sur ce site-là qui s'appelle shortfile.io."
+   },
+   {
+    "debut": 24.3,
+    "fin": 26.0,
+    "texte": "Vous allez dans le vidéogénérateur IA."
+   },
+   {
+    "debut": 26.0,
+    "fin": 31.1,
+    "texte": "Puis, vous allez simplement coller ce que ChatGPT vous a donné et vous allez cliquer sur générer juste ici."
+   },
+   {
+    "debut": 31.5,
+    "fin": 35.5,
+    "texte": "Et là, Liam a généré une vidéo avec la musique, tout le montage déjà fait."
+   },
+   {
+    "debut": 35.9,
+    "fin": 37.5,
+    "texte": "Et ensuite, tu n'as plus qu'à poster sur YouTube."
+   },
+   {
+    "debut": 37.6,
+    "fin": 41.3,
+    "texte": "Là, regarde, j'ai fait 300 000 vues, j'ai gagné 1500€."
+   }
+  ]
+ },
+ {
   "id": "t96632097",
   "fichier": "tiktok-7692548532896632097-ismael.viral.mp4",
   "compte": "@ismael.viral",
