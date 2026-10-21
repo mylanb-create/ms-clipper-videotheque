@@ -24,8 +24,9 @@ const MARCHES = { FR: "🇫🇷 Vidéos FR", US: "🇺🇸 Vidéos US" };
 
 async function init() {
   const [ref, videos] = await Promise.all([
-    fetch("data/referentiel.json").then((r) => r.json()),
-    fetch("data/videos.json").then((r) => r.json()),
+    // « no-cache » : le navigateur revérifie à chaque visite, une vidéo ajoutée apparaît tout de suite.
+    fetch("data/referentiel.json", { cache: "no-cache" }).then((r) => r.json()),
+    fetch("data/videos.json", { cache: "no-cache" }).then((r) => r.json()),
   ]);
   REF = ref;
   VIDEOS = videos.filter((v) => v.titre).map((v) => ({ ...v, marche: v.marche || "FR" }));
