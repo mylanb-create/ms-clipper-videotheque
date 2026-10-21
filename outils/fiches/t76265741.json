@@ -1,0 +1,195 @@
+{
+  "id": "t76265741",
+  "fichier": "tiktok-7696291618076265741-boby.biggsjohnson.mp4",
+  "compte": "@boby.biggsjohnson",
+  "plateforme": "TikTok",
+  "marche": "US",
+  "lien": "https://www.tiktok.com/@boby.biggsjohnson/video/7696291618076265741",
+  "niche": "humour, ChatGPT",
+  "format": "face-camera",
+  "titre": "Le mec qui demande TOUT à ChatGPT (perruque bol + moustache)",
+  "sujet": "Un gars en costume absurde (perruque blonde en coupe au bol, moustache, veste blanc cassé, chemise bleue, pantalon rouge brique) marche dans un parking de supermarché et parle à ChatGPT comme à un pote. Il lui pose des questions délirantes : comment devenir millionnaire en 30 jours, sa copine qui le trompe, brûler la maison de son ex sans aller en prison. Quand ChatGPT répond mal, il passe sur Gemini.",
+  "tags": [
+    "parodie",
+    "ChatGPT",
+    "Gemini",
+    "perruque",
+    "personnage",
+    "questions absurdes",
+    "parking"
+  ],
+  "hook": {
+    "dit": "chat chat gbt chat gbt how i become a millionaire in 30 days (chat chat GBT chat GBT comment je deviens millionnaire en 30 jours)",
+    "voit": "un mec avec une perruque blonde en coupe au bol et une grosse moustache noire, veste blanc cassé, chemise bleue, pantalon rouge brique. Il marche dans un parking et parle à son téléphone. Texte en bas : « That one dude who ask Chatgpt everything 🤦🏽‍♂️ »."
+  },
+  "texte_ecran": [
+    "That one dude who ask Chatgpt everything 🤦🏽‍♂️"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 6,
+      "voit": "le personnage en gros plan, téléphone à la main, dans le parking. Texte figé en bas.",
+      "entend": "« chat chat gbt chat gbt how i become a millionaire in 30 days. »"
+    },
+    {
+      "debut": 6,
+      "fin": 11,
+      "voit": "il fait une tête agacée, continue à marcher et à parler à son téléphone.",
+      "entend": "« get a job bro — what are they talking about ? chat gbt what if you don't want to get a job ? »"
+    },
+    {
+      "debut": 11,
+      "fin": 17,
+      "voit": "il regarde son téléphone, bouche ouverte, l'air déçu.",
+      "entend": "« and you want to be a millionaire, it is virtually impossible to do that right now. Let me get on gemini. »"
+    },
+    {
+      "debut": 17,
+      "fin": 22,
+      "voit": "il relance son téléphone, change d'app (Gemini), reprend la parole.",
+      "entend": "« let me get on gemini fam. chat gbt what do you do when your girlfriend cheat on you ? »"
+    },
+    {
+      "debut": 22,
+      "fin": 27,
+      "voit": "il hoche la tête, pas content, insiste sur le téléphone.",
+      "entend": "« move on with your life — no, I'll chat gbt. »"
+    },
+    {
+      "debut": 27,
+      "fin": 30,
+      "voit": "plan final, il parle encore à son téléphone, mi-sérieux mi-dingue.",
+      "entend": "« what if you want to switch down her house but you don't want to go to jail ? »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🎭",
+      "titre": "Le personnage",
+      "texte": "Perruque blonde en bol, moustache noire, veste beige. On n'a jamais vu ça : le pouce s'arrête."
+    },
+    {
+      "emoji": "📱",
+      "titre": "Il parle à ChatGPT comme à un pote",
+      "texte": "Pas de mode d'emploi, pas de clavier. Il dit « chat gbt » comme on dit « bro »."
+    },
+    {
+      "emoji": "📝",
+      "titre": "Le texte figé en bas",
+      "texte": "« That one dude who ask Chatgpt everything 🤦🏽‍♂️ » : en 2 s on sait ce qu'on regarde, et c'est déjà drôle."
+    },
+    {
+      "emoji": "🤷",
+      "titre": "Les questions qui montent en absurdité",
+      "texte": "Devenir millionnaire → copine qui trompe → brûler la maison de l'ex. Chaque question est plus folle que la précédente."
+    },
+    {
+      "emoji": "🔄",
+      "titre": "Il change pour Gemini",
+      "texte": "Quand ChatGPT ne lui donne pas la réponse qu'il veut, il passe à Gemini. Tout le monde a déjà fait ça."
+    },
+    {
+      "emoji": "🎬",
+      "titre": "Un seul plan, 30 s",
+      "texte": "Pas de montage, pas d'effet. Juste lui qui marche et parle. Ça respire la vraie vie."
+    },
+    {
+      "emoji": "💥",
+      "titre": "La chute",
+      "texte": "« Brûler la maison de son ex sans aller en prison » : la dernière phrase est la plus dingue. On rit, on partage."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "That one dude who ask Screen My Car everything (celui qui demande TOUT à Screen My Car)",
+      "comment": "Un pote déguisé (perruque, costume ridicule), un téléphone, un parking. Il demande à SMC des trucs de plus en plus débiles : « cette Clio à 800 € c'est bien ? » → « et si je l'achète à mon ex ? » → « et si je la revends le double à ma belle-mère ? ». Texte figé en bas : « Celui qui demande à SMC pour TOUT ». Un seul plan, 30 s, chute dingue."
+    },
+    {
+      "app": "revizio",
+      "hook": "That one dude who ask Revizio to revise for him (celui qui demande à Revizio de réviser à sa place)",
+      "comment": "Un étudiant en pyjama à 3 h du mat', un téléphone, dans sa cuisine. Il parle à Revizio comme à un pote : « révise mon chapitre » → « non révise aussi mon exam de demain » → « non en fait passe-le à ma place ». Texte figé en bas : « Celui qui veut passer son exam sans ouvrir son cours »."
+    },
+    {
+      "app": "msclipper",
+      "hook": "That one dude who ask MS Clipper how to get rich (celui qui demande à MS Clipper comment devenir riche)",
+      "comment": "Un gars en costume absurde, téléphone en main, dans la rue : « MS Clipper comment je deviens millionnaire en 30 jours ? » → « quelle vidéo poster ? » → « et si je poste la même vidéo 200 fois ? ». Texte figé en bas. Chute : « et si je paye des gens pour poster à ma place ? »."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "une perruque ou un déguisement, un téléphone, un extérieur banal (parking, rue)",
+    "temps": "15 min",
+    "niveau": "facile"
+  },
+  "note": "<b>À remarquer :</b> cette vidéo n'est PAS un tuto. C'est un sketch de 30 s qui a fait 15 M de vues avec zéro démo d'app. La force : un personnage reconnaissable, un texte figé en bas qui pose le concept, et une suite de questions qui montent en absurdité. Mécanique très reproductible pour nos apps.",
+  "reprise": false,
+  "mise_en_scene": "Un seul plan séquence, en extérieur dans un parking de supermarché. Lui en costume absurde, téléphone en main, qui marche et parle à ChatGPT puis à Gemini. Caméra en main (sûrement un pote ou une perche).",
+  "hooks": [
+    "pattern-interrupt",
+    "marque",
+    "question"
+  ],
+  "point_sensible": "demander n'importe quoi à ChatGPT au lieu de réfléchir ou d'agir",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« chat gbt how i become a millionaire in 30 days »"
+    },
+    "probleme": {
+      "t": 10,
+      "quoi": "« it is virtually impossible to do that right now »"
+    },
+    "outil_nomme": {
+      "t": 0,
+      "quoi": "« chat gbt » dès la première seconde (puis Gemini à 17 s)"
+    },
+    "outil_montre": {
+      "t": null,
+      "quoi": "jamais : le téléphone est en main mais on ne voit pas l'écran"
+    },
+    "preuve": {
+      "t": null,
+      "quoi": "aucune, c'est une parodie, pas une démo"
+    },
+    "fin": {
+      "t": 26,
+      "quoi": "« what if you want to switch down her house but you don't want to go to jail ? »"
+    }
+  },
+  "montre_comment": "aucune démo. Il parle à son téléphone comme on parle à un humain. Le texte en bas suffit à comprendre la blague.",
+  "cta": "aucun (ni abonne-toi, ni DM, ni lien)",
+  "montage": "un seul plan, 30 s, texte figé en bas tout du long, pas de coupe, pas d'effet.",
+  "chez_nous": [
+    {
+      "ok": "non",
+      "texte": "Pas de résultat, pas de preuve : c'est une blague, pas une démo d'outil."
+    },
+    {
+      "ok": "bof",
+      "texte": "L'outil est nommé dès 0 s (« chat gbt »), mais pas en « j'ai fait un X » — en parodie."
+    },
+    {
+      "ok": "non",
+      "texte": "L'écran du téléphone n'est jamais montré. Chez nous, on doit voir l'app."
+    },
+    {
+      "ok": "oui",
+      "texte": "30 s pile : la bonne durée."
+    },
+    {
+      "ok": "oui",
+      "texte": "La vanne : toute la vidéo en est une. Reproductible chez nous."
+    }
+  ],
+  "stats": {
+    "vues": 15200000,
+    "likes": 1900000,
+    "partages": 517600,
+    "enregistrements": 140419,
+    "commentaires": 10400,
+    "abonnes": 37600
+  },
+  "ordre": 0,
+  "ajout": "automatique"
+}
