@@ -2663,6 +2663,337 @@
   ]
  },
  {
+  "id": "t87963412",
+  "fichier": "tiktok-7684140264687963412-leon.ai.mentor.mp4",
+  "compte": "@leon.ai.mentor",
+  "plateforme": "TikTok",
+  "marche": "US",
+  "lien": "https://www.tiktok.com/@leon.ai.mentor/video/7684140264687963412",
+  "niche": "IA, side hustle, YouTube",
+  "format": "flow",
+  "titre": "La roue tombe sur « YT Kids Channel » : il la génère en 2 min avec Krea.ai",
+  "sujet": "Un gars (US) fait tourner une roulette de side hustles sur son laptop. Elle s'arrête sur « YT KIDS CHANNEL ». En 51 s, il montre la méthode : repérer une chaîne YouTube Kids virale, regarder combien YouTube paie pour 1 million de vues, demander à ChatGPT des idées de comptines + un script scène par scène, puis générer la vidéo sur Krea.ai (modèle Seedance 2.5). Résultat : un petit chien bleu en 3D cartoon, prêt à être posté et monétisé.",
+  "tags": [
+   "side hustle",
+   "roue au hasard",
+   "YouTube Kids",
+   "ChatGPT",
+   "Krea.ai",
+   "Seedance 2.5",
+   "chien bleu cartoon"
+  ],
+  "hook": {
+   "dit": "YouTube kids channel? (Chaîne YouTube pour enfants ?)",
+   "voit": "un gars seul à sa table de nuit, laptop ouvert. Sur l'écran, une roulette violette qui défile à toute vitesse : BUILD AN APP, AIRBNB ARBITRAGE, PRINT ON DEMAND, NEWSLETTER, DROPSHIPPING, YT KIDS CHANNEL, META ADS, TRADING. En haut de la vidéo : « Day 1 of trying RANDOM side hustles 💰 ». La roulette ralentit et s'arrête sur « YT KIDS CHANNEL »."
+  },
+  "texte_ecran": [
+   "Day 1 of trying RANDOM side hustles 💰",
+   "YT KIDS CHANNEL",
+   "YouTube Kids channel",
+   "research 30:00",
+   "He's so dialed 🔥",
+   "paying for 1 million",
+   "and here's exactly",
+   "pick any",
+   "a detailed scene",
+   "then go to",
+   "krea.ai video and",
+   "give it a",
+   "that looks like",
+   "be posted on",
+   "the full detailed",
+   "\"YouTube\"",
+   "over to you"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 7,
+    "voit": "le gars face à son laptop, roulette qui tourne, elle s'arrête sur « YT KIDS CHANNEL ».",
+    "entend": "« YouTube kids channel? »"
+   },
+   {
+    "debut": 7,
+    "fin": 10,
+    "voit": "lui à son bureau, un chrono « 30:00 » apparaît. Texte : « He's so dialed 🔥 ».",
+    "entend": "« Okay, 30 minutes on the clock for research. I just figured it out. »"
+   },
+   {
+    "debut": 10,
+    "fin": 23,
+    "voit": "son téléphone en main, YouTube ouvert : il tape « kids channel », ouvre une chaîne (Kids TV Preschool Learning), scrolle les vidéos et les vues.",
+    "entend": "« Go to YouTube, find any popular kids channel, analyze any of their videos, and look at all the views they're getting. »"
+   },
+   {
+    "debut": 23,
+    "fin": 28,
+    "voit": "un tableau à l'écran : « paying for 1 million » (RPM, revenus par 1 M de vues).",
+    "entend": "« This is how much YouTube is paying for 1 million views. And here's exactly how you can do this. »"
+   },
+   {
+    "debut": 28,
+    "fin": 37,
+    "voit": "ChatGPT au téléphone : il demande « 20 YouTube Shorts Ideas » de comptines virales, puis clique sur une idée pour avoir un script scène par scène d'une minute.",
+    "entend": "« Go to ChatGPT and ask it to give you viral nursery rhyme YouTube short ideas. Pick any of these that you like and ask it to give you a detailed scene-by-scene breakdown for one minute short. »"
+   },
+   {
+    "debut": 37,
+    "fin": 43,
+    "voit": "copie du script, puis krea.ai sur téléphone, menu modèle vidéo, sélection « Seedance 2.5 », il colle le prompt et lance.",
+    "entend": "« Copy what it gives you, then go to krea.ai, video, and choose Seedance 2.5. Give it a couple minutes… »"
+   },
+   {
+    "debut": 43,
+    "fin": 48,
+    "voit": "la vidéo générée : un petit chien bleu en 3D cartoon dans un pré fleuri. Textes « that looks like », « be posted on ».",
+    "entend": "« …and get a video that looks like this that's ready to be posted on YouTube and monetized. »"
+   },
+   {
+    "debut": 48,
+    "fin": 51,
+    "voit": "même chien bleu, texte « \"YouTube\" over to you ».",
+    "entend": "« If you want the full detailed guide, come in YouTube and I'll send it over to you. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🎰",
+    "titre": "La roulette au hasard",
+    "texte": "On ne sait pas sur quelle idée ça va tomber. On attend la fin de la rotation, on est déjà pris."
+   },
+   {
+    "emoji": "⏱️",
+    "titre": "« 30:00 »",
+    "texte": "Un chrono qui apparaît : la méthode tient en 30 minutes, pas en 3 jours. Ça rassure."
+   },
+   {
+    "emoji": "🧒",
+    "titre": "La niche YT Kids",
+    "texte": "Pas « fais des vidéos IA » : « fais une chaîne pour enfants ». Précis, imageable, et un peu interdit."
+   },
+   {
+    "emoji": "💵",
+    "titre": "« Ce que YouTube paie pour 1 M de vues »",
+    "texte": "Un tableau de chiffres à l'écran. On veut savoir combien."
+   },
+   {
+    "emoji": "📱",
+    "titre": "Deux outils, deux étapes",
+    "texte": "ChatGPT pour l'idée + le script, Krea.ai pour la vidéo. Simple à retenir, simple à refaire."
+   },
+   {
+    "emoji": "🐶",
+    "titre": "Le chien bleu en cartoon",
+    "texte": "La preuve en 2 secondes : voilà ce qui sort. Mignon, propre, « ça pourrait marcher »."
+   },
+   {
+    "emoji": "🔥",
+    "titre": "« He's so dialed »",
+    "texte": "Une petite vanne au-dessus de la tête : il est à fond, on sourit, on reste."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "msclipper",
+    "hook": "Jour 1 : je teste des side hustles au hasard. Clipper des vidéos ?",
+    "comment": "Même roulette (Dropshipping, Trading, Print on demand, MS Clipper, Airbnb…), elle s'arrête sur « MS CLIPPER ». Chrono 20 minutes. Étapes à l'écran : 1. Je choisis un créateur. 2. Je découpe le meilleur moment. 3. Je poste. Preuve : les vues du clip + ce qu'il a rapporté. Vanne en haut : « Il est à fond 🔥 »."
+   },
+   {
+    "app": "revizio",
+    "hook": "Jour 1 : je teste des side hustles au hasard. Avoir son bac à 18/20 ?",
+    "comment": "Roulette qui s'arrête sur « REVISER AU LIEU DE SCROLLER ». Chrono 10 minutes. Étapes : 1. Photo du cours. 2. Revizio génère les fiches. 3. Quiz. Preuve à l'écran : « 18/20 ». Texte en haut : « Il est à fond 🔥 »."
+   },
+   {
+    "app": "smc",
+    "hook": "Jour 1 : je teste des side hustles au hasard. Acheter ma première bagnole ?",
+    "comment": "Roulette qui s'arrête sur « 1ERE VOITURE ». Chrono 10 minutes. Étapes : 1. L'annonce Leboncoin. 2. Screen My Car. 3. Le verdict (acheter, négocier, fuir). 4. On négocie 500 €. Preuve : capture du verdict."
+   }
+  ],
+  "note": "<b>À remarquer :</b> le format « roulette qui s'arrête sur une niche » marche très fort (876 K vues, 25 K enregistrements pour un compte à 8 K abonnés). Le ratio enregistrements/vues (≈ 3 %) est énorme : les gens veulent refaire. Le CTA ne vend rien dans la vidéo, il renvoie sur YouTube pour le « guide complet ».",
+  "reprise": false,
+  "mise_en_scene": "Trois décors qui s'enchaînent vite : lui à sa table de nuit avec le laptop (la roulette), lui au bureau avec le chrono, puis plans serrés sur son téléphone qui défile dans YouTube, ChatGPT et Krea.ai. On termine sur le rendu plein cadre du chien bleu.",
+  "hooks": [
+   "mystere",
+   "pattern-interrupt",
+   "chiffre"
+  ],
+  "point_sensible": "Gagner de l'argent avec l'IA sans compétence, et vite",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "roulette qui tourne + « Day 1 of trying RANDOM side hustles 💰 »"
+   },
+   "probleme": {
+    "t": 23,
+    "quoi": "« This is how much YouTube is paying for 1 million views » (le gain visé)"
+   },
+   "outil_nomme": {
+    "t": 28,
+    "quoi": "« Go to ChatGPT » puis à 38 s « go to krea.ai »"
+   },
+   "outil_montre": {
+    "t": 28,
+    "quoi": "ChatGPT en gros plan sur le téléphone (puis Krea.ai à 37 s)"
+   },
+   "preuve": {
+    "t": 43,
+    "quoi": "la vidéo du chien bleu en 3D cartoon, plein cadre"
+   },
+   "fin": {
+    "t": 48,
+    "quoi": "« come in YouTube and I'll send it over to you »"
+   }
+  },
+  "montre_comment": "téléphone en main, écran filmé (ça bouge), deux outils enchaînés (ChatGPT puis Krea.ai) + une roulette animée en intro",
+  "cta": "« come in YouTube and I'll send it over to you » (renvoi vers YouTube pour le guide complet)",
+  "montage": "roulette animée en intro, chrono « 30:00 » qui apparaît, texte sticker « He's so dialed 🔥 », mots-clés en gros à chaque étape (« pick any », « a detailed scene », « then go to »), coupe sèche sur le rendu final. 51 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "La preuve (le chien bleu) est montrée plein cadre : on voit ce qu'on obtient."
+   },
+   {
+    "ok": "oui",
+    "texte": "Vrai écran de téléphone en main, pas une capture propre."
+   },
+   {
+    "ok": "oui",
+    "texte": "Durée 51 s, pile dans la fourchette 30-60 s."
+   },
+   {
+    "ok": "bof",
+    "texte": "Outil nommé à 28 s (ChatGPT) et 38 s (Krea.ai) : un peu tard."
+   },
+   {
+    "ok": "non",
+    "texte": "Deux outils à mémoriser (ChatGPT + Krea.ai) : chez nous, un seul outil (Screen My Car, Revizio, MS Clipper)."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un laptop avec une roulette animée (page web perso ou Canva), un téléphone pour filmer les étapes, un chrono visible",
+   "temps": "30 min",
+   "niveau": "moyen"
+  },
+  "stats": {
+   "vues": 876400,
+   "likes": 36900,
+   "partages": 4343,
+   "enregistrements": 25767,
+   "commentaires": 568,
+   "abonnes": 8359
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "duree": 51.1,
+  "transcription": [
+   {
+    "debut": 1.9,
+    "fin": 6.9,
+    "texte": "YouTube kids channel?"
+   },
+   {
+    "debut": 7.1,
+    "fin": 9.3,
+    "texte": "Okay, 30 minutes on the clock for research."
+   },
+   {
+    "debut": 10.0,
+    "fin": 16.5,
+    "texte": "I just figured it out."
+   },
+   {
+    "debut": 16.6,
+    "fin": 19.5,
+    "texte": "Go to YouTube, find any popular kids channel,"
+   },
+   {
+    "debut": 19.8,
+    "fin": 21.2,
+    "texte": "analyze any of their videos,"
+   },
+   {
+    "debut": 21.4,
+    "fin": 23.4,
+    "texte": "and look at all the views they're getting."
+   },
+   {
+    "debut": 23.5,
+    "fin": 26.1,
+    "texte": "This is how much YouTube is paying for 1 million views."
+   },
+   {
+    "debut": 26.2,
+    "fin": 28.1,
+    "texte": "And here's exactly how you can do this."
+   },
+   {
+    "debut": 28.2,
+    "fin": 30.0,
+    "texte": "Go to Chachapiti and ask it to give you"
+   },
+   {
+    "debut": 30.0,
+    "fin": 32.4,
+    "texte": "viral nursery rhyme YouTube short ideas."
+   },
+   {
+    "debut": 32.5,
+    "fin": 33.8,
+    "texte": "Pick any of these that you like"
+   },
+   {
+    "debut": 33.8,
+    "fin": 36.3,
+    "texte": "and ask it to give you a detailed scene-by-scene breakdown"
+   },
+   {
+    "debut": 36.3,
+    "fin": 37.5,
+    "texte": "for one minute short."
+   },
+   {
+    "debut": 37.5,
+    "fin": 38.7,
+    "texte": "Copy what it gives you,"
+   },
+   {
+    "debut": 38.8,
+    "fin": 40.6,
+    "texte": "then go to create.ai, video,"
+   },
+   {
+    "debut": 40.9,
+    "fin": 42.8,
+    "texte": "and choose Seedance 2.5."
+   },
+   {
+    "debut": 42.9,
+    "fin": 43.8,
+    "texte": "Give it a couple minutes"
+   },
+   {
+    "debut": 43.8,
+    "fin": 45.6,
+    "texte": "and get a video that looks like this"
+   },
+   {
+    "debut": 45.6,
+    "fin": 48.1,
+    "texte": "that's ready to be posted on YouTube and monetized."
+   },
+   {
+    "debut": 48.3,
+    "fin": 49.5,
+    "texte": "If you want the full detailed guide,"
+   },
+   {
+    "debut": 49.6,
+    "fin": 51.1,
+    "texte": "come in YouTube and I'll send it over to you."
+   }
+  ]
+ },
+ {
   "id": "t91161121",
   "fichier": "tiktok-7659854602791161121-ismael.viral.mp4",
   "compte": "@ismael.viral",
