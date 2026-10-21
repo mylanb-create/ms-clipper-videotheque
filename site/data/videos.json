@@ -1,5 +1,292 @@
 [
  {
+  "id": "t16835360",
+  "fichier": "tiktok-7688138167416835360-ismael.viral.mp4",
+  "compte": "@ismael.viral",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@ismael.viral/video/7688138167416835360",
+  "niche": "argent, IA",
+  "format": "flow",
+  "titre": "1 500 € avec des comptines IA (le mec à 3h du matin)",
+  "sujet": "Un gars seul dans sa chambre sombre, fauteuil gamer, face caméra à 3h du matin : il dit qu'il a trouvé un « glitch d'argent IRL ». Il explique comme à un pote comment prendre une comptine YouTube pour enfants, demander à ChatGPT de transformer les paroles en prompt, le coller sur shortfile.io, générer une vidéo IA en 30 secondes, la poster sur YouTube et toucher 1 500 € pour 350 000 vues. Il finit sur la capture de ses stats.",
+  "tags": [
+   "glitch d'argent",
+   "3h du matin",
+   "comptines",
+   "ChatGPT",
+   "shortfile.io",
+   "YouTube",
+   "1 500 €"
+  ],
+  "hook": {
+   "dit": "Il est littéralement 3h du matin, et je croyais que j'ai trouvé la façon la plus débile pour faire de l'argent.",
+   "voit": "lui seul face caméra, chambre sombre, fauteuil gamer noir et rouge derrière, t-shirt gris. Texte blanc en haut : « J'ai trouvé un p*tain de glitch d'argent IRL ». Il brandit vite son téléphone pour montrer l'écran."
+  },
+  "texte_ecran": [
+   "J'ai trouvé un p*tain de glitch d'argent IRL"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 12,
+    "voit": "lui face caméra, chambre sombre, texte en haut « J'ai trouvé un p*tain de glitch d'argent IRL », il brandit son téléphone deux secondes.",
+    "entend": "« il est 3h du matin, j'ai trouvé la façon la plus débile pour faire de l'argent. C'est tellement facile que je dors pas, je refais, refais, refais. Tout ce dont t'as besoin : un téléphone et un cerveau. »"
+   },
+   {
+    "debut": 12,
+    "fin": 20,
+    "voit": "toujours lui face caméra, même cadre.",
+    "entend": "« on va utiliser l'IA pour que ça aille plus vite. J'arrête de parler, je vous explique. »"
+   },
+   {
+    "debut": 20,
+    "fin": 32,
+    "voit": "sa tablette posée sur le bureau, filmée à la main, YouTube ouvert, une comptine dessin animé « Les crocodiles », puis la page avec le compteur de vues.",
+    "entend": "« tu vas sur YouTube, tu cherches une comptine pour enfants. Celle-ci a fait 145 millions de vues. YouTube paye entre 1 000 et 6 000 € pour 1 million de vues. Imagine combien elle a fait. »"
+   },
+   {
+    "debut": 32,
+    "fin": 42,
+    "voit": "il descend dans la description YouTube, son doigt pointe les paroles, puis bascule sur ChatGPT, un prompt collé.",
+    "entend": "« tu descends dans la description, tu copies toutes les paroles. Tu vas sur ChatGPT, tu lui demandes de faire un prompt avec les paroles. »"
+   },
+   {
+    "debut": 42,
+    "fin": 55,
+    "voit": "le site shortfile.io, le générateur de vidéos (« AI Video Generator »), il colle le prompt, met 30 secondes, appuie sur « générer ». La vidéo IA s'affiche : un conte dessin animé, une petite fille devant une maison.",
+    "entend": "« tu vas sur shortfile.io, générateur de vidéos juste ici, tu colles le prompt, tu mets 30 secondes, tu générées. En quelques secondes, l'IA a fait une vidéo complète. »"
+   },
+   {
+    "debut": 55,
+    "fin": 65,
+    "voit": "l'écran « Statistiques de la vidéo » filmé à la main : 357,9 k vues, 35,9 k, +1,5 k abonnés, 1 587,73 €. Son doigt pointe le chiffre.",
+    "entend": "« t'as plus qu'à poster sur YouTube. Dans une seule vidéo, j'avais 350 000 vues. J'ai gagné 1 500 euros. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🌙",
+    "titre": "« Il est 3h du matin »",
+    "texte": "La chambre sombre, le ton pressé : on dirait qu'il vient de trouver le truc, là, maintenant. On veut savoir avant que ça se ferme."
+   },
+   {
+    "emoji": "🤫",
+    "titre": "« Glitch d'argent IRL »",
+    "texte": "Le mot « glitch », comme dans un jeu vidéo : une faille, un truc pas prévu. On a envie de la connaître avant tout le monde."
+   },
+   {
+    "emoji": "🧠",
+    "titre": "« Un téléphone et un cerveau »",
+    "texte": "Il casse l'excuse : pas de matos, pas de formation. T'as déjà tout. On ne peut plus dire non."
+   },
+   {
+    "emoji": "📊",
+    "titre": "« 145 millions de vues »",
+    "texte": "Un chiffre énorme, sur une comptine pour enfants : la preuve que le marché est là, pas besoin d'y croire."
+   },
+   {
+    "emoji": "👆",
+    "titre": "Le doigt sur l'écran",
+    "texte": "La tablette filmée à la main, son doigt qui pointe à chaque étape. On peut refaire sans réfléchir."
+   },
+   {
+    "emoji": "💶",
+    "titre": "1 587,73 € à la fin",
+    "texte": "Pas un chiffre rond : la vraie capture de ses stats. Ça fait preuve, pas promesse."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "msclipper",
+    "hook": "Il est 3h du matin et j'ai trouvé un glitch d'argent IRL. Tout ce dont t'as besoin, c'est d'un téléphone.",
+    "comment": "Chambre sombre, face caméra, texte blanc en haut « glitch d'argent IRL ». Explique : tu télécharges MS Clipper, tu postes des vidéos, tu es payé à la vue. Bascule sur l'app filmée à main, doigt qui pointe les étapes : 1. L'app. 2. Tu postes. 3. Les vues. 4. Les gains. Preuve finale : capture de tes stats avec le vrai chiffre en euros."
+   },
+   {
+    "app": "smc",
+    "hook": "Il est 3h du matin et j'ai trouvé le glitch pour pas se faire avoir sur une voiture d'occasion.",
+    "comment": "Même ambiance chambre sombre. Face caméra 15 secondes, puis le téléphone filmé à main : 1. Tu copies une annonce Leboncoin. 2. Tu colles dans Screen My Car. 3. L'app te dit acheter, négocier ou fuir. 4. Tu négocies. Preuve à la fin : capture du prix économisé."
+   },
+   {
+    "app": "revizio",
+    "hook": "Il est 3h du matin et j'ai trouvé le glitch pour passer tes exams sans réviser.",
+    "comment": "Chambre sombre, cahier ouvert. 1. Photo du cours. 2. Revizio. 3. Les fiches. 4. Le quiz. Preuve : capture de la note à l'exam, « 18/20 »."
+   }
+  ],
+  "note": "<b>À remarquer :</b> c'est la deuxième fiche sur le même « glitch comptines IA » (la première, c'est le mec en cagoule). Nouveau créateur, même mode opératoire, chiffre quasi identique (1 500 €). Quand un format tourne autant, il faut le tester vite chez nous avec MS Clipper.",
+  "reprise": false,
+  "mise_en_scene": "Chambre sombre, fauteuil gamer, face caméra pendant 20 secondes. Puis bascule : il filme sa tablette posée sur le bureau avec son téléphone en main, son doigt pointe à chaque étape. Pas de musique forte, pas de montage flashy.",
+  "hooks": [
+   "urgence",
+   "fruit-interdit",
+   "mystere"
+  ],
+  "point_sensible": "Vouloir gagner de l'argent facilement, sans compétence et sans se montrer",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« il est 3h du matin, j'ai trouvé la façon la plus débile pour faire de l'argent »"
+   },
+   "probleme": {
+    "t": 11,
+    "quoi": "« tout ce dont t'as besoin : un téléphone et un cerveau »"
+   },
+   "outil_nomme": {
+    "t": 37,
+    "quoi": "« tu vas sur ChatGPT », puis « shortfile.io » à 42 s"
+   },
+   "outil_montre": {
+    "t": 20,
+    "quoi": "YouTube filmée à la main sur sa tablette, la comptine « Les crocodiles »"
+   },
+   "preuve": {
+    "t": 60,
+    "quoi": "« Statistiques de la vidéo » : 357,9 k vues, 1 587,73 €"
+   },
+   "fin": {
+    "t": 63,
+    "quoi": "« j'ai gagné 1 500 euros »"
+   }
+  },
+  "montre_comment": "tablette posée sur le bureau, filmée à la main, doigt qui pointe chaque étape",
+  "cta": "aucun (pas de lien, pas d'appel à écrire)",
+  "montage": "coupes sèches entre face caméra et tablette filmée à main, texte blanc fixe en haut toute la vidéo, pas de musique forte. 1 min 05.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Le résultat chiffré à la fin, vraie capture de stats : 357,9 k vues, 1 587,73 €. Pas un chiffre rond, ça rend crédible."
+   },
+   {
+    "ok": "oui",
+    "texte": "L'écran filmé à la main, pas en capture propre : ça bouge, on sent la vraie vie."
+   },
+   {
+    "ok": "oui",
+    "texte": "1 min 05 : pile dans notre tranche de 30 à 60 s."
+   },
+   {
+    "ok": "bof",
+    "texte": "L'outil (shortfile.io) nommé à 42 s. Chez nous on veut MS Clipper dit avant 20 s."
+   },
+   {
+    "ok": "non",
+    "texte": "Aucune vanne, zéro sourire : ton sérieux du début à la fin. On peut y mettre un rire ou un juron pour casser."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "une chambre sombre, un téléphone, une tablette, un screenshot de vrais gains",
+   "temps": "15 min",
+   "niveau": "facile"
+  },
+  "stats": {
+   "vues": 891800,
+   "likes": 59100,
+   "partages": 8021,
+   "commentaires": 67,
+   "abonnes": 14100
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "duree": 64.8,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 5.4,
+    "texte": "Il est littéralement 3h du matin, et je croyais que j'ai trouvé la façon la plus débile pour faire de l'argent."
+   },
+   {
+    "debut": 5.5,
+    "fin": 11.3,
+    "texte": "Dites-vous que c'est tellement facile, que genre j'arrive pas à dormir, en fait je fais que refaire, refaire, refaire, pour faire un max d'argent."
+   },
+   {
+    "debut": 11.6,
+    "fin": 14.8,
+    "texte": "Tout ce dont t'as besoin, c'est d'un téléphone et un cerveau."
+   },
+   {
+    "debut": 15.0,
+    "fin": 17.4,
+    "texte": "Bon, on va utiliser l'IA pour que ça aille plus vite."
+   },
+   {
+    "debut": 17.9,
+    "fin": 19.4,
+    "texte": "Bon, je vais arrêter de parler, je vais vous expliquer."
+   },
+   {
+    "debut": 20.0,
+    "fin": 23.3,
+    "texte": "Premièrement, vous allez aller sur YouTube et vous allez chercher une comptine pour enfants."
+   },
+   {
+    "debut": 23.8,
+    "fin": 26.4,
+    "texte": "Regardez celle-ci, elle a fait 145 millions de vues."
+   },
+   {
+    "debut": 26.4,
+    "fin": 31.6,
+    "texte": "Et pour info, YouTube paye 1 million de vues entre 1000 à 6000 euros, alors imaginez combien elle a fait."
+   },
+   {
+    "debut": 32.0,
+    "fin": 36.7,
+    "texte": "Donc ensuite, vous allez sur la vidéo, vous descendez dans la description et vous copiez toutes les paroles."
+   },
+   {
+    "debut": 37.1,
+    "fin": 41.6,
+    "texte": "Ensuite, tu vas sur ChatGPT, tu te demandes de faire un prompt avec les paroles que tu lui colles."
+   },
+   {
+    "debut": 41.7,
+    "fin": 46.2,
+    "texte": "Ensuite, tu copies ce qu'il t'a donné et tu vas sur ce site-là qui s'appelle shortfile.io."
+   },
+   {
+    "debut": 46.6,
+    "fin": 49.0,
+    "texte": "Tu te rends sur le généreur de vidéos, il y a juste ici."
+   },
+   {
+    "debut": 49.4,
+    "fin": 52.3,
+    "texte": "Ensuite ici, tu vas coller le prompt que ChatGPT t'a donné."
+   },
+   {
+    "debut": 52.5,
+    "fin": 54.9,
+    "texte": "Là, tu mets 30 secondes et t'appuies sur générer."
+   },
+   {
+    "debut": 54.9,
+    "fin": 57.8,
+    "texte": "En quelques secondes, Liam a fait une vidéo complète."
+   },
+   {
+    "debut": 58.3,
+    "fin": 59.8,
+    "texte": "Ensuite, t'as plus qu'à poster sur YouTube."
+   },
+   {
+    "debut": 59.9,
+    "fin": 62.7,
+    "texte": "Regardez là par exemple, dans une seule vidéo, j'avais 350 000 vues."
+   },
+   {
+    "debut": 63.2,
+    "fin": 64.5,
+    "texte": "J'ai gagné 1500 euros."
+   },
+   {
+    "debut": 64.5,
+    "fin": 71.8,
+    "texte": "J'ai- vuelta ici."
+   }
+  ]
+ },
+ {
   "id": "t96632097",
   "fichier": "tiktok-7692548532896632097-ismael.viral.mp4",
   "compte": "@ismael.viral",
