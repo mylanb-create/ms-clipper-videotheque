@@ -1454,7 +1454,7 @@ def parseur():
                    help="FR ou US : sans --mots ni --hashtags, cherche les mots du marché (FR : application, astuce, IA, "
                         "argent en ligne ; US : app, life hack, ai tools, side hustle) et ne garde que les vidéos dans sa langue")
     p.add_argument("--max", type=int, default=30, help="résultats par mot, hashtag ou compte (défaut 30)")
-    p.add_argument("--jours", type=int, default=60, help="âge maxi des vidéos, en jours (défaut 60)")
+    p.add_argument("--jours", type=int, default=180, help="âge maxi des vidéos, en jours (défaut 180)")
     p.add_argument("--vues-min", type=int, default=20000, help="vues minimum (défaut 20 000)")
     p.add_argument("--ratio", type=float, default=1.5, help="vues / abonnés minimum (défaut 1,5)")
     p.add_argument("--outil", action="store_true", help="garder seulement les vidéos qui parlent d'une app ou d'un outil")
