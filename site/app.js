@@ -219,7 +219,13 @@ function ouvrir(v) {
   $("#suiv2")?.addEventListener("click", () => voisine(1));
 
   const video = $("#fiche video");
-  const aller = (t) => { if (!video) return; video.currentTime = t; video.play().catch(() => {}); };
+  // Avant que les métadonnées soient chargées, un réglage de currentTime est ignoré : on attend.
+  const aller = (t) => {
+    if (!video) return;
+    const sauter = () => { video.currentTime = t; video.play().catch(() => {}); };
+    if (video.readyState >= 1) sauter();
+    else video.addEventListener("loadedmetadata", sauter, { once: true });
+  };
   $("#fiche-corps").querySelectorAll("[data-debut]").forEach((el) => el.addEventListener("click", () => aller(Number(el.dataset.debut))));
   $("#fiche-corps").querySelectorAll("[data-photo]").forEach((el) =>
     el.addEventListener("click", () => document.getElementById(`photo-${el.dataset.photo}`)?.scrollIntoView({ behavior: "smooth", block: "center" }))
