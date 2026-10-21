@@ -148,17 +148,18 @@ function compterRevue(candidats) {
 }
 
 const ETAPES = {
-  attente: "⏳ en file",
-  preparation: "⏳ 1/3 préparation",
-  analyse: "🧠 2/3 analyse par Claude",
-  publication: "🚀 3/3 mise en ligne",
+  attente: ["⏳ en file d'attente", "Arrive dans quelques minutes"],
+  preparation: ["⏳ 1/3 préparation", "Arrive dans 3 à 5 min"],
+  analyse: ["🧠 2/3 Claude l'analyse", "Arrive dans 1 à 3 min"],
+  publication: ["🚀 3/3 mise en ligne", "Arrive dans quelques secondes"],
 };
 
 function carteEnCours(c) {
   const ch = c.chaine || {};
-  const etape = ch.erreur ? "✗ erreur : relance dans la revue" : ETAPES[ch.etape] || (c.statut === "approuve" ? "⏳ téléchargement" : "⏳ en file");
+  const [etape, quand] = ch.erreur ? ["✗ erreur", "Relance-la dans la revue"]
+    : ETAPES[ch.etape] || [c.statut === "approuve" ? "⏳ téléchargement" : "⏳ en file d'attente", "Arrive dans quelques minutes"];
   const apercu = c.apercu && c.apercu.pret ? `<video src="${esc(c.apercu.url)}#t=1" muted playsinline preload="metadata"></video>` : "";
-  return `<a class="carte en-cours" href="#revue/${c.marche.toLowerCase()}" title="Approuvée : elle arrive dans la vidéothèque toute seule">
+  return `<a class="carte en-cours" href="#revue/${c.marche.toLowerCase()}" title="Tu viens de l'approuver : Claude l'analyse, puis sa fiche remplace cette carte toute seule">
     <div class="visuel">
       <span class="badge">${esc(etape)}</span>
       ${apercu}
@@ -166,8 +167,8 @@ function carteEnCours(c) {
       <span class="duree">${c.duree ? mmss(c.duree) : ""}</span>
     </div>
     <div class="infos">
-      <div class="titre">En cours d'ajout</div>
-      <div class="compte"><span>${esc(c.compte)}</span><span>approuvée</span></div>
+      <div class="titre">${esc(quand)}</div>
+      <div class="compte"><span>${esc(c.compte)}</span><span>tu viens de l'approuver</span></div>
     </div>
   </a>`;
 }
