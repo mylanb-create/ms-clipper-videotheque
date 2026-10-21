@@ -2917,6 +2917,294 @@
   ]
  },
  {
+  "id": "t91387158",
+  "fichier": "tiktok-7679107496891387158-eljunior0409.mp4",
+  "compte": "@eljunior0409",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@eljunior0409/video/7679107496891387158",
+  "niche": "argent, side business",
+  "format": "face-camera",
+  "titre": "3 sites pour 1 000 € par mois (dont une IA pour le trading)",
+  "sujet": "Un mec face caméra dans sa chambre promet 3 sites pour faire 1 000 € par mois. Il nomme Fiverr, Upwork, puis GetTrade.ai (une IA qui analyse un graphique TradingView et sort un trade complet). Il montre l'écran du PC derrière lui, place une trade sur Ethereum et dit « on vient de gagner 200 $ ».",
+  "tags": [
+   "argent",
+   "3 sites",
+   "1 000 €",
+   "Fiverr",
+   "Upwork",
+   "GetTrade.ai",
+   "trading"
+  ],
+  "hook": {
+   "dit": "Trois sites pour te faire 1 000 € par mois, c'est pas spécialement dur et tout le monde peut le faire, et reste bien jusqu'à la fin parce que le dernier c'est le plus rentable de tous.",
+   "voit": "lui seul face caméra, assis sur une chaise gamer rouge, mur blanc derrière. Gros titre jaune en haut : « 3 Sites pour faire 1000€ par mois ». Sous-titres mot à mot au centre."
+  },
+  "texte_ecran": [
+   "3 Sites pour faire 1000€ par mois",
+   "gettrade.ai",
+   "LONG",
+   "Ethereum",
+   "Abonne-toi pour plus d'astuces 👋"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 7,
+    "voit": "lui face caméra, titre jaune « 3 Sites pour faire 1000€ par mois » bien visible en haut.",
+    "entend": "le hook : « 3 sites pour te faire 1000€ par mois… reste bien jusqu'à la fin, le dernier c'est le plus rentable. »"
+   },
+   {
+    "debut": 7,
+    "fin": 15,
+    "voit": "l'écran du PC derrière lui montre le site Fiverr, puis retour sur son visage.",
+    "entend": "« le premier c'est Fiverr, tu vends tes services pour écouter les gens, entre 20 et 30 € juste pour les appeler. »"
+   },
+   {
+    "debut": 15,
+    "fin": 22,
+    "voit": "l'écran passe sur Upwork, missions listées, puis retour à son visage.",
+    "entend": "« le deuxième c'est Upwork, écrire des CV, préparer des designs. La plupart des missions sont entre 10 et 50 €. »"
+   },
+   {
+    "debut": 22,
+    "fin": 31,
+    "voit": "pastille « gettrade.ai » posée sur lui, puis le site GetTrade.ai à l'écran, puis TradingView ouvert.",
+    "entend": "« le troisième ne va pas plaire à ton patron : GetTrade.ai. Une IA qui accompagne les traders. Tu vas sur TradingView, tu choisis ton graphique. »"
+   },
+   {
+    "debut": 31,
+    "fin": 46,
+    "voit": "capture d'écran du graphique collée dans GetTrade.ai, puis un trade « LONG Ethereum » avec entrée, stop loss, take profit.",
+    "entend": "« tu mets la capture dans leur analyseur, ça te donne un trade complet : long sur Ethereum, entrée, stop loss, take profit. »"
+   },
+   {
+    "debut": 46,
+    "fin": 56,
+    "voit": "la plateforme de trading, la trade est passée, la ligne verte du target.",
+    "entend": "« bam, c'est bon on vient de la passer. En vert c'est notre target : quand ça touche, on aura gagné 200 $. »"
+   },
+   {
+    "debut": 56,
+    "fin": 60,
+    "voit": "retour face caméra, texte « Abonne-toi pour plus d'astuces 👋 » en haut.",
+    "entend": "« si toi aussi tu veux faire de l'argent, abonne-toi et je te donnerai plus de conseils. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "3️⃣",
+    "titre": "« 3 sites » dans le titre",
+    "texte": "Un chiffre, une promesse claire. On sait qu'on va avoir une liste et combien de temps ça va durer."
+   },
+   {
+    "emoji": "💶",
+    "titre": "« 1 000 € par mois »",
+    "texte": "Un chiffre rond, un objectif que tout le monde comprend. Pas « gagne de l'argent », une somme précise."
+   },
+   {
+    "emoji": "⏳",
+    "titre": "« Reste jusqu'à la fin »",
+    "texte": "Il dit tout de suite que le meilleur arrive à la fin. On reste pour voir."
+   },
+   {
+    "emoji": "🪜",
+    "titre": "1, 2, 3 bien séparés",
+    "texte": "Chaque site a sa phrase courte. Le cerveau coche la liste au fur et à mesure."
+   },
+   {
+    "emoji": "😤",
+    "titre": "« Ne va pas plaire à ton patron »",
+    "texte": "Petite provoc avant GetTrade.ai. On a envie d'écouter la suite."
+   },
+   {
+    "emoji": "🖥️",
+    "titre": "L'écran vraiment montré",
+    "texte": "Il filme son PC pour chaque site : Fiverr, Upwork, TradingView, GetTrade.ai, la trade passée. On voit ce qu'il raconte."
+   },
+   {
+    "emoji": "💰",
+    "titre": "« 200 $ gagnés »",
+    "texte": "Il place la trade en direct et montre le target. La preuve est à l'écran, pas juste dans la bouche."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "msclipper",
+    "hook": "3 apps pour te faire 1 000 € par mois avec ton téléphone. Reste jusqu'à la fin, la dernière c'est la plus rentable.",
+    "comment": "Face caméra dans ta chambre, gros titre jaune : « 3 Apps pour faire 1000€ par mois ». 1. TikTok (poste des vidéos). 2. YouTube Shorts. 3. MS Clipper → paye à la vue. Montre ton téléphone pour chaque, puis le dashboard MS Clipper avec un vrai paiement."
+   },
+   {
+    "app": "smc",
+    "hook": "3 sites pour pas te faire arnaquer sur ta prochaine voiture. Reste jusqu'à la fin, le dernier fait tout.",
+    "comment": "Face caméra, titre jaune : « 3 Sites avant d'acheter ta voiture ». 1. Leboncoin. 2. Argus. 3. Screen My Car → tu colles l'annonce, l'IA dit acheter/négocier/fuir. Montre ton téléphone en vrai, verdict à l'écran, chiffre à la fin : « 1 800 € d'économisés »."
+   },
+   {
+    "app": "revizio",
+    "hook": "3 apps pour passer de 10 à 18 de moyenne. Reste jusqu'à la fin, la dernière personne la connaît.",
+    "comment": "Face caméra, titre jaune : « 3 Apps pour réviser sans ouvrir un cahier ». 1. YouTube. 2. ChatGPT. 3. Revizio → photo du cours, fiches + quiz. Montre ton téléphone, résultat : « 18/20 à l'exam »."
+   }
+  ],
+  "note": "<b>À remarquer :</b> le titre jaune reste affiché toute la vidéo. Même après la fin de l'intro, on sait toujours de quoi on parle. Astuce simple à copier.",
+  "reprise": false,
+  "mise_en_scene": "Lui seul face caméra, assis sur une chaise gamer, mur blanc derrière. Un gros écran de PC en fond qui change pour montrer chaque site. Pastille logo quand il nomme GetTrade.ai.",
+  "hooks": [
+   "chiffre",
+   "mystere",
+   "resultat"
+  ],
+  "point_sensible": "Vouloir arrondir ses fins de mois ou arrêter le salariat",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« 3 sites pour te faire 1 000 € par mois… reste jusqu'à la fin »"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "titre jaune permanent « 3 Sites pour faire 1000€ par mois »"
+   },
+   "outil_nomme": {
+    "t": 7,
+    "quoi": "« le premier c'est Fiverr »"
+   },
+   "outil_montre": {
+    "t": 8,
+    "quoi": "le site Fiverr sur l'écran du PC derrière lui"
+   },
+   "preuve": {
+    "t": 48,
+    "quoi": "« en vert c'est notre target, quand ça touche on aura gagné 200 $ »"
+   },
+   "fin": {
+    "t": 56,
+    "quoi": "« abonne-toi, je te donnerai plus de conseils »"
+   }
+  },
+  "montre_comment": "l'écran du PC derrière lui, qui change de site à chaque étape (Fiverr, Upwork, TradingView, GetTrade.ai, plateforme de trading)",
+  "cta": "« abonne-toi »",
+  "montage": "titre jaune permanent en haut, sous-titres mot à mot au centre, pastille logo gettrade.ai, cuts rapides entre son visage et l'écran du PC. 59 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Le résultat est montré à l'écran (la trade avec son target), pas juste raconté."
+   },
+   {
+    "ok": "oui",
+    "texte": "L'outil est nommé vite : Fiverr dès 7 s. Même si GetTrade.ai arrive à 22 s, les 2 premiers sont dedans tôt."
+   },
+   {
+    "ok": "oui",
+    "texte": "Vrai écran filmé (son PC qui change de site), pas une capture plein écran du début à la fin."
+   },
+   {
+    "ok": "oui",
+    "texte": "59 s pile : parfait pour nous."
+   },
+   {
+    "ok": "bof",
+    "texte": "Pas de vraie vanne. Juste la petite provoc « ne va pas plaire à ton patron »."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "une chaise, un PC derrière, un titre jaune permanent, un téléphone (ou l'écran du PC) pour montrer l'app",
+   "temps": "30 min",
+   "niveau": "facile"
+  },
+  "stats": {
+   "vues": 61100,
+   "likes": 2422,
+   "partages": 370,
+   "enregistrements": 2387,
+   "commentaires": 39,
+   "abonnes": 6584
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "duree": 59.5,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 7.1,
+    "texte": "Trois sites pour te faire 1000€ par mois, c'est pas spécialement dur et tout le monde peut le faire et il reste bien jusqu'à la fin parce que le dernier c'est le plus rentable de tous."
+   },
+   {
+    "debut": 7.2,
+    "fin": 10.3,
+    "texte": "En gros le premier c'est Piver, tu vas vendre tes services pour écouter les gens."
+   },
+   {
+    "debut": 10.4,
+    "fin": 15.2,
+    "texte": "En gros t'as plein de gens qui sont prêts à payer entre 20 et 30€ juste pour que tu les appelles et tu restes au téléphone avec eux."
+   },
+   {
+    "debut": 15.5,
+    "fin": 19.5,
+    "texte": "Le deuxième c'est Upwork, tu vas vendre tes services pour écrire des CV et préparer des designs."
+   },
+   {
+    "debut": 19.8,
+    "fin": 21.8,
+    "texte": "La plupart des missions sont entre 10 à 50€."
+   },
+   {
+    "debut": 22.0,
+    "fin": 25.6,
+    "texte": "Le troisième ne va pas plaire à ton patron et il s'appelle GetTrade.ai."
+   },
+   {
+    "debut": 25.9,
+    "fin": 27.8,
+    "texte": "C'est une IA qui accompagne les traders."
+   },
+   {
+    "debut": 27.8,
+    "fin": 31.1,
+    "texte": "Tout d'abord vous allez sur TradingView, vous choisissez le graphique que vous voulez analyser."
+   },
+   {
+    "debut": 31.5,
+    "fin": 34.7,
+    "texte": "Vous prenez une capture d'écran de ce graphique puis vous le mettez dans leur analyserie."
+   },
+   {
+    "debut": 35.0,
+    "fin": 38.6,
+    "texte": "Il va tout analyser pour vous, ça va vous donner un trade complet."
+   },
+   {
+    "debut": 39.5,
+    "fin": 45.8,
+    "texte": "Là par exemple voilà c'est un long sur Ethereum, on a le tech profit, l'entrée, le stop loss, on va aller sur notre plateforme de trading et passer la trade."
+   },
+   {
+    "debut": 46.6,
+    "fin": 48.4,
+    "texte": "Allez bam, ok c'est bon on vient de le faire."
+   },
+   {
+    "debut": 48.9,
+    "fin": 52.9,
+    "texte": "Là en vert vous pouvez voir c'est notre target, quand ça t'a pression on aura gagné 200$."
+   },
+   {
+    "debut": 53.1,
+    "fin": 55.0,
+    "texte": "Donc vous pouvez vraiment faire de l'argent avec ça."
+   },
+   {
+    "debut": 55.6,
+    "fin": 56.2,
+    "texte": "Bam c'est fait."
+   },
+   {
+    "debut": 56.2,
+    "fin": 59.2,
+    "texte": "Merci toi aussi tu veux faire de l'argent, abonne-toi et je te donnerai plus de conseils."
+   }
+  ]
+ },
+ {
   "id": "t96632097",
   "fichier": "tiktok-7692548532896632097-ismael.viral.mp4",
   "compte": "@ismael.viral",
