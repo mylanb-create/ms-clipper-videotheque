@@ -67,7 +67,7 @@ ACTEUR = "clockworks~tiktok-scraper"
 PRIX_RESULTAT, PRIX_FILTRE_DATE, PRIX_PAYS, PRIX_DEPART = 0.0037, 0.0013, 0.0013, 0.001
 PERIODES = {"24h": "PAST_24_HOURS", "semaine": "PAST_WEEK", "mois": "PAST_MONTH",
             "3mois": "LAST_3_MONTHS", "6mois": "LAST_6_MONTHS", "tout": "ALL_TIME"}
-MOTS_DEFAUT = ["app", "astuce", "IA", "side business"]
+MOTS_DEFAUT = ["application", "app", "IA", "chatgpt"]  # des vidéos qui présentent un outil
 # Les deux marchés. Apify ne donne pas le pays d'une vidéo, seulement la langue de sa légende : fr → FR, en → US.
 MARCHES = {
     "FR": {"drapeau": "🇫🇷", "nom": "France", "langue": "fr",
@@ -871,8 +871,8 @@ def cibles(args):
     mots, hashtags = decouper(args.mots), decouper(args.hashtags, "#")
     c = (args.comptes or "").strip()
     m = (getattr(args, "marche", "") or "").upper()
-    if m in MARCHES and not (mots or hashtags) and not c:
-        mots, c = list(MARCHES[m]["mots"]), "aucun"
+    if m in MARCHES and not (mots or hashtags):  # un marché sans mots : ses mots à lui (même avec --comptes)
+        mots, c = list(MARCHES[m]["mots"]), c or "aucun"
     if not c:
         comptes = COMPTES_REPERES if not (mots or hashtags) else []
     elif c.lower() in ("reperes", "repérés"):
