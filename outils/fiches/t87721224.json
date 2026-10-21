@@ -1,0 +1,186 @@
+{
+  "id": "t87721224",
+  "fichier": "tiktok-7663707783287721224-amandas.experiences.mp4",
+  "compte": "@amandas.experiences",
+  "plateforme": "TikTok",
+  "marche": "US",
+  "lien": "https://www.tiktok.com/@amandas.experiences/video/7663707783287721224",
+  "niche": "apps, découverte",
+  "format": "top-apps",
+  "titre": "Top 5 apps niches pour ton téléphone (6,8 s)",
+  "sujet": "Amanda face caméra, sucette à la main : elle balance 5 noms d'apps « niches » en 7 secondes. Les noms s'affichent un par un à l'écran. Pas de démo, pas de preuve. Juste la liste.",
+  "tags": [
+    "face caméra",
+    "top 5",
+    "apps niches",
+    "liste",
+    "nom à l'écran",
+    "sucette",
+    "très court"
+  ],
+  "hook": {
+    "dit": "Top 5 niche app recommendations. (Top 5 d'apps niches à recommander.)",
+    "voit": "Amanda face caméra, bouche ouverte, une sucette dans la main. Texte blanc en haut : « top 5 niche apps for ur phone »."
+  },
+  "texte_ecran": [
+    "top 5 niche apps for ur phone",
+    "1. dazzcam",
+    "2. setlog",
+    "3. thirdspace (my fav)"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 2.6,
+      "voit": "elle face caméra, sucette à la main. Texte en haut : « top 5 niche apps for ur phone ».",
+      "entend": "« Top 5 niche app recommendations. »"
+    },
+    {
+      "debut": 2.6,
+      "fin": 4,
+      "voit": "le texte du haut disparaît. À gauche s'affiche « 1. dazzcam ».",
+      "entend": "« Dascam… »"
+    },
+    {
+      "debut": 4,
+      "fin": 5.5,
+      "voit": "la liste s'allonge : « 2. setlog », puis « 3. thirdspace (my fav) ».",
+      "entend": "« SetLock, ThirdSpace… »"
+    },
+    {
+      "debut": 5.5,
+      "fin": 6.8,
+      "voit": "elle regarde la sucette, calme, la liste reste à l'écran.",
+      "entend": "« LockIt, and Ticket2Go. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "5️⃣",
+      "titre": "« Top 5 » dans la première seconde",
+      "texte": "Un chiffre dès l'ouverture. On sait qu'il y a 5 choses à écouter, on reste."
+    },
+    {
+      "emoji": "🤫",
+      "titre": "Le mot « niche »",
+      "texte": "Ça promet des apps que personne connaît. Un petit secret rien que pour toi."
+    },
+    {
+      "emoji": "⏱️",
+      "titre": "6,8 secondes, c'est tout",
+      "texte": "Trop court pour scroller. On regarde en entier sans s'en rendre compte, et la vidéo relance toute seule."
+    },
+    {
+      "emoji": "📝",
+      "titre": "Les noms s'affichent à l'écran",
+      "texte": "On entend ET on lit. Même sans le son, on peut retenir les noms."
+    },
+    {
+      "emoji": "🍭",
+      "titre": "La sucette",
+      "texte": "On s'attend à une pub d'app bien montée. Là, une fille tranquille suce une sucette. Le pouce s'arrête."
+    },
+    {
+      "emoji": "⭐",
+      "titre": "« my fav »",
+      "texte": "Un petit avis perso à côté d'un nom. Ça fait recommandation d'une amie, pas une pub."
+    },
+    {
+      "emoji": "💬",
+      "titre": "Les commentaires font le travail",
+      "texte": "Elle ne montre rien. Les gens vont demander « ça fait quoi ? » en commentaire : 883 réponses, 145 k enregistrements."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Top 5 apps niches à avoir avant d'acheter une voiture d'occasion.",
+      "comment": "Face caméra, pose calme, un objet dans la main (clés de voiture). Textes qui s'affichent un par un : « 1. Screen My Car (my fav) », « 2. La Centrale », « 3. HistoVec », « 4. AutoDoc », « 5. Vroomly ». Pas de démo, pas de preuve. On laisse les gens demander en commentaire."
+    },
+    {
+      "app": "revizio",
+      "hook": "Top 5 apps niches pour réviser sans ouvrir un cahier.",
+      "comment": "Face caméra, sucette ou stylo à la main, texte en haut « top 5 apps pour tes exams ». Liste qui monte : « 1. Revizio (my fav) », « 2. Quizlet », « 3. Anki », « 4. Notion », « 5. Forest ». 7 secondes max."
+    },
+    {
+      "app": "msclipper",
+      "hook": "Top 5 apps niches qui te payent avec ton téléphone.",
+      "comment": "Face caméra, billet froissé dans la main. Liste qui s'affiche : « 1. MS Clipper (my fav) », « 2. BeReal Pro », « 3. ClipCash », « 4. ShortPay », « 5. ReelBank ». Ton calme, pas de musique forte."
+    }
+  ],
+  "note": "<b>À remarquer :</b> 1 396 abonnés, 4,1 M de vues, 145 k enregistrements. Les gens sauvegardent pour chercher les apps après. La vidéo ne vend rien, elle liste. C'est le format \"top-apps\" le plus pur : un chiffre, des noms, un objet drôle dans la main, et basta.",
+  "reprise": false,
+  "mise_en_scene": "Un seul plan, face caméra, lumière chaude, elle est assise, sucette à la main. Texte blanc qui apparaît un par un, pas de coupe, pas de musique bruyante.",
+  "hooks": [
+    "chiffre",
+    "fruit-interdit",
+    "resultat"
+  ],
+  "point_sensible": "Vouloir connaître les apps que personne d'autre n'a",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Top 5 niche app recommendations » + texte « top 5 niche apps for ur phone »"
+    },
+    "probleme": {
+      "t": null,
+      "quoi": "pas de problème posé : le mot « niche » suffit à faire envie"
+    },
+    "outil_nomme": {
+      "t": 2.6,
+      "quoi": "les 5 apps citées à la suite : Dazzcam, SetLog, ThirdSpace, LockIt, Ticket2Go"
+    },
+    "outil_montre": {
+      "t": null,
+      "quoi": "jamais : rien n'est démontré, juste les noms à l'écran"
+    },
+    "preuve": {
+      "t": null,
+      "quoi": "aucune preuve, juste le « my fav » à côté de ThirdSpace"
+    },
+    "fin": {
+      "t": 6.8,
+      "quoi": "la liste reste à l'écran, elle regarde sa sucette"
+    }
+  },
+  "montre_comment": "noms des apps affichés un par un à l'écran, voix qui les énumère",
+  "cta": "aucun CTA explicite : la légende « trust me these are so underrated » fait tout le travail",
+  "montage": "un seul plan fixe, textes qui s'ajoutent un par un, pas de coupe, pas de musique forte. 6,8 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Format très court (6,8 s) : parfait pour la boucle TikTok."
+    },
+    {
+      "ok": "oui",
+      "texte": "L'app nommée dès 2,6 s, bien avant la règle des 20 s."
+    },
+    {
+      "ok": "oui",
+      "texte": "Nom de l'app écrit à l'écran : on peut recopier sans le son."
+    },
+    {
+      "ok": "bof",
+      "texte": "Aucun vrai écran de l'outil montré : pour nous, il faudrait au moins un plan téléphone en main."
+    },
+    {
+      "ok": "non",
+      "texte": "Pas de vanne, pas de preuve : chez nous, il faut au moins un résultat ou une pique."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un téléphone, une bonne lumière, un petit objet rigolo dans la main (sucette, stylo, clés)",
+    "temps": "10 min",
+    "niveau": "facile"
+  },
+  "stats": {
+    "vues": 4100000,
+    "likes": 413200,
+    "partages": 10700,
+    "enregistrements": 145758,
+    "commentaires": 883,
+    "abonnes": 1396
+  },
+  "ordre": 0,
+  "ajout": "automatique"
+}
