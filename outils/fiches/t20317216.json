@@ -1,0 +1,192 @@
+{
+  "id": "t20317216",
+  "fichier": "tiktok-7691001085720317216-kellyinsight.mp4",
+  "compte": "@kellyinsight",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@kellyinsight/video/7691001085720317216",
+  "niche": "relations, apps virales",
+  "format": "flow",
+  "titre": "L'IA Brandon lit la convo avec ton ex (94% il est pire)",
+  "sujet": "Elle filme sa tablette à la main : elle exporte sa conversation WhatsApp avec son ex, l'envoie à Brandon (whatbrandonthinks), une IA qui analyse les messages et sort un rapport avec des pourcentages (« il t'aime encore à 71% », « toi c'est pire 94% »).",
+  "tags": [
+    "WhatsApp",
+    "ex",
+    "IA Brandon",
+    "rapport",
+    "pourcentages",
+    "tablette en main",
+    "texte dramatique"
+  ],
+  "hook": {
+    "dit": "On en parle de la nouvelle mise à jour WhatsApp, puis je suis complètement craquée.",
+    "voit": "elle face caméra dans sa chambre, cheveux blonds, chemise noire. Gros texte blanc en haut : « pourquoi PERSONNES parlent de la maj whatsapp qui va TUER tout les couples ?!! 💀💀💀 »."
+  },
+  "texte_ecran": [
+    "pourquoi PERSONNES parlent de la maj whatsapp qui va TUER tout les couples ?!! 💀💀💀",
+    "IL T'AIME ENCORE (71%) TOI C'EST PIRE (94%)",
+    "PIECE 2 TEMPS DE RÉPONSE + RESPECT"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 3,
+      "voit": "elle face caméra, main qui bouge près du visage. Le gros texte « va TUER tout les couples 💀💀💀 » en haut.",
+      "entend": "le hook : « on en parle de la nouvelle mise à jour WhatsApp, je suis complètement craquée. »"
+    },
+    {
+      "debut": 3,
+      "fin": 11,
+      "voit": "elle montre sa tablette à la main. WhatsApp ouvert, la conversation avec son ex, elle clique sur le profil, descend, « exporter la discussion, sans médias ».",
+      "entend": "« là je suis sur la conversation avec mon ex, je vais cliquer sur son profil, descendre tout en bas, exporter la discussion sans médias. »"
+    },
+    {
+      "debut": 11,
+      "fin": 20,
+      "voit": "le site whatbrandonthinks sur la tablette, elle importe le fichier, un compteur « 20 532 » qui défile.",
+      "entend": "« tu vas sur un site qui s'appelle WhatBrandonThinks, c'est une IA qui s'appelle Brandon, et tu importes la discussion. »"
+    },
+    {
+      "debut": 20,
+      "fin": 28,
+      "voit": "des graphiques colorés sur la tablette, des barres et des pourcentages qui s'animent (23 889, 10 517, 47…).",
+      "entend": "« Brandon va faire une analyse de ma discussion avec mon ex, ça peut être avec votre pote, votre famille, votre sœur. Ça va me faire un rapport. »"
+    },
+    {
+      "debut": 28,
+      "fin": 42,
+      "voit": "le rapport s'affiche, elle fait défiler : « Temps de réponse 2 minutes », bouton « Voir le rapport », puis la fiche complète.",
+      "entend": "« donc là j'ai le rapport. Temps de réponse 2 minutes, je vous le cite. Voir le rapport. »"
+    },
+    {
+      "debut": 42,
+      "fin": 49,
+      "voit": "le gros titre du rapport : « IL T'AIME ENCORE (71%) TOI C'EST PIRE (94%) ».",
+      "entend": "« il t'aime encore à 60%, toi c'est pire à 94%. Bon, c'est pas grave. »"
+    },
+    {
+      "debut": 49,
+      "fin": 53,
+      "voit": "retour à son visage, elle sourit.",
+      "entend": "« franchement c'est hilarant, je vous conseille de le faire au moins une fois dans votre vie. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "💀",
+      "titre": "« va TUER tout les couples »",
+      "texte": "Un gros texte blanc, trois têtes de mort, et le mot TUER en majuscules. On n'a pas envie de scroller : on veut savoir."
+    },
+    {
+      "emoji": "📱",
+      "titre": "WhatsApp, tout le monde a",
+      "texte": "Pas besoin d'expliquer ce que c'est. La marque fait le travail : la vidéo nous concerne tous."
+    },
+    {
+      "emoji": "💔",
+      "titre": "« la conversation avec mon ex »",
+      "texte": "Dès la phrase 2, elle parle d'ex. Tout le monde en a un, tout le monde veut lire la suite."
+    },
+    {
+      "emoji": "✋",
+      "titre": "La tablette filmée à la main",
+      "texte": "Ça bouge, les reflets de lumière, le doigt qui scrolle : c'est vrai, pas une capture propre."
+    },
+    {
+      "emoji": "📊",
+      "titre": "Les chiffres du rapport",
+      "texte": "71%, 94%, 2 minutes : des pourcentages précis, on y croit tout de suite."
+    },
+    {
+      "emoji": "😂",
+      "titre": "« Bon, c'est pas grave »",
+      "texte": "Elle découvre qu'elle est pire que son ex, elle rit d'elle-même. Ça désamorce et ça donne envie de tester."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Pourquoi PERSONNE parle du site qui démasque les arnaques voiture ?!! 💀💀💀",
+      "comment": "Tablette filmée à la main : tu ouvres Le Bon Coin, tu copies une annonce de voiture qui t'intéresse, tu la colles dans Screen My Car. L'IA te sort un rapport : état, prix juste, à fuir ou à négocier. Finis sur une tête bluffée : « bon ben celui-là, poubelle »."
+    },
+    {
+      "app": "revizio",
+      "hook": "Pourquoi PERSONNE parle de l'app qui révise à ta place ?!! 💀💀💀",
+      "comment": "Tu filmes ton téléphone à la main : tu prends ton cours en photo, tu l'envoies à Revizio, il te fait des fiches, un quiz, et à la fin un rapport avec ta note : « t'as 18/20, bon ben l'exam est plié »."
+    }
+  ],
+  "note": "<b>À remarquer :</b> le vrai hook, c'est le texte à l'écran (« va TUER tout les couples 💀💀💀 »), pas la phrase parlée. Les 3 têtes de mort font 90% du boulot d'arrêt du pouce.",
+  "reprise": false,
+  "mise_en_scene": "Face caméra dans sa chambre, puis la tablette filmée à la main (reflets, écran qui bouge), puis retour visage à la fin.",
+  "hooks": [
+    "fruit-interdit",
+    "marque",
+    "question"
+  ],
+  "point_sensible": "Savoir ce que l'autre pense vraiment de nous dans une relation",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« la maj WhatsApp qui va TUER tout les couples 💀💀💀 »"
+    },
+    "probleme": {
+      "t": 3,
+      "quoi": "« la conversation avec mon ex »"
+    },
+    "outil_nomme": {
+      "t": 11,
+      "quoi": "« un site qui s'appelle WhatBrandonThinks »"
+    },
+    "outil_montre": {
+      "t": 7,
+      "quoi": "WhatsApp sur la tablette, puis le site, puis le rapport"
+    },
+    "preuve": {
+      "t": 42,
+      "quoi": "« il t'aime encore à 71%, toi c'est pire à 94% »"
+    },
+    "fin": {
+      "t": 49,
+      "quoi": "« je vous conseille de le faire au moins une fois dans votre vie »"
+    }
+  },
+  "montre_comment": "tablette filmée à la main, l'écran bouge, les doigts cliquent, les graphiques s'animent",
+  "cta": "« je vous conseille de le faire au moins une fois dans votre vie »",
+  "montage": "gros texte blanc dramatique en haut (figé toute la vidéo), zéro coupe sur l'écran, voix enjouée. 53 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Outil nommé à 11 s : WhatBrandonThinks."
+    },
+    {
+      "ok": "oui",
+      "texte": "Le vrai écran filmé à la main, qui bouge, pas une capture plein écran."
+    },
+    {
+      "ok": "oui",
+      "texte": "53 s pile : la bonne durée."
+    },
+    {
+      "ok": "bof",
+      "texte": "La vanne est faible : juste « bon c'est pas grave » à la fin."
+    },
+    {
+      "ok": "non",
+      "texte": "Pas d'étapes numérotées à l'écran : sans le son, on perd le fil."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "une tablette, un bon éclairage, la vidéo fournie",
+    "temps": "15 min",
+    "niveau": "facile"
+  },
+  "stats": {
+    "vues": 592900,
+    "likes": 15100,
+    "partages": 2780,
+    "commentaires": 138,
+    "abonnes": 288
+  },
+  "ordre": 0,
+  "ajout": "automatique"
+}
