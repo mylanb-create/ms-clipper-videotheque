@@ -1,0 +1,195 @@
+{
+  "id": "t35984416",
+  "fichier": "tiktok-7676147100135984416-agathe.darija.mp4",
+  "compte": "@agathe.darija",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@agathe.darija/video/7676147100135984416",
+  "niche": "apprentissage, langue",
+  "format": "flow",
+  "titre": "Elle apprend le darija à voix haute (l'appli lui balance « Tfou Alik »)",
+  "sujet": "Agathe pose son téléphone, ouvre une appli pour apprendre le darija (le marocain), et doit répéter des mots à haute voix dans le micro. L'appli lui fait dire « Tfou Alik », « Naweldi », « Pour Gaza »… elle rigole, elle crie, elle relance.",
+  "tags": [
+    "darija",
+    "apprentissage",
+    "téléphone en main",
+    "voix",
+    "fou rire",
+    "répétition",
+    "sous-titres auto"
+  ],
+  "hook": {
+    "dit": "(pas de parole : juste son visage étonné, puis elle approche le téléphone)",
+    "voit": "elle, headband et grosses lunettes, dans son salon. Un bandeau noir en haut : « Mais c'est quoi cette appli de fou MDRRR 😭😭 ». Elle passe vite sur le téléphone qui affiche « T'es prêt ? »."
+  },
+  "texte_ecran": [
+    "Mais c'est quoi cette appli de fou MDRRR 😭😭",
+    "ON DÉMARRE",
+    "T'es prêt ?",
+    "Maintiens le micro et lance-toi : le premier mot à retenir s'affichera ici",
+    "Mot 0 sur 5",
+    "Fermer"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 3,
+      "voit": "Agathe seule face caméra, salon dans le flou. Bandeau du haut : « Mais c'est quoi cette appli de fou MDRRR 😭😭 ».",
+      "entend": "rien, puis « si on t'invite »."
+    },
+    {
+      "debut": 3,
+      "fin": 7,
+      "voit": "le téléphone en main, l'écran de l'appli : « T'es prêt ? », gros bouton micro rouge. Son doigt appuie dessus. Les pastilles rouge-jaune-bleu apparaissent.",
+      "entend": "« fais Zenga, tu dis Tfou Alik »."
+    },
+    {
+      "debut": 7,
+      "fin": 11,
+      "voit": "l'écran bouge, elle tient le téléphone, les pastilles colorées défilent.",
+      "entend": "« à toi — Tfou Alik — félicitations Naweldi »."
+    },
+    {
+      "debut": 11,
+      "fin": 20,
+      "voit": "le téléphone remplit presque tout le cadre, filmé à la main, ça tremble. Les mêmes pastilles qui s'allument quand elle parle.",
+      "entend": "« Tfou Alik — encore une fois — en criant — Tfou Alik »."
+    },
+    {
+      "debut": 20,
+      "fin": 26,
+      "voit": "retour sur son visage, elle sourit, bluffée, puis elle regarde son téléphone en coin.",
+      "entend": "« ah oui, là tu es prêt… »."
+    },
+    {
+      "debut": 26,
+      "fin": 28,
+      "voit": "gros plan sur son visage qui rit, le téléphone remonte, les pastilles encore à l'écran.",
+      "entend": "« pour Gaza »."
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "❓",
+      "titre": "« Mais c'est quoi cette appli de fou »",
+      "texte": "Le bandeau du haut ne dit jamais le nom. On veut savoir, on reste."
+    },
+    {
+      "emoji": "🗣️",
+      "titre": "On entend les mots bizarres",
+      "texte": "« Tfou Alik », « Naweldi », « Zenga » : des sons qu'on n'a jamais entendus. L'oreille s'accroche."
+    },
+    {
+      "emoji": "📱",
+      "titre": "Téléphone en main, pas une capture",
+      "texte": "L'écran tremble, on voit le reflet, le pouce. On croit à une vraie découverte, pas à une pub."
+    },
+    {
+      "emoji": "🎤",
+      "titre": "Le micro à maintenir",
+      "texte": "On la voit appuyer, parler, recommencer. C'est un jeu, pas une leçon : on a envie d'essayer aussi."
+    },
+    {
+      "emoji": "😂",
+      "titre": "Elle rigole et se gêne pas",
+      "texte": "Elle crie, elle bafouille, elle recommence. On rit avec elle, on partage à un pote qui parle darija."
+    },
+    {
+      "emoji": "🇲🇦",
+      "titre": "La niche darija",
+      "texte": "Pour les Marocains de France (et les copains·copines), c'est leur langue. Ils taguent, ils enregistrent."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "revizio",
+      "hook": "Mais c'est quoi cette appli de fou pour réviser 😭 (ma prof n'est pas prête)",
+      "comment": "Téléphone en main, elle maintient le micro et lit sa fiche à voix haute. L'appli l'arrête, lui remet le mot qu'elle a raté. Bandeau du haut : « Mais c'est quoi cette appli de fou MDRRR ». Pas de nom de l'outil au début, juste l'écran. Résultat à la fin : « 18/20 au bac blanc »."
+    },
+    {
+      "app": "msclipper",
+      "hook": "Mais c'est quoi cette appli qui me paye à chaque vue 😭 (j'ai posté une fois)",
+      "comment": "Téléphone en main : on voit le compteur de vues qui monte, puis les euros à côté. Bandeau du haut : « Mais c'est quoi cette appli de fou MDRRR 😭😭 ». Elle rit, elle rafraîchit, elle relance. 20-25 s."
+    },
+    {
+      "app": "smc",
+      "hook": "Mais c'est quoi cette appli qui parle à ma place au vendeur 😭",
+      "comment": "Téléphone en main sur une annonce Leboncoin. Elle colle le lien, l'appli lui dit « fuis » ou « négocie à 7 800 ». Elle lit la phrase à voix haute, comme si elle appelait le mec. Bandeau du haut qui titille."
+    }
+  ],
+  "note": "<b>À remarquer :</b> 7 861 abonnés, 145 400 vues, 3 077 partages, 1 322 enregistrements : c'est le ratio partages/enregistrements qui explose. Les gens taguent leurs potes marocains et sauvegardent l'appli pour l'installer. Niche serrée = engagement très fort.",
+  "reprise": false,
+  "mise_en_scene": "Chez elle, sur le canapé, lumière chaude du salon. Un seul plan qui alterne : son visage, le téléphone en main, son visage. Le bandeau du haut reste tout le temps affiché.",
+  "hooks": [
+    "mystere",
+    "pattern-interrupt",
+    "reaction"
+  ],
+  "point_sensible": "Apprendre la langue de ses parents (ou de sa belle-famille) sans avoir l'air bête",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Mais c'est quoi cette appli de fou MDRRR 😭😭 » en haut, son visage étonné"
+    },
+    "probleme": {
+      "t": null,
+      "quoi": null
+    },
+    "outil_nomme": {
+      "t": null,
+      "quoi": "jamais nommé à voix haute (seulement #darijai en légende)"
+    },
+    "outil_montre": {
+      "t": 3,
+      "quoi": "l'écran « T'es prêt ? » avec le bouton micro"
+    },
+    "preuve": {
+      "t": 10,
+      "quoi": "« Félicitations Naweldi » : l'appli valide le mot"
+    },
+    "fin": {
+      "t": 26,
+      "quoi": "elle rit, « pour Gaza », pas de CTA"
+    }
+  },
+  "montre_comment": "téléphone en main filmé à bout de bras, écran de l'appli qui remplit presque tout le cadre, sa voix qui répète les mots",
+  "cta": "aucun (juste la légende « Elle est trop bien cette app 😭 »)",
+  "montage": "sous-titres auto en bas, bandeau noir fixe en haut (« Mais c'est quoi cette appli de fou MDRRR 😭😭 »), un seul plan qui alterne visage/téléphone. 28 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Durée courte, 28 s : ça rentre pile dans notre fourchette 30-60 s (presque)."
+    },
+    {
+      "ok": "oui",
+      "texte": "Téléphone en main, écran filmé qui tremble : exactement notre règle, pas de capture plein écran propre."
+    },
+    {
+      "ok": "oui",
+      "texte": "Au moins une vanne : elle rigole, elle crie, le ton n'est jamais sérieux."
+    },
+    {
+      "ok": "non",
+      "texte": "L'outil n'est jamais nommé à voix haute (seulement en hashtag). Chez nous, on dit « j'ai fait un Screen My Car » avant 20 s."
+    },
+    {
+      "ok": "bof",
+      "texte": "Pas de résultat chiffré ni de « avant / après ». La preuve, c'est juste « Félicitations »."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un téléphone, l'appli ouverte, un bandeau de texte en haut, lumière chaude du salon",
+    "temps": "15 min",
+    "niveau": "facile"
+  },
+  "stats": {
+    "vues": 145400,
+    "likes": 7154,
+    "partages": 3077,
+    "enregistrements": 1322,
+    "commentaires": 101,
+    "abonnes": 7861
+  },
+  "ordre": 0,
+  "ajout": "automatique"
+}
