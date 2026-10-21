@@ -7,7 +7,7 @@ Source : FICHIERS ANNEXES/VIDÉOS D'EXEMPLES. Pour chaque vidéo absente de site
   - travail/<id>/hook.jpg : les 5 premières secondes, une image toutes les 0,5 s (le hook) ;
   - travail/<id>/planche.jpg : toute la vidéo en 30 images maximum (le déroulé) ;
   - travail/<id>/transcription.json : ce qui est dit, avec le temps.
-Une seule vidéo : --seul <nom du fichier> (utilisé par chaine.py).
+Une seule vidéo : --seul <nom du fichier> (utilisé par chaine.py) ; --langue en pour une vidéo en anglais (défaut fr).
 Lancer avec le Python de la vidéothèque Notion (il a ffmpeg et faster-whisper) :
   "../../SCREEN MY CAR/CRÉATEURS/Briefs revclip/Vidéothèque/.venv/bin/python" outils/preparer.py
 """
@@ -37,7 +37,7 @@ def duree(f):
 def ff(*args):
     subprocess.run([FF, "-v", "error", "-y", *map(str, args)], check=True)
 
-def preparer(f, modele):
+def preparer(f, modele, langue="fr"):
     i, d = ident(f), duree(f)
     t = TRAVAIL / i
     t.mkdir(parents=True, exist_ok=True)
@@ -51,7 +51,7 @@ def preparer(f, modele):
     pas = max(2.0, d / 30)
     ff("-i", f, "-vf", f"fps=1/{pas:.2f},scale=240:-2,tile=6x5", "-frames:v", 1, t / "planche.jpg")
     ff("-i", f, "-ac", 1, "-ar", 16000, t / "audio.wav")
-    segs, _ = modele.transcribe(str(t / "audio.wav"), language="fr", vad_filter=True)
+    segs, _ = modele.transcribe(str(t / "audio.wav"), language=langue, vad_filter=True)
     texte = [{"debut": round(s.start, 1), "fin": round(s.end, 1), "texte": s.text.strip()} for s in segs]
     (t / "transcription.json").write_text(json.dumps(texte, ensure_ascii=False, indent=1), encoding="utf-8")
     (t / "infos.json").write_text(json.dumps({"id": i, "fichier": f.name, "duree": round(d, 1), "pas_planche": round(pas, 2)}, ensure_ascii=False), encoding="utf-8")
@@ -74,5 +74,7 @@ if __name__ == "__main__":
         sys.exit(0)
     from faster_whisper import WhisperModel
     modele = WhisperModel("large-v3-turbo", device="cpu", compute_type="int8", cpu_threads=8)
+    # --langue en : une vidéo US (sans ça, Whisper écrit l'anglais comme si c'était du français).
+    langue = sys.argv[sys.argv.index("--langue") + 1] if "--langue" in sys.argv else "fr"
     for v in nouvelles:
-        preparer(v, modele)
+        preparer(v, modele, langue)

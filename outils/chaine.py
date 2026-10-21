@@ -27,6 +27,8 @@ FICHES, TRAVAIL, SITE = ICI / "outils" / "fiches", ICI / "travail", ICI / "site"
 REFERENTIEL = SITE / "data" / "referentiel.json"
 EXEMPLE = FICHES / "db8h1un.json"  # une fiche complète, montrée à Claude comme modèle
 ETAPES = ("attente", "preparation", "analyse", "publication", "fini")
+PARALLELE = 3  # vidéos traitées en même temps (préparation et analyse) ; la mise en ligne, elle, passe une par une
+_publication = threading.Lock()
 
 _file: "queue.Queue[str]" = queue.Queue()
 _dans_la_file: set[str] = set()
@@ -44,7 +46,8 @@ def demarrer(registre, verrou, sauver, infos_de):
     global _lance
     _contexte.update(registre=registre, verrou=verrou, sauver=sauver, infos_de=infos_de)
     if not _lance:
-        threading.Thread(target=_travailleur, daemon=True).start()
+        for _ in range(PARALLELE):
+            threading.Thread(target=_travailleur, daemon=True).start()
         _lance = True
 
 
@@ -97,16 +100,17 @@ def _travailleur():
             if not nom:
                 raise RuntimeError("pas de fichier téléchargé")
             _etape(ident, "preparation")
+            infos = _contexte["infos_de"](ident) or {}
             fid = id_fiche(ident)
             if not ((TRAVAIL / fid / "transcription.json").exists() and (SITE / "videos" / f"{fid}.mp4").exists()):
-                preparer(nom)  # déjà préparée (une relance après une erreur) : on ne refait pas
+                preparer(nom, "en" if infos.get("marche") == "US" else "fr")  # déjà préparée (une relance) : on ne refait pas
             etape = "analyse"
             _etape(ident, "analyse")
-            infos = _contexte["infos_de"](ident) or {}
             fiche = analyser(ident, nom, {**r, **infos})
             etape = "publication"
             _etape(ident, "publication", fiche=fiche["id"])
-            publier(fiche)
+            with _publication:  # assembler + commit + push : une vidéo à la fois
+                publier(fiche)
             _etape(ident, "fini", fiche=fiche["id"])
             print(f"✓ dans la vidéothèque : {fiche['titre']} (fiche {fiche['id']})", flush=True)
         except Exception as e:  # on garde la raison pour la page de revue, et on passe à la suivante
@@ -119,8 +123,8 @@ def _travailleur():
 
 # ---------- 1. préparation ----------
 
-def preparer(nom: str):
-    p = subprocess.run([sys.executable, str(ICI / "outils" / "preparer.py"), "--seul", nom], cwd=ICI,
+def preparer(nom: str, langue: str = "fr"):
+    p = subprocess.run([sys.executable, str(ICI / "outils" / "preparer.py"), "--seul", nom, "--langue", langue], cwd=ICI,
                        capture_output=True, text=True, timeout=3600)
     if p.returncode:
         raise RuntimeError("préparation : " + (p.stderr.strip().splitlines() or ["échec"])[-1])
