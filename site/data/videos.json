@@ -1,5 +1,826 @@
 [
  {
+  "id": "t24401440",
+  "fichier": "tiktok-7697241423124401440-alex.brtnn.mp4",
+  "compte": "@alex.brtnn",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@alex.brtnn/video/7697241423124401440",
+  "niche": "sommeil, stress",
+  "format": "flow",
+  "titre": "« Comment elle arrive à trouver ça ? » (Quieto, le mec qui a supprimé sa vidéo)",
+  "sujet": "Un gars torse nu avec casquette, en extérieur, raconte qu'un autre créateur a supprimé sa vidéo parce qu'elle marchait trop fort — mais lui l'a enregistrée. On écoute la voix de l'autre pendant qu'il filme son téléphone en main : l'app Quieto fait un test de santé, chatte avec toi, et te génère un programme de méditation du soir pour mieux dormir.",
+  "tags": [
+   "Quieto",
+   "sommeil",
+   "anxiété",
+   "torse nu",
+   "fruit interdit",
+   "téléphone en main",
+   "IA à mémoire"
+  ],
+  "hook": {
+   "dit": "Les gars, dites-vous, ce mec, il a supprimé sa vidéo parce qu'elle faisait trop de vues, mais je l'ai enregistré, écoutez ce qu'il dit.",
+   "voit": "un gars torse nu, casquette noire, ciel bleu derrière (plage/bateau). Texte blanc en haut : « Comment elle arrive à trouver ça ? »."
+  },
+  "texte_ecran": [
+   "Comment elle arrive à trouver ça ?"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 12,
+    "voit": "le gars face caméra, torse nu, casquette noire, extérieur plein soleil. Il parle, il sourit, il lève le doigt.",
+    "entend": "le hook : « ce mec a supprimé sa vidéo parce qu'elle faisait trop de vues, mais je l'ai enregistré, écoutez ce qu'il dit »."
+   },
+   {
+    "debut": 12,
+    "fin": 24,
+    "voit": "le téléphone en main, dehors (poubelle en métal au sol). Écran d'accueil iPhone, puis ouverture d'une app : liste de catégories de santé, un clavier qui tape. Le visage du créateur reste en petit, en bas à gauche.",
+    "entend": "la voix de « l'autre » qui enchaîne (coupée dans les sous-titres), il remplit un test de santé dans l'app."
+   },
+   {
+    "debut": 24,
+    "fin": 36,
+    "voit": "l'app Quieto : « Bel après-midi Paul », catégories de méditation, puis un chat avec l'IA (bulles bleues et vertes). Insert du gars toujours en bas.",
+    "entend": "« pour être moins anxieux par rapport au résultat du test de santé que vous venez de faire, et là, vous avez juste à cliquer sur créer mon programme »."
+   },
+   {
+    "debut": 36,
+    "fin": 45,
+    "voit": "le bouton « créer mon programme », puis une barre de chargement : 80 %, 100 %. Le téléphone bouge dans la main.",
+    "entend": "« en fonction de tout ce qu'elle connaît sur vous, de vos habitudes, de ce qui vous rend anxieux, de toutes vos discussions, parce qu'elle a une mémoire, elle va vous faire votre programme »."
+   },
+   {
+    "debut": 45,
+    "fin": 52,
+    "voit": "écran « Ma première méditation », un bouton play rond en bas.",
+    "entend": "« ça a fini de charger, vous avez juste à faire écouter la première séance, vous cliquez là, vous mettez une séance chaque soir avant de dormir, et je vous jure, c'est… »."
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🚫",
+    "titre": "« Il a supprimé sa vidéo »",
+    "texte": "Le fruit interdit : si c'était si bien que ça a été effacé, on veut absolument le voir."
+   },
+   {
+    "emoji": "🎧",
+    "titre": "« Écoutez ce qu'il dit »",
+    "texte": "On ne nous dit pas quoi, juste qu'il faut écouter. Le mystère tient 30 secondes."
+   },
+   {
+    "emoji": "❓",
+    "titre": "« Comment elle arrive à trouver ça ? »",
+    "texte": "Un texte en haut tout du long. Même sans comprendre, on reste pour voir ce qu'« elle » trouve."
+   },
+   {
+    "emoji": "📱",
+    "titre": "Téléphone en main, dehors",
+    "texte": "Pas une capture d'écran propre : ça bouge, il y a le sol, le soleil. On croit que c'est vrai."
+   },
+   {
+    "emoji": "👤",
+    "titre": "Son visage en insert",
+    "texte": "On ne le perd jamais, même quand l'écran prend toute la place. On reste accroché à lui."
+   },
+   {
+    "emoji": "🧠",
+    "titre": "« Elle a une mémoire »",
+    "texte": "L'IA te connaît : tes habitudes, tes angoisses, tes discussions. Ça fait peur et envie en même temps."
+   },
+   {
+    "emoji": "😴",
+    "titre": "« Une séance chaque soir avant de dormir »",
+    "texte": "Une consigne simple, concrète, qu'on peut faire ce soir même."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Les gars, ce vendeur a supprimé son annonce parce que trop de gens avaient flairé l'arnaque. Je l'ai enregistrée, écoutez ce qu'il dit.",
+    "comment": "Toi torse nu/dehors face caméra 5 s pour le hook. Puis téléphone en main : tu colles l'annonce dans Screen My Car, insert de ton visage en bas à gauche, texte en haut tout du long : « Comment elle sait tout ça ? ». Verdict à l'écran : à fuir."
+   },
+   {
+    "app": "revizio",
+    "hook": "Les gars, cette prof a supprimé sa vidéo parce que les élèves cartonnaient trop. Je l'ai enregistré, écoutez.",
+    "comment": "Même mise en scène : hook face caméra, puis téléphone en main sur Revizio. Photo du cours, fiches qui apparaissent, quiz. Insert visage en bas. Texte en haut : « Comment elle sait ce qui va tomber ? ». Fin : « 18/20 »."
+   }
+  ],
+  "note": "<b>À remarquer :</b> 57 abonnés, 67 800 vues. Un énorme ratio porté par le « fruit interdit » (« il a supprimé sa vidéo ») + le mystère (« écoutez ce qu'il dit »). L'app n'est <b>jamais</b> nommée dans la vidéo, seulement en légende — « si j'ai bien compris, c'est Quieto ». C'est volontaire : ça pousse à aller lire les commentaires et la légende.",
+  "reprise": false,
+  "mise_en_scene": "Face caméra torse nu en extérieur pour le hook (12 s), puis téléphone en main filmé dehors avec son visage inséré en bas à gauche jusqu'à la fin. Texte « Comment elle arrive à trouver ça ? » affiché en haut tout du long.",
+  "hooks": [
+   "fruit-interdit",
+   "mystere",
+   "question"
+  ],
+  "point_sensible": "Mal dormir et être anxieux à cause des résultats de santé",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« ce mec a supprimé sa vidéo parce qu'elle faisait trop de vues, écoutez »"
+   },
+   "probleme": {
+    "t": 30,
+    "quoi": "« pour être moins anxieux par rapport au résultat du test de santé »"
+   },
+   "outil_nomme": {
+    "t": null,
+    "quoi": "jamais nommé à l'oral ; seulement en légende (« si j'ai bien compris c'est Quieto »)"
+   },
+   "outil_montre": {
+    "t": 12,
+    "quoi": "téléphone en main, ouverture de l'app, catégories de santé"
+   },
+   "preuve": {
+    "t": 44,
+    "quoi": "« ça a fini de charger », écran « Ma première méditation » avec bouton play"
+   },
+   "fin": {
+    "t": 50,
+    "quoi": "« une séance chaque soir avant de dormir, et je vous jure c'est… » (coupe)"
+   }
+  },
+  "montre_comment": "téléphone en main filmé dehors, visage du créateur en insert en bas à gauche, texte-question figé en haut",
+  "cta": "aucun CTA explicite (pas de lien, pas de « écrivez-moi »)",
+  "montage": "texte « Comment elle arrive à trouver ça ? » affiché en haut tout du long, visage inséré en bas à gauche dès que l'app est à l'écran, voix off de « l'autre » par-dessus. 52 s, coupe nette à la fin.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Téléphone en main dans la vraie vie (ça bouge, on voit le sol) : exactement ce qu'on veut."
+   },
+   {
+    "ok": "oui",
+    "texte": "Visage en insert en bas à gauche quand l'app est à l'écran : on garde la tête du créateur, l'écran reste visible."
+   },
+   {
+    "ok": "oui",
+    "texte": "52 s : pile dans la fourchette 30–60 s."
+   },
+   {
+    "ok": "non",
+    "texte": "L'outil n'est jamais nommé à l'oral (ni avant 20 s, ni après). Chez nous : « j'ai fait un Screen My Car » tôt."
+   },
+   {
+    "ok": "bof",
+    "texte": "Pas de vanne, pas de résultat chiffré : ça repose à 100 % sur le mystère du hook."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un téléphone, un extérieur ensoleillé, l'app en question, un bout d'audio (le tien ou en voix off)",
+   "temps": "15 min",
+   "niveau": "facile"
+  },
+  "stats": {
+   "vues": 67800,
+   "likes": 476,
+   "partages": 170,
+   "commentaires": 5,
+   "abonnes": 57
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "approuvee_le": "2026-10-22T00:03:29",
+  "duree": 52.2,
+  "transcription": [
+   {
+    "debut": 0.2,
+    "fin": 5.8,
+    "texte": "Les gars, dites-vous, ce mec, il a supprimé sa vidéo parce qu'elle faisait trop de vues, mais je l'ai enregistré, écoutez ce qu'il dit."
+   },
+   {
+    "debut": 30.2,
+    "fin": 36.1,
+    "texte": "Pour être moins anxieux par rapport au résultat du test de santé que vous venez de faire, et là, vous avez juste à cliquer sur créer mon programme."
+   },
+   {
+    "debut": 36.2,
+    "fin": 44.6,
+    "texte": "Genre là, en fonction de tout ce qu'elle connaît sur vous, de vos habitudes de vie, de ce qui vous rend vraiment anxieux, de toutes vos discussions aussi parce qu'elle a une mémoire, elle va vous faire votre programme."
+   },
+   {
+    "debut": 44.6,
+    "fin": 52.3,
+    "texte": "Donc là, ça a fini de charger, vous avez juste à faire écouter la première séance, vous cliquez là, vous mettez une séance chaque soir avant de dormir, et je vous jure, c'est..."
+   }
+  ]
+ },
+ {
+  "id": "t20439584",
+  "fichier": "tiktok-7696924097120439584-6min_ai.mp4",
+  "compte": "@6min_ai",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@6min_ai/video/7696924097120439584",
+  "niche": "argent, side business",
+  "format": "choque",
+  "titre": "5 ans de SMIC et je découvre TrendSaaS (face choquée, supermarché)",
+  "sujet": "Un gars dans un rayon de supermarché, filtre « gros yeux » et bouche grande ouverte, texte en haut : « 5 ans de SMIC et je découvre ça que MTN 😭 ». Puis son téléphone en main : un quiz sur trendsaas.ai qui lui promet un revenu chiffré (12 160 €, 14 840 €, 10 901 €). Zéro parole, juste un « Oh! » et une musique.",
+  "tags": [
+   "choqué",
+   "filtre gros yeux",
+   "SMIC",
+   "supermarché",
+   "téléphone en main",
+   "quiz",
+   "TrendSaaS"
+  ],
+  "hook": {
+   "dit": "(pas de parole, juste un « Oh! » à 3 s)",
+   "voit": "un gars dans un rayon de supermarché, filtre « gros yeux » + bouche grande ouverte, chaîne argentée, pull gris. Texte en haut : « 5 ans de SMIC et je découvre ça que MTN 😭 »."
+  },
+  "texte_ecran": [
+   "5 ans de SMIC et je découvre ça que MTN 😭",
+   "Quel revenu veux-tu atteindre ?",
+   "0 €",
+   "12,160 €",
+   "14,840 €",
+   "Sur quoi tu veux recevoir tes paiements ? (Stripe, PayPal, Revolut, Wise)",
+   "D'ici quand tu dois avoir tes premières ventes ?",
+   "Tu veux tout faire derrière ton téléphone ?",
+   "Tu veux qu'on le fasse à ta place ?",
+   "On chiffre ton potentiel",
+   "6,817 €",
+   "10,901 €"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 5,
+    "voit": "le gars face caméra, filtre « gros yeux » + bouche ouverte, dans un rayon de supermarché. Texte en haut qui ne bouge pas.",
+    "entend": "juste la musique, puis un « Oh! » à 3 s."
+   },
+   {
+    "debut": 5,
+    "fin": 10,
+    "voit": "transition vers son téléphone en main, toujours dans le supermarché. Site trendsaas.ai : « Quel revenu veux-tu atteindre ? », curseur qui monte de 0 € à 12 160 €.",
+    "entend": "musique."
+   },
+   {
+    "debut": 10,
+    "fin": 16,
+    "voit": "le curseur continue à 14 840 €, « Continuer », puis l'écran des paiements : Stripe, PayPal, Revolut, Wise. Il tape.",
+    "entend": "musique."
+   },
+   {
+    "debut": 16,
+    "fin": 22,
+    "voit": "« D'ici quand tu dois avoir tes premières ventes ? », puis « Tu veux tout faire derrière ton téléphone ? », puis « Tu veux qu'on le fasse à ta place ? ». Il appuie sur « Oui ».",
+    "entend": "musique."
+   },
+   {
+    "debut": 22,
+    "fin": 26,
+    "voit": "écran « On chiffre ton potentiel. » qui calcule : 6 817 €, puis 10 901 €, puis une page avec une barre de progression (« 16 »).",
+    "entend": "musique."
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "😳",
+    "titre": "Le filtre « gros yeux »",
+    "texte": "Les yeux énormes et la bouche ouverte, on n'a pas l'habitude. Le pouce s'arrête tout seul."
+   },
+   {
+    "emoji": "🛒",
+    "titre": "Le supermarché",
+    "texte": "Un rayon de courses, pas un bureau. On croit à un vrai moment de vie, pas à une pub."
+   },
+   {
+    "emoji": "💼",
+    "titre": "« 5 ans de SMIC »",
+    "texte": "Une phrase qui parle à tout le monde. Si tu bosses au SMIC, tu te sens visé."
+   },
+   {
+    "emoji": "📱",
+    "titre": "Le téléphone en main",
+    "texte": "Pas une capture d'écran propre : ça bouge, c'est vrai. Comme si on regardait par-dessus son épaule."
+   },
+   {
+    "emoji": "🔢",
+    "titre": "Les chiffres qui défilent",
+    "texte": "0 €, 12 160 €, 14 840 €, 10 901 €. Les montants bougent devant toi, on veut voir le total."
+   },
+   {
+    "emoji": "🤫",
+    "titre": "Zéro parole",
+    "texte": "Pas un mot. Juste la musique et les textes du site. Les gens lisent, ça les tient."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "msclipper",
+    "hook": "5 ans de SMIC et je découvre ça que MTN 😭. Filtre « gros yeux », rayon de supermarché, téléphone en main.",
+    "comment": "Même mise en scène : filtre choqué + supermarché. Puis le téléphone en main qui ouvre MS Clipper : on crée un compte, on poste un clip, on voit le compteur des vues monter. À la fin, le solde en euros qui s'affiche. Zéro parole, musique."
+   },
+   {
+    "app": "smc",
+    "hook": "5 ans de SMIC et je découvre que je peux pas acheter cette voiture 😭.",
+    "comment": "Filtre choqué devant la vitrine d'un concessionnaire. Puis le téléphone en main : on colle l'annonce dans Screen My Car, le verdict tombe : « Fuis ». Texte à l'écran : « 5 ans d'économies sauvées »."
+   },
+   {
+    "app": "revizio",
+    "hook": "5 ans d'études et je découvre ça que MTN 😭.",
+    "comment": "Filtre choqué dans un couloir de fac. Puis Revizio en main : photo du cours, les fiches sortent, le quiz, 20/20. Texte à l'écran : « Si seulement j'avais eu ça au lycée »."
+   }
+  ],
+  "note": "<b>À remarquer :</b> le compte @6min_ai a 251 abonnés et fait 102 000 vues sur cette vidéo. Preuve que la mécanique (filtre choqué + un texte, muet, 26 s) peut faire exploser un petit compte. <b>Le piège :</b> trendsaas.ai promet un revenu sans rien livrer, juste un quiz. Chez nous, il faut un vrai résultat à l'écran.",
+  "reprise": false,
+  "mise_en_scene": "Dans un rayon de supermarché. D'abord face caméra avec filtre choqué, puis le téléphone en main qui remplit un quiz sur un site. Un seul texte en haut tout du long.",
+  "hooks": [
+   "reaction",
+   "pattern-interrupt",
+   "cible"
+  ],
+  "point_sensible": "Être coincé au SMIC et voir les autres gagner des milliers d'euros",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "filtre « gros yeux » + texte « 5 ans de SMIC et je découvre ça que MTN 😭 »"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "« 5 ans de SMIC » dans le texte du haut"
+   },
+   "outil_nomme": {
+    "t": null,
+    "quoi": "jamais dit à l'oral ; le nom « TrendSaaS.ai » apparaît en haut du téléphone à partir de 16 s"
+   },
+   "outil_montre": {
+    "t": 5,
+    "quoi": "téléphone en main, site trendsaas.ai, quiz « Quel revenu veux-tu atteindre ? »"
+   },
+   "preuve": {
+    "t": null,
+    "quoi": "aucune preuve, juste des chiffres hypothétiques du quiz (6 817 €, 10 901 €)"
+   },
+   "fin": {
+    "t": 26,
+    "quoi": "la page du site qui se charge, pas de CTA parlé"
+   }
+  },
+  "montre_comment": "téléphone filmé à la main, à bout de bras, pendant qu'il remplit le quiz du site",
+  "cta": "aucun CTA parlé ; le site s'affiche en haut (trendsaas.ai)",
+  "montage": "un seul texte en haut qui ne bouge jamais, filtre « gros yeux » sur le visage, cut net vers le téléphone en main. Zéro voix, juste une musique et un « Oh! ». 26 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Filtre choqué + un texte fort = pattern-interrupt gratuit, à voler."
+   },
+   {
+    "ok": "oui",
+    "texte": "Téléphone en main, pas capture d'écran : ça bouge, ça fait vrai."
+   },
+   {
+    "ok": "oui",
+    "texte": "Supermarché, pas un bureau : contexte de vie, pas de pub."
+   },
+   {
+    "ok": "non",
+    "texte": "Aucune preuve : juste un quiz qui invente un chiffre. Chez nous, il faut un vrai résultat (verdict Screen My Car, fiche Revizio, compteur de vues MS Clipper)."
+   },
+   {
+    "ok": "bof",
+    "texte": "Outil jamais nommé à l'oral. On lit « TrendSaaS.ai » en haut du téléphone, mais c'est petit."
+   },
+   {
+    "ok": "oui",
+    "texte": "26 s, muet, musique : parfait pour notre format court."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un filtre « gros yeux » TikTok, un supermarché, un téléphone, l'app",
+   "temps": "15 min",
+   "niveau": "facile"
+  },
+  "stats": {
+   "vues": 102200,
+   "likes": 1544,
+   "partages": 77,
+   "commentaires": 28,
+   "abonnes": 251
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "approuvee_le": "2026-10-22T00:03:08",
+  "duree": 26.4,
+  "transcription": [
+   {
+    "debut": 3.2,
+    "fin": 3.7,
+    "texte": "Oh!"
+   }
+  ]
+ },
+ {
+  "id": "t69608711",
+  "fichier": "tiktok-7696745892069608711-realdannydowns.mp4",
+  "compte": "@realdannydowns",
+  "plateforme": "TikTok",
+  "marche": "US",
+  "lien": "https://www.tiktok.com/@realdannydowns/video/7696745892069608711",
+  "niche": "argent, humour",
+  "format": "face-camera",
+  "titre": "« ChatGPT, millionnaire en 30 jours ? » — « Get a job » (perruque bol + moustache)",
+  "sujet": "Un mec avec une grosse toque noire en bonnet et une moustache demande à ChatGPT en vocal : « comment devenir millionnaire en 30 jours ? ». ChatGPT répond « Get a job. » Il halluсine, puis relance : « et si je veux pas de job ? ». 12 secondes, un seul plan, zéro effet.",
+  "tags": [
+   "ChatGPT vocal",
+   "perruque bol",
+   "moustache",
+   "millionnaire",
+   "Get a job",
+   "12 secondes",
+   "pattern-interrupt"
+  ],
+  "hook": {
+   "dit": "Chad, Chad GBT, Chad GBT, how I become a millionaire in 30 days? (Chad, Chad GBT, Chad GBT, comment je deviens millionnaire en 30 jours ?)",
+   "voit": "un mec de face dans un parking, une énorme toque noire sur la tête (comme un chapeau de cuisinier affaissé), une petite moustache, grosse chaîne en or, montre dorée, sweat blanc. Il tient son téléphone près de sa bouche et parle à ChatGPT en vocal."
+  },
+  "texte_ecran": [],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 5.7,
+    "voit": "le mec de profil, téléphone collé à la bouche, grosse toque qui tangue. Il insiste : « Chad, Chad GBT, Chad GBT… ».",
+    "entend": "« Chad, Chad GBT, Chad GBT, how I become a millionaire in 30 days ? »"
+   },
+   {
+    "debut": 5.7,
+    "fin": 6.8,
+    "voit": "il écoute la réponse, bouche entrouverte, regard un peu perdu.",
+    "entend": "la voix de ChatGPT : « Get a job. »"
+   },
+   {
+    "debut": 6.8,
+    "fin": 8.6,
+    "voit": "il se tourne vers la caméra, bouche grande ouverte, choqué par la réponse.",
+    "entend": "« Bro, what are they talking about ? »"
+   },
+   {
+    "debut": 8.6,
+    "fin": 12.1,
+    "voit": "il recolle le téléphone à la bouche et relance sa question, plus fort.",
+    "entend": "« Chad GBT, what if you don't want to get a job and you want to be a millionaire ? »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🎩",
+    "titre": "La toque et la moustache",
+    "texte": "Un bonnet énorme qui tient tout seul en l'air, une petite moustache, une chaîne en or. On n'a jamais vu ça : le pouce s'arrête."
+   },
+   {
+    "emoji": "🗣️",
+    "titre": "« Chad GBT »",
+    "texte": "Il prononce ChatGPT à sa façon, trois fois de suite. Rien que ça, ça fait sourire."
+   },
+   {
+    "emoji": "💭",
+    "titre": "La question que tout le monde se pose",
+    "texte": "« Comment devenir millionnaire en 30 jours ? » : rêve universel, demandé tout fort à une IA."
+   },
+   {
+    "emoji": "🧊",
+    "titre": "« Get a job »",
+    "texte": "La réponse la plus plate du monde, dite par une voix de robot. Le décalage fait rire tout seul."
+   },
+   {
+    "emoji": "😵",
+    "titre": "« Bro, what are they talking about ? »",
+    "texte": "Sa réaction choquée, en direct. Le visage dit ce qu'on pense : « sérieux ? »."
+   },
+   {
+    "emoji": "🔁",
+    "titre": "Il relance quand même",
+    "texte": "« Et si je veux pas de job ? » : il insiste, comme un gamin. On veut la suite."
+   },
+   {
+    "emoji": "⏱️",
+    "titre": "12 secondes, zéro gras",
+    "texte": "Un seul plan, pas de musique, pas de texte. Que la vanne. On la regarde deux fois."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "msclipper",
+    "hook": "« ChatGPT, comment je deviens millionnaire en 30 jours ? » — « Prends un travail. »",
+    "comment": "Même mécanique : tu demandes à ChatGPT en vocal, il te sort la réponse la plus plate. Tu fais la tête choquée, puis tu dis : « ou alors tu postes des vidéos et tu te fais payer à la vue — MS Clipper. » 15 s, un seul plan, un chapeau rigolo si tu veux faire comme lui."
+   },
+   {
+    "app": "smc",
+    "hook": "« ChatGPT, comment j'achète une occase sans me faire arnaquer ? » — « Regarde bien l'annonce. »",
+    "comment": "Tu demandes en vocal, ChatGPT te répond un truc évident. Tu halluсines face caméra, puis : « ou alors tu colles l'annonce dans Screen My Car, et tu sais en 10 secondes si tu dois fuir. » Même durée, même ton."
+   },
+   {
+    "app": "revizio",
+    "hook": "« ChatGPT, comment j'ai 20 au bac demain ? » — « Révise. »",
+    "comment": "Même format : vocal, réponse plate, tête choquée, relance. « Ou alors tu balances ton cours dans Revizio, ça te fait les fiches et le quiz, et tu révises en jouant. »"
+   }
+  ],
+  "note": "<b>À remarquer :</b> la vidéo fait 12 secondes et 3,7 M de vues avec 10 700 abonnés. Le ratio est énorme (320 900 likes, 81 900 partages). Trois ingrédients : un personnage visuellement unique (toque + moustache), une question universelle, une chute en un mot (« Get a job »). Pas de montage, pas de texte, pas de musique — juste la vanne.",
+  "reprise": false,
+  "mise_en_scene": "Un seul plan fixe, dehors dans un parking. Le mec de profil/trois-quarts, téléphone près de la bouche en mode vocal ChatGPT. Pas de coupe, pas d'incrustation, pas de texte.",
+  "hooks": [
+   "pattern-interrupt",
+   "question",
+   "chiffre"
+  ],
+  "point_sensible": "Vouloir devenir riche vite, sans travailler",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Chad GBT, comment je deviens millionnaire en 30 jours ? »"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "devenir millionnaire sans effort"
+   },
+   "outil_nomme": {
+    "t": 0,
+    "quoi": "« Chad GBT » (ChatGPT) dès le premier mot"
+   },
+   "outil_montre": {
+    "t": null,
+    "quoi": "jamais : on n'entend que la voix, on ne voit pas l'écran"
+   },
+   "preuve": {
+    "t": null,
+    "quoi": "aucune preuve, la vidéo est une vanne pas un tuto"
+   },
+   "fin": {
+    "t": 8.6,
+    "quoi": "« et si je veux pas de job et je veux être millionnaire ? » — pas de CTA"
+   }
+  },
+  "montre_comment": "rien à l'écran, juste la voix de ChatGPT via le haut-parleur du téléphone",
+  "cta": "aucun",
+  "montage": "un seul plan, pas de coupe, pas de texte, pas de musique. 12 secondes.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "La vanne et le personnage portent toute la vidéo : pas besoin de budget."
+   },
+   {
+    "ok": "oui",
+    "texte": "L'outil (ChatGPT) nommé dès la seconde 0, en boucle."
+   },
+   {
+    "ok": "non",
+    "texte": "Pas de solution concrète : ChatGPT dit « prends un job ». Chez nous, il faut que l'app règle vraiment le problème (MS Clipper paie à la vue, Screen My Car tranche, Revizio fait les fiches)."
+   },
+   {
+    "ok": "bof",
+    "texte": "12 secondes : plus court que nos 30-60 s, mais la chute tombe net."
+   },
+   {
+    "ok": "oui",
+    "texte": "Zéro vidéo reprise, zéro capture d'écran : propre à refaire."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un téléphone avec ChatGPT en vocal, un chapeau ou un accessoire qui sort de l'ordinaire, dehors",
+   "temps": "15 min",
+   "niveau": "facile"
+  },
+  "stats": {
+   "vues": 3700000,
+   "likes": 320900,
+   "partages": 81900,
+   "enregistrements": 23122,
+   "commentaires": 3025,
+   "abonnes": 10700
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "approuvee_le": "2026-10-22T00:02:42",
+  "duree": 12.1,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 4.2,
+    "texte": "Chad, Chad GBT, Chad GBT, how I become a millionaire in 30 days?"
+   },
+   {
+    "debut": 5.7,
+    "fin": 6.6,
+    "texte": "Get a job."
+   },
+   {
+    "debut": 6.8,
+    "fin": 8.2,
+    "texte": "Bro, what are they talking about?"
+   },
+   {
+    "debut": 8.6,
+    "fin": 11.7,
+    "texte": "Chad GBT, what if you don't want to get a job and you want to be a millionaire?"
+   }
+  ]
+ },
+ {
+  "id": "t46589974",
+  "fichier": "tiktok-7696598752546589974-j_banj.mp4",
+  "compte": "@j_banj",
+  "plateforme": "TikTok",
+  "marche": "US",
+  "lien": "https://www.tiktok.com/@j_banj/video/7696598752546589974",
+  "niche": "ChatGPT, humour",
+  "format": "face-camera",
+  "titre": "« Chat GPT, comment devenir millionnaire en 30 jours ? » — « Trouve un boulot. »",
+  "sujet": "Un ado seul dehors, téléphone à la main, parle à ChatGPT en vocal. Il demande comment devenir millionnaire en 30 jours. ChatGPT répond froidement « Trouve un boulot ». Il est outré, il relance. Mini-sketch, zéro écran montré.",
+  "tags": [
+   "ChatGPT",
+   "vocal",
+   "sketch",
+   "ado",
+   "millionnaire",
+   "réaction",
+   "dehors"
+  ],
+  "hook": {
+   "dit": "Chat GPT, chat GPT, how I become a millionaire in 30 days? (Chat GPT, Chat GPT, comment je deviens millionnaire en 30 jours ?)",
+   "voit": "un ado en sweat noir « FUTUR », dehors sur un parking, téléphone collé à la bouche. Texte blanc en haut : « that one friend who asks chat gbt everything: »."
+  },
+  "texte_ecran": [
+   "that one friend who asks chat gbt everything:"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 5,
+    "voit": "l'ado dehors, téléphone près de la bouche, l'air sérieux, un peu agité.",
+    "entend": "« Chat GPT, Chat GPT, comment je deviens millionnaire en 30 jours ? »"
+   },
+   {
+    "debut": 5,
+    "fin": 7,
+    "voit": "il attend, regarde le téléphone, bouche entrouverte.",
+    "entend": "la voix de ChatGPT, sèche : « Trouve un boulot. »"
+   },
+   {
+    "debut": 7,
+    "fin": 9,
+    "voit": "il recule la tête, air outré, il parle à la caméra.",
+    "entend": "« Mais frère, de quoi il parle ?! »"
+   },
+   {
+    "debut": 9,
+    "fin": 13,
+    "voit": "il relance, téléphone à la bouche, en marchant un peu.",
+    "entend": "« Chat GPT, et si tu veux pas d'un boulot et que tu veux être millionnaire ? »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🎙️",
+    "titre": "ChatGPT en vocal, zéro écran",
+    "texte": "On ne voit jamais l'app. On entend juste la voix robotique qui répond. C'est la bande-son qui fait la vidéo."
+   },
+   {
+    "emoji": "💸",
+    "titre": "« Millionnaire en 30 jours »",
+    "texte": "Une question énorme, naïve, que tout le monde a déjà pensée en secret."
+   },
+   {
+    "emoji": "🥶",
+    "titre": "La réponse qui douche : « Get a job »",
+    "texte": "Trois mots, cash. L'IA casse le rêve en une seconde. C'est le punch."
+   },
+   {
+    "emoji": "😤",
+    "titre": "La vraie réaction",
+    "texte": "« Bro, what are they talking about ?! » On croit à son indignation : c'est pas joué, c'est vécu."
+   },
+   {
+    "emoji": "🏷️",
+    "titre": "Le texte « that one friend who asks chat gbt everything »",
+    "texte": "Même sans le son, on sait que c'est lui, le pote qui demande TOUT à l'IA. On se reconnaît ou on reconnaît un pote."
+   },
+   {
+    "emoji": "⏱️",
+    "titre": "13 secondes, c'est tout",
+    "texte": "Question, réponse, réaction, relance. Pas une seconde de trop. Replay garanti."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "« Chat GPT, elle vaut combien cette caisse à 2 500 € sur Leboncoin ? »",
+    "comment": "Tu es dehors, téléphone à la bouche. Texte en haut : « ce pote qui demande à ChatGPT d'acheter sa voiture ». ChatGPT répond un truc nul (« ça dépend »). Tu fais une tête outrée. Tu enchaînes : « Non en fait j'ai fait un Screen My Car, verdict en 3 secondes : FUIR. » Incrustation du résultat en bas à gauche."
+   },
+   {
+    "app": "revizio",
+    "hook": "« Chat GPT, comment j'ai 20 à mon bac demain ? »",
+    "comment": "Même mise en scène, dehors, téléphone à la bouche. ChatGPT : « Révise. » Toi, outré : « Mais frère, de quoi il parle ?! » Puis : « J'ai fait un Revizio, photo du cours, fiches + quiz, 18/20 au blanc. »"
+   },
+   {
+    "app": "msclipper",
+    "hook": "« Chat GPT, comment je me fais 1 000 € ce mois-ci sans bosser 8h par jour ? »",
+    "comment": "ChatGPT : « Trouve un boulot. » Tu lèves les yeux au ciel. Tu enchaînes : « Non en fait je poste des clips sur MS Clipper, je suis payé à la vue. » Incrustation du dashboard en bas à gauche."
+   }
+  ],
+  "note": "<b>À remarquer :</b> 3,5 M de vues avec 2 938 abonnés. Zéro montage, zéro écran, un seul plan, un seul texte. Juste une vraie question + la réponse froide de l'IA + une vraie réaction. La vidéo tient sur la voix de ChatGPT en vocal : c'est elle qui fait le punch, pas le créateur.",
+  "reprise": false,
+  "mise_en_scene": "Un seul plan, dehors sur un parking, l'ado seul, téléphone à la bouche en mode vocal ChatGPT. Un texte blanc fixe en haut tout du long. Rien d'autre.",
+  "hooks": [
+   "question",
+   "marque",
+   "resultat"
+  ],
+  "point_sensible": "Vouloir devenir riche vite sans bosser",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Chat GPT, comment je deviens millionnaire en 30 jours ? »"
+   },
+   "probleme": {
+    "t": 5,
+    "quoi": "ChatGPT répond « Get a job » — la douche froide"
+   },
+   "outil_nomme": {
+    "t": 0,
+    "quoi": "« Chat GPT, Chat GPT »"
+   },
+   "outil_montre": {
+    "t": null,
+    "quoi": "jamais : on ne voit pas l'écran, on entend juste la voix"
+   },
+   "preuve": {
+    "t": null,
+    "quoi": "aucune preuve, c'est un sketch"
+   },
+   "fin": {
+    "t": 9,
+    "quoi": "relance : « et si tu veux pas d'un boulot ? »"
+   }
+  },
+  "montre_comment": "pas d'écran, juste la voix de ChatGPT en vocal + un texte fixe en haut",
+  "cta": "aucun (chute ouverte)",
+  "montage": "un seul plan brut, pas de coupe, un texte blanc fixe en haut. 13 secondes.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "13 secondes, format parfait : court, punchy, replay facile."
+   },
+   {
+    "ok": "oui",
+    "texte": "L'outil (ChatGPT) nommé dès la seconde 0."
+   },
+   {
+    "ok": "oui",
+    "texte": "Une vraie vanne : la réponse de l'IA fait la chute."
+   },
+   {
+    "ok": "non",
+    "texte": "Aucun écran montré : pour nous, il FAUT voir Screen My Car ou Revizio à l'écran (téléphone en main ou incrust bas-gauche)."
+   },
+   {
+    "ok": "bof",
+    "texte": "Aucune preuve, aucun résultat : marche en sketch, mais chez nous le résultat doit arriver."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un téléphone, ChatGPT vocal, un lieu dehors, un texte fixe en haut",
+   "temps": "10 min",
+   "niveau": "facile"
+  },
+  "stats": {
+   "vues": 3500000,
+   "likes": 375600,
+   "partages": 40700,
+   "enregistrements": 21451,
+   "commentaires": 1319,
+   "abonnes": 2938
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "approuvee_le": "2026-10-22T00:01:46",
+  "duree": 13.1,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 4.1,
+    "texte": "Chat GBT, chat GBT, how I become a millionaire in 30 days?"
+   },
+   {
+    "debut": 5.6,
+    "fin": 6.5,
+    "texte": "Get a job."
+   },
+   {
+    "debut": 6.8,
+    "fin": 8.1,
+    "texte": "Bro, what are they talking about?"
+   },
+   {
+    "debut": 8.6,
+    "fin": 11.7,
+    "texte": "Chat GBT, what if you don't want to get a job and you want to be a millionaire?"
+   }
+  ]
+ },
+ {
   "id": "t76265741",
   "fichier": "tiktok-7696291618076265741-boby.biggsjohnson.mp4",
   "compte": "@boby.biggsjohnson",
@@ -4979,823 +5800,6 @@
     "debut": 68.2,
     "fin": 72.2,
     "texte": "Donc j'ai utilisé le lien qu'il utilise, et j'ai fait 1500 euros en une seule vidéo."
-   }
-  ]
- },
- {
-  "id": "t20439584",
-  "fichier": "tiktok-7696924097120439584-6min_ai.mp4",
-  "compte": "@6min_ai",
-  "plateforme": "TikTok",
-  "marche": "FR",
-  "lien": "https://www.tiktok.com/@6min_ai/video/7696924097120439584",
-  "niche": "argent, side business",
-  "format": "choque",
-  "titre": "5 ans de SMIC et je découvre TrendSaaS (face choquée, supermarché)",
-  "sujet": "Un gars dans un rayon de supermarché, filtre « gros yeux » et bouche grande ouverte, texte en haut : « 5 ans de SMIC et je découvre ça que MTN 😭 ». Puis son téléphone en main : un quiz sur trendsaas.ai qui lui promet un revenu chiffré (12 160 €, 14 840 €, 10 901 €). Zéro parole, juste un « Oh! » et une musique.",
-  "tags": [
-   "choqué",
-   "filtre gros yeux",
-   "SMIC",
-   "supermarché",
-   "téléphone en main",
-   "quiz",
-   "TrendSaaS"
-  ],
-  "hook": {
-   "dit": "(pas de parole, juste un « Oh! » à 3 s)",
-   "voit": "un gars dans un rayon de supermarché, filtre « gros yeux » + bouche grande ouverte, chaîne argentée, pull gris. Texte en haut : « 5 ans de SMIC et je découvre ça que MTN 😭 »."
-  },
-  "texte_ecran": [
-   "5 ans de SMIC et je découvre ça que MTN 😭",
-   "Quel revenu veux-tu atteindre ?",
-   "0 €",
-   "12,160 €",
-   "14,840 €",
-   "Sur quoi tu veux recevoir tes paiements ? (Stripe, PayPal, Revolut, Wise)",
-   "D'ici quand tu dois avoir tes premières ventes ?",
-   "Tu veux tout faire derrière ton téléphone ?",
-   "Tu veux qu'on le fasse à ta place ?",
-   "On chiffre ton potentiel",
-   "6,817 €",
-   "10,901 €"
-  ],
-  "etapes": [
-   {
-    "debut": 0,
-    "fin": 5,
-    "voit": "le gars face caméra, filtre « gros yeux » + bouche ouverte, dans un rayon de supermarché. Texte en haut qui ne bouge pas.",
-    "entend": "juste la musique, puis un « Oh! » à 3 s."
-   },
-   {
-    "debut": 5,
-    "fin": 10,
-    "voit": "transition vers son téléphone en main, toujours dans le supermarché. Site trendsaas.ai : « Quel revenu veux-tu atteindre ? », curseur qui monte de 0 € à 12 160 €.",
-    "entend": "musique."
-   },
-   {
-    "debut": 10,
-    "fin": 16,
-    "voit": "le curseur continue à 14 840 €, « Continuer », puis l'écran des paiements : Stripe, PayPal, Revolut, Wise. Il tape.",
-    "entend": "musique."
-   },
-   {
-    "debut": 16,
-    "fin": 22,
-    "voit": "« D'ici quand tu dois avoir tes premières ventes ? », puis « Tu veux tout faire derrière ton téléphone ? », puis « Tu veux qu'on le fasse à ta place ? ». Il appuie sur « Oui ».",
-    "entend": "musique."
-   },
-   {
-    "debut": 22,
-    "fin": 26,
-    "voit": "écran « On chiffre ton potentiel. » qui calcule : 6 817 €, puis 10 901 €, puis une page avec une barre de progression (« 16 »).",
-    "entend": "musique."
-   }
-  ],
-  "pourquoi": [
-   {
-    "emoji": "😳",
-    "titre": "Le filtre « gros yeux »",
-    "texte": "Les yeux énormes et la bouche ouverte, on n'a pas l'habitude. Le pouce s'arrête tout seul."
-   },
-   {
-    "emoji": "🛒",
-    "titre": "Le supermarché",
-    "texte": "Un rayon de courses, pas un bureau. On croit à un vrai moment de vie, pas à une pub."
-   },
-   {
-    "emoji": "💼",
-    "titre": "« 5 ans de SMIC »",
-    "texte": "Une phrase qui parle à tout le monde. Si tu bosses au SMIC, tu te sens visé."
-   },
-   {
-    "emoji": "📱",
-    "titre": "Le téléphone en main",
-    "texte": "Pas une capture d'écran propre : ça bouge, c'est vrai. Comme si on regardait par-dessus son épaule."
-   },
-   {
-    "emoji": "🔢",
-    "titre": "Les chiffres qui défilent",
-    "texte": "0 €, 12 160 €, 14 840 €, 10 901 €. Les montants bougent devant toi, on veut voir le total."
-   },
-   {
-    "emoji": "🤫",
-    "titre": "Zéro parole",
-    "texte": "Pas un mot. Juste la musique et les textes du site. Les gens lisent, ça les tient."
-   }
-  ],
-  "refaire": [
-   {
-    "app": "msclipper",
-    "hook": "5 ans de SMIC et je découvre ça que MTN 😭. Filtre « gros yeux », rayon de supermarché, téléphone en main.",
-    "comment": "Même mise en scène : filtre choqué + supermarché. Puis le téléphone en main qui ouvre MS Clipper : on crée un compte, on poste un clip, on voit le compteur des vues monter. À la fin, le solde en euros qui s'affiche. Zéro parole, musique."
-   },
-   {
-    "app": "smc",
-    "hook": "5 ans de SMIC et je découvre que je peux pas acheter cette voiture 😭.",
-    "comment": "Filtre choqué devant la vitrine d'un concessionnaire. Puis le téléphone en main : on colle l'annonce dans Screen My Car, le verdict tombe : « Fuis ». Texte à l'écran : « 5 ans d'économies sauvées »."
-   },
-   {
-    "app": "revizio",
-    "hook": "5 ans d'études et je découvre ça que MTN 😭.",
-    "comment": "Filtre choqué dans un couloir de fac. Puis Revizio en main : photo du cours, les fiches sortent, le quiz, 20/20. Texte à l'écran : « Si seulement j'avais eu ça au lycée »."
-   }
-  ],
-  "note": "<b>À remarquer :</b> le compte @6min_ai a 251 abonnés et fait 102 000 vues sur cette vidéo. Preuve que la mécanique (filtre choqué + un texte, muet, 26 s) peut faire exploser un petit compte. <b>Le piège :</b> trendsaas.ai promet un revenu sans rien livrer, juste un quiz. Chez nous, il faut un vrai résultat à l'écran.",
-  "reprise": false,
-  "mise_en_scene": "Dans un rayon de supermarché. D'abord face caméra avec filtre choqué, puis le téléphone en main qui remplit un quiz sur un site. Un seul texte en haut tout du long.",
-  "hooks": [
-   "reaction",
-   "pattern-interrupt",
-   "cible"
-  ],
-  "point_sensible": "Être coincé au SMIC et voir les autres gagner des milliers d'euros",
-  "chrono": {
-   "hook": {
-    "t": 0,
-    "quoi": "filtre « gros yeux » + texte « 5 ans de SMIC et je découvre ça que MTN 😭 »"
-   },
-   "probleme": {
-    "t": 0,
-    "quoi": "« 5 ans de SMIC » dans le texte du haut"
-   },
-   "outil_nomme": {
-    "t": null,
-    "quoi": "jamais dit à l'oral ; le nom « TrendSaaS.ai » apparaît en haut du téléphone à partir de 16 s"
-   },
-   "outil_montre": {
-    "t": 5,
-    "quoi": "téléphone en main, site trendsaas.ai, quiz « Quel revenu veux-tu atteindre ? »"
-   },
-   "preuve": {
-    "t": null,
-    "quoi": "aucune preuve, juste des chiffres hypothétiques du quiz (6 817 €, 10 901 €)"
-   },
-   "fin": {
-    "t": 26,
-    "quoi": "la page du site qui se charge, pas de CTA parlé"
-   }
-  },
-  "montre_comment": "téléphone filmé à la main, à bout de bras, pendant qu'il remplit le quiz du site",
-  "cta": "aucun CTA parlé ; le site s'affiche en haut (trendsaas.ai)",
-  "montage": "un seul texte en haut qui ne bouge jamais, filtre « gros yeux » sur le visage, cut net vers le téléphone en main. Zéro voix, juste une musique et un « Oh! ». 26 s.",
-  "chez_nous": [
-   {
-    "ok": "oui",
-    "texte": "Filtre choqué + un texte fort = pattern-interrupt gratuit, à voler."
-   },
-   {
-    "ok": "oui",
-    "texte": "Téléphone en main, pas capture d'écran : ça bouge, ça fait vrai."
-   },
-   {
-    "ok": "oui",
-    "texte": "Supermarché, pas un bureau : contexte de vie, pas de pub."
-   },
-   {
-    "ok": "non",
-    "texte": "Aucune preuve : juste un quiz qui invente un chiffre. Chez nous, il faut un vrai résultat (verdict Screen My Car, fiche Revizio, compteur de vues MS Clipper)."
-   },
-   {
-    "ok": "bof",
-    "texte": "Outil jamais nommé à l'oral. On lit « TrendSaaS.ai » en haut du téléphone, mais c'est petit."
-   },
-   {
-    "ok": "oui",
-    "texte": "26 s, muet, musique : parfait pour notre format court."
-   }
-  ],
-  "pour_refaire": {
-   "materiel": "un filtre « gros yeux » TikTok, un supermarché, un téléphone, l'app",
-   "temps": "15 min",
-   "niveau": "facile"
-  },
-  "stats": {
-   "vues": 102200,
-   "likes": 1544,
-   "partages": 77,
-   "commentaires": 28,
-   "abonnes": 251
-  },
-  "ordre": 0,
-  "ajout": "automatique",
-  "duree": 26.4,
-  "transcription": [
-   {
-    "debut": 3.2,
-    "fin": 3.7,
-    "texte": "Oh!"
-   }
-  ]
- },
- {
-  "id": "t24401440",
-  "fichier": "tiktok-7697241423124401440-alex.brtnn.mp4",
-  "compte": "@alex.brtnn",
-  "plateforme": "TikTok",
-  "marche": "FR",
-  "lien": "https://www.tiktok.com/@alex.brtnn/video/7697241423124401440",
-  "niche": "sommeil, stress",
-  "format": "flow",
-  "titre": "« Comment elle arrive à trouver ça ? » (Quieto, le mec qui a supprimé sa vidéo)",
-  "sujet": "Un gars torse nu avec casquette, en extérieur, raconte qu'un autre créateur a supprimé sa vidéo parce qu'elle marchait trop fort — mais lui l'a enregistrée. On écoute la voix de l'autre pendant qu'il filme son téléphone en main : l'app Quieto fait un test de santé, chatte avec toi, et te génère un programme de méditation du soir pour mieux dormir.",
-  "tags": [
-   "Quieto",
-   "sommeil",
-   "anxiété",
-   "torse nu",
-   "fruit interdit",
-   "téléphone en main",
-   "IA à mémoire"
-  ],
-  "hook": {
-   "dit": "Les gars, dites-vous, ce mec, il a supprimé sa vidéo parce qu'elle faisait trop de vues, mais je l'ai enregistré, écoutez ce qu'il dit.",
-   "voit": "un gars torse nu, casquette noire, ciel bleu derrière (plage/bateau). Texte blanc en haut : « Comment elle arrive à trouver ça ? »."
-  },
-  "texte_ecran": [
-   "Comment elle arrive à trouver ça ?"
-  ],
-  "etapes": [
-   {
-    "debut": 0,
-    "fin": 12,
-    "voit": "le gars face caméra, torse nu, casquette noire, extérieur plein soleil. Il parle, il sourit, il lève le doigt.",
-    "entend": "le hook : « ce mec a supprimé sa vidéo parce qu'elle faisait trop de vues, mais je l'ai enregistré, écoutez ce qu'il dit »."
-   },
-   {
-    "debut": 12,
-    "fin": 24,
-    "voit": "le téléphone en main, dehors (poubelle en métal au sol). Écran d'accueil iPhone, puis ouverture d'une app : liste de catégories de santé, un clavier qui tape. Le visage du créateur reste en petit, en bas à gauche.",
-    "entend": "la voix de « l'autre » qui enchaîne (coupée dans les sous-titres), il remplit un test de santé dans l'app."
-   },
-   {
-    "debut": 24,
-    "fin": 36,
-    "voit": "l'app Quieto : « Bel après-midi Paul », catégories de méditation, puis un chat avec l'IA (bulles bleues et vertes). Insert du gars toujours en bas.",
-    "entend": "« pour être moins anxieux par rapport au résultat du test de santé que vous venez de faire, et là, vous avez juste à cliquer sur créer mon programme »."
-   },
-   {
-    "debut": 36,
-    "fin": 45,
-    "voit": "le bouton « créer mon programme », puis une barre de chargement : 80 %, 100 %. Le téléphone bouge dans la main.",
-    "entend": "« en fonction de tout ce qu'elle connaît sur vous, de vos habitudes, de ce qui vous rend anxieux, de toutes vos discussions, parce qu'elle a une mémoire, elle va vous faire votre programme »."
-   },
-   {
-    "debut": 45,
-    "fin": 52,
-    "voit": "écran « Ma première méditation », un bouton play rond en bas.",
-    "entend": "« ça a fini de charger, vous avez juste à faire écouter la première séance, vous cliquez là, vous mettez une séance chaque soir avant de dormir, et je vous jure, c'est… »."
-   }
-  ],
-  "pourquoi": [
-   {
-    "emoji": "🚫",
-    "titre": "« Il a supprimé sa vidéo »",
-    "texte": "Le fruit interdit : si c'était si bien que ça a été effacé, on veut absolument le voir."
-   },
-   {
-    "emoji": "🎧",
-    "titre": "« Écoutez ce qu'il dit »",
-    "texte": "On ne nous dit pas quoi, juste qu'il faut écouter. Le mystère tient 30 secondes."
-   },
-   {
-    "emoji": "❓",
-    "titre": "« Comment elle arrive à trouver ça ? »",
-    "texte": "Un texte en haut tout du long. Même sans comprendre, on reste pour voir ce qu'« elle » trouve."
-   },
-   {
-    "emoji": "📱",
-    "titre": "Téléphone en main, dehors",
-    "texte": "Pas une capture d'écran propre : ça bouge, il y a le sol, le soleil. On croit que c'est vrai."
-   },
-   {
-    "emoji": "👤",
-    "titre": "Son visage en insert",
-    "texte": "On ne le perd jamais, même quand l'écran prend toute la place. On reste accroché à lui."
-   },
-   {
-    "emoji": "🧠",
-    "titre": "« Elle a une mémoire »",
-    "texte": "L'IA te connaît : tes habitudes, tes angoisses, tes discussions. Ça fait peur et envie en même temps."
-   },
-   {
-    "emoji": "😴",
-    "titre": "« Une séance chaque soir avant de dormir »",
-    "texte": "Une consigne simple, concrète, qu'on peut faire ce soir même."
-   }
-  ],
-  "refaire": [
-   {
-    "app": "smc",
-    "hook": "Les gars, ce vendeur a supprimé son annonce parce que trop de gens avaient flairé l'arnaque. Je l'ai enregistrée, écoutez ce qu'il dit.",
-    "comment": "Toi torse nu/dehors face caméra 5 s pour le hook. Puis téléphone en main : tu colles l'annonce dans Screen My Car, insert de ton visage en bas à gauche, texte en haut tout du long : « Comment elle sait tout ça ? ». Verdict à l'écran : à fuir."
-   },
-   {
-    "app": "revizio",
-    "hook": "Les gars, cette prof a supprimé sa vidéo parce que les élèves cartonnaient trop. Je l'ai enregistré, écoutez.",
-    "comment": "Même mise en scène : hook face caméra, puis téléphone en main sur Revizio. Photo du cours, fiches qui apparaissent, quiz. Insert visage en bas. Texte en haut : « Comment elle sait ce qui va tomber ? ». Fin : « 18/20 »."
-   }
-  ],
-  "note": "<b>À remarquer :</b> 57 abonnés, 67 800 vues. Un énorme ratio porté par le « fruit interdit » (« il a supprimé sa vidéo ») + le mystère (« écoutez ce qu'il dit »). L'app n'est <b>jamais</b> nommée dans la vidéo, seulement en légende — « si j'ai bien compris, c'est Quieto ». C'est volontaire : ça pousse à aller lire les commentaires et la légende.",
-  "reprise": false,
-  "mise_en_scene": "Face caméra torse nu en extérieur pour le hook (12 s), puis téléphone en main filmé dehors avec son visage inséré en bas à gauche jusqu'à la fin. Texte « Comment elle arrive à trouver ça ? » affiché en haut tout du long.",
-  "hooks": [
-   "fruit-interdit",
-   "mystere",
-   "question"
-  ],
-  "point_sensible": "Mal dormir et être anxieux à cause des résultats de santé",
-  "chrono": {
-   "hook": {
-    "t": 0,
-    "quoi": "« ce mec a supprimé sa vidéo parce qu'elle faisait trop de vues, écoutez »"
-   },
-   "probleme": {
-    "t": 30,
-    "quoi": "« pour être moins anxieux par rapport au résultat du test de santé »"
-   },
-   "outil_nomme": {
-    "t": null,
-    "quoi": "jamais nommé à l'oral ; seulement en légende (« si j'ai bien compris c'est Quieto »)"
-   },
-   "outil_montre": {
-    "t": 12,
-    "quoi": "téléphone en main, ouverture de l'app, catégories de santé"
-   },
-   "preuve": {
-    "t": 44,
-    "quoi": "« ça a fini de charger », écran « Ma première méditation » avec bouton play"
-   },
-   "fin": {
-    "t": 50,
-    "quoi": "« une séance chaque soir avant de dormir, et je vous jure c'est… » (coupe)"
-   }
-  },
-  "montre_comment": "téléphone en main filmé dehors, visage du créateur en insert en bas à gauche, texte-question figé en haut",
-  "cta": "aucun CTA explicite (pas de lien, pas de « écrivez-moi »)",
-  "montage": "texte « Comment elle arrive à trouver ça ? » affiché en haut tout du long, visage inséré en bas à gauche dès que l'app est à l'écran, voix off de « l'autre » par-dessus. 52 s, coupe nette à la fin.",
-  "chez_nous": [
-   {
-    "ok": "oui",
-    "texte": "Téléphone en main dans la vraie vie (ça bouge, on voit le sol) : exactement ce qu'on veut."
-   },
-   {
-    "ok": "oui",
-    "texte": "Visage en insert en bas à gauche quand l'app est à l'écran : on garde la tête du créateur, l'écran reste visible."
-   },
-   {
-    "ok": "oui",
-    "texte": "52 s : pile dans la fourchette 30–60 s."
-   },
-   {
-    "ok": "non",
-    "texte": "L'outil n'est jamais nommé à l'oral (ni avant 20 s, ni après). Chez nous : « j'ai fait un Screen My Car » tôt."
-   },
-   {
-    "ok": "bof",
-    "texte": "Pas de vanne, pas de résultat chiffré : ça repose à 100 % sur le mystère du hook."
-   }
-  ],
-  "pour_refaire": {
-   "materiel": "un téléphone, un extérieur ensoleillé, l'app en question, un bout d'audio (le tien ou en voix off)",
-   "temps": "15 min",
-   "niveau": "facile"
-  },
-  "stats": {
-   "vues": 67800,
-   "likes": 476,
-   "partages": 170,
-   "commentaires": 5,
-   "abonnes": 57
-  },
-  "ordre": 0,
-  "ajout": "automatique",
-  "duree": 52.2,
-  "transcription": [
-   {
-    "debut": 0.2,
-    "fin": 5.8,
-    "texte": "Les gars, dites-vous, ce mec, il a supprimé sa vidéo parce qu'elle faisait trop de vues, mais je l'ai enregistré, écoutez ce qu'il dit."
-   },
-   {
-    "debut": 30.2,
-    "fin": 36.1,
-    "texte": "Pour être moins anxieux par rapport au résultat du test de santé que vous venez de faire, et là, vous avez juste à cliquer sur créer mon programme."
-   },
-   {
-    "debut": 36.2,
-    "fin": 44.6,
-    "texte": "Genre là, en fonction de tout ce qu'elle connaît sur vous, de vos habitudes de vie, de ce qui vous rend vraiment anxieux, de toutes vos discussions aussi parce qu'elle a une mémoire, elle va vous faire votre programme."
-   },
-   {
-    "debut": 44.6,
-    "fin": 52.3,
-    "texte": "Donc là, ça a fini de charger, vous avez juste à faire écouter la première séance, vous cliquez là, vous mettez une séance chaque soir avant de dormir, et je vous jure, c'est..."
-   }
-  ]
- },
- {
-  "id": "t46589974",
-  "fichier": "tiktok-7696598752546589974-j_banj.mp4",
-  "compte": "@j_banj",
-  "plateforme": "TikTok",
-  "marche": "US",
-  "lien": "https://www.tiktok.com/@j_banj/video/7696598752546589974",
-  "niche": "ChatGPT, humour",
-  "format": "face-camera",
-  "titre": "« Chat GPT, comment devenir millionnaire en 30 jours ? » — « Trouve un boulot. »",
-  "sujet": "Un ado seul dehors, téléphone à la main, parle à ChatGPT en vocal. Il demande comment devenir millionnaire en 30 jours. ChatGPT répond froidement « Trouve un boulot ». Il est outré, il relance. Mini-sketch, zéro écran montré.",
-  "tags": [
-   "ChatGPT",
-   "vocal",
-   "sketch",
-   "ado",
-   "millionnaire",
-   "réaction",
-   "dehors"
-  ],
-  "hook": {
-   "dit": "Chat GPT, chat GPT, how I become a millionaire in 30 days? (Chat GPT, Chat GPT, comment je deviens millionnaire en 30 jours ?)",
-   "voit": "un ado en sweat noir « FUTUR », dehors sur un parking, téléphone collé à la bouche. Texte blanc en haut : « that one friend who asks chat gbt everything: »."
-  },
-  "texte_ecran": [
-   "that one friend who asks chat gbt everything:"
-  ],
-  "etapes": [
-   {
-    "debut": 0,
-    "fin": 5,
-    "voit": "l'ado dehors, téléphone près de la bouche, l'air sérieux, un peu agité.",
-    "entend": "« Chat GPT, Chat GPT, comment je deviens millionnaire en 30 jours ? »"
-   },
-   {
-    "debut": 5,
-    "fin": 7,
-    "voit": "il attend, regarde le téléphone, bouche entrouverte.",
-    "entend": "la voix de ChatGPT, sèche : « Trouve un boulot. »"
-   },
-   {
-    "debut": 7,
-    "fin": 9,
-    "voit": "il recule la tête, air outré, il parle à la caméra.",
-    "entend": "« Mais frère, de quoi il parle ?! »"
-   },
-   {
-    "debut": 9,
-    "fin": 13,
-    "voit": "il relance, téléphone à la bouche, en marchant un peu.",
-    "entend": "« Chat GPT, et si tu veux pas d'un boulot et que tu veux être millionnaire ? »"
-   }
-  ],
-  "pourquoi": [
-   {
-    "emoji": "🎙️",
-    "titre": "ChatGPT en vocal, zéro écran",
-    "texte": "On ne voit jamais l'app. On entend juste la voix robotique qui répond. C'est la bande-son qui fait la vidéo."
-   },
-   {
-    "emoji": "💸",
-    "titre": "« Millionnaire en 30 jours »",
-    "texte": "Une question énorme, naïve, que tout le monde a déjà pensée en secret."
-   },
-   {
-    "emoji": "🥶",
-    "titre": "La réponse qui douche : « Get a job »",
-    "texte": "Trois mots, cash. L'IA casse le rêve en une seconde. C'est le punch."
-   },
-   {
-    "emoji": "😤",
-    "titre": "La vraie réaction",
-    "texte": "« Bro, what are they talking about ?! » On croit à son indignation : c'est pas joué, c'est vécu."
-   },
-   {
-    "emoji": "🏷️",
-    "titre": "Le texte « that one friend who asks chat gbt everything »",
-    "texte": "Même sans le son, on sait que c'est lui, le pote qui demande TOUT à l'IA. On se reconnaît ou on reconnaît un pote."
-   },
-   {
-    "emoji": "⏱️",
-    "titre": "13 secondes, c'est tout",
-    "texte": "Question, réponse, réaction, relance. Pas une seconde de trop. Replay garanti."
-   }
-  ],
-  "refaire": [
-   {
-    "app": "smc",
-    "hook": "« Chat GPT, elle vaut combien cette caisse à 2 500 € sur Leboncoin ? »",
-    "comment": "Tu es dehors, téléphone à la bouche. Texte en haut : « ce pote qui demande à ChatGPT d'acheter sa voiture ». ChatGPT répond un truc nul (« ça dépend »). Tu fais une tête outrée. Tu enchaînes : « Non en fait j'ai fait un Screen My Car, verdict en 3 secondes : FUIR. » Incrustation du résultat en bas à gauche."
-   },
-   {
-    "app": "revizio",
-    "hook": "« Chat GPT, comment j'ai 20 à mon bac demain ? »",
-    "comment": "Même mise en scène, dehors, téléphone à la bouche. ChatGPT : « Révise. » Toi, outré : « Mais frère, de quoi il parle ?! » Puis : « J'ai fait un Revizio, photo du cours, fiches + quiz, 18/20 au blanc. »"
-   },
-   {
-    "app": "msclipper",
-    "hook": "« Chat GPT, comment je me fais 1 000 € ce mois-ci sans bosser 8h par jour ? »",
-    "comment": "ChatGPT : « Trouve un boulot. » Tu lèves les yeux au ciel. Tu enchaînes : « Non en fait je poste des clips sur MS Clipper, je suis payé à la vue. » Incrustation du dashboard en bas à gauche."
-   }
-  ],
-  "note": "<b>À remarquer :</b> 3,5 M de vues avec 2 938 abonnés. Zéro montage, zéro écran, un seul plan, un seul texte. Juste une vraie question + la réponse froide de l'IA + une vraie réaction. La vidéo tient sur la voix de ChatGPT en vocal : c'est elle qui fait le punch, pas le créateur.",
-  "reprise": false,
-  "mise_en_scene": "Un seul plan, dehors sur un parking, l'ado seul, téléphone à la bouche en mode vocal ChatGPT. Un texte blanc fixe en haut tout du long. Rien d'autre.",
-  "hooks": [
-   "question",
-   "marque",
-   "resultat"
-  ],
-  "point_sensible": "Vouloir devenir riche vite sans bosser",
-  "chrono": {
-   "hook": {
-    "t": 0,
-    "quoi": "« Chat GPT, comment je deviens millionnaire en 30 jours ? »"
-   },
-   "probleme": {
-    "t": 5,
-    "quoi": "ChatGPT répond « Get a job » — la douche froide"
-   },
-   "outil_nomme": {
-    "t": 0,
-    "quoi": "« Chat GPT, Chat GPT »"
-   },
-   "outil_montre": {
-    "t": null,
-    "quoi": "jamais : on ne voit pas l'écran, on entend juste la voix"
-   },
-   "preuve": {
-    "t": null,
-    "quoi": "aucune preuve, c'est un sketch"
-   },
-   "fin": {
-    "t": 9,
-    "quoi": "relance : « et si tu veux pas d'un boulot ? »"
-   }
-  },
-  "montre_comment": "pas d'écran, juste la voix de ChatGPT en vocal + un texte fixe en haut",
-  "cta": "aucun (chute ouverte)",
-  "montage": "un seul plan brut, pas de coupe, un texte blanc fixe en haut. 13 secondes.",
-  "chez_nous": [
-   {
-    "ok": "oui",
-    "texte": "13 secondes, format parfait : court, punchy, replay facile."
-   },
-   {
-    "ok": "oui",
-    "texte": "L'outil (ChatGPT) nommé dès la seconde 0."
-   },
-   {
-    "ok": "oui",
-    "texte": "Une vraie vanne : la réponse de l'IA fait la chute."
-   },
-   {
-    "ok": "non",
-    "texte": "Aucun écran montré : pour nous, il FAUT voir Screen My Car ou Revizio à l'écran (téléphone en main ou incrust bas-gauche)."
-   },
-   {
-    "ok": "bof",
-    "texte": "Aucune preuve, aucun résultat : marche en sketch, mais chez nous le résultat doit arriver."
-   }
-  ],
-  "pour_refaire": {
-   "materiel": "un téléphone, ChatGPT vocal, un lieu dehors, un texte fixe en haut",
-   "temps": "10 min",
-   "niveau": "facile"
-  },
-  "stats": {
-   "vues": 3500000,
-   "likes": 375600,
-   "partages": 40700,
-   "enregistrements": 21451,
-   "commentaires": 1319,
-   "abonnes": 2938
-  },
-  "ordre": 0,
-  "ajout": "automatique",
-  "duree": 13.1,
-  "transcription": [
-   {
-    "debut": 0.0,
-    "fin": 4.1,
-    "texte": "Chat GBT, chat GBT, how I become a millionaire in 30 days?"
-   },
-   {
-    "debut": 5.6,
-    "fin": 6.5,
-    "texte": "Get a job."
-   },
-   {
-    "debut": 6.8,
-    "fin": 8.1,
-    "texte": "Bro, what are they talking about?"
-   },
-   {
-    "debut": 8.6,
-    "fin": 11.7,
-    "texte": "Chat GBT, what if you don't want to get a job and you want to be a millionaire?"
-   }
-  ]
- },
- {
-  "id": "t69608711",
-  "fichier": "tiktok-7696745892069608711-realdannydowns.mp4",
-  "compte": "@realdannydowns",
-  "plateforme": "TikTok",
-  "marche": "US",
-  "lien": "https://www.tiktok.com/@realdannydowns/video/7696745892069608711",
-  "niche": "argent, humour",
-  "format": "face-camera",
-  "titre": "« ChatGPT, millionnaire en 30 jours ? » — « Get a job » (perruque bol + moustache)",
-  "sujet": "Un mec avec une grosse toque noire en bonnet et une moustache demande à ChatGPT en vocal : « comment devenir millionnaire en 30 jours ? ». ChatGPT répond « Get a job. » Il halluсine, puis relance : « et si je veux pas de job ? ». 12 secondes, un seul plan, zéro effet.",
-  "tags": [
-   "ChatGPT vocal",
-   "perruque bol",
-   "moustache",
-   "millionnaire",
-   "Get a job",
-   "12 secondes",
-   "pattern-interrupt"
-  ],
-  "hook": {
-   "dit": "Chad, Chad GBT, Chad GBT, how I become a millionaire in 30 days? (Chad, Chad GBT, Chad GBT, comment je deviens millionnaire en 30 jours ?)",
-   "voit": "un mec de face dans un parking, une énorme toque noire sur la tête (comme un chapeau de cuisinier affaissé), une petite moustache, grosse chaîne en or, montre dorée, sweat blanc. Il tient son téléphone près de sa bouche et parle à ChatGPT en vocal."
-  },
-  "texte_ecran": [],
-  "etapes": [
-   {
-    "debut": 0,
-    "fin": 5.7,
-    "voit": "le mec de profil, téléphone collé à la bouche, grosse toque qui tangue. Il insiste : « Chad, Chad GBT, Chad GBT… ».",
-    "entend": "« Chad, Chad GBT, Chad GBT, how I become a millionaire in 30 days ? »"
-   },
-   {
-    "debut": 5.7,
-    "fin": 6.8,
-    "voit": "il écoute la réponse, bouche entrouverte, regard un peu perdu.",
-    "entend": "la voix de ChatGPT : « Get a job. »"
-   },
-   {
-    "debut": 6.8,
-    "fin": 8.6,
-    "voit": "il se tourne vers la caméra, bouche grande ouverte, choqué par la réponse.",
-    "entend": "« Bro, what are they talking about ? »"
-   },
-   {
-    "debut": 8.6,
-    "fin": 12.1,
-    "voit": "il recolle le téléphone à la bouche et relance sa question, plus fort.",
-    "entend": "« Chad GBT, what if you don't want to get a job and you want to be a millionaire ? »"
-   }
-  ],
-  "pourquoi": [
-   {
-    "emoji": "🎩",
-    "titre": "La toque et la moustache",
-    "texte": "Un bonnet énorme qui tient tout seul en l'air, une petite moustache, une chaîne en or. On n'a jamais vu ça : le pouce s'arrête."
-   },
-   {
-    "emoji": "🗣️",
-    "titre": "« Chad GBT »",
-    "texte": "Il prononce ChatGPT à sa façon, trois fois de suite. Rien que ça, ça fait sourire."
-   },
-   {
-    "emoji": "💭",
-    "titre": "La question que tout le monde se pose",
-    "texte": "« Comment devenir millionnaire en 30 jours ? » : rêve universel, demandé tout fort à une IA."
-   },
-   {
-    "emoji": "🧊",
-    "titre": "« Get a job »",
-    "texte": "La réponse la plus plate du monde, dite par une voix de robot. Le décalage fait rire tout seul."
-   },
-   {
-    "emoji": "😵",
-    "titre": "« Bro, what are they talking about ? »",
-    "texte": "Sa réaction choquée, en direct. Le visage dit ce qu'on pense : « sérieux ? »."
-   },
-   {
-    "emoji": "🔁",
-    "titre": "Il relance quand même",
-    "texte": "« Et si je veux pas de job ? » : il insiste, comme un gamin. On veut la suite."
-   },
-   {
-    "emoji": "⏱️",
-    "titre": "12 secondes, zéro gras",
-    "texte": "Un seul plan, pas de musique, pas de texte. Que la vanne. On la regarde deux fois."
-   }
-  ],
-  "refaire": [
-   {
-    "app": "msclipper",
-    "hook": "« ChatGPT, comment je deviens millionnaire en 30 jours ? » — « Prends un travail. »",
-    "comment": "Même mécanique : tu demandes à ChatGPT en vocal, il te sort la réponse la plus plate. Tu fais la tête choquée, puis tu dis : « ou alors tu postes des vidéos et tu te fais payer à la vue — MS Clipper. » 15 s, un seul plan, un chapeau rigolo si tu veux faire comme lui."
-   },
-   {
-    "app": "smc",
-    "hook": "« ChatGPT, comment j'achète une occase sans me faire arnaquer ? » — « Regarde bien l'annonce. »",
-    "comment": "Tu demandes en vocal, ChatGPT te répond un truc évident. Tu halluсines face caméra, puis : « ou alors tu colles l'annonce dans Screen My Car, et tu sais en 10 secondes si tu dois fuir. » Même durée, même ton."
-   },
-   {
-    "app": "revizio",
-    "hook": "« ChatGPT, comment j'ai 20 au bac demain ? » — « Révise. »",
-    "comment": "Même format : vocal, réponse plate, tête choquée, relance. « Ou alors tu balances ton cours dans Revizio, ça te fait les fiches et le quiz, et tu révises en jouant. »"
-   }
-  ],
-  "note": "<b>À remarquer :</b> la vidéo fait 12 secondes et 3,7 M de vues avec 10 700 abonnés. Le ratio est énorme (320 900 likes, 81 900 partages). Trois ingrédients : un personnage visuellement unique (toque + moustache), une question universelle, une chute en un mot (« Get a job »). Pas de montage, pas de texte, pas de musique — juste la vanne.",
-  "reprise": false,
-  "mise_en_scene": "Un seul plan fixe, dehors dans un parking. Le mec de profil/trois-quarts, téléphone près de la bouche en mode vocal ChatGPT. Pas de coupe, pas d'incrustation, pas de texte.",
-  "hooks": [
-   "pattern-interrupt",
-   "question",
-   "chiffre"
-  ],
-  "point_sensible": "Vouloir devenir riche vite, sans travailler",
-  "chrono": {
-   "hook": {
-    "t": 0,
-    "quoi": "« Chad GBT, comment je deviens millionnaire en 30 jours ? »"
-   },
-   "probleme": {
-    "t": 0,
-    "quoi": "devenir millionnaire sans effort"
-   },
-   "outil_nomme": {
-    "t": 0,
-    "quoi": "« Chad GBT » (ChatGPT) dès le premier mot"
-   },
-   "outil_montre": {
-    "t": null,
-    "quoi": "jamais : on n'entend que la voix, on ne voit pas l'écran"
-   },
-   "preuve": {
-    "t": null,
-    "quoi": "aucune preuve, la vidéo est une vanne pas un tuto"
-   },
-   "fin": {
-    "t": 8.6,
-    "quoi": "« et si je veux pas de job et je veux être millionnaire ? » — pas de CTA"
-   }
-  },
-  "montre_comment": "rien à l'écran, juste la voix de ChatGPT via le haut-parleur du téléphone",
-  "cta": "aucun",
-  "montage": "un seul plan, pas de coupe, pas de texte, pas de musique. 12 secondes.",
-  "chez_nous": [
-   {
-    "ok": "oui",
-    "texte": "La vanne et le personnage portent toute la vidéo : pas besoin de budget."
-   },
-   {
-    "ok": "oui",
-    "texte": "L'outil (ChatGPT) nommé dès la seconde 0, en boucle."
-   },
-   {
-    "ok": "non",
-    "texte": "Pas de solution concrète : ChatGPT dit « prends un job ». Chez nous, il faut que l'app règle vraiment le problème (MS Clipper paie à la vue, Screen My Car tranche, Revizio fait les fiches)."
-   },
-   {
-    "ok": "bof",
-    "texte": "12 secondes : plus court que nos 30-60 s, mais la chute tombe net."
-   },
-   {
-    "ok": "oui",
-    "texte": "Zéro vidéo reprise, zéro capture d'écran : propre à refaire."
-   }
-  ],
-  "pour_refaire": {
-   "materiel": "un téléphone avec ChatGPT en vocal, un chapeau ou un accessoire qui sort de l'ordinaire, dehors",
-   "temps": "15 min",
-   "niveau": "facile"
-  },
-  "stats": {
-   "vues": 3700000,
-   "likes": 320900,
-   "partages": 81900,
-   "enregistrements": 23122,
-   "commentaires": 3025,
-   "abonnes": 10700
-  },
-  "ordre": 0,
-  "ajout": "automatique",
-  "duree": 12.1,
-  "transcription": [
-   {
-    "debut": 0.0,
-    "fin": 4.2,
-    "texte": "Chad, Chad GBT, Chad GBT, how I become a millionaire in 30 days?"
-   },
-   {
-    "debut": 5.7,
-    "fin": 6.6,
-    "texte": "Get a job."
-   },
-   {
-    "debut": 6.8,
-    "fin": 8.2,
-    "texte": "Bro, what are they talking about?"
-   },
-   {
-    "debut": 8.6,
-    "fin": 11.7,
-    "texte": "Chad GBT, what if you don't want to get a job and you want to be a millionaire?"
    }
   ]
  },

@@ -11,6 +11,7 @@ Utilisé par scruter.py (page de revue) ; à la main : python outils/chaine.py <
 """
 from __future__ import annotations
 
+import datetime as dt
 import json
 import os
 import pathlib
@@ -281,7 +282,8 @@ def enregistrer(ident: str, nom: str, infos: dict, fiche: dict) -> dict:
     stats = {k: infos.get(k) for k in ("vues", "likes", "partages", "enregistrements", "commentaires", "abonnes") if infos.get(k) is not None}
     fiche = {"id": fid, "fichier": nom, "compte": infos.get("compte") or "?", "plateforme": "TikTok", "marche": marche,
              "lien": infos.get("lien") or f"https://www.tiktok.com/video/{ident}", **fiche, "stats": stats, "ordre": 0,
-             "ajout": "automatique"}
+             "ajout": "automatique",
+             "approuvee_le": infos.get("approuve_le") or dt.datetime.now().isoformat(timespec="seconds")}
     if fiche["format"] != "fond-vert":
         fiche.pop("reprise_quoi", None)
         fiche["reprise"] = bool(fiche.get("reprise"))

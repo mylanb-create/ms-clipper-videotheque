@@ -2,7 +2,8 @@
 + la durée et la transcription produites par preparer.py (travail/<id>/).
 
 Lancer : python3 outils/assembler.py
-Ordre d'affichage : le champ « ordre » de la fiche (petit = en premier, 50 par défaut), puis l'id.
+Ordre d'affichage : les vidéos approuvées dans la revue, de la plus récente à la plus ancienne (« approuvee_le »), puis les autres
+selon le champ « ordre » de la fiche (petit = en premier, 50 par défaut), puis l'id.
 """
 import json, pathlib
 
@@ -34,6 +35,10 @@ for f in sorted(FICHES.glob("*.json")):
     if v.get("type") != "carrousel":
         v["transcription"] = transcription(t)
     videos.append(v)
-videos.sort(key=lambda v: (v.get("ordre", 50), v["id"]))
+# Les dernières vidéos approuvées dans la revue d'abord (« approuvee_le », la plus récente en tête), puis les fiches
+# écrites à la main dans leur « ordre ».
+approuvees = sorted((v for v in videos if v.get("approuvee_le")), key=lambda v: v["approuvee_le"], reverse=True)
+autres = sorted((v for v in videos if not v.get("approuvee_le")), key=lambda v: (v.get("ordre", 50), v["id"]))
+videos = approuvees + autres
 SORTIE.write_text(json.dumps(videos, ensure_ascii=False, indent=1), encoding="utf-8")
 print(f"{len(videos)} fiches → {SORTIE.relative_to(ICI)}")

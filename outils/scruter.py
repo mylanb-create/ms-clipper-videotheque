@@ -1193,6 +1193,7 @@ def decision(corps, registre):
         r.pop("erreur", None)
         r["date"] = dt.date.today().isoformat()
         if quoi == "approuver":
+            r["approuve_le"] = dt.datetime.now().isoformat(timespec="seconds")  # les dernières approuvées en premier
             if not (r.get("statut") == "telecharge" and r.get("fichier") and (SOURCE / r["fichier"]).exists()):
                 r["statut"] = "approuve"
                 threading.Thread(target=telecharger_en_fond, args=(ident, registre), daemon=True).start()
@@ -1340,6 +1341,7 @@ def revue(args, registre):
                 for c in cands:
                     c["apercu"] = etat_apercu(c["id"])
                     c["chaine"] = registre.get(c["id"], {}).get("chaine")
+                    c["approuve_le"] = registre.get(c["id"], {}).get("approuve_le")
                 return self.repondre(200, {"candidats": cands, "cle": bool(jeton(obligatoire=False)), "marches": MARCHES,
                                            "recherche": RECHERCHE, "source": str(SOURCE)})
             if chemin == "/api/hashtags":

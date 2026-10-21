@@ -20,6 +20,7 @@ let local = false; // vrai quand la revue est disponible (site servi par scruter
 let admin = false; // le navigateur de Mylan
 let nbFiches = null;
 let aRevoir = { FR: 0, US: 0 };
+let enCours = []; // vidéos approuvées dans la revue pas encore dans la vidéothèque (sur le Mac seulement)
 const MARCHES = { FR: "🇫🇷 Vidéos FR", US: "🇺🇸 Vidéos US" };
 
 async function init() {
@@ -98,10 +99,9 @@ async function detecterRevue() {
     if (e.data?.type === "ouvrir") location.hash = `#v/${e.data.id}`;
   });
   setInterval(async () => {
-    if (!$("#revue").hidden) return; // la revue ouverte envoie déjà ses chiffres
     const e = await lireEtat();
     if (e) compterRevue(e.candidats);
-  }, 60000);
+  }, 10000);
 }
 
 async function lireEtat() {
@@ -135,6 +135,41 @@ function compterRevue(candidats) {
   aRevoir = { FR: n("FR"), US: n("US") };
   nbFiches = candidats.filter((c) => c.fiche && (c.chaine || {}).etape !== "publication").length;
   afficherRevue();
+  // Approuvées mais pas encore dans la liste des vidéos : on les montre tout de suite, avec leur étape.
+  const connues = new Set(VIDEOS.map((v) => v.id));
+  const avant = enCours.map((c) => c.id).join();
+  enCours = candidats
+    .filter((c) => (c.statut === "approuve" || c.statut === "telecharge") && (c.chaine || {}).etape !== "fini"
+      && !connues.has(c.fiche || "t" + c.id.slice(-8)))
+    .sort((a, b) => String(b.approuve_le || "").localeCompare(String(a.approuve_le || "")));
+  const fini = avant.split(",").filter((id) => id && !enCours.some((c) => c.id === id)).length > 0;
+  if (fini) rechargerVideos(); // une vidéo vient d'arriver : la vraie fiche remplace la carte « en cours »
+  else if (!$("#accueil").hidden && enCours.map((c) => c.id).join() !== avant) rendreGrille();
+}
+
+const ETAPES = {
+  attente: "⏳ en file",
+  preparation: "⏳ 1/3 préparation",
+  analyse: "🧠 2/3 analyse par Claude",
+  publication: "🚀 3/3 mise en ligne",
+};
+
+function carteEnCours(c) {
+  const ch = c.chaine || {};
+  const etape = ch.erreur ? "✗ erreur : relance dans la revue" : ETAPES[ch.etape] || (c.statut === "approuve" ? "⏳ téléchargement" : "⏳ en file");
+  const apercu = c.apercu && c.apercu.pret ? `<video src="${esc(c.apercu.url)}#t=1" muted playsinline preload="metadata"></video>` : "";
+  return `<a class="carte en-cours" href="#revue/${c.marche.toLowerCase()}" title="Approuvée : elle arrive dans la vidéothèque toute seule">
+    <div class="visuel">
+      <span class="badge">${esc(etape)}</span>
+      ${apercu}
+      <span class="hook">${esc(c.legende || c.titre || "")}</span>
+      <span class="duree">${c.duree ? mmss(c.duree) : ""}</span>
+    </div>
+    <div class="infos">
+      <div class="titre">En cours d'ajout</div>
+      <div class="compte"><span>${esc(c.compte)}</span><span>approuvée</span></div>
+    </div>
+  </a>`;
 }
 
 function afficherRevue() {
@@ -203,7 +238,9 @@ function rendreGrille() {
     : local
       ? `<b>Pas encore de vidéo ${marche} ici.</b><br>Approuve des vidéos dans la <a href="#revue/${marche.toLowerCase()}">revue ${marche}</a> : une fois analysées, elles arrivent ici, rangées par format.`
       : `<b>Les vidéos ${marche} arrivent bientôt.</b><br>En attendant, regarde les <a href="#fr">vidéos FR</a> : la mécanique est la même.`;
-  $("#grille").innerHTML = liste.map(carte).join("");
+  const attente = filtre.format === "tous" && !filtre.q ? enCours.filter((c) => c.marche === marche) : [];
+  if (attente.length) $("#vide").hidden = true;
+  $("#grille").innerHTML = attente.map(carteEnCours).join("") + liste.map(carte).join("");
 }
 
 function afficherVideotheque(m) {
