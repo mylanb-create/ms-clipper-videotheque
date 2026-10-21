@@ -1,0 +1,211 @@
+{
+  "id": "t43312898",
+  "fichier": "tiktok-7678745904643312898-oomzcreates.mp4",
+  "compte": "@oomzcreates",
+  "plateforme": "TikTok",
+  "marche": "US",
+  "lien": "https://www.tiktok.com/@oomzcreates/video/7678745904643312898",
+  "niche": "argent, apps IA",
+  "format": "flow",
+  "titre": "Side hustles for idiots : une app en 10 min avec Claude + Replit",
+  "sujet": "Omar, maillot Man United, face caméra dans son salon : « side hustles for idiots, part 1 ». Il filme son laptop à la main et montre, étape par étape : demander à Claude des idées d'app, choisir celle qu'il préfère (women's health tracker), copier le brief dans Replit, laisser cuire, et voilà une vraie app qui marche, prête à publier sur l'App Store.",
+  "tags": [
+    "for idiots",
+    "Claude",
+    "Replit",
+    "app en 10 min",
+    "vibe coding",
+    "women's health tracker",
+    "part 1"
+  ],
+  "hook": {
+    "dit": "Side hustles for idiots, part one. Yeah, I'm talking to you because I'm on your For You page. (Side business pour les idiots, partie 1. Ouais, je te parle à toi, parce que je suis sur ton For You.)",
+    "voit": "Omar en maillot Man United, face caméra dans son salon. Texte blanc en haut : « side hustles for idiots (part 1) ». Sous-titres mot par mot en bas."
+  },
+  "texte_ecran": [
+    "side hustles for idiots (part 1)",
+    "Yeah I'm talking",
+    "to you",
+    "cause I'm on your For You page",
+    "Making money online is not that difficult",
+    "ask it to give you",
+    "what Claude gave you",
+    "Then just let the boy cook",
+    "a fully functioning app",
+    "App Store / Play Store",
+    "you have an app"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 3,
+      "voit": "Omar face caméra, maillot Man United, salon avec fenêtre. Texte en haut : « side hustles for idiots (part 1) ».",
+      "entend": "« Side hustles for idiots, part one. Yeah, I'm talking to you because I'm on your For You page. »"
+    },
+    {
+      "debut": 3,
+      "fin": 7,
+      "voit": "Omar toujours face caméra, gestes des mains.",
+      "entend": "« Making money online is not that difficult. All you need is your phone, your laptop, or whatever you use. »"
+    },
+    {
+      "debut": 7,
+      "fin": 14,
+      "voit": "il filme l'écran du laptop à la main : Claude ouvert, « Omar, what are we working on today? », il demande des idées d'app en forte demande.",
+      "entend": "« open up Claude and ask it to give you app ideas that are in high demand. It will chuck out a bunch of sick ideas, but all I'm going to do is ask it to pick the best one and give me an MVP. »"
+    },
+    {
+      "debut": 14,
+      "fin": 19,
+      "voit": "l'écran Claude affiche une proposition : women's health tracking app, avec les features. Il surligne au doigt.",
+      "entend": "« Don't worry about what that means right now. It's chosen a women's health tracking app. You just want to copy what it's given you and head over to replit.com. »"
+    },
+    {
+      "debut": 19,
+      "fin": 26,
+      "voit": "l'écran passe sur Replit, il colle le brief, sélectionne le free mode. Face caméra en flash.",
+      "entend": "« paste in what Claude gave you and then make sure you select the free mode. Then just let the boy cook. Go and get a snack or do whatever you do and then it should be done. »"
+    },
+    {
+      "debut": 26,
+      "fin": 35,
+      "voit": "l'app générée dans Replit : aperçu iPhone « Meet your cycle with curiosity », il clique sur un bouton, écran « Day 26 », insights.",
+      "entend": "« you're literally going to get a fully functioning app. Obviously this is a women's health tracker. You can click some buttons. You can see it actually worked. Cool. I might even have to get the missus on it, mate. »"
+    },
+    {
+      "debut": 35,
+      "fin": 41,
+      "voit": "l'écran : chat Replit pour modifier, puis boutons App Store / Play Store. Retour face caméra à la fin.",
+      "entend": "« I can make changes here and then when I'm done, I can publish it to the app store or the play store. Literally all you need now is a paywall and you have an app. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🫵",
+      "titre": "« for idiots »",
+      "texte": "Il te prend pour un idiot, et il te le dit en face. Ça pique, mais tu restes pour prouver que t'es pas si bête."
+    },
+    {
+      "emoji": "📱",
+      "titre": "« I'm on your For You page »",
+      "texte": "Il brise le 4ème mur dès la 2e seconde. Tu te sens visé directement."
+    },
+    {
+      "emoji": "🧰",
+      "titre": "La promesse ultra basique",
+      "texte": "« Phone, laptop, that's it. » Pas de formation, pas d'investissement. Tout le monde a déjà ça."
+    },
+    {
+      "emoji": "👨‍🍳",
+      "titre": "« Let the boy cook »",
+      "texte": "Il parle comme à un pote. L'IA fait le taf, toi tu vas chercher un snack. Ça rend le truc léger."
+    },
+    {
+      "emoji": "🪜",
+      "titre": "2 outils, 2 étapes",
+      "texte": "Claude → Replit. C'est tout. Pas 10 apps, pas 5 étapes. On peut refaire en regardant une fois."
+    },
+    {
+      "emoji": "✅",
+      "titre": "La preuve qui marche",
+      "texte": "L'app women's health tracker tourne sous ses doigts. Il clique, ça répond. Pas une maquette, un truc vrai."
+    },
+    {
+      "emoji": "🔚",
+      "titre": "« part 1 »",
+      "texte": "Il ne finit pas, il laisse une suite. Le cerveau attend la part 2, on s'abonne."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "msclipper",
+      "hook": "Side hustles for idiots, part one. Ouais je te parle à toi, parce que je suis sur ton For You. Faire de l'argent avec ton tel, c'est pas si dur.",
+      "comment": "Toi face caméra chez toi, puis tu filmes ton tel à la main. 1. Tu télécharges MS Clipper. 2. Tu postes 3 clips. 3. Tu laisses cuire. Preuve : la jauge des vues qui monte, le compteur en euros. Fin : « t'as plus qu'à encaisser, et t'as un side business. Part 2 arrive. »"
+    },
+    {
+      "app": "smc",
+      "hook": "Car buying for idiots, part one. Ouais toi, celui qui regarde Le Bon Coin à 2h du mat.",
+      "comment": "Face caméra 3 s, puis tu filmes ton tel. 1. Tu copies l'annonce. 2. Tu ouvres Screen My Car. 3. Tu colles. Verdict : fuis / négocie / achète. Punchline façon « let the boy cook » pendant que l'app analyse. Fin : « t'as plus qu'à appeler le vendeur. Et t'as une bonne affaire. »"
+    },
+    {
+      "app": "revizio",
+      "hook": "Revisions for idiots, part one. Ouais, celui qui a un contrôle demain.",
+      "comment": "Face caméra, puis tel filmé à la main. 1. Photo du cours. 2. Revizio. 3. Les fiches arrivent, le quiz démarre. Tu réponds en direct : « 18/20 ». Fin : « t'as plus qu'à dormir, et t'as la moyenne. »"
+    }
+  ],
+  "note": "<b>À remarquer :</b> le mot « idiots » dans le titre, c'est une provoc assumée (comme les livres « for Dummies »). Et « part 1 » à la fin ouvre une suite : le cerveau veut la part 2, on s'abonne pour pas la rater.",
+  "reprise": false,
+  "mise_en_scene": "Omar en maillot Man United dans son salon (fenêtre, plafond blanc). Alternance : face caméra tenu à la main (le début et la fin), puis plans serrés sur l'écran du laptop qu'il filme à la main (Claude, Replit, l'app générée). Sous-titres anglais mot par mot en bas.",
+  "hooks": [
+    "provoc",
+    "cible",
+    "mystere"
+  ],
+  "point_sensible": "Vouloir gagner de l'argent sans savoir coder",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« side hustles for idiots, part one »"
+    },
+    "probleme": {
+      "t": 3,
+      "quoi": "« making money online is not that difficult. All you need is your phone, your laptop. »"
+    },
+    "outil_nomme": {
+      "t": 7,
+      "quoi": "« open up Claude » puis « head over to replit.com »"
+    },
+    "outil_montre": {
+      "t": 10,
+      "quoi": "l'écran Claude filmé à la main, puis Replit, puis l'app women's health tracker"
+    },
+    "preuve": {
+      "t": 26,
+      "quoi": "« a fully functioning app » : il clique sur l'app « Meet your cycle », ça répond"
+    },
+    "fin": {
+      "t": 39,
+      "quoi": "« all you need now is a paywall and you have an app »"
+    }
+  },
+  "montre_comment": "laptop filmé à la main (pas de capture plein écran) : Claude, puis Replit, puis l'app qui tourne",
+  "cta": "pas de CTA direct, mais « part 1 » = abonne-toi pour la part 2",
+  "montage": "sous-titres anglais mot par mot, flash face caméra entre les plans d'écran, zoom au doigt sur les éléments clés. 41,5 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Outil nommé à 7 s, bien avant les 20 s."
+    },
+    {
+      "ok": "oui",
+      "texte": "Écran filmé à la main, pas une capture plein écran : ça respire la vraie vie."
+    },
+    {
+      "ok": "oui",
+      "texte": "41 s : pile dans notre créneau 30-60 s."
+    },
+    {
+      "ok": "oui",
+      "texte": "La vanne « let the boy cook » / « get the missus on it » : ton de pote, pas de prof."
+    },
+    {
+      "ok": "oui",
+      "texte": "Résultat visible à l'écran : l'app qui tourne sous ses doigts."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un laptop, un tel, un maillot ou un vêtement qui te caractérise, un bon éclairage",
+    "temps": "30 min",
+    "niveau": "facile"
+  },
+  "stats": {
+    "vues": 813100,
+    "likes": 59600,
+    "partages": 2966,
+    "enregistrements": 36826,
+    "commentaires": 451,
+    "abonnes": 4981
+  },
+  "ordre": 0,
+  "ajout": "automatique"
+}
