@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
   <aside class="side" id="side" aria-label="Menu">
@@ -36,12 +36,14 @@
         <div class="side-titre">🔎 Revue de vidéos</div>
         <a class="side-lien" href="#revue/fr" data-route="revue/fr"><span>🇫🇷 À revoir FR</span><span class="pastille" id="r-fr"></span></a>
         <a class="side-lien" href="#revue/us" data-route="revue/us"><span>🇺🇸 À revoir US</span><span class="pastille" id="r-us"></span></a>
+        <p class="side-aide" id="side-revue-aide" hidden>S'ouvre sur ton Mac. Si la page ne répond pas : double-clic sur « Vidéothèque MS Clipper.command ».</p>
       </div>
 
       <div class="side-titre">📖 Apprendre</div>
       <a class="side-lien" href="#guide" data-route="guide"><span>Le guide</span></a>
     </nav>
     <div class="side-pied">
+      <a href="https://mylanb-create.github.io/ms-clipper-videotheque/#admin" target="_blank" rel="noopener" id="lien-public" hidden>Lien des créateurs ↗</a>
       <a href="https://ms-clipper.vercel.app" target="_blank" rel="noopener">MS Clipper ↗</a>
     </div>
   </aside>
@@ -90,6 +92,12 @@
 
   <section id="revue" class="revue-vue" hidden>
     <iframe id="revue-cadre" title="Revue des vidéos"></iframe>
+    <div class="revue-eteinte" id="revue-eteinte" hidden>
+      <div class="g-emoji">💤</div>
+      <h2 class="display">La revue dort.</h2>
+      <p>Elle tourne sur ton Mac. Si le bouton ne répond pas, double-clique d'abord sur <b>« Vidéothèque MS Clipper.command »</b> (dossier <code>MS CLIPPER/VIDEOTHEQUE</code>).</p>
+      <a class="btn" id="ouvrir-mac" href="http://127.0.0.1:3110/#revue/fr">Ouvrir la revue sur mon Mac →</a>
+    </div>
   </section>
 
   <section id="fiche" class="fiche" hidden aria-modal="true" role="dialog">
@@ -158,6 +166,6 @@
     </div>
   </section>
 
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>

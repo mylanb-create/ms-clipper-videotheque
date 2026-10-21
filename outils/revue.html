@@ -201,15 +201,27 @@ function rendre() {
   rendreFile();
   rendreRecherche();
   if (window.parent !== window) {
+    // Le site (ici ou sur GitHub Pages) affiche ces compteurs dans son menu, et recharge ses vidéos quand une fiche arrive.
     const aRevoir = (m) => etat.candidats.filter((x) => groupe(x) === "propose" && x.marche === m).length;
-    window.parent.postMessage({ type: "revue", aRevoir: { FR: aRevoir("FR"), US: aRevoir("US") } }, location.origin);
+    const fiches = etat.candidats.filter((x) => x.fiche && (x.chaine || {}).etape !== "publication").length;
+    window.parent.postMessage({ type: "revue", aRevoir: { FR: aRevoir("FR"), US: aRevoir("US") }, fiches }, "*");
   }
 }
 let derniereSig = null;
 
+// La chaîne automatique (outils/chaine.py) : approuvée → préparée → analysée par Claude → en ligne.
+const CHAINE = {
+  attente: "⏳ en file : elle va être ajoutée à la vidéothèque toute seule",
+  preparation: "⏳ 1/3 préparation : images clés et sous-titres…",
+  analyse: "🧠 2/3 analyse par Claude (format, hook, chronologie…), 1 à 3 min",
+  publication: "🚀 3/3 mise en ligne…",
+};
 function etatTexte(c) {
   if (c.erreur) return ["err", "✗ téléchargement raté : " + c.erreur];
-  if ((c.statut === "telecharge" || c.statut === "approuve") && c.fiche) return ["ok", "✓ analysée, dans la vidéothèque (fiche " + c.fiche + ")"];
+  const ch = c.chaine || {};
+  if (ch.erreur) return ["err", "✗ ajout automatique raté (" + (ch.etape || "?") + ") : " + ch.erreur];
+  if (CHAINE[ch.etape]) return ["att", CHAINE[ch.etape]];
+  if ((c.statut === "telecharge" || c.statut === "approuve") && c.fiche) return ["ok", "✓ dans la vidéothèque (fiche " + c.fiche + ")" + (ch.etape === "fini" ? " · en ligne sur le site public 1 à 2 min après" : "")];
   if (c.statut === "telecharge" && c.remarque) return ["ok", "✓ " + c.remarque + (c.fichier ? " : " + c.fichier : "")];
   if (c.statut === "telecharge") return ["ok", "✓ téléchargée" + (c.fichier ? " · " + c.fichier : "") + " · à analyser"];
   if (c.statut === "approuve") return ["att", "⏳ téléchargement en cours…"];
@@ -235,7 +247,7 @@ function rendreCarte() {
       ${ap.pret ? `<video class="lecteur" id="lecteur" src="${esc(ap.url)}" controls autoplay playsinline></video>`
         : `<div class="lecteur attente">${ap.erreur ? "✗ Vidéo impossible à récupérer.<br><small>" + esc(ap.erreur) + "</small>" : "⏳ La vidéo arrive…"}</div>`}
       ${ap.pret ? `<div class="vitesses"><span>Vitesse</span>${[1, 1.5, 2].map((v) => `<button class="puce ${v === vitesse ? "active" : ""}" type="button" data-v="${v}">x${String(v).replace(".", ",")}</button>`).join("")}</div>` : ""}
-      ${ap.jumeau ? `<div class="etat err" style="max-width: 325px">⚠️ Déjà dans le dossier des exemples : ${esc(ap.jumeau)}</div>` : ""}
+      ${ap.jumeau && ap.jumeau !== c.fichier ? `<div class="etat err" style="max-width: 325px">⚠️ Déjà dans le dossier des exemples : ${esc(ap.jumeau)}</div>` : ""}
       <div class="aide" style="max-width: 325px"><a href="${esc(c.lien)}" target="_blank" rel="noopener">Ouvrir sur TikTok</a> (touche O).</div>
     </div>
     <div>
@@ -255,6 +267,8 @@ function rendreCarte() {
       ${c.legende ? `<div class="legende">${esc(c.legende)}</div>` : ""}
       ${(c.hashtags || []).length ? `<div class="tags">${c.hashtags.map(puceHashtag).join("")}</div>` : ""}
       ${txt ? `<div class="etat ${cls}">${esc(txt)}</div>` : ""}
+      ${c.fiche && !CHAINE[(c.chaine || {}).etape] && !(c.chaine || {}).erreur ? `<div class="aide"><a href="/#v/${esc(c.fiche)}" target="_top" data-fiche="${esc(c.fiche)}">Voir la fiche dans la vidéothèque →</a></div>` : ""}
+      ${(c.chaine || {}).erreur ? `<div class="actions"><button class="btn" type="button" data-relancer>↻ Relancer l'ajout automatique</button></div>` : ""}
       <div class="actions">
         <button class="btn btn-oui" data-d="approuver" ${groupe(c) === "approuve" && !c.erreur ? "disabled" : ""}>✅ Approuver <kbd>A</kbd></button>
         <button class="btn btn-non" data-d="refuser" ${c.statut === "ecarte" ? "disabled" : ""}>✗ Refuser <kbd>R</kbd></button>
@@ -265,6 +279,15 @@ function rendreCarte() {
       <div class="nav">${i + 1} / ${liste().length} dans « ${GROUPES.find(([g]) => g === onglet)[1]} » · <kbd>←</kbd> <kbd>→</kbd> pour passer d'une vidéo à l'autre</div>
     </div>`;
   zone.querySelectorAll("button[data-d]").forEach((b) => b.onclick = () => decider(b.dataset.d));
+  const relancer = zone.querySelector("[data-relancer]");
+  if (relancer) relancer.onclick = async () => {
+    relancer.disabled = true;
+    await fetch("/api/relancer", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id: c.id }) });
+    derniereSig = null;
+    charger();
+  };
+  const voir = zone.querySelector("[data-fiche]");
+  if (voir && window.parent !== window) voir.onclick = (e) => { e.preventDefault(); window.parent.postMessage({ type: "ouvrir", id: voir.dataset.fiche }, "*"); };
   zone.querySelectorAll("button[data-v]").forEach((b) => b.onclick = () => changerVitesse(Number(b.dataset.v)));
   appliquerVitesse();
   demanderApercu(c);
@@ -440,7 +463,8 @@ $("#p-percer").addEventListener("toggle", () => { if ($("#p-percer").open) charg
 setInterval(() => {
   const c = sel();
   const ap = (c && c.apercu) || {};
-  if ((etat.recherche || {}).en_cours || etat.candidats.some((x) => x.statut === "approuve" && !x.erreur) || (c && !ap.pret && !ap.erreur)) charger();
+  const enChaine = etat.candidats.some((x) => CHAINE[(x.chaine || {}).etape] && !x.chaine.erreur);
+  if ((etat.recherche || {}).en_cours || enChaine || etat.candidats.some((x) => x.statut === "approuve" && !x.erreur) || (c && !ap.pret && !ap.erreur)) charger();
 }, 1500);
 chargerStats();
 if (location.hash === "#cle") { $("#p-cle").open = true; setTimeout(() => { $("#p-cle").scrollIntoView(); $("#k-cle").focus(); }, 300); }

@@ -672,3 +672,14 @@ details[open].transcription summary::after { content: "–"; }
 .revue-vue iframe { width: 100%; height: 100%; border: 0; display: block; }
 @media (min-width: 900px) { .revue-vue { left: var(--side); } }
 @media (max-width: 899px) { .revue-vue { top: var(--barre); } }
+
+/* La revue quand le Mac ne répond pas */
+.revue-eteinte { max-width: 560px; margin: 12vh auto 0; padding: 28px; text-align: center; border-radius: var(--rayon); background: var(--carte); border: 1px solid var(--bord); box-shadow: var(--ombre); }
+.revue-eteinte[hidden], #revue-cadre[hidden] { display: none; }
+.revue-eteinte h2 { font-size: 30px; margin: 8px 0 10px; }
+.revue-eteinte p { color: var(--texte-2); margin: 0 0 12px; }
+.revue-eteinte .petit { font-size: 13.5px; }
+.revue-eteinte code { font-size: 13px; background: var(--brand-50); padding: 1px 6px; border-radius: 6px; }
+.lecteur .source a { color: var(--brand); font-weight: 600; }
+.side-aide { margin: 6px 10px 0; font-size: 11.5px; line-height: 1.4; color: var(--texte-3); }
+.side-pied { display: flex; flex-direction: column; gap: 6px; }

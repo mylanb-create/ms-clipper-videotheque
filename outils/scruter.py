@@ -49,6 +49,8 @@ import urllib.parse
 import urllib.request
 import webbrowser
 
+import chaine  # la chaîne automatique : approuvée → préparée → analysée → en ligne
+
 ICI = pathlib.Path(__file__).resolve().parents[1]
 SOURCE = ICI.parents[1] / "FICHIERS ANNEXES" / "VIDÉOS D'EXEMPLES"
 FICHES, TRAVAIL = ICI / "outils" / "fiches", ICI / "travail"
@@ -56,6 +58,8 @@ CANDIDATS = TRAVAIL / "candidats"
 VUS = CANDIDATS / "vus.json"  # la mémoire : proposées, téléchargées, écartées
 APERCUS = CANDIDATS / "apercus"  # les vidéos récupérées pour les lire dans la page de revue
 ENV = ICI / ".env"  # APIFY_TOKEN=… (ignoré par git)
+SITE_PUBLIC = "https://mylanb-create.github.io/ms-clipper-videotheque/"
+ORIGINE_PUBLIQUE = "https://mylanb-create.github.io"  # le site public lit /api/etat ici pour afficher la revue
 
 API = "https://api.apify.com/v2"
 ACTEUR = "clockworks~tiktok-scraper"
@@ -1006,6 +1010,15 @@ def telecharger_en_fond(ident, registre):
         with VERROU:
             registre.setdefault(ident, {})["erreur"] = (str(e).splitlines()[0][:200] if str(e) else type(e).__name__)
             sauver_registre(registre)
+        return
+    if chaine.a_faire(registre.get(ident, {})):  # téléchargée : en route vers la vidéothèque
+        chaine.ajouter(ident)
+
+
+def infos_revue(ident, registre=None):
+    """La vidéo telle que la revue la voit (marché, chiffres, légende…), pour l'analyse automatique."""
+    registre = registre if registre is not None else charger_registre()
+    return next((c for c in candidats_revue(registre) if c["id"] == ident), {})
 
 
 APERCUS_EN_COURS = set()
@@ -1170,6 +1183,9 @@ def revue(args, registre):
             if isinstance(corps, (dict, list)):
                 corps = json.dumps(corps, ensure_ascii=False).encode("utf-8")
             self.send_response(code)
+            if self.headers.get("Origin") == ORIGINE_PUBLIQUE and self.path.startswith("/api/etat"):
+                self.send_header("Access-Control-Allow-Origin", ORIGINE_PUBLIQUE)  # le site public lit les compteurs
+                self.send_header("Vary", "Origin")
             self.send_header("Content-Type", type_)
             self.send_header("Content-Length", str(len(corps)))
             self.send_header("Cache-Control", "no-store")
@@ -1230,6 +1246,7 @@ def revue(args, registre):
                     cands = [pour_json(c) for c in candidats_revue(registre)]
                 for c in cands:
                     c["apercu"] = etat_apercu(c["id"])
+                    c["chaine"] = registre.get(c["id"], {}).get("chaine")
                 return self.repondre(200, {"candidats": cands, "cle": bool(jeton(obligatoire=False)), "marches": MARCHES,
                                            "recherche": RECHERCHE, "source": str(SOURCE)})
             if chemin == "/api/hashtags":
@@ -1257,7 +1274,26 @@ def revue(args, registre):
                 return self.repondre(200, f.read_bytes(), types.get(f.suffix, "application/octet-stream"))
             self.repondre(404, {"erreur": "introuvable"})
 
+        def do_OPTIONS(self):
+            # Le site public (GitHub Pages) demande la permission de lire /api/etat sur ce Mac (Chrome : réseau local).
+            if self.headers.get("Origin") != ORIGINE_PUBLIQUE:
+                return self.repondre(403, {"erreur": "origine refusée"})
+            self.send_response(204)
+            self.send_header("Access-Control-Allow-Origin", ORIGINE_PUBLIQUE)
+            self.send_header("Access-Control-Allow-Methods", "GET")
+            self.send_header("Access-Control-Allow-Private-Network", "true")
+            self.send_header("Access-Control-Allow-Local-Network", "true")
+            self.send_header("Access-Control-Max-Age", "600")
+            self.end_headers()
+
         def do_POST(self):
+            # Les actions (approuver, chercher, clé…) ne viennent que de la page servie ici : un autre site ne peut pas
+            # en déclencher (dépenser le crédit Apify, changer la clé).
+            origine = self.headers.get("Origin")
+            if origine and not re.fullmatch(r"http://(127\.0\.0\.1|localhost):\d+", origine):
+                return self.repondre(403, {"erreur": "origine refusée"})
+            if "application/json" not in (self.headers.get("Content-Type") or ""):
+                return self.repondre(415, {"erreur": "JSON attendu"})
             self.relire()
             chemin = urllib.parse.urlparse(self.path).path
             try:
@@ -1271,24 +1307,42 @@ def revue(args, registre):
                 return self.repondre(*enregistrer_cle(corps.get("cle", "")))
             if chemin == "/api/recherche":
                 return self.repondre(*lancer_recherche(corps, registre))
+            if chemin == "/api/relancer":  # la chaîne automatique a échoué : on recommence
+                ident = str(corps.get("id") or "")
+                with VERROU:
+                    r = registre.get(ident)
+                    if not r or not re.fullmatch(r"\d{15,20}", ident):
+                        return self.repondre(400, {"erreur": "id ?"})
+                    r.pop("chaine", None)
+                    sauver_registre(registre)
+                    pret = chaine.a_faire(r)
+                if pret:
+                    chaine.ajouter(ident)
+                return self.repondre(200, {"ok": pret})
             self.repondre(404, {"erreur": "introuvable"})
 
+    # La chaîne automatique, et le rattrapage : les vidéos approuvées et téléchargées qui ne sont pas encore en ligne.
+    chaine.demarrer(registre, VERROU, sauver_registre, lambda i: infos_revue(i, registre))
+    for i, r in list(registre.items()):
+        if chaine.a_faire(r):
+            chaine.ajouter(i)
     if APERCUS.exists():  # ménage : les aperçus de plus de 14 jours
         limite = time.time() - 14 * 86400
         for f in APERCUS.iterdir():
             if f.is_file() and f.stat().st_mtime < limite:
                 f.unlink()
     url = f"http://127.0.0.1:{args.port}/"
+    ouvrir = url + "#revue/fr"
     try:
         serveur = http.server.ThreadingHTTPServer(("127.0.0.1", args.port), Page)
     except OSError:
         print(f"La page de revue tourne déjà : {url}", flush=True)
         if not args.sans_navigateur:
-            webbrowser.open(url)
+            webbrowser.open(ouvrir)
         return
     print(f"Vidéothèque + revue : {url}   (Ctrl-C pour arrêter)", flush=True)
     if not args.sans_navigateur:
-        webbrowser.open(url)
+        webbrowser.open(ouvrir)
     try:
         serveur.serve_forever()
     except KeyboardInterrupt:

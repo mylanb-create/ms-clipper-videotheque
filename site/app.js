@@ -1,7 +1,11 @@
 /* Vidéothèque MS Clipper — tout en JavaScript simple, sans dépendance.
    Les données : data/referentiel.json (formats, hooks, apps, règles, lexique) et data/videos.json (une fiche par vidéo).
    Le même site tourne à deux endroits : sur GitHub Pages (public, pour les créateurs) et sur le Mac de Mylan, servi par
-   outils/scruter.py --revue. Là, /api/etat répond et le menu montre en plus la revue des vidéos TikTok (iframe /revue). */
+   outils/scruter.py --revue. Là, /api/etat répond et le menu montre en plus la revue des vidéos TikTok (iframe /revue).
+   Sur le site public, le navigateur de Mylan (marqué une fois avec #admin) voit aussi « Revue de vidéos » : ces liens
+   ouvrent le même site sur son Mac (http://127.0.0.1:3110). Chrome interdit à une page publique de lire le réseau local
+   (fetch ou iframe), mais pas d'y naviguer. Les créateurs ne voient jamais la revue. */
+const LOCAL = "http://127.0.0.1:3110";
 
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -12,7 +16,9 @@ let VIDEOS = [];
 let filtre = { format: "tous", q: "" };
 let ouverte = null;
 let marche = "FR"; // le marché affiché dans la vidéothèque : FR ou US
-let local = false; // vrai quand le site est servi par scruter.py (la revue est disponible)
+let local = false; // vrai quand la revue est disponible (site servi par scruter.py, ou le Mac de Mylan joignable)
+let admin = false; // le navigateur de Mylan
+let nbFiches = null;
 let aRevoir = { FR: 0, US: 0 };
 const MARCHES = { FR: "🇫🇷 Vidéos FR", US: "🇺🇸 Vidéos US" };
 
@@ -57,29 +63,76 @@ function surligner(route) {
   $("#barre-titre").textContent = lien ? lien.textContent : "";
 }
 
-// La revue n'existe que sur le Mac de Mylan : on la montre seulement si le serveur local répond.
+// La revue n'existe que sur le Mac de Mylan : sur ce serveur, ou (site public) en lien vers son Mac.
 async function detecterRevue() {
   try {
-    const r = await fetch("api/etat", { cache: "no-store" });
-    if (!r.ok) return;
-    const etat = await r.json();
-    if (!Array.isArray(etat.candidats)) return;
-    local = true;
-    $("#side-revue").hidden = false;
-    compterRevue(etat.candidats);
-    window.addEventListener("message", (e) => {
-      if (e.origin === location.origin && e.data?.type === "revue") { aRevoir = e.data.aRevoir; afficherRevue(); }
-    });
-    setInterval(async () => {
-      if (!$("#revue").hidden) return; // la revue ouverte envoie déjà ses chiffres
-      try { compterRevue((await (await fetch("api/etat", { cache: "no-store" })).json()).candidats); } catch (e) {}
-    }, 60000);
+    if (/^#admin/.test(location.hash)) { localStorage.setItem("vt-admin", "1"); history.replaceState(null, "", "#fr"); }
+    admin = localStorage.getItem("vt-admin") === "1";
   } catch (e) {}
+  const etat = await lireEtat();
+  if (!etat) {
+    if (admin) {
+      // Site public, navigateur de Mylan : les liens de la revue ouvrent le site de son Mac.
+      $("#side-revue").hidden = false;
+      document.querySelectorAll("#side-revue .side-lien").forEach((a) => {
+        a.href = `${LOCAL}/${a.getAttribute("href")}`;
+        a.removeAttribute("data-route");
+      });
+      $("#side-revue-aide").hidden = false;
+    }
+    return;
+  }
+  local = true;
+  $("#side-revue").hidden = false;
+  $("#lien-public").hidden = false;
+  compterRevue(etat.candidats);
+  window.addEventListener("message", (e) => {
+    if (e.origin !== location.origin) return;
+    if (e.data?.type === "revue") {
+      aRevoir = e.data.aRevoir;
+      afficherRevue();
+      if (nbFiches !== null && e.data.fiches > nbFiches) rechargerVideos();
+      nbFiches = e.data.fiches;
+    }
+    if (e.data?.type === "ouvrir") location.hash = `#v/${e.data.id}`;
+  });
+  setInterval(async () => {
+    if (!$("#revue").hidden) return; // la revue ouverte envoie déjà ses chiffres
+    const e = await lireEtat();
+    if (e) compterRevue(e.candidats);
+  }, 60000);
+}
+
+async function lireEtat() {
+  try {
+    const r = await fetch("api/etat", { cache: "no-store" });
+    if (!r.ok) return null;
+    const e = await r.json();
+    return Array.isArray(e.candidats) ? e : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+// Une fiche vient d'arriver (chaîne automatique) : on relit les vidéos. Sur le site public, GitHub Pages met 1 à 2 min
+// à publier : on relit encore un peu plus tard.
+async function rechargerVideos() {
+  const relire = async () => {
+    try {
+      const videos = await (await fetch("data/videos.json", { cache: "no-store" })).json();
+      VIDEOS = videos.filter((v) => v.titre).map((v) => ({ ...v, marche: v.marche || "FR" }));
+      $("#n-fr").textContent = VIDEOS.filter((v) => v.marche === "FR").length;
+      $("#n-us").textContent = VIDEOS.filter((v) => v.marche === "US").length || "";
+      if (!$("#accueil").hidden) { rendreChips(); rendreGrille(); }
+    } catch (e) {}
+  };
+  await relire();
 }
 
 function compterRevue(candidats) {
   const n = (m) => candidats.filter((c) => (!c.statut || c.statut === "propose") && c.marche === m).length;
   aRevoir = { FR: n("FR"), US: n("US") };
+  nbFiches = candidats.filter((c) => c.fiche && (c.chaine || {}).etape !== "publication").length;
   afficherRevue();
 }
 
@@ -165,8 +218,11 @@ function afficherVideotheque(m) {
 
 function afficherRevuePage(m) {
   const cadre = $("#revue-cadre");
+  $("#revue-eteinte").hidden = local;
+  cadre.hidden = !local;
+  $("#ouvrir-mac").href = `${LOCAL}/#revue/${m.toLowerCase()}`;
   const src = `revue?embed=1&marche=${m}`;
-  if (cadre.getAttribute("src") !== src) cadre.setAttribute("src", src);
+  if (local && cadre.getAttribute("src") !== src) cadre.setAttribute("src", src);
   $("#accueil").hidden = true;
   $("#revue").hidden = false;
   surligner(`revue/${m.toLowerCase()}`);
@@ -229,7 +285,7 @@ function router() {
   }
   fermerGuide();
   const r = h.match(/^#revue\/(fr|us)$/);
-  if (r && local) return afficherRevuePage(r[1].toUpperCase());
+  if (r && (local || admin)) return afficherRevuePage(r[1].toUpperCase());
   afficherVideotheque(h === "#us" ? "US" : "FR");
 }
 
@@ -307,6 +363,15 @@ function barreChrono(v) {
   return `<div class="chrono-barre"><div class="piste"></div>${points}<span class="fin-t">${mmss(v.duree)}</span></div>`;
 }
 
+const compact = (n) => new Intl.NumberFormat("fr-FR", { notation: n >= 10000 ? "compact" : "standard", maximumFractionDigits: 1 }).format(n);
+
+function chiffres(st) {
+  const morceaux = [["vues", "vues"], ["likes", "likes"], ["partages", "partages"], ["enregistrements", "enregistrements"], ["commentaires", "commentaires"]]
+    .filter(([k]) => st[k] != null).map(([k, nom]) => `<b>${compact(st[k])}</b> ${nom}`);
+  if (st.vues && st.abonnes) morceaux.splice(1, 0, `<b>${Math.round(st.vues / st.abonnes)}×</b> ses abonnés`);
+  return morceaux.join(" · ");
+}
+
 function ouvrir(v) {
   ouverte = v;
   const liste = filtrees();
@@ -332,6 +397,7 @@ function ouvrir(v) {
     ["Format", `<b>${f.emoji} ${esc(f.nom)}</b>${v.reprise ? ` <span class="tag">🔁 reprise</span>` : ""}<br><span class="tech-sous">${esc(v.mise_en_scene || "")}</span>`],
     v.reprise ? ["Vidéo reprise", esc(v.reprise_quoi || "")] : null,
     ["Durée", esc(dureeTexte(v))],
+    v.stats && Object.keys(v.stats).length ? ["Les chiffres", chiffres(v.stats)] : null,
     ["Hook", hooks ? `<span class="tags">${hooks}</span>` : "—"],
     ["Point sensible", esc(v.point_sensible || "—")],
     ["L'outil", `nommé <b>${t(v.chrono?.outil_nomme)}</b> · montré <b>${t(v.chrono?.outil_montre)}</b><br><span class="tech-sous">${esc(v.montre_comment || "")}</span>`],
@@ -371,7 +437,7 @@ function ouvrir(v) {
   $("#fiche-corps").innerHTML = `
     <div class="lecteur">
       ${lecteur}
-      <div class="source"><span><b>${esc(v.compte)}</b> · ${esc(v.plateforme || "TikTok")}</span><span>${esc(v.niche || "")}</span><span>${esc(dureeTexte(v))}</span></div>
+      <div class="source"><span><b>${esc(v.compte)}</b> · ${esc(v.plateforme || "TikTok")}</span><span>${esc(v.niche || "")}</span><span>${esc(dureeTexte(v))}</span>${v.lien ? `<a href="${esc(v.lien)}" target="_blank" rel="noopener">Voir sur TikTok ↗</a>` : ""}</div>
     </div>
     <div class="analyse">
       <header>

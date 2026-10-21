@@ -7,6 +7,7 @@ Source : FICHIERS ANNEXES/VIDÉOS D'EXEMPLES. Pour chaque vidéo absente de site
   - travail/<id>/hook.jpg : les 5 premières secondes, une image toutes les 0,5 s (le hook) ;
   - travail/<id>/planche.jpg : toute la vidéo en 30 images maximum (le déroulé) ;
   - travail/<id>/transcription.json : ce qui est dit, avec le temps.
+Une seule vidéo : --seul <nom du fichier> (utilisé par chaine.py).
 Lancer avec le Python de la vidéothèque Notion (il a ffmpeg et faster-whisper) :
   "../../SCREEN MY CAR/CRÉATEURS/Briefs revclip/Vidéothèque/.venv/bin/python" outils/preparer.py
 """
@@ -63,6 +64,11 @@ if __name__ == "__main__":
     connues = {v["fichier"] for v in json.loads(donnees.read_text(encoding="utf-8"))} if donnees.exists() else set()
     videos = sorted(p for p in SOURCE.iterdir() if p.suffix.lower() in {".mp4", ".mov", ".m4v", ".webm"})
     nouvelles = videos if "--tout" in sys.argv else [v for v in videos if v.name not in connues]
+    if "--seul" in sys.argv:  # une seule vidéo (la chaîne automatique de la revue) : --seul <nom du fichier>
+        nom = sys.argv[sys.argv.index("--seul") + 1]
+        nouvelles = [v for v in videos if v.name == nom]
+        if not nouvelles:
+            sys.exit(f"{nom} n'est pas dans {SOURCE}")
     if not nouvelles:
         print("Aucune nouvelle vidéo.")
         sys.exit(0)
