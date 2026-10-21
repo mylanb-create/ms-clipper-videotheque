@@ -4,7 +4,7 @@
   "compte": "@pyvaloche",
   "plateforme": "TikTok",
   "niche": "apps, astuces téléphone",
-  "format": "liste",
+  "format": "top-apps",
   "titre": "3 apps en 19 secondes (et la 3ᵉ gardée pour la partie 2)",
   "sujet": "Un mec face caméra, dans un salon aux poutres, débite 3 apps en 19 secondes : la météo, Roommate… et garde la troisième pour la partie suivante. Les sous-titres s'affichent un mot à la fois, en gros.",
   "tags": [
@@ -92,5 +92,64 @@
       "comment": "Même recette : 20 secondes, un mot à la fois, MS Clipper en premier (« tu postes, t'es payé à la vue »), la 3ᵉ dans la partie 2."
     }
   ],
-  "ordre": 2
+  "ordre": 2,
+  "reprise": false,
+  "mise_en_scene": "Face caméra, très près, dans un salon. Les 3 icônes 2 secondes en haut à gauche. Sous-titres un mot à la fois.",
+  "hooks": [
+    "chiffre",
+    "provoc"
+  ],
+  "point_sensible": "Les apps qui te pourrissent la vie (et celles qu'on ne te montre pas)",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Trois apps qui pourraient peut-être te faire chier »"
+    },
+    "probleme": {
+      "t": 0,
+      "quoi": "pas de problème appuyé : la promesse suffit"
+    },
+    "outil_nomme": {
+      "t": 2,
+      "quoi": "« Premier : météo », puis « Deuxième : Roommate »"
+    },
+    "outil_montre": {
+      "t": 0,
+      "quoi": "seulement les 3 icônes, 2 secondes"
+    },
+    "preuve": {
+      "t": null,
+      "quoi": "aucune : il raconte"
+    },
+    "fin": {
+      "t": 14,
+      "quoi": "« Like et abonne-toi pour la partie 3 » (la 3ᵉ app est retenue)"
+    }
+  },
+  "montre_comment": "aucun écran, juste les icônes",
+  "cta": "« Like et abonne-toi pour la partie 3 »",
+  "montage": "une prise, sous-titres un mot à la fois en majuscules, aucune coupe visible. 19 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "19 secondes : le bon format pour un top apps."
+    },
+    {
+      "ok": "oui",
+      "texte": "Un chiffre dans la première phrase."
+    },
+    {
+      "ok": "non",
+      "texte": "Aucun écran montré : chez nous, on montre l'app, même 3 secondes."
+    },
+    {
+      "ok": "bof",
+      "texte": "La 3ᵉ app gardée pour la partie 2 : ça marche si tu publies vraiment la partie 2."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "ton téléphone, 3 icônes à poser au montage",
+    "temps": "10 min",
+    "niveau": "facile"
+  }
 }

@@ -99,5 +99,64 @@
     }
   ],
   "note": "<b>À remarquer :</b> deux vidéos de cette vidéothèque parlent de Claude (l'IA). Un outil que les gens utilisent déjà, c'est un sujet qui marche.",
-  "ordre": 18
+  "ordre": 18,
+  "reprise": false,
+  "mise_en_scene": "Face caméra dans un train, une photo incrustée en haut, puis l'ordi filmé à la main.",
+  "hooks": [
+    "ordre",
+    "cible"
+  ],
+  "point_sensible": "Laisser son ordi ouvert toute la nuit pour que l'IA travaille",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Pour toutes les personnes qui… arrêtez tout de suite »"
+    },
+    "probleme": {
+      "t": 0,
+      "quoi": "la photo de l'ordi entrouvert"
+    },
+    "outil_nomme": {
+      "t": 12,
+      "quoi": "« ça s'appelle [l'app] »"
+    },
+    "outil_montre": {
+      "t": 12,
+      "quoi": "l'écran filmé à la main"
+    },
+    "preuve": {
+      "t": 18,
+      "quoi": "« ton Mac reste activé même écran rabattu »"
+    },
+    "fin": {
+      "t": 23,
+      "quoi": "« fais attention à ta batterie »"
+    }
+  },
+  "montre_comment": "ordi filmé à la main",
+  "cta": "aucun",
+  "montage": "une prise, texte fixe, photo incrustée. 31 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Un ordre + une cible : le hook le plus simple à copier."
+    },
+    {
+      "ok": "oui",
+      "texte": "31 secondes, une astuce."
+    },
+    {
+      "ok": "oui",
+      "texte": "L'outil nommé à 12 s, montré à 12 s."
+    },
+    {
+      "ok": "bof",
+      "texte": "La preuve est dite, pas montrée (on ne voit pas l'ordi fermé qui tourne)."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "ton téléphone, n'importe où",
+    "temps": "5 min",
+    "niveau": "facile"
+  }
 }

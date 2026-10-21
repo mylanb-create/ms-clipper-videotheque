@@ -4,7 +4,7 @@
   "compte": "@ismael.viral",
   "plateforme": "TikTok",
   "niche": "argent, side business",
-  "format": "troisieme-personne",
+  "format": "fond-vert",
   "titre": "« Tu ne gagneras jamais d'argent » (le dessin animé qui accroche)",
   "sujet": "Un mini dessin animé fait par IA : une prof dit à Keo qu'il ne gagnera jamais d'argent sans diplôme. Keo revient en Lamborghini. Puis le créateur reprend la main : « j'ai trouvé un moyen plus éthique », et montre sa méthode sur son PC. 200 000 vues, 1 000 €.",
   "tags": [
@@ -121,5 +121,70 @@
       "comment": "La classe choquée, puis toi en vrai : « je suis payé à la vue avec MS Clipper ». Écran filmé à la main : la campagne, une vidéo postée, le compteur de vues, l'écran des gains. On finit sur un chiffre."
     }
   ],
-  "ordre": 12
+  "ordre": 12,
+  "reprise": true,
+  "reprise_quoi": "un mini dessin animé fait par IA (28 secondes), lui en petit en bas",
+  "mise_en_scene": "Le dessin animé plein écran, lui en incrustation en bas. Puis lui seul face caméra. Puis son PC filmé à la main.",
+  "hooks": [
+    "ordre",
+    "pattern-interrupt",
+    "resultat"
+  ],
+  "point_sensible": "Les profs qui disent que sans diplôme on ne gagne rien",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Regarde ça ! » + la prof en dessin animé"
+    },
+    "probleme": {
+      "t": 7,
+      "quoi": "« tu ne gagneras jamais d'argent »"
+    },
+    "outil_nomme": {
+      "t": 65,
+      "quoi": "« ce site-là qui s'appelle shortfy.io »"
+    },
+    "outil_montre": {
+      "t": 39,
+      "quoi": "son PC filmé à la main : YouTube, Google"
+    },
+    "preuve": {
+      "t": 80,
+      "quoi": "« 204 400 vues, 1 027,05 € »"
+    },
+    "fin": {
+      "t": 83,
+      "quoi": "« C'est parti ! »"
+    }
+  },
+  "montre_comment": "PC filmé à la main, le doigt dessus",
+  "cta": "aucun",
+  "montage": "dessin animé IA sous-titré avec des commentaires (*choqué*), coupes rapides. 1 min 27.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Une histoire avec une revanche : on veut voir la fin."
+    },
+    {
+      "ok": "oui",
+      "texte": "La preuve au centime près."
+    },
+    {
+      "ok": "oui",
+      "texte": "Le PC filmé à la main, 3 secondes par étape."
+    },
+    {
+      "ok": "non",
+      "texte": "Vidéo reprise (le dessin animé) : seulement si fournie."
+    },
+    {
+      "ok": "bof",
+      "texte": "L'outil nommé à 65 s."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un dessin animé IA (fourni) ou deux potes, ton ordi",
+    "temps": "30 min",
+    "niveau": "moyen"
+  }
 }

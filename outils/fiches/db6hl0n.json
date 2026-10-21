@@ -100,5 +100,68 @@
     }
   ],
   "note": "<b>Compare avec la version 1 :</b> même vidéo reprise, même app, deux montages différents (l'ordi filmé à la main, ou le téléphone en incrustation). Les deux marchent.",
-  "ordre": 16
+  "ordre": 16,
+  "reprise_quoi": "la même vidéo virale du couple (34 secondes), avec un bandeau « Réaction dans quelques secondes » par-dessus",
+  "mise_en_scene": "La vidéo reprise plein écran, puis elle dans sa chambre, l'app en petit à côté d'elle (incrustation).",
+  "hooks": [
+    "chiffre",
+    "mystere"
+  ],
+  "point_sensible": "Faire ses courses n'importe comment quand on est étudiant",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "la vidéo du couple + « Réaction dans quelques secondes »"
+    },
+    "probleme": {
+      "t": 34,
+      "quoi": "« posée sur mon lit, je vois cette vidéo, je suis obligée de réagir »"
+    },
+    "outil_nomme": {
+      "t": 72,
+      "quoi": "« un site internet, ça s'appelle Pimzi »"
+    },
+    "outil_montre": {
+      "t": 72,
+      "quoi": "l'app en incrustation à côté d'elle"
+    },
+    "preuve": {
+      "t": 91,
+      "quoi": "« impossible de dépasser ton budget »"
+    },
+    "fin": {
+      "t": 96,
+      "quoi": "« ça va changer votre vie, il faut essayer »"
+    }
+  },
+  "montre_comment": "incrustation du téléphone à côté d'elle",
+  "cta": "« il faut absolument essayer »",
+  "montage": "bandeau noir par-dessus l'original, une prise face caméra, incrustation. 1 min 41.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "L'app en incrustation pendant qu'elle reste à l'écran : exactement notre façon."
+    },
+    {
+      "ok": "oui",
+      "texte": "Son histoire d'étudiante avant l'app."
+    },
+    {
+      "ok": "non",
+      "texte": "Vidéo reprise : seulement si fournie."
+    },
+    {
+      "ok": "non",
+      "texte": "L'outil nommé à 72 s, vidéo de 1 min 41."
+    },
+    {
+      "ok": "bof",
+      "texte": "La preuve est une promesse, pas un chiffre."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "la vidéo fournie, ton téléphone",
+    "temps": "15 min",
+    "niveau": "facile"
+  }
 }

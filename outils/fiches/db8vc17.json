@@ -4,7 +4,7 @@
   "compte": "@emilioabz",
   "plateforme": "TikTok",
   "niche": "argent, IA, humour",
-  "format": "duo",
+  "format": "fond-vert",
   "titre": "Le dialogue avec Claude (la flemme contre les 27 000 €)",
   "sujet": "Un sketch à deux voix : lui, avachi, et Claude (l'IA, en vocal) au-dessus de sa tête. Il veut copier la vidéo de Yomi Denzel (« 27 000 € avec des PDF »). Claude crée le produit, la page de vente, le PDF… et lui a la flemme de faire la promo : il attend GTA 6.",
   "tags": [
@@ -113,5 +113,65 @@
       "comment": "L'IA explique MS Clipper (payé à la vue), crée le compte, toi tu as la flemme de filmer. Chute : « tu veux que je te prépare trois idées de vidéos, entre deux parties de GTA 6 ? »"
     }
   ],
-  "ordre": 17
+  "ordre": 17,
+  "reprise": true,
+  "reprise_quoi": "l'écran de Claude (l'IA) en mode vocal, enregistré, et les écrans de TinyPages",
+  "mise_en_scene": "Écran coupé en deux : l'IA en haut, lui en bas. Les écrans de l'outil remplacent l'IA par moments.",
+  "hooks": [
+    "marque",
+    "chiffre"
+  ],
+  "point_sensible": "Vouloir 27 000 € sans bosser",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Claude, Yomi Denzel vient de sortir une vidéo » + la miniature 27 000 €"
+    },
+    "probleme": {
+      "t": 17,
+      "quoi": "« moi aussi je vais imprimer 27 000 balles »"
+    },
+    "outil_nomme": {
+      "t": 40,
+      "quoi": "« créés en brouillon dans ton compte TinyPages »"
+    },
+    "outil_montre": {
+      "t": 24,
+      "quoi": "le tableau de bord, le produit, la page de vente"
+    },
+    "preuve": {
+      "t": 55,
+      "quoi": "« Le PDF est prêt », le fichier à télécharger"
+    },
+    "fin": {
+      "t": 97,
+      "quoi": "« entre deux parties de GTA 6 ? »"
+    }
+  },
+  "montre_comment": "les écrans en haut, à la place de l'IA",
+  "cta": "aucun",
+  "montage": "split haut / bas, sous-titres avec les mots en jaune, réponses de l'IA écrites. 1 min 47.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Un sketch drôle sans l'app, avec l'app dedans : notre règle de la vanne."
+    },
+    {
+      "ok": "oui",
+      "texte": "Les vrais écrans montrés pendant le sketch."
+    },
+    {
+      "ok": "non",
+      "texte": "1 min 47."
+    },
+    {
+      "ok": "bof",
+      "texte": "La preuve (490 €) passe vite."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "une IA en vocal, un enregistrement d'écran, de l'humour",
+    "temps": "45 min",
+    "niveau": "costaud"
+  }
 }

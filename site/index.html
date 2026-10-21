@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
   <header class="top">
@@ -26,7 +26,7 @@
       <span class="area">Vidéothèque</span>
     </a>
     <nav class="topnav">
-      <a href="#lexique">Les mots à connaître</a>
+      <a class="btn" href="#guide">📖 Le guide</a>
       <a class="btn btn-ghost" href="https://ms-clipper.vercel.app" target="_blank" rel="noopener">MS Clipper ↗</a>
     </nav>
   </header>
@@ -38,26 +38,27 @@
         <span class="l1">Des vidéos qui ont marché.</span>
         <span class="l2">Regarde, comprends, <b class="brand-text">refais.</b></span>
       </h1>
-      <p class="lead">Chaque vidéo est découpée : les 3 premières secondes, ce qu'on voit, ce qu'on entend, pourquoi les gens restent jusqu'au bout, et comment faire pareil avec nos apps.</p>
-      <div class="stats" id="stats"></div>
     </section>
 
     <section class="filtres" aria-label="Filtres">
       <div class="chips" id="chips-formats"></div>
       <label class="recherche">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        <input id="q" type="search" placeholder="Chercher un mot : masque, écran, avant/après…" autocomplete="off">
+        <input id="q" type="search" placeholder="Chercher un mot : masque, cagoule, chiffre, Basic-Fit…" autocomplete="off">
       </label>
     </section>
 
     <section class="grille" id="grille" aria-live="polite"></section>
     <p class="vide" id="vide" hidden>Rien avec ce mot. Essaie un autre, ou enlève le filtre.</p>
 
-    <section class="lexique" id="lexique">
-      <div class="eyebrow">Les mots à connaître</div>
-      <h2 class="display">Pour lire une fiche sans se perdre.</h2>
-      <div class="defs" id="defs"></div>
-    </section>
+    <a class="guide-teaser" href="#guide">
+      <span class="gt-emoji">📖</span>
+      <span>
+        <b>Le guide : comment lire une vidéo</b>
+        <span>Les 5 façons de filmer, les 12 types de hooks, et nos règles. Avec les exemples de la vidéothèque.</span>
+      </span>
+      <span class="gt-fleche">→</span>
+    </a>
 
     <footer class="pied">
       <img src="img/mascotte-degrade.svg" alt="" width="22" height="25">
@@ -67,7 +68,7 @@
 
   <section id="fiche" class="fiche" hidden aria-modal="true" role="dialog">
     <div class="fiche-barre">
-      <a class="btn btn-ghost retour" href="#" id="retour">← Toutes les vidéos</a>
+      <a class="btn btn-ghost retour" href="#">← Toutes les vidéos</a>
       <div class="fiche-nav">
         <button class="btn btn-ghost" id="prec" title="Vidéo précédente (←)">←</button>
         <span class="compteur" id="compteur"></span>
@@ -77,6 +78,60 @@
     <div class="fiche-corps" id="fiche-corps"></div>
   </section>
 
-  <script src="app.js?v=2"></script>
+  <section id="guide" class="fiche guide" hidden>
+    <div class="fiche-barre">
+      <a class="btn btn-ghost retour" href="#">← Toutes les vidéos</a>
+      <nav class="guide-nav">
+        <a href="#guide-lire">Lire une vidéo</a>
+        <a href="#guide-formats">Les formats</a>
+        <a href="#guide-hooks">Les hooks</a>
+        <a href="#guide-regles">Nos règles</a>
+      </nav>
+    </div>
+    <div class="guide-corps">
+      <header class="guide-hero">
+        <div class="eyebrow">Le guide</div>
+        <h1><span class="l1">Comment lire une vidéo.</span><span class="l2">Et comment <b class="brand-text">refaire</b> celles qui marchent.</span></h1>
+      </header>
+
+      <section class="g-section" id="guide-lire">
+        <h2 class="display">1 · Lire une vidéo en 6 questions</h2>
+        <p class="g-intro">Chaque fiche de la vidéothèque répond à ces 6 questions, avec la seconde exacte. Quand tu regardes une vidéo qui marche, pose-les-toi dans cet ordre.</p>
+        <ol class="g-grille">
+          <li><b>🪝 Le hook</b><span>Qu'est-ce qui se passe dans les 3 premières secondes ? Une phrase, une image, ou les deux ?</span></li>
+          <li><b>🩹 Le point sensible</b><span>Sur quoi ça appuie ? Perdre de l'argent, se faire avoir, rater un exam, ne pas dormir…</span></li>
+          <li><b>🗣️ L'outil nommé</b><span>À quelle seconde on entend le nom de l'app ? (Chez nous : avant 20 s.)</span></li>
+          <li><b>📱 L'outil montré</b><span>À quelle seconde on voit l'écran, et comment : téléphone en main, incrustation, capture ?</span></li>
+          <li><b>🧾 La preuve</b><span>Quel écran prouve que ça marche ? Un chiffre, un verdict, des stats. À quelle seconde ?</span></li>
+          <li><b>🏁 La fin</b><span>Comment ça se termine : un CTA (« commente »), une vanne, ou une coupe sèche ?</span></li>
+        </ol>
+      </section>
+
+      <section class="g-section" id="guide-formats">
+        <h2 class="display">2 · Les façons de filmer</h2>
+        <p class="g-intro">Un format, c'est une façon de filmer qu'on ne mélange pas avec une autre. Chaque format a sa règle chez nous.</p>
+        <div class="g-formats" id="g-formats"></div>
+      </section>
+
+      <section class="g-section" id="guide-hooks">
+        <h2 class="display">3 · Les types de hooks</h2>
+        <p class="g-intro">Les 3 premières secondes. Une vidéo qui marche en combine souvent deux ou trois (une question + un visuel bizarre, par exemple). Clique sur un exemple pour voir la vidéo.</p>
+        <div class="g-hooks" id="g-hooks"></div>
+      </section>
+
+      <section class="g-section" id="guide-regles">
+        <h2 class="display">4 · Nos règles</h2>
+        <p class="g-intro">Ce qu'on garde des vidéos qui marchent, et ce qu'on ne fait jamais chez nous.</p>
+        <div class="g-regles" id="g-regles"></div>
+      </section>
+
+      <section class="g-section" id="guide-lexique">
+        <h2 class="display">5 · Les mots</h2>
+        <div class="defs" id="defs"></div>
+      </section>
+    </div>
+  </section>
+
+  <script src="app.js?v=3"></script>
 </body>
 </html>

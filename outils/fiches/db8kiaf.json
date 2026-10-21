@@ -4,7 +4,7 @@
   "compte": "@kamevo.ai",
   "plateforme": "TikTok",
   "niche": "argent, IA",
-  "format": "duo",
+  "format": "fond-vert",
   "titre": "La formation à 500 € contre le site gratuit (filmé par un pote)",
   "sujet": "Dans une chambre gaming violette, un mec regarde la vidéo d'un vendeur de formation à 500 €. Son pote le filme, ils discutent, et il montre sur son écran un site qui fait la même chose gratuitement : des comptines pour enfants, générées en 2 minutes.",
   "tags": [
@@ -104,5 +104,69 @@
       "comment": "Ton pote te filme à ton bureau. Tu lui montres Revizio : la photo du cours, les fiches, le quiz. Lui : « attends, quoi ? ». Texte : « Y penser me scam mdr 😂 »."
     }
   ],
-  "ordre": 14
+  "ordre": 14,
+  "reprise": true,
+  "reprise_quoi": "la vidéo d'un vendeur de formation, qui tourne sur son grand écran",
+  "mise_en_scene": "Filmé par un pote, de côté : lui à son bureau, la vidéo du vendeur sur l'écran, puis le site sur l'écran.",
+  "hooks": [
+    "chiffre",
+    "fruit-interdit"
+  ],
+  "point_sensible": "Se faire arnaquer par une formation à 500 €",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« 500 € ? — Ouais, 500 €. » + le texte « Y penser me scam mdr »"
+    },
+    "probleme": {
+      "t": 0,
+      "quoi": "la formation à 500 €"
+    },
+    "outil_nomme": {
+      "t": 23,
+      "quoi": "« shortkids.io »"
+    },
+    "outil_montre": {
+      "t": 27,
+      "quoi": "le site sur l'écran"
+    },
+    "preuve": {
+      "t": 55,
+      "quoi": "la vidéo prête (« c'est dingue »)"
+    },
+    "fin": {
+      "t": 90,
+      "quoi": "« shortkids.io, pour ceux qui veulent »"
+    }
+  },
+  "montre_comment": "l'écran d'ordi, filmé par un pote",
+  "cta": "aucun",
+  "montage": "une prise filmée par un tiers, texte fixe en bas, lumière violette. 1 min 36.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Le duel : la formation payante contre l'outil gratuit."
+    },
+    {
+      "ok": "oui",
+      "texte": "Filmé par un pote : du vrai, zéro montage."
+    },
+    {
+      "ok": "non",
+      "texte": "Vidéo reprise sur l'écran : seulement si fournie."
+    },
+    {
+      "ok": "bof",
+      "texte": "Preuve faible : pas de chiffre."
+    },
+    {
+      "ok": "bof",
+      "texte": "1 min 36."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un pote qui filme, un écran",
+    "temps": "15 min",
+    "niveau": "facile"
+  }
 }

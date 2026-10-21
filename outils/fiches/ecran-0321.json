@@ -14,7 +14,7 @@
   "compte": "Lucas Martin",
   "plateforme": "TikTok",
   "niche": "apps iPhone",
-  "format": "carrousel",
+  "format": "top-apps",
   "titre": "6 applications simples et utiles pour iPhone (carrousel)",
   "sujet": "7 photos : une couverture avec les 6 icônes, puis une app par photo : une capture de l'app dans un iPhone, l'icône, le nom, deux lignes. Fond blanc, propre, en français. 283 enregistrements.",
   "tags": [
@@ -116,5 +116,59 @@
       "comment": "Même gabarit. MS Clipper : « Tu postes, tu es payé à la vue. »"
     }
   ],
-  "ordre": 20
+  "ordre": 20,
+  "reprise": false,
+  "mise_en_scene": "7 photos sur fond blanc : la couverture avec les 6 icônes, puis une app par photo (l'app dans un iPhone, l'icône, le nom, deux lignes).",
+  "hooks": [
+    "chiffre"
+  ],
+  "point_sensible": "Ne pas connaître les bonnes apps",
+  "chrono": {
+    "hook": {
+      "photo": 1,
+      "quoi": "le titre + les 6 icônes"
+    },
+    "probleme": {
+      "photo": null,
+      "quoi": "aucun : le top suffit"
+    },
+    "outil_nomme": {
+      "photo": 2,
+      "quoi": "le nom de chaque app, à côté de l'icône"
+    },
+    "outil_montre": {
+      "photo": 2,
+      "quoi": "une capture dans un iPhone par app"
+    },
+    "preuve": {
+      "photo": null,
+      "quoi": "aucune"
+    },
+    "fin": {
+      "photo": 7,
+      "quoi": "Endel, pas de CTA"
+    }
+  },
+  "montre_comment": "une capture dans un iPhone par app",
+  "cta": "aucun",
+  "montage": "7 photos, fond blanc, même gabarit.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Le même gabarit × 6 : on fait défiler sans réfléchir."
+    },
+    {
+      "ok": "oui",
+      "texte": "Une phrase par app, en français."
+    },
+    {
+      "ok": "bof",
+      "texte": "Notre app ne doit jamais être seule dans le top."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "Canva ou Figma, une capture par app",
+    "temps": "30 min",
+    "niveau": "facile"
+  }
 }

@@ -5,7 +5,7 @@
   "compte": "@kellyinsight",
   "plateforme": "TikTok",
   "niche": "amour, relations",
-  "format": "ecran",
+  "format": "flow",
   "titre": "Est-ce que mon ex va revenir ? (la fille au masque)",
   "sujet": "Une fille, un masque en tissu sur le visage, montre un site IA qui lit sa conversation WhatsApp et répond : « il va revenir à 84 % ».",
   "tags": [
@@ -113,6 +113,70 @@
   ],
   "note": "<b>Chez nous :</b> le téléphone (ou la tablette) filmé à la main comme ici, c'est bien. Ce qu'on ne fait pas : une capture d'écran plein écran du début à la fin.",
   "ordre": 1,
+  "reprise": false,
+  "mise_en_scene": "5 secondes face caméra, puis sa tablette filmée à la main pendant tout le reste ; elle revient 5 secondes au milieu pour expliquer.",
+  "hooks": [
+   "mystere",
+   "pattern-interrupt",
+   "question"
+  ],
+  "point_sensible": "Est-ce que mon ex va revenir ? (le doute amoureux, tout le monde l'a eu)",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "la question-mystère, avec le masque"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "le texte « Tuto comment savoir si son ex va REVENIR !!! » reste toute la vidéo"
+   },
+   "outil_nomme": {
+    "t": 12,
+    "quoi": "« un site qui s'appelle What Brandon Thinks »"
+   },
+   "outil_montre": {
+    "t": 5,
+    "quoi": "la tablette en main : WhatsApp, puis le site"
+   },
+   "preuve": {
+    "t": 38,
+    "quoi": "« IL VA REVENIR (84 %) » en gros sur l'écran, le doigt dessus"
+   },
+   "fin": {
+    "t": 62,
+    "quoi": "un dernier plan sur elle, pas de CTA"
+   }
+  },
+  "montre_comment": "tablette filmée à la main (ça bouge, c'est vivant)",
+  "cta": "aucun",
+  "montage": "une prise par bloc, coupes franches, texte fixe en haut, pas de sous-titres, pas de musique forte. 1 min 05.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Le masque : un visuel bizarre qui arrête le pouce, à garder."
+   },
+   {
+    "ok": "oui",
+    "texte": "L'écran filmé à la main, pas une capture."
+   },
+   {
+    "ok": "non",
+    "texte": "L'outil est nommé à 12 s avec « un site qui s'appelle » : chez nous, « j'ai fait un Screen My Car »."
+   },
+   {
+    "ok": "bof",
+    "texte": "Le résultat (84 %) arrive à 38 s : chez nous, il ouvre la vidéo."
+   },
+   {
+    "ok": "bof",
+    "texte": "1 min 05 : vise 45 secondes."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un masque (ou lunettes de ski, casque…), ton téléphone, une annonce",
+   "temps": "15 min",
+   "niveau": "facile"
+  },
   "duree": 64.9,
   "transcription": [
    {
@@ -208,7 +272,7 @@
   "compte": "@pyvaloche",
   "plateforme": "TikTok",
   "niche": "apps, astuces téléphone",
-  "format": "liste",
+  "format": "top-apps",
   "titre": "3 apps en 19 secondes (et la 3ᵉ gardée pour la partie 2)",
   "sujet": "Un mec face caméra, dans un salon aux poutres, débite 3 apps en 19 secondes : la météo, Roommate… et garde la troisième pour la partie suivante. Les sous-titres s'affichent un mot à la fois, en gros.",
   "tags": [
@@ -297,6 +361,65 @@
    }
   ],
   "ordre": 2,
+  "reprise": false,
+  "mise_en_scene": "Face caméra, très près, dans un salon. Les 3 icônes 2 secondes en haut à gauche. Sous-titres un mot à la fois.",
+  "hooks": [
+   "chiffre",
+   "provoc"
+  ],
+  "point_sensible": "Les apps qui te pourrissent la vie (et celles qu'on ne te montre pas)",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Trois apps qui pourraient peut-être te faire chier »"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "pas de problème appuyé : la promesse suffit"
+   },
+   "outil_nomme": {
+    "t": 2,
+    "quoi": "« Premier : météo », puis « Deuxième : Roommate »"
+   },
+   "outil_montre": {
+    "t": 0,
+    "quoi": "seulement les 3 icônes, 2 secondes"
+   },
+   "preuve": {
+    "t": null,
+    "quoi": "aucune : il raconte"
+   },
+   "fin": {
+    "t": 14,
+    "quoi": "« Like et abonne-toi pour la partie 3 » (la 3ᵉ app est retenue)"
+   }
+  },
+  "montre_comment": "aucun écran, juste les icônes",
+  "cta": "« Like et abonne-toi pour la partie 3 »",
+  "montage": "une prise, sous-titres un mot à la fois en majuscules, aucune coupe visible. 19 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "19 secondes : le bon format pour un top apps."
+   },
+   {
+    "ok": "oui",
+    "texte": "Un chiffre dans la première phrase."
+   },
+   {
+    "ok": "non",
+    "texte": "Aucun écran montré : chez nous, on montre l'app, même 3 secondes."
+   },
+   {
+    "ok": "bof",
+    "texte": "La 3ᵉ app gardée pour la partie 2 : ça marche si tu publies vraiment la partie 2."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "ton téléphone, 3 icônes à poser au montage",
+   "temps": "10 min",
+   "niveau": "facile"
+  },
   "duree": 19.5,
   "transcription": [
    {
@@ -442,6 +565,66 @@
    }
   ],
   "ordre": 3,
+  "reprise": false,
+  "mise_en_scene": "2 secondes de visage choqué (filtre déformant) dehors, puis le téléphone en main sur le trottoir. Pas un mot.",
+  "hooks": [
+   "reaction",
+   "cible",
+   "pattern-interrupt"
+  ],
+  "point_sensible": "Galérer au SMIC pendant des années",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "la bouche grande ouverte, le filtre"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "le texte « 6 ans je galère au SMIC » reste toute la vidéo"
+   },
+   "outil_nomme": {
+    "t": null,
+    "quoi": "jamais dit (pas de parole) ; le nom est sur l'écran du téléphone"
+   },
+   "outil_montre": {
+    "t": 2,
+    "quoi": "téléphone en main : les 5 questions du site"
+   },
+   "preuve": {
+    "t": 22,
+    "quoi": "« On chiffre ton potentiel » → 10 823 € en gros"
+   },
+   "fin": {
+    "t": 30,
+    "quoi": "le site se crée, fin"
+   }
+  },
+  "montre_comment": "téléphone en main, dehors",
+  "cta": "aucun",
+  "montage": "musique seule, aucun sous-titre, texte fixe en haut. 33 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Sans parole : idéal pour un créateur qui n'aime pas parler."
+   },
+   {
+    "ok": "oui",
+    "texte": "Le chiffre arrive en gros et reste à l'écran."
+   },
+   {
+    "ok": "bof",
+    "texte": "Le résultat arrive à 22 s : chez nous, on l'ouvre et on le remontre à la fin."
+   },
+   {
+    "ok": "non",
+    "texte": "Le nom de l'outil n'est jamais dit : chez nous, « Screen My Car » doit être lisible à l'écran, net."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "ton téléphone, un filtre TikTok, une musique tendance",
+   "temps": "10 min",
+   "niveau": "facile"
+  },
   "duree": 33.0,
   "transcription": []
  },
@@ -540,6 +723,65 @@
    }
   ],
   "ordre": 4,
+  "reprise": false,
+  "mise_en_scene": "2 secondes de visage sceptique en voiture, puis le téléphone en main au-dessus d'un clavier.",
+  "hooks": [
+   "fruit-interdit",
+   "marque"
+  ],
+  "point_sensible": "Instagram te bouffe du temps avec les Reels",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "le texte « c'est quoi cette feature cachée d'insta » + sa tête"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "implicite : les Reels et les stories qu'on n'a pas demandés"
+   },
+   "outil_nomme": {
+    "t": null,
+    "quoi": "jamais nommé (le réglage FeedLite, on lit le nom à l'écran)"
+   },
+   "outil_montre": {
+    "t": 2,
+    "quoi": "téléphone en main, le menu FeedLite"
+   },
+   "preuve": {
+    "t": 12,
+    "quoi": "Instagram devient rose, plus de Reels"
+   },
+   "fin": {
+    "t": 22,
+    "quoi": "« Incroyable. » Fin sèche."
+   }
+  },
+  "montre_comment": "téléphone en main, le doigt qui appuie",
+  "cta": "aucun",
+  "montage": "une phrase, aucune coupe, texte fixe. 25 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "25 secondes, une seule phrase : on la revoit 3 fois."
+   },
+   {
+    "ok": "oui",
+    "texte": "Le geste exact montré, téléphone en main."
+   },
+   {
+    "ok": "non",
+    "texte": "L'outil n'est jamais nommé : chez nous, « Screen My Car » se dit et s'écrit."
+   },
+   {
+    "ok": "bof",
+    "texte": "Les fautes dans le texte font vrai, mais « Screen My Car » doit être bien écrit."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "ton téléphone, un ordi ou une table",
+   "temps": "5 min",
+   "niveau": "facile"
+  },
   "duree": 25.3,
   "transcription": [
    {
@@ -649,6 +891,65 @@
    }
   ],
   "ordre": 5,
+  "reprise": false,
+  "mise_en_scene": "4 secondes dans son lit (casquette, torse nu), puis le téléphone en main, lui invisible.",
+  "hooks": [
+   "reaction",
+   "urgence"
+  ],
+  "point_sensible": "Partir en voyage sans rien avoir préparé",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« C'est quoi ce truc de fou, là ? » + le texte « je pars dans 5 HEURES »"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "il part dans 5 heures et découvre l'app seulement maintenant"
+   },
+   "outil_nomme": {
+    "t": null,
+    "quoi": "jamais dit ; visible à l'écran"
+   },
+   "outil_montre": {
+    "t": 4,
+    "quoi": "téléphone en main : créer un voyage, les dates, le swipe"
+   },
+   "preuve": {
+    "t": 37,
+    "quoi": "l'itinéraire jour par jour, le trajet sur la carte"
+   },
+   "fin": {
+    "t": 53,
+    "quoi": "« Incroyable », fin"
+   }
+  },
+  "montre_comment": "téléphone en main, allongé",
+  "cta": "aucun",
+  "montage": "une prise, texte fixe, pas de sous-titres. 56 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "L'urgence vraie (« dans 5 heures ») rend la scène crédible."
+   },
+   {
+    "ok": "oui",
+    "texte": "Il remplit l'app en direct : vraies dates, vraies activités."
+   },
+   {
+    "ok": "non",
+    "texte": "Le nom de l'app n'est jamais dit."
+   },
+   {
+    "ok": "bof",
+    "texte": "Le résultat (l'itinéraire) arrive à 37 s : chez nous, on le montre dès le début."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "ton téléphone, ton lit",
+   "temps": "10 min",
+   "niveau": "facile"
+  },
   "duree": 56.3,
   "transcription": [
    {
@@ -799,7 +1100,7 @@
   "compte": "@alex.brtnn",
   "plateforme": "TikTok",
   "niche": "sommeil, bien-être",
-  "format": "flow",
+  "format": "fond-vert",
   "titre": "S'endormir en 2 minutes (à 2 h 45 du matin)",
   "sujet": "Un mec dans son lit à 2 h 45, qui n'arrive pas à dormir, montre l'astuce de sa mère psy : un test dans Apple Santé, puis une app qui fabrique un programme pour s'endormir.",
   "tags": [
@@ -895,6 +1196,71 @@
    }
   ],
   "ordre": 6,
+  "reprise": true,
+  "reprise_quoi": "la vidéo d'un autre créateur : son visage reste en fond derrière lui pendant les 13 premières secondes",
+  "mise_en_scene": "Lui en gros plan devant la vidéo reprise, puis le téléphone en main en haut de l'image, lui visible en bas.",
+  "hooks": [
+   "resultat",
+   "urgence",
+   "cible"
+  ],
+  "point_sensible": "Ne pas réussir à dormir",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Les gars, je vais en sauver plus d'un » + les 2 textes"
+   },
+   "probleme": {
+    "t": 5,
+    "quoi": "« il est littéralement 2 h 45 du matin » : il ne dort pas"
+   },
+   "outil_nomme": {
+    "t": 25,
+    "quoi": "« cette application-là, Louane » (après Apple Santé à 14 s)"
+   },
+   "outil_montre": {
+    "t": 13,
+    "quoi": "téléphone en main : Apple Santé, puis l'app"
+   },
+   "preuve": {
+    "t": 52,
+    "quoi": "« 7 jours pour apaiser tes nuits », le programme créé"
+   },
+   "fin": {
+    "t": 59,
+    "quoi": "« je vous jure, vous mettez une séance… » coupé net"
+   }
+  },
+  "montre_comment": "téléphone en main dans le noir, lui en bas de l'image",
+  "cta": "aucun",
+  "montage": "une prise, 2 textes fixes, pas de sous-titres, flou et sombre assumés. 1 min 05.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Le résultat annoncé en première phrase (« je vais en sauver plus d'un »)."
+   },
+   {
+    "ok": "oui",
+    "texte": "La caution (« ma mère qui est psy ») au lieu d'une démonstration."
+   },
+   {
+    "ok": "oui",
+    "texte": "Il reste visible pendant l'écran : c'est notre incrustation."
+   },
+   {
+    "ok": "bof",
+    "texte": "L'app est nommée à 25 s : chez nous, avant 20 s."
+   },
+   {
+    "ok": "non",
+    "texte": "Vidéo reprise en fond : seulement si Screen My Car la fournit."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "ton téléphone, ton lit, la vidéo reprise fournie",
+   "temps": "15 min",
+   "niveau": "facile"
+  },
   "duree": 65.2,
   "transcription": [
    {
@@ -1005,7 +1371,7 @@
   "compte": "@niooo690",
   "plateforme": "TikTok",
   "niche": "sport, courses",
-  "format": "flow",
+  "format": "choque",
   "titre": "« Depuis quand Basic-Fit autorise ça ? » (le filtre + le téléphone)",
   "sujet": "Un mec avec un filtre qui lui déforme le visage (yeux et bouche énormes) demande depuis quand Basic-Fit autorise ça. Puis son téléphone à la main : il répond en direct aux questions d'une app qui compose ses repas de la semaine selon sa salle, son magasin et son budget. 26,59 € la semaine.",
   "tags": [
@@ -1100,6 +1466,66 @@
    }
   ],
   "ordre": 7,
+  "reprise": false,
+  "mise_en_scene": "8 secondes de visage déformé par un filtre, sur un canapé, puis le téléphone en main dans le noir, lui invisible.",
+  "hooks": [
+   "fruit-interdit",
+   "marque",
+   "pattern-interrupt"
+  ],
+  "point_sensible": "Manger bien et pas cher quand on fait du sport",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Depuis quand Basic-Fit ils autorisent ça ? » + le filtre"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "implicite : le budget courses d'un sportif"
+   },
+   "outil_nomme": {
+    "t": null,
+    "quoi": "jamais dit ; on lit le nom sur l'écran"
+   },
+   "outil_montre": {
+    "t": 8,
+    "quoi": "téléphone en main : les questions de l'app, il répond à voix haute"
+   },
+   "preuve": {
+    "t": 45,
+    "quoi": "« On compose ta semaine » → 26,59 €, les repas"
+   },
+   "fin": {
+    "t": 68,
+    "quoi": "« c'est un truc de ouf », fin"
+   }
+  },
+  "montre_comment": "téléphone en main, dans le noir",
+  "cta": "aucun",
+  "montage": "une prise, texte fixe au début, pas de sous-titres. 1 min 13.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Le filtre + une marque connue : un hook à deux étages."
+   },
+   {
+    "ok": "oui",
+    "texte": "Il répond aux questions de l'app à voix haute : on apprend sur lui et sur l'app en même temps."
+   },
+   {
+    "ok": "non",
+    "texte": "L'app n'est jamais nommée."
+   },
+   {
+    "ok": "bof",
+    "texte": "1 min 13 et le résultat à 45 s : trop tard, trop long."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "ton téléphone, un filtre, un canapé",
+   "temps": "10 min",
+   "niveau": "facile"
+  },
   "duree": 73.5,
   "transcription": [
    {
@@ -1429,6 +1855,69 @@
   ],
   "note": "<b>Chez nous :</b> on ne dit pas « j'ai réglé ça avec un site qui s'appelle… ». On dit « j'ai fait un Screen My Car » et on montre le résultat. Et pas de « lien en dessous » : le code promo est dans la description.",
   "ordre": 8,
+  "reprise": false,
+  "mise_en_scene": "Face caméra dans sa cuisine, plan buste. L'app en captures d'écran plein écran de 35 à 47 s.",
+  "hooks": [
+   "question",
+   "chiffre"
+  ],
+  "point_sensible": "Payer les courses plus cher et jeter la moitié",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Est-ce que toi aussi… » + le bandeau « SPOILER »"
+   },
+   "probleme": {
+    "t": 6,
+    "quoi": "« 20 balles de plus à la caisse »"
+   },
+   "outil_nomme": {
+    "t": 35,
+    "quoi": "« un site qui s'appelle Pimzi »"
+   },
+   "outil_montre": {
+    "t": 35,
+    "quoi": "captures d'écran plein écran de l'app"
+   },
+   "preuve": {
+    "t": 58,
+    "quoi": "« 30 euros par semaine »"
+   },
+   "fin": {
+    "t": 70,
+    "quoi": "« j'ai mis le lien en dessous, il faut essayer »"
+   }
+  },
+  "montre_comment": "captures d'écran plein écran (12 secondes)",
+  "cta": "« le lien est en dessous de la vidéo »",
+  "montage": "sous-titres mot à mot au milieu, bandeau en haut au début, jump-cuts. 1 min 16.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "La question « toi aussi » + le bandeau SPOILER."
+   },
+   {
+    "ok": "oui",
+    "texte": "Le retournement problème → solution : c'est pile là que l'app arrive."
+   },
+   {
+    "ok": "non",
+    "texte": "« Un site qui s'appelle Pimzi » à 35 s : chez nous, « j'ai fait un Screen My Car » avant 20 s."
+   },
+   {
+    "ok": "non",
+    "texte": "Captures plein écran : chez nous, téléphone en main ou incrustation."
+   },
+   {
+    "ok": "bof",
+    "texte": "1 min 16 : vise 45 secondes."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "ton téléphone, ta cuisine, 2 captures de l'app",
+   "temps": "20 min",
+   "niveau": "facile"
+  },
   "duree": 76.4,
   "transcription": [
    {
@@ -1667,6 +2156,65 @@
   ],
   "note": "<b>À remarquer :</b> l'app de la vidéo (Retain) fait la même chose que Revizio. Cette vidéo est un modèle direct pour Revizio.",
   "ordre": 9,
+  "reprise": false,
+  "mise_en_scene": "Face caméra dans son salon, le MacBook fermé tenu devant elle. L'ordi filmé à la main de 22 à 48 s.",
+  "hooks": [
+   "mystere",
+   "pattern-interrupt"
+  ],
+  "point_sensible": "Réviser des heures pour rien (et vouloir gagner un peu d'argent)",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Je vends l'arrière de mon MacBook comme espace pub » + les cases au feutre"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "pas de problème : c'est un concept, la curiosité suffit"
+   },
+   "outil_nomme": {
+    "t": 16,
+    "quoi": "« c'est donc Retain qui a acheté cet espace »"
+   },
+   "outil_montre": {
+    "t": 22,
+    "quoi": "l'ordi filmé à la main, le doigt sur l'écran"
+   },
+   "preuve": {
+    "t": 38,
+    "quoi": "« Anglais 14 %, 61 jours avant ton examen, 5 fiches »"
+   },
+   "fin": {
+    "t": 48,
+    "quoi": "« dites-moi en commentaire qui va acheter le prochain espace »"
+   }
+  },
+  "montre_comment": "ordi filmé à la main",
+  "cta": "« dites-moi en commentaire… »",
+  "montage": "sous-titres en bas avec les mots importants en rouge, texte « * petit moment de stress », coupes propres. 57 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Un concept qui rend le sponsor normal : c'est le jeu."
+   },
+   {
+    "ok": "oui",
+    "texte": "L'app nommée à 16 s, montrée à 22 s, le doigt dessus."
+   },
+   {
+    "ok": "oui",
+    "texte": "Un CTA commentaire qui fait réagir (les gens taguent des marques)."
+   },
+   {
+    "ok": "bof",
+    "texte": "Elle décrit l'app (« tu importes tes cours… ») : chez nous, on montre le résultat plutôt que la liste des fonctions."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un feutre, un sticker de l'app, ton ordi",
+   "temps": "30 min",
+   "niveau": "moyen"
+  },
   "duree": 57.1,
   "transcription": [
    {
@@ -1737,7 +2285,7 @@
   "compte": "@emma_cst7",
   "plateforme": "TikTok",
   "niche": "argent, side business",
-  "format": "duo",
+  "format": "fond-vert",
   "titre": "1 250 € en 10 minutes avec Google Maps (le couple)",
   "sujet": "Un couple face caméra : « il vit en quelle année ?? ». Lui explique comment trouver un commerce sans site sur Google Maps, lui fabriquer un site avec ChatGPT + Codunk en 2 minutes, et le vendre. Elle réagit devant l'écran.",
   "tags": [
@@ -1860,6 +2408,71 @@
   ],
   "note": "<b>À remarquer :</b> le même hook « pourquoi on n'apprend pas ça à l'école ? » est utilisé par la même créatrice sur deux comptes (@emma.viral80 et @emma_cst7). Quand un hook marche, on le réutilise.",
   "ordre": 10,
+  "reprise": true,
+  "reprise_quoi": "la vidéo du mec : le couple au début, puis sa voix et son écran. Elle réagit devant.",
+  "mise_en_scene": "Le couple collé face caméra, puis elle assise devant un grand écran où défile le tuto (sa voix à lui en off), puis lui seul à la fin.",
+  "hooks": [
+   "question",
+   "cible",
+   "chiffre"
+  ],
+  "point_sensible": "Vouloir gagner de l'argent sans compétence ni formation",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« vraie question : pourquoi on n'apprend pas ça à l'école ? »"
+   },
+   "probleme": {
+    "t": 6,
+    "quoi": "« T'as moins de 26 ans ? » + « 1 250 € en 10 minutes »"
+   },
+   "outil_nomme": {
+    "t": 40,
+    "quoi": "« on va aller sur Codunk »"
+   },
+   "outil_montre": {
+    "t": 9,
+    "quoi": "Google Maps sur le grand écran derrière elle, étapes numérotées"
+   },
+   "preuve": {
+    "t": 55,
+    "quoi": "« le site est prêt », puis « publication en cours », en ligne"
+   },
+   "fin": {
+    "t": 107,
+    "quoi": "« si vous avez des questions, écrivez-moi en privé »"
+   }
+  },
+  "montre_comment": "grand écran derrière elle (vidéo reprise), étapes numérotées en texte",
+  "cta": "« écrivez-moi en privé »",
+  "montage": "textes numérotés 1-2-3-4, texte rouge « T'as moins de 26 ans ? », « incroyable » répété pendant l'attente. 1 min 59.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Les étapes numérotées à l'écran : on peut refaire sans le son."
+   },
+   {
+    "ok": "oui",
+    "texte": "Un visage qui réagit pendant que l'autre explique."
+   },
+   {
+    "ok": "non",
+    "texte": "Vidéo reprise : seulement si Screen My Car la fournit."
+   },
+   {
+    "ok": "non",
+    "texte": "2 minutes : beaucoup trop long chez nous."
+   },
+   {
+    "ok": "bof",
+    "texte": "L'outil nommé à 40 s."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un pote (ou un couple), un écran, la vidéo fournie",
+   "temps": "20 min",
+   "niveau": "moyen"
+  },
   "duree": 118.8,
   "transcription": [
    {
@@ -2207,6 +2820,71 @@
    }
   ],
   "ordre": 11,
+  "reprise": true,
+  "reprise_quoi": "la vidéo d'un mec cagoulé qui explique le plan (27 secondes), puis le tuto sur son grand écran",
+  "mise_en_scene": "Elle en bas, devant un grand écran : la vidéo du cagoulé, puis YouTube, ChatGPT et Shortfy derrière elle.",
+  "hooks": [
+   "question",
+   "pattern-interrupt",
+   "fruit-interdit"
+  ],
+  "point_sensible": "Gagner de l'argent facilement, comme un bug qu'on exploite",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« pourquoi on n'apprend pas ça à l'école ? » + la cagoule + « glitch d'argent »"
+   },
+   "probleme": {
+    "t": 30,
+    "quoi": "« YouTube paye entre 1 000 et 6 000 € pour un million de vues »"
+   },
+   "outil_nomme": {
+    "t": 47,
+    "quoi": "« cet IA qui s'appelle shortfy.io »"
+   },
+   "outil_montre": {
+    "t": 47,
+    "quoi": "le site sur le grand écran derrière elle"
+   },
+   "preuve": {
+    "t": 63,
+    "quoi": "« 357 000 vues… 1 500 € », l'écran de stats"
+   },
+   "fin": {
+    "t": 65,
+    "quoi": "la preuve, puis fin"
+   }
+  },
+  "montre_comment": "grand écran derrière elle",
+  "cta": "aucun",
+  "montage": "texte fixe en haut, le cagoulé en grand puis elle, coupes rapides sur le tuto. 1 min 12.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Le hook à trois étages : question + cagoule + « glitch »."
+   },
+   {
+    "ok": "oui",
+    "texte": "La preuve chiffrée à la fin."
+   },
+   {
+    "ok": "non",
+    "texte": "Vidéo reprise : seulement si fournie."
+   },
+   {
+    "ok": "bof",
+    "texte": "L'outil nommé à 47 s."
+   },
+   {
+    "ok": "bof",
+    "texte": "1 min 12."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un grand écran (ou une télé), la vidéo fournie",
+   "temps": "20 min",
+   "niveau": "moyen"
+  },
   "duree": 71.8,
   "transcription": [
    {
@@ -2277,7 +2955,7 @@
   "compte": "@ismael.viral",
   "plateforme": "TikTok",
   "niche": "argent, side business",
-  "format": "troisieme-personne",
+  "format": "fond-vert",
   "titre": "« Tu ne gagneras jamais d'argent » (le dessin animé qui accroche)",
   "sujet": "Un mini dessin animé fait par IA : une prof dit à Keo qu'il ne gagnera jamais d'argent sans diplôme. Keo revient en Lamborghini. Puis le créateur reprend la main : « j'ai trouvé un moyen plus éthique », et montre sa méthode sur son PC. 200 000 vues, 1 000 €.",
   "tags": [
@@ -2395,6 +3073,71 @@
    }
   ],
   "ordre": 12,
+  "reprise": true,
+  "reprise_quoi": "un mini dessin animé fait par IA (28 secondes), lui en petit en bas",
+  "mise_en_scene": "Le dessin animé plein écran, lui en incrustation en bas. Puis lui seul face caméra. Puis son PC filmé à la main.",
+  "hooks": [
+   "ordre",
+   "pattern-interrupt",
+   "resultat"
+  ],
+  "point_sensible": "Les profs qui disent que sans diplôme on ne gagne rien",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Regarde ça ! » + la prof en dessin animé"
+   },
+   "probleme": {
+    "t": 7,
+    "quoi": "« tu ne gagneras jamais d'argent »"
+   },
+   "outil_nomme": {
+    "t": 65,
+    "quoi": "« ce site-là qui s'appelle shortfy.io »"
+   },
+   "outil_montre": {
+    "t": 39,
+    "quoi": "son PC filmé à la main : YouTube, Google"
+   },
+   "preuve": {
+    "t": 80,
+    "quoi": "« 204 400 vues, 1 027,05 € »"
+   },
+   "fin": {
+    "t": 83,
+    "quoi": "« C'est parti ! »"
+   }
+  },
+  "montre_comment": "PC filmé à la main, le doigt dessus",
+  "cta": "aucun",
+  "montage": "dessin animé IA sous-titré avec des commentaires (*choqué*), coupes rapides. 1 min 27.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Une histoire avec une revanche : on veut voir la fin."
+   },
+   {
+    "ok": "oui",
+    "texte": "La preuve au centime près."
+   },
+   {
+    "ok": "oui",
+    "texte": "Le PC filmé à la main, 3 secondes par étape."
+   },
+   {
+    "ok": "non",
+    "texte": "Vidéo reprise (le dessin animé) : seulement si fournie."
+   },
+   {
+    "ok": "bof",
+    "texte": "L'outil nommé à 65 s."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un dessin animé IA (fourni) ou deux potes, ton ordi",
+   "temps": "30 min",
+   "niveau": "moyen"
+  },
   "duree": 87.3,
   "transcription": [
    {
@@ -2687,6 +3430,70 @@
   ],
   "note": "<b>À remarquer :</b> c'est la 4ᵉ vidéo de cette vidéothèque qui vend le même site (Shortfy) : le dessin animé, la cagoule, le couple, la serveuse. Un seul produit, quatre histoires différentes. C'est exactement ce qu'on demande aux créateurs.",
   "ordre": 13,
+  "reprise": true,
+  "reprise_quoi": "la vidéo d'une serveuse du McDo (22 secondes), lui en incrustation en bas à gauche",
+  "mise_en_scene": "Lui en petit cadre en bas à gauche pendant toute la vidéo. La fille plein écran, puis l'ordi filmé à la main.",
+  "hooks": [
+   "fruit-interdit",
+   "resultat"
+  ],
+  "point_sensible": "Travailler au SMIC pendant des années",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« cette meuf a supprimé une vidéo… je l'ai enregistrée »"
+   },
+   "probleme": {
+    "t": 6,
+    "quoi": "« 3 ans au McDo, le SMIC, je pue la friture »"
+   },
+   "outil_nomme": {
+    "t": 45,
+    "quoi": "« le générateur vidéo IA de shortfy.io »"
+   },
+   "outil_montre": {
+    "t": 32,
+    "quoi": "l'ordi filmé à la main"
+   },
+   "preuve": {
+    "t": 27,
+    "quoi": "« Estimated revenue €905.77 »"
+   },
+   "fin": {
+    "t": 57,
+    "quoi": "« t'as plus qu'à poster et encaisser »"
+   }
+  },
+  "montre_comment": "ordi filmé à la main, lui en incrustation",
+  "cta": "aucun",
+  "montage": "texte fixe en haut, lui en incrustation permanente, coupes rapides. 1 min 04.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Le fruit interdit (« vidéo supprimée ») : un hook à réutiliser tel quel."
+   },
+   {
+    "ok": "oui",
+    "texte": "La preuve chiffrée arrive tôt (27 s) et au centime."
+   },
+   {
+    "ok": "oui",
+    "texte": "Lui reste en incrustation : c'est notre façon."
+   },
+   {
+    "ok": "non",
+    "texte": "Vidéo reprise : seulement si fournie."
+   },
+   {
+    "ok": "bof",
+    "texte": "L'outil nommé à 45 s."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "la vidéo fournie, ton ordi ou ton téléphone",
+   "temps": "15 min",
+   "niveau": "facile"
+  },
   "duree": 64.1,
   "transcription": [
    {
@@ -2797,7 +3604,7 @@
   "compte": "@kamevo.ai",
   "plateforme": "TikTok",
   "niche": "argent, IA",
-  "format": "duo",
+  "format": "fond-vert",
   "titre": "La formation à 500 € contre le site gratuit (filmé par un pote)",
   "sujet": "Dans une chambre gaming violette, un mec regarde la vidéo d'un vendeur de formation à 500 €. Son pote le filme, ils discutent, et il montre sur son écran un site qui fait la même chose gratuitement : des comptines pour enfants, générées en 2 minutes.",
   "tags": [
@@ -2898,6 +3705,70 @@
    }
   ],
   "ordre": 14,
+  "reprise": true,
+  "reprise_quoi": "la vidéo d'un vendeur de formation, qui tourne sur son grand écran",
+  "mise_en_scene": "Filmé par un pote, de côté : lui à son bureau, la vidéo du vendeur sur l'écran, puis le site sur l'écran.",
+  "hooks": [
+   "chiffre",
+   "fruit-interdit"
+  ],
+  "point_sensible": "Se faire arnaquer par une formation à 500 €",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« 500 € ? — Ouais, 500 €. » + le texte « Y penser me scam mdr »"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "la formation à 500 €"
+   },
+   "outil_nomme": {
+    "t": 23,
+    "quoi": "« shortkids.io »"
+   },
+   "outil_montre": {
+    "t": 27,
+    "quoi": "le site sur l'écran"
+   },
+   "preuve": {
+    "t": 55,
+    "quoi": "la vidéo prête (« c'est dingue »)"
+   },
+   "fin": {
+    "t": 90,
+    "quoi": "« shortkids.io, pour ceux qui veulent »"
+   }
+  },
+  "montre_comment": "l'écran d'ordi, filmé par un pote",
+  "cta": "aucun",
+  "montage": "une prise filmée par un tiers, texte fixe en bas, lumière violette. 1 min 36.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Le duel : la formation payante contre l'outil gratuit."
+   },
+   {
+    "ok": "oui",
+    "texte": "Filmé par un pote : du vrai, zéro montage."
+   },
+   {
+    "ok": "non",
+    "texte": "Vidéo reprise sur l'écran : seulement si fournie."
+   },
+   {
+    "ok": "bof",
+    "texte": "Preuve faible : pas de chiffre."
+   },
+   {
+    "ok": "bof",
+    "texte": "1 min 36."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un pote qui filme, un écran",
+   "temps": "15 min",
+   "niveau": "facile"
+  },
   "duree": 96.3,
   "transcription": [
    {
@@ -3199,6 +4070,69 @@
   ],
   "note": "<b>Règle MS Clipper :</b> une vidéo reprise (déjà virale), c'est seulement si c'est nous qui la donnons au créateur. Et notre version fait 30 à 60 secondes, pas 2 minutes.",
   "ordre": 15,
+  "reprise_quoi": "la vidéo virale du couple (lui qui râle : 184 € de courses), 21 secondes",
+  "mise_en_scene": "La vidéo reprise plein écran, puis la créatrice seule en gros plan, puis son ordi filmé à la main.",
+  "hooks": [
+   "chiffre",
+   "reaction"
+  ],
+  "point_sensible": "Payer 184 € de courses et n'avoir rien à manger",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« un truc que je ne comprends pas… » + le bandeau « 184 € »"
+   },
+   "probleme": {
+    "t": 11,
+    "quoi": "« bip, bip, bip, 184 euros »"
+   },
+   "outil_nomme": {
+    "t": 21,
+    "quoi": "« c'est exactement pour ça que je me suis mise sur Pimzi »"
+   },
+   "outil_montre": {
+    "t": 63,
+    "quoi": "l'ordi filmé à la main, écran par écran"
+   },
+   "preuve": {
+    "t": 100,
+    "quoi": "« 7 dîners chez Leclerc pour 35 euros »"
+   },
+   "fin": {
+    "t": 116,
+    "quoi": "« game changer, ça m'a changé ma vie »"
+   }
+  },
+  "montre_comment": "ordi filmé à la main",
+  "cta": "aucun",
+  "montage": "la vidéo reprise non coupée, puis une prise face caméra, puis le tuto. 1 min 58.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "« C'est exactement pour ça que… » : l'enchaînement parfait après une reprise."
+   },
+   {
+    "ok": "oui",
+    "texte": "L'outil nommé à 21 s."
+   },
+   {
+    "ok": "non",
+    "texte": "Vidéo reprise : seulement si fournie."
+   },
+   {
+    "ok": "non",
+    "texte": "1 min 58 : deux fois trop long."
+   },
+   {
+    "ok": "bof",
+    "texte": "L'écran arrive à 63 s."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "la vidéo fournie, ton ordi",
+   "temps": "20 min",
+   "niveau": "facile"
+  },
   "duree": 118.3,
   "transcription": [
    {
@@ -3571,6 +4505,69 @@
   ],
   "note": "<b>Compare avec la version 1 :</b> même vidéo reprise, même app, deux montages différents (l'ordi filmé à la main, ou le téléphone en incrustation). Les deux marchent.",
   "ordre": 16,
+  "reprise_quoi": "la même vidéo virale du couple (34 secondes), avec un bandeau « Réaction dans quelques secondes » par-dessus",
+  "mise_en_scene": "La vidéo reprise plein écran, puis elle dans sa chambre, l'app en petit à côté d'elle (incrustation).",
+  "hooks": [
+   "chiffre",
+   "mystere"
+  ],
+  "point_sensible": "Faire ses courses n'importe comment quand on est étudiant",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "la vidéo du couple + « Réaction dans quelques secondes »"
+   },
+   "probleme": {
+    "t": 34,
+    "quoi": "« posée sur mon lit, je vois cette vidéo, je suis obligée de réagir »"
+   },
+   "outil_nomme": {
+    "t": 72,
+    "quoi": "« un site internet, ça s'appelle Pimzi »"
+   },
+   "outil_montre": {
+    "t": 72,
+    "quoi": "l'app en incrustation à côté d'elle"
+   },
+   "preuve": {
+    "t": 91,
+    "quoi": "« impossible de dépasser ton budget »"
+   },
+   "fin": {
+    "t": 96,
+    "quoi": "« ça va changer votre vie, il faut essayer »"
+   }
+  },
+  "montre_comment": "incrustation du téléphone à côté d'elle",
+  "cta": "« il faut absolument essayer »",
+  "montage": "bandeau noir par-dessus l'original, une prise face caméra, incrustation. 1 min 41.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "L'app en incrustation pendant qu'elle reste à l'écran : exactement notre façon."
+   },
+   {
+    "ok": "oui",
+    "texte": "Son histoire d'étudiante avant l'app."
+   },
+   {
+    "ok": "non",
+    "texte": "Vidéo reprise : seulement si fournie."
+   },
+   {
+    "ok": "non",
+    "texte": "L'outil nommé à 72 s, vidéo de 1 min 41."
+   },
+   {
+    "ok": "bof",
+    "texte": "La preuve est une promesse, pas un chiffre."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "la vidéo fournie, ton téléphone",
+   "temps": "15 min",
+   "niveau": "facile"
+  },
   "duree": 101.3,
   "transcription": [
    {
@@ -3736,7 +4733,7 @@
   "compte": "@emilioabz",
   "plateforme": "TikTok",
   "niche": "argent, IA, humour",
-  "format": "duo",
+  "format": "fond-vert",
   "titre": "Le dialogue avec Claude (la flemme contre les 27 000 €)",
   "sujet": "Un sketch à deux voix : lui, avachi, et Claude (l'IA, en vocal) au-dessus de sa tête. Il veut copier la vidéo de Yomi Denzel (« 27 000 € avec des PDF »). Claude crée le produit, la page de vente, le PDF… et lui a la flemme de faire la promo : il attend GTA 6.",
   "tags": [
@@ -3846,6 +4843,66 @@
    }
   ],
   "ordre": 17,
+  "reprise": true,
+  "reprise_quoi": "l'écran de Claude (l'IA) en mode vocal, enregistré, et les écrans de TinyPages",
+  "mise_en_scene": "Écran coupé en deux : l'IA en haut, lui en bas. Les écrans de l'outil remplacent l'IA par moments.",
+  "hooks": [
+   "marque",
+   "chiffre"
+  ],
+  "point_sensible": "Vouloir 27 000 € sans bosser",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Claude, Yomi Denzel vient de sortir une vidéo » + la miniature 27 000 €"
+   },
+   "probleme": {
+    "t": 17,
+    "quoi": "« moi aussi je vais imprimer 27 000 balles »"
+   },
+   "outil_nomme": {
+    "t": 40,
+    "quoi": "« créés en brouillon dans ton compte TinyPages »"
+   },
+   "outil_montre": {
+    "t": 24,
+    "quoi": "le tableau de bord, le produit, la page de vente"
+   },
+   "preuve": {
+    "t": 55,
+    "quoi": "« Le PDF est prêt », le fichier à télécharger"
+   },
+   "fin": {
+    "t": 97,
+    "quoi": "« entre deux parties de GTA 6 ? »"
+   }
+  },
+  "montre_comment": "les écrans en haut, à la place de l'IA",
+  "cta": "aucun",
+  "montage": "split haut / bas, sous-titres avec les mots en jaune, réponses de l'IA écrites. 1 min 47.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Un sketch drôle sans l'app, avec l'app dedans : notre règle de la vanne."
+   },
+   {
+    "ok": "oui",
+    "texte": "Les vrais écrans montrés pendant le sketch."
+   },
+   {
+    "ok": "non",
+    "texte": "1 min 47."
+   },
+   {
+    "ok": "bof",
+    "texte": "La preuve (490 €) passe vite."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "une IA en vocal, un enregistrement d'écran, de l'humour",
+   "temps": "45 min",
+   "niveau": "costaud"
+  },
   "duree": 106.7,
   "transcription": [
    {
@@ -4227,6 +5284,65 @@
   ],
   "note": "<b>À remarquer :</b> deux vidéos de cette vidéothèque parlent de Claude (l'IA). Un outil que les gens utilisent déjà, c'est un sujet qui marche.",
   "ordre": 18,
+  "reprise": false,
+  "mise_en_scene": "Face caméra dans un train, une photo incrustée en haut, puis l'ordi filmé à la main.",
+  "hooks": [
+   "ordre",
+   "cible"
+  ],
+  "point_sensible": "Laisser son ordi ouvert toute la nuit pour que l'IA travaille",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Pour toutes les personnes qui… arrêtez tout de suite »"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "la photo de l'ordi entrouvert"
+   },
+   "outil_nomme": {
+    "t": 12,
+    "quoi": "« ça s'appelle [l'app] »"
+   },
+   "outil_montre": {
+    "t": 12,
+    "quoi": "l'écran filmé à la main"
+   },
+   "preuve": {
+    "t": 18,
+    "quoi": "« ton Mac reste activé même écran rabattu »"
+   },
+   "fin": {
+    "t": 23,
+    "quoi": "« fais attention à ta batterie »"
+   }
+  },
+  "montre_comment": "ordi filmé à la main",
+  "cta": "aucun",
+  "montage": "une prise, texte fixe, photo incrustée. 31 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Un ordre + une cible : le hook le plus simple à copier."
+   },
+   {
+    "ok": "oui",
+    "texte": "31 secondes, une astuce."
+   },
+   {
+    "ok": "oui",
+    "texte": "L'outil nommé à 12 s, montré à 12 s."
+   },
+   {
+    "ok": "bof",
+    "texte": "La preuve est dite, pas montrée (on ne voit pas l'ordi fermé qui tourne)."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "ton téléphone, n'importe où",
+   "temps": "5 min",
+   "niveau": "facile"
+  },
   "duree": 31.5,
   "transcription": [
    {
@@ -4274,7 +5390,7 @@
   "compte": "@theworkflowguy",
   "plateforme": "TikTok",
   "niche": "apps, productivité",
-  "format": "carrousel",
+  "format": "top-apps",
   "titre": "Top 3 apps de niche pour ton téléphone (carrousel)",
   "sujet": "Pas une vidéo : 4 photos qu'on fait défiler. Une photo de couverture (un café, un téléphone, des clés), puis une app par photo : son icône, une phrase, deux captures d'écran. 5 264 likes, 2 984 enregistrements.",
   "tags": [
@@ -4364,6 +5480,60 @@
   ],
   "note": "<b>Le format carrousel pour nos apps :</b> une app par photo, une phrase simple, deux captures. On mélange nos apps avec d'autres apps connues : c'est ce qui rend le top crédible.",
   "ordre": 19,
+  "reprise": false,
+  "mise_en_scene": "4 photos : une couverture « lifestyle », puis une app par photo (icône, une phrase, deux captures).",
+  "hooks": [
+   "chiffre"
+  ],
+  "point_sensible": "Ne pas connaître les bonnes apps",
+  "chrono": {
+   "hook": {
+    "photo": 1,
+    "quoi": "la couverture : café, téléphone, clés"
+   },
+   "probleme": {
+    "photo": null,
+    "quoi": "aucun : le top suffit"
+   },
+   "outil_nomme": {
+    "photo": 2,
+    "quoi": "Claude, Albo, Notion : le nom sur chaque photo"
+   },
+   "outil_montre": {
+    "photo": 2,
+    "quoi": "deux captures par app"
+   },
+   "preuve": {
+    "photo": null,
+    "quoi": "aucune"
+   },
+   "fin": {
+    "photo": 4,
+    "quoi": "Notion, pas de CTA"
+   }
+  },
+  "montre_comment": "2 captures d'écran par app",
+  "cta": "aucun",
+  "montage": "4 photos, même gabarit, une musique de fond.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Une app par photo, phrase courte, 2 captures."
+   },
+   {
+    "ok": "oui",
+    "texte": "Beaucoup d'enregistrements : TikTok pousse ce qu'on garde."
+   },
+   {
+    "ok": "bof",
+    "texte": "Notre app ne doit jamais être seule dans le top."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "Canva ou Figma, 2 captures par app",
+   "temps": "20 min",
+   "niveau": "facile"
+  },
   "duree": 5.1
  },
  {
@@ -4382,7 +5552,7 @@
   "compte": "Lucas Martin",
   "plateforme": "TikTok",
   "niche": "apps iPhone",
-  "format": "carrousel",
+  "format": "top-apps",
   "titre": "6 applications simples et utiles pour iPhone (carrousel)",
   "sujet": "7 photos : une couverture avec les 6 icônes, puis une app par photo : une capture de l'app dans un iPhone, l'icône, le nom, deux lignes. Fond blanc, propre, en français. 283 enregistrements.",
   "tags": [
@@ -4485,6 +5655,60 @@
    }
   ],
   "ordre": 20,
+  "reprise": false,
+  "mise_en_scene": "7 photos sur fond blanc : la couverture avec les 6 icônes, puis une app par photo (l'app dans un iPhone, l'icône, le nom, deux lignes).",
+  "hooks": [
+   "chiffre"
+  ],
+  "point_sensible": "Ne pas connaître les bonnes apps",
+  "chrono": {
+   "hook": {
+    "photo": 1,
+    "quoi": "le titre + les 6 icônes"
+   },
+   "probleme": {
+    "photo": null,
+    "quoi": "aucun : le top suffit"
+   },
+   "outil_nomme": {
+    "photo": 2,
+    "quoi": "le nom de chaque app, à côté de l'icône"
+   },
+   "outil_montre": {
+    "photo": 2,
+    "quoi": "une capture dans un iPhone par app"
+   },
+   "preuve": {
+    "photo": null,
+    "quoi": "aucune"
+   },
+   "fin": {
+    "photo": 7,
+    "quoi": "Endel, pas de CTA"
+   }
+  },
+  "montre_comment": "une capture dans un iPhone par app",
+  "cta": "aucun",
+  "montage": "7 photos, fond blanc, même gabarit.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Le même gabarit × 6 : on fait défiler sans réfléchir."
+   },
+   {
+    "ok": "oui",
+    "texte": "Une phrase par app, en français."
+   },
+   {
+    "ok": "bof",
+    "texte": "Notre app ne doit jamais être seule dans le top."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "Canva ou Figma, une capture par app",
+   "temps": "30 min",
+   "niveau": "facile"
+  },
   "duree": 3.5
  }
 ]

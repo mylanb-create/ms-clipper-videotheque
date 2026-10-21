@@ -98,5 +98,65 @@
       "comment": "Téléphone en main : la photo du cours, Revizio qui fabrique les fiches, le quiz, le score. Musique seulement."
     }
   ],
-  "ordre": 3
+  "ordre": 3,
+  "reprise": false,
+  "mise_en_scene": "2 secondes de visage choqué (filtre déformant) dehors, puis le téléphone en main sur le trottoir. Pas un mot.",
+  "hooks": [
+    "reaction",
+    "cible",
+    "pattern-interrupt"
+  ],
+  "point_sensible": "Galérer au SMIC pendant des années",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "la bouche grande ouverte, le filtre"
+    },
+    "probleme": {
+      "t": 0,
+      "quoi": "le texte « 6 ans je galère au SMIC » reste toute la vidéo"
+    },
+    "outil_nomme": {
+      "t": null,
+      "quoi": "jamais dit (pas de parole) ; le nom est sur l'écran du téléphone"
+    },
+    "outil_montre": {
+      "t": 2,
+      "quoi": "téléphone en main : les 5 questions du site"
+    },
+    "preuve": {
+      "t": 22,
+      "quoi": "« On chiffre ton potentiel » → 10 823 € en gros"
+    },
+    "fin": {
+      "t": 30,
+      "quoi": "le site se crée, fin"
+    }
+  },
+  "montre_comment": "téléphone en main, dehors",
+  "cta": "aucun",
+  "montage": "musique seule, aucun sous-titre, texte fixe en haut. 33 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Sans parole : idéal pour un créateur qui n'aime pas parler."
+    },
+    {
+      "ok": "oui",
+      "texte": "Le chiffre arrive en gros et reste à l'écran."
+    },
+    {
+      "ok": "bof",
+      "texte": "Le résultat arrive à 22 s : chez nous, on l'ouvre et on le remontre à la fin."
+    },
+    {
+      "ok": "non",
+      "texte": "Le nom de l'outil n'est jamais dit : chez nous, « Screen My Car » doit être lisible à l'écran, net."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "ton téléphone, un filtre TikTok, une musique tendance",
+    "temps": "10 min",
+    "niveau": "facile"
+  }
 }

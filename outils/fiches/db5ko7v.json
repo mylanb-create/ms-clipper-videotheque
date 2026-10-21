@@ -112,5 +112,68 @@
     }
   ],
   "note": "<b>Chez nous :</b> on ne dit pas « j'ai réglé ça avec un site qui s'appelle… ». On dit « j'ai fait un Screen My Car » et on montre le résultat. Et pas de « lien en dessous » : le code promo est dans la description.",
-  "ordre": 8
+  "ordre": 8,
+  "reprise": false,
+  "mise_en_scene": "Face caméra dans sa cuisine, plan buste. L'app en captures d'écran plein écran de 35 à 47 s.",
+  "hooks": [
+    "question",
+    "chiffre"
+  ],
+  "point_sensible": "Payer les courses plus cher et jeter la moitié",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Est-ce que toi aussi… » + le bandeau « SPOILER »"
+    },
+    "probleme": {
+      "t": 6,
+      "quoi": "« 20 balles de plus à la caisse »"
+    },
+    "outil_nomme": {
+      "t": 35,
+      "quoi": "« un site qui s'appelle Pimzi »"
+    },
+    "outil_montre": {
+      "t": 35,
+      "quoi": "captures d'écran plein écran de l'app"
+    },
+    "preuve": {
+      "t": 58,
+      "quoi": "« 30 euros par semaine »"
+    },
+    "fin": {
+      "t": 70,
+      "quoi": "« j'ai mis le lien en dessous, il faut essayer »"
+    }
+  },
+  "montre_comment": "captures d'écran plein écran (12 secondes)",
+  "cta": "« le lien est en dessous de la vidéo »",
+  "montage": "sous-titres mot à mot au milieu, bandeau en haut au début, jump-cuts. 1 min 16.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "La question « toi aussi » + le bandeau SPOILER."
+    },
+    {
+      "ok": "oui",
+      "texte": "Le retournement problème → solution : c'est pile là que l'app arrive."
+    },
+    {
+      "ok": "non",
+      "texte": "« Un site qui s'appelle Pimzi » à 35 s : chez nous, « j'ai fait un Screen My Car » avant 20 s."
+    },
+    {
+      "ok": "non",
+      "texte": "Captures plein écran : chez nous, téléphone en main ou incrustation."
+    },
+    {
+      "ok": "bof",
+      "texte": "1 min 16 : vise 45 secondes."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "ton téléphone, ta cuisine, 2 captures de l'app",
+    "temps": "20 min",
+    "niveau": "facile"
+  }
 }

@@ -4,7 +4,7 @@
   "compte": "@emma_cst7",
   "plateforme": "TikTok",
   "niche": "argent, side business",
-  "format": "duo",
+  "format": "fond-vert",
   "titre": "1 250 € en 10 minutes avec Google Maps (le couple)",
   "sujet": "Un couple face caméra : « il vit en quelle année ?? ». Lui explique comment trouver un commerce sans site sur Google Maps, lui fabriquer un site avec ChatGPT + Codunk en 2 minutes, et le vendre. Elle réagit devant l'écran.",
   "tags": [
@@ -126,5 +126,70 @@
     }
   ],
   "note": "<b>À remarquer :</b> le même hook « pourquoi on n'apprend pas ça à l'école ? » est utilisé par la même créatrice sur deux comptes (@emma.viral80 et @emma_cst7). Quand un hook marche, on le réutilise.",
-  "ordre": 10
+  "ordre": 10,
+  "reprise": true,
+  "reprise_quoi": "la vidéo du mec : le couple au début, puis sa voix et son écran. Elle réagit devant.",
+  "mise_en_scene": "Le couple collé face caméra, puis elle assise devant un grand écran où défile le tuto (sa voix à lui en off), puis lui seul à la fin.",
+  "hooks": [
+    "question",
+    "cible",
+    "chiffre"
+  ],
+  "point_sensible": "Vouloir gagner de l'argent sans compétence ni formation",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« vraie question : pourquoi on n'apprend pas ça à l'école ? »"
+    },
+    "probleme": {
+      "t": 6,
+      "quoi": "« T'as moins de 26 ans ? » + « 1 250 € en 10 minutes »"
+    },
+    "outil_nomme": {
+      "t": 40,
+      "quoi": "« on va aller sur Codunk »"
+    },
+    "outil_montre": {
+      "t": 9,
+      "quoi": "Google Maps sur le grand écran derrière elle, étapes numérotées"
+    },
+    "preuve": {
+      "t": 55,
+      "quoi": "« le site est prêt », puis « publication en cours », en ligne"
+    },
+    "fin": {
+      "t": 107,
+      "quoi": "« si vous avez des questions, écrivez-moi en privé »"
+    }
+  },
+  "montre_comment": "grand écran derrière elle (vidéo reprise), étapes numérotées en texte",
+  "cta": "« écrivez-moi en privé »",
+  "montage": "textes numérotés 1-2-3-4, texte rouge « T'as moins de 26 ans ? », « incroyable » répété pendant l'attente. 1 min 59.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Les étapes numérotées à l'écran : on peut refaire sans le son."
+    },
+    {
+      "ok": "oui",
+      "texte": "Un visage qui réagit pendant que l'autre explique."
+    },
+    {
+      "ok": "non",
+      "texte": "Vidéo reprise : seulement si Screen My Car la fournit."
+    },
+    {
+      "ok": "non",
+      "texte": "2 minutes : beaucoup trop long chez nous."
+    },
+    {
+      "ok": "bof",
+      "texte": "L'outil nommé à 40 s."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un pote (ou un couple), un écran, la vidéo fournie",
+    "temps": "20 min",
+    "niveau": "moyen"
+  }
 }

@@ -4,7 +4,7 @@
   "compte": "@kellyinsight",
   "plateforme": "TikTok",
   "niche": "amour, relations",
-  "format": "ecran",
+  "format": "flow",
   "titre": "Est-ce que mon ex va revenir ? (la fille au masque)",
   "sujet": "Une fille, un masque en tissu sur le visage, montre un site IA qui lit sa conversation WhatsApp et répond : « il va revenir à 84 % ».",
   "tags": [
@@ -111,5 +111,69 @@
     }
   ],
   "note": "<b>Chez nous :</b> le téléphone (ou la tablette) filmé à la main comme ici, c'est bien. Ce qu'on ne fait pas : une capture d'écran plein écran du début à la fin.",
-  "ordre": 1
+  "ordre": 1,
+  "reprise": false,
+  "mise_en_scene": "5 secondes face caméra, puis sa tablette filmée à la main pendant tout le reste ; elle revient 5 secondes au milieu pour expliquer.",
+  "hooks": [
+    "mystere",
+    "pattern-interrupt",
+    "question"
+  ],
+  "point_sensible": "Est-ce que mon ex va revenir ? (le doute amoureux, tout le monde l'a eu)",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "la question-mystère, avec le masque"
+    },
+    "probleme": {
+      "t": 0,
+      "quoi": "le texte « Tuto comment savoir si son ex va REVENIR !!! » reste toute la vidéo"
+    },
+    "outil_nomme": {
+      "t": 12,
+      "quoi": "« un site qui s'appelle What Brandon Thinks »"
+    },
+    "outil_montre": {
+      "t": 5,
+      "quoi": "la tablette en main : WhatsApp, puis le site"
+    },
+    "preuve": {
+      "t": 38,
+      "quoi": "« IL VA REVENIR (84 %) » en gros sur l'écran, le doigt dessus"
+    },
+    "fin": {
+      "t": 62,
+      "quoi": "un dernier plan sur elle, pas de CTA"
+    }
+  },
+  "montre_comment": "tablette filmée à la main (ça bouge, c'est vivant)",
+  "cta": "aucun",
+  "montage": "une prise par bloc, coupes franches, texte fixe en haut, pas de sous-titres, pas de musique forte. 1 min 05.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Le masque : un visuel bizarre qui arrête le pouce, à garder."
+    },
+    {
+      "ok": "oui",
+      "texte": "L'écran filmé à la main, pas une capture."
+    },
+    {
+      "ok": "non",
+      "texte": "L'outil est nommé à 12 s avec « un site qui s'appelle » : chez nous, « j'ai fait un Screen My Car »."
+    },
+    {
+      "ok": "bof",
+      "texte": "Le résultat (84 %) arrive à 38 s : chez nous, il ouvre la vidéo."
+    },
+    {
+      "ok": "bof",
+      "texte": "1 min 05 : vise 45 secondes."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un masque (ou lunettes de ski, casque…), ton téléphone, une annonce",
+    "temps": "15 min",
+    "niveau": "facile"
+  }
 }

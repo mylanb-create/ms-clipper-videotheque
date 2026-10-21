@@ -4,7 +4,7 @@
   "compte": "@niooo690",
   "plateforme": "TikTok",
   "niche": "sport, courses",
-  "format": "flow",
+  "format": "choque",
   "titre": "« Depuis quand Basic-Fit autorise ça ? » (le filtre + le téléphone)",
   "sujet": "Un mec avec un filtre qui lui déforme le visage (yeux et bouche énormes) demande depuis quand Basic-Fit autorise ça. Puis son téléphone à la main : il répond en direct aux questions d'une app qui compose ses repas de la semaine selon sa salle, son magasin et son budget. 26,59 € la semaine.",
   "tags": [
@@ -98,5 +98,65 @@
       "comment": "Téléphone en main : la photo du cours, Revizio qui pose ses questions (quel exam, quand), les fiches, le quiz. Tu réponds à voix haute : « moi c'est le bac dans 3 semaines »."
     }
   ],
-  "ordre": 7
+  "ordre": 7,
+  "reprise": false,
+  "mise_en_scene": "8 secondes de visage déformé par un filtre, sur un canapé, puis le téléphone en main dans le noir, lui invisible.",
+  "hooks": [
+    "fruit-interdit",
+    "marque",
+    "pattern-interrupt"
+  ],
+  "point_sensible": "Manger bien et pas cher quand on fait du sport",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Depuis quand Basic-Fit ils autorisent ça ? » + le filtre"
+    },
+    "probleme": {
+      "t": 0,
+      "quoi": "implicite : le budget courses d'un sportif"
+    },
+    "outil_nomme": {
+      "t": null,
+      "quoi": "jamais dit ; on lit le nom sur l'écran"
+    },
+    "outil_montre": {
+      "t": 8,
+      "quoi": "téléphone en main : les questions de l'app, il répond à voix haute"
+    },
+    "preuve": {
+      "t": 45,
+      "quoi": "« On compose ta semaine » → 26,59 €, les repas"
+    },
+    "fin": {
+      "t": 68,
+      "quoi": "« c'est un truc de ouf », fin"
+    }
+  },
+  "montre_comment": "téléphone en main, dans le noir",
+  "cta": "aucun",
+  "montage": "une prise, texte fixe au début, pas de sous-titres. 1 min 13.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Le filtre + une marque connue : un hook à deux étages."
+    },
+    {
+      "ok": "oui",
+      "texte": "Il répond aux questions de l'app à voix haute : on apprend sur lui et sur l'app en même temps."
+    },
+    {
+      "ok": "non",
+      "texte": "L'app n'est jamais nommée."
+    },
+    {
+      "ok": "bof",
+      "texte": "1 min 13 et le résultat à 45 s : trop tard, trop long."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "ton téléphone, un filtre, un canapé",
+    "temps": "10 min",
+    "niveau": "facile"
+  }
 }

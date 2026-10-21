@@ -11,7 +11,7 @@
   "compte": "@theworkflowguy",
   "plateforme": "TikTok",
   "niche": "apps, productivité",
-  "format": "carrousel",
+  "format": "top-apps",
   "titre": "Top 3 apps de niche pour ton téléphone (carrousel)",
   "sujet": "Pas une vidéo : 4 photos qu'on fait défiler. Une photo de couverture (un café, un téléphone, des clés), puis une app par photo : son icône, une phrase, deux captures d'écran. 5 264 likes, 2 984 enregistrements.",
   "tags": [
@@ -100,5 +100,59 @@
     }
   ],
   "note": "<b>Le format carrousel pour nos apps :</b> une app par photo, une phrase simple, deux captures. On mélange nos apps avec d'autres apps connues : c'est ce qui rend le top crédible.",
-  "ordre": 19
+  "ordre": 19,
+  "reprise": false,
+  "mise_en_scene": "4 photos : une couverture « lifestyle », puis une app par photo (icône, une phrase, deux captures).",
+  "hooks": [
+    "chiffre"
+  ],
+  "point_sensible": "Ne pas connaître les bonnes apps",
+  "chrono": {
+    "hook": {
+      "photo": 1,
+      "quoi": "la couverture : café, téléphone, clés"
+    },
+    "probleme": {
+      "photo": null,
+      "quoi": "aucun : le top suffit"
+    },
+    "outil_nomme": {
+      "photo": 2,
+      "quoi": "Claude, Albo, Notion : le nom sur chaque photo"
+    },
+    "outil_montre": {
+      "photo": 2,
+      "quoi": "deux captures par app"
+    },
+    "preuve": {
+      "photo": null,
+      "quoi": "aucune"
+    },
+    "fin": {
+      "photo": 4,
+      "quoi": "Notion, pas de CTA"
+    }
+  },
+  "montre_comment": "2 captures d'écran par app",
+  "cta": "aucun",
+  "montage": "4 photos, même gabarit, une musique de fond.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Une app par photo, phrase courte, 2 captures."
+    },
+    {
+      "ok": "oui",
+      "texte": "Beaucoup d'enregistrements : TikTok pousse ce qu'on garde."
+    },
+    {
+      "ok": "bof",
+      "texte": "Notre app ne doit jamais être seule dans le top."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "Canva ou Figma, 2 captures par app",
+    "temps": "20 min",
+    "niveau": "facile"
+  }
 }

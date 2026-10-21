@@ -4,7 +4,7 @@
   "compte": "@alex.brtnn",
   "plateforme": "TikTok",
   "niche": "sommeil, bien-être",
-  "format": "flow",
+  "format": "fond-vert",
   "titre": "S'endormir en 2 minutes (à 2 h 45 du matin)",
   "sujet": "Un mec dans son lit à 2 h 45, qui n'arrive pas à dormir, montre l'astuce de sa mère psy : un test dans Apple Santé, puis une app qui fabrique un programme pour s'endormir.",
   "tags": [
@@ -99,5 +99,70 @@
       "comment": "Téléphone en main : la photo du cours envoyée à Revizio, les fiches, le quiz, le score. Texte en haut : « Les flemmards à leur prime 😭 »."
     }
   ],
-  "ordre": 6
+  "ordre": 6,
+  "reprise": true,
+  "reprise_quoi": "la vidéo d'un autre créateur : son visage reste en fond derrière lui pendant les 13 premières secondes",
+  "mise_en_scene": "Lui en gros plan devant la vidéo reprise, puis le téléphone en main en haut de l'image, lui visible en bas.",
+  "hooks": [
+    "resultat",
+    "urgence",
+    "cible"
+  ],
+  "point_sensible": "Ne pas réussir à dormir",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Les gars, je vais en sauver plus d'un » + les 2 textes"
+    },
+    "probleme": {
+      "t": 5,
+      "quoi": "« il est littéralement 2 h 45 du matin » : il ne dort pas"
+    },
+    "outil_nomme": {
+      "t": 25,
+      "quoi": "« cette application-là, Louane » (après Apple Santé à 14 s)"
+    },
+    "outil_montre": {
+      "t": 13,
+      "quoi": "téléphone en main : Apple Santé, puis l'app"
+    },
+    "preuve": {
+      "t": 52,
+      "quoi": "« 7 jours pour apaiser tes nuits », le programme créé"
+    },
+    "fin": {
+      "t": 59,
+      "quoi": "« je vous jure, vous mettez une séance… » coupé net"
+    }
+  },
+  "montre_comment": "téléphone en main dans le noir, lui en bas de l'image",
+  "cta": "aucun",
+  "montage": "une prise, 2 textes fixes, pas de sous-titres, flou et sombre assumés. 1 min 05.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Le résultat annoncé en première phrase (« je vais en sauver plus d'un »)."
+    },
+    {
+      "ok": "oui",
+      "texte": "La caution (« ma mère qui est psy ») au lieu d'une démonstration."
+    },
+    {
+      "ok": "oui",
+      "texte": "Il reste visible pendant l'écran : c'est notre incrustation."
+    },
+    {
+      "ok": "bof",
+      "texte": "L'app est nommée à 25 s : chez nous, avant 20 s."
+    },
+    {
+      "ok": "non",
+      "texte": "Vidéo reprise en fond : seulement si Screen My Car la fournit."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "ton téléphone, ton lit, la vidéo reprise fournie",
+    "temps": "15 min",
+    "niveau": "facile"
+  }
 }

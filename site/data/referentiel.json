@@ -1,31 +1,93 @@
 {
   "formats": {
-    "choque": { "emoji": "😱", "nom": "Choqué", "def": "On montre un truc qui choque, et on réagit devant la caméra." },
-    "fond-vert": { "emoji": "🟩", "nom": "Fond vert", "def": "Une vidéo déjà connue derrière, et toi devant qui commentes." },
-    "flow": { "emoji": "🎬", "nom": "Flow", "def": "L'outil en action, téléphone en main, dans la vraie vie, en accéléré." },
-    "face-camera": { "emoji": "🗣️", "nom": "Face caméra", "def": "Tu parles à la caméra, comme à un pote." },
-    "troisieme-personne": { "emoji": "👀", "nom": "Troisième personne", "def": "Tu racontes l'histoire de quelqu'un d'autre." },
-    "duo": { "emoji": "👯", "nom": "Duo", "def": "Deux personnes : une question, une réponse." },
-    "ecran": { "emoji": "📱", "nom": "Écran", "def": "Quelques secondes de toi, puis ton écran tout le long pendant que tu parles." },
-    "liste": { "emoji": "🔢", "nom": "Liste", "def": "3 apps, 5 astuces : une par une, vite, sans blabla." },
-    "storytime": { "emoji": "📖", "nom": "Story time", "def": "Une histoire vraie, racontée avec un rebondissement." },
-    "carrousel": { "emoji": "🖼️", "nom": "Carrousel photos", "def": "Pas une vidéo : des photos qu'on fait défiler, une app par photo." }
+    "fond-vert": {
+      "emoji": "🟩",
+      "nom": "Fond vert",
+      "def": "Une vidéo reprise (déjà virale, ou l'écran de quelqu'un d'autre), et toi par-dessus : en petit, en bas, ou devant un grand écran.",
+      "reconnaitre": "Il y a une autre vidéo dans la vidéo. Le hook vient souvent de la vidéo reprise, toi tu commentes et tu enchaînes sur l'outil.",
+      "regle": "Chez nous, seulement si Screen My Car te donne la vidéo à reprendre. Ta version fait 30 à 60 secondes, pas 2 minutes."
+    },
+    "choque": {
+      "emoji": "😱",
+      "nom": "Choqué",
+      "def": "Une tête choquée avant tout (filtre, bouche ouverte, « c'est quoi ce truc ? »), puis la découverte de l'outil, téléphone en main.",
+      "reconnaitre": "Les 2 premières secondes, c'est une réaction, pas une phrase. Souvent un filtre ou une grimace.",
+      "regle": "La réaction doit porter sur un vrai résultat (le verdict, le chiffre), pas sur l'app elle-même."
+    },
+    "face-camera": {
+      "emoji": "🗣️",
+      "nom": "Face caméra",
+      "def": "Tu parles à la caméra comme à un pote. L'outil arrive au milieu, montré à l'écran, puis tu conclus.",
+      "reconnaitre": "Toi, seul dans le cadre, qui parles. Pas d'autre vidéo derrière.",
+      "regle": "Jamais « je te présente X, c'est un site qui… ». On dit « j'ai fait un Screen My Car » et on montre le résultat."
+    },
+    "flow": {
+      "emoji": "🎬",
+      "nom": "Flow",
+      "def": "L'outil en action : téléphone ou tablette en main, dans la vraie vie, et le résultat à l'écran.",
+      "reconnaitre": "L'écran occupe presque toute la vidéo, filmé à la main (ça bouge), pas une capture d'écran propre.",
+      "regle": "Le résultat d'abord, puis les étapes. Pas de tuto lent. Filmer le téléphone en main, oui ; une capture plein écran du début à la fin, non."
+    },
+    "top-apps": {
+      "emoji": "🏆",
+      "nom": "Top 3 apps",
+      "def": "Un classement d'applications, une par une, vite : en vidéo (20 secondes) ou en carrousel de photos.",
+      "reconnaitre": "Un chiffre dans le titre : 3 apps, 6 apps. Une app = une phrase.",
+      "regle": "Notre app ne doit jamais être seule : un top crédible mélange notre app avec des apps connues. Notre app en 1ʳᵉ ou 2ᵉ position."
+    },
+    "duo": {
+      "emoji": "👯",
+      "nom": "Duo",
+      "def": "Deux personnes dans le cadre : l'une pose la question, l'autre répond, l'outil tranche.",
+      "reconnaitre": "Deux visages, un vrai échange. Pas une vidéo reprise derrière.",
+      "regle": "Pas encore d'exemple dans la vidéothèque."
+    },
+    "troisieme-personne": {
+      "emoji": "👀",
+      "nom": "Troisième personne",
+      "def": "Tu racontes l'histoire de quelqu'un d'autre (« mon pote a acheté une voiture… »), et comment l'outil l'a sauvé.",
+      "reconnaitre": "Le héros de l'histoire n'est pas celui qui parle.",
+      "regle": "Pas encore d'exemple dans la vidéothèque."
+    }
+  },
+  "hooks": {
+    "reaction": { "emoji": "😱", "nom": "La réaction", "def": "Une tête choquée, la bouche ouverte, avant même qu'on sache pourquoi." },
+    "question": { "emoji": "❓", "nom": "La question", "def": "Une question qu'on se pose déjà : « est-ce que toi aussi… ? », « pourquoi on n'apprend pas ça à l'école ? »" },
+    "mystere": { "emoji": "🔮", "nom": "Le mystère", "def": "On promet une technique, un secret, une réaction… sans la donner tout de suite." },
+    "ordre": { "emoji": "🛑", "nom": "L'ordre", "def": "« Arrêtez tout de suite », « regarde ça » : on obéit avant de réfléchir." },
+    "chiffre": { "emoji": "🔢", "nom": "Le chiffre", "def": "1 250 €, 184 €, 27 000 €, 3 apps : un chiffre précis dans les 3 premières secondes." },
+    "fruit-interdit": { "emoji": "🙈", "nom": "Le fruit interdit", "def": "« Elle a supprimé la vidéo », « fonction cachée », « depuis quand c'est autorisé ? » : ce qui est caché attire." },
+    "pattern-interrupt": { "emoji": "🎭", "nom": "Le visuel bizarre", "def": "Masque, cagoule, filtre, dessin animé, ordi dessiné au feutre : on n'a pas l'habitude, le pouce s'arrête." },
+    "urgence": { "emoji": "⏳", "nom": "L'urgence", "def": "« Dans 5 heures », « il est 2 h 45 du matin » : ça se passe maintenant, pas un jour." },
+    "marque": { "emoji": "🏷️", "nom": "La marque connue", "def": "Basic-Fit, Instagram, YouTube, Yomi Denzel : un nom que tout le monde connaît, et on se sent concerné." },
+    "resultat": { "emoji": "🏁", "nom": "Le résultat d'abord", "def": "« Je vais en sauver plus d'un », « regardez ce que j'ai gagné » : ce qu'on obtient, avant comment." },
+    "cible": { "emoji": "🎯", "nom": "La cible nommée", "def": "« Pour toutes les personnes qui… », « T'as moins de 26 ans ? » : si c'est toi, tu restes." },
+    "provoc": { "emoji": "😏", "nom": "La provoc", "def": "« Trois apps qui pourraient te faire chier » : une formule qui pique, qu'on n'attend pas." }
   },
   "apps": {
     "smc": { "nom": "Screen My Car", "desc": "Tu colles une annonce de voiture d'occasion, ça te dit : acheter, négocier ou fuir." },
     "revizio": { "nom": "Revizio", "desc": "Tu envoies ton cours, l'app en fait des fiches et des questions, tu révises en jouant." },
     "msclipper": { "nom": "MS Clipper", "desc": "Tu postes des vidéos sur une app, tu es payé à la vue." }
   },
+  "regles": [
+    { "emoji": "🏁", "titre": "Le résultat d'abord", "texte": "Les 3 premières secondes montrent ce que la personne a gagné, évité ou économisé. Un vrai chiffre, du vrai rapport. Le « comment » vient après." },
+    { "emoji": "⏱️", "titre": "L'outil avant 20 secondes", "texte": "« J'ai fait un Screen My Car » se dit avant la 20ᵉ seconde. Jamais « je te présente Screen My Car, c'est un site qui… » : ça sonne comme une pub." },
+    { "emoji": "📱", "titre": "L'écran, toujours le vrai", "texte": "Téléphone en main, ou l'écran en incrustation en bas à gauche (légèrement remonté : la description TikTok couvre le bas). Jamais juste un logo. Jamais une capture plein écran du début à la fin." },
+    { "emoji": "🚫", "titre": "Pas de tuto", "texte": "On ne montre pas « je vais sur le site, je colle le lien ». On montre le résultat, puis les étapes en accéléré." },
+    { "emoji": "⏳", "titre": "30 à 60 secondes", "texte": "Plus court si le format le permet (20 s pour un top apps), rarement plus d'une minute. Le résultat reste à l'écran au moins 10 secondes." },
+    { "emoji": "🔁", "titre": "Vidéo reprise : seulement si on te la donne", "texte": "Reprendre une vidéo virale (fond vert), c'est autorisé uniquement quand Screen My Car fournit la vidéo." },
+    { "emoji": "✂️", "titre": "Le montage", "texte": "Énergie haute au début, plus calme ensuite. On coupe les blancs et les bégaiements. Sous-titres CapCut, et on vérifie qu'ils écrivent bien « Screen My Car ». Musique très basse." },
+    { "emoji": "😂", "titre": "Une vanne, toujours", "texte": "La vidéo doit rester drôle même sans l'app. Au moins une blague, ton style à toi." },
+    { "emoji": "📣", "titre": "Le CTA, pas obligatoire", "texte": "Quand il y en a un, un seul (« dis-moi en commentaire »). La description commence toujours par la mention Screen My Car et ton code." }
+  ],
   "lexique": [
-    { "emoji": "🪝", "mot": "Le hook", "def": "Les 3 premières secondes. C'est l'hameçon : si on ne mord pas, on scrolle. Un hook, c'est une phrase, une image, ou les deux." },
-    { "emoji": "🏁", "mot": "Le résultat d'abord", "def": "On montre ce que la personne a gagné, évité ou économisé AVANT d'expliquer comment. Jamais l'inverse." },
-    { "emoji": "🔤", "mot": "Le texte à l'écran", "def": "Les mots écrits en gros sur la vidéo. Beaucoup de gens regardent sans le son : le texte doit raconter l'histoire tout seul." },
-    { "emoji": "🎥", "mot": "Le format", "def": "La façon de filmer : face caméra, écran, duo, fond vert… Chaque format a ses règles, et on ne les mélange pas." },
-    { "emoji": "🩹", "mot": "Le point sensible", "def": "Ce qui fait mal : perdre de l'argent, se faire avoir, rater un exam. Une bonne vidéo appuie dessus dès le début." },
-    { "emoji": "📺", "mot": "L'incrustation", "def": "Une petite fenêtre dans la vidéo (en bas à gauche chez nous) qui montre l'écran de l'app pendant que tu parles." },
-    { "emoji": "🔁", "mot": "La vidéo reprise", "def": "Une vidéo déjà virale qu'on remet avec soi devant. Chez nous, seulement si c'est nous qui la donnons au créateur." },
-    { "emoji": "✂️", "mot": "Le montage", "def": "On coupe les blancs, on garde l'énergie, on met des sous-titres, une musique très basse. Une vidéo qui traîne, c'est une vidéo qu'on quitte." },
-    { "emoji": "📣", "mot": "Le CTA", "def": "L'appel à l'action : « commente », « va voir », « dis-moi en commentaire ». Pas obligatoire, mais quand il y en a un, un seul." },
-    { "emoji": "🎭", "mot": "Le pattern interrupt", "def": "Un truc qu'on n'a pas l'habitude de voir (un masque, un décor bizarre, un objet) : le pouce s'arrête tout seul." }
+    { "emoji": "🪝", "mot": "Hook", "def": "Les 3 premières secondes. Si on ne mord pas, on scrolle." },
+    { "emoji": "🩹", "mot": "Point sensible", "def": "Ce qui fait mal : perdre de l'argent, se faire avoir, rater un exam. Une bonne vidéo appuie dessus." },
+    { "emoji": "🔤", "mot": "Texte à l'écran", "def": "Les mots écrits en gros sur la vidéo. Beaucoup regardent sans le son." },
+    { "emoji": "📺", "mot": "Incrustation", "def": "Une petite fenêtre dans la vidéo qui montre l'écran de l'app, ou toi en petit sur une vidéo reprise." },
+    { "emoji": "🔁", "mot": "Vidéo reprise", "def": "Une vidéo déjà virale, remise avec toi par-dessus." },
+    { "emoji": "🧾", "mot": "La preuve", "def": "Le vrai écran qui montre que ça marche : le chiffre, les stats, le verdict." },
+    { "emoji": "📣", "mot": "CTA", "def": "L'appel à l'action : « commente », « abonne-toi », « va voir »." },
+    { "emoji": "🎭", "mot": "Pattern interrupt", "def": "Un truc qu'on n'a pas l'habitude de voir, qui arrête le pouce." }
   ]
 }

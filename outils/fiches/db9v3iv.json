@@ -92,5 +92,64 @@
       "comment": "Téléphone en main : MS Clipper, le compteur de vues, les gains. Une phrase : « je poste, je colle le lien, et ça me paie à la vue. » 25 secondes."
     }
   ],
-  "ordre": 4
+  "ordre": 4,
+  "reprise": false,
+  "mise_en_scene": "2 secondes de visage sceptique en voiture, puis le téléphone en main au-dessus d'un clavier.",
+  "hooks": [
+    "fruit-interdit",
+    "marque"
+  ],
+  "point_sensible": "Instagram te bouffe du temps avec les Reels",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "le texte « c'est quoi cette feature cachée d'insta » + sa tête"
+    },
+    "probleme": {
+      "t": 0,
+      "quoi": "implicite : les Reels et les stories qu'on n'a pas demandés"
+    },
+    "outil_nomme": {
+      "t": null,
+      "quoi": "jamais nommé (le réglage FeedLite, on lit le nom à l'écran)"
+    },
+    "outil_montre": {
+      "t": 2,
+      "quoi": "téléphone en main, le menu FeedLite"
+    },
+    "preuve": {
+      "t": 12,
+      "quoi": "Instagram devient rose, plus de Reels"
+    },
+    "fin": {
+      "t": 22,
+      "quoi": "« Incroyable. » Fin sèche."
+    }
+  },
+  "montre_comment": "téléphone en main, le doigt qui appuie",
+  "cta": "aucun",
+  "montage": "une phrase, aucune coupe, texte fixe. 25 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "25 secondes, une seule phrase : on la revoit 3 fois."
+    },
+    {
+      "ok": "oui",
+      "texte": "Le geste exact montré, téléphone en main."
+    },
+    {
+      "ok": "non",
+      "texte": "L'outil n'est jamais nommé : chez nous, « Screen My Car » se dit et s'écrit."
+    },
+    {
+      "ok": "bof",
+      "texte": "Les fautes dans le texte font vrai, mais « Screen My Car » doit être bien écrit."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "ton téléphone, un ordi ou une table",
+    "temps": "5 min",
+    "niveau": "facile"
+  }
 }

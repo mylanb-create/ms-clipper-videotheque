@@ -105,5 +105,70 @@
       "comment": "Derrière toi : une annonce qui a l'air parfaite. Tu réagis, tu fais un Screen My Car, et la preuve à la fin en gros : FUIR, kilométrage incohérent, 2 400 € économisés."
     }
   ],
-  "ordre": 11
+  "ordre": 11,
+  "reprise": true,
+  "reprise_quoi": "la vidéo d'un mec cagoulé qui explique le plan (27 secondes), puis le tuto sur son grand écran",
+  "mise_en_scene": "Elle en bas, devant un grand écran : la vidéo du cagoulé, puis YouTube, ChatGPT et Shortfy derrière elle.",
+  "hooks": [
+    "question",
+    "pattern-interrupt",
+    "fruit-interdit"
+  ],
+  "point_sensible": "Gagner de l'argent facilement, comme un bug qu'on exploite",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« pourquoi on n'apprend pas ça à l'école ? » + la cagoule + « glitch d'argent »"
+    },
+    "probleme": {
+      "t": 30,
+      "quoi": "« YouTube paye entre 1 000 et 6 000 € pour un million de vues »"
+    },
+    "outil_nomme": {
+      "t": 47,
+      "quoi": "« cet IA qui s'appelle shortfy.io »"
+    },
+    "outil_montre": {
+      "t": 47,
+      "quoi": "le site sur le grand écran derrière elle"
+    },
+    "preuve": {
+      "t": 63,
+      "quoi": "« 357 000 vues… 1 500 € », l'écran de stats"
+    },
+    "fin": {
+      "t": 65,
+      "quoi": "la preuve, puis fin"
+    }
+  },
+  "montre_comment": "grand écran derrière elle",
+  "cta": "aucun",
+  "montage": "texte fixe en haut, le cagoulé en grand puis elle, coupes rapides sur le tuto. 1 min 12.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Le hook à trois étages : question + cagoule + « glitch »."
+    },
+    {
+      "ok": "oui",
+      "texte": "La preuve chiffrée à la fin."
+    },
+    {
+      "ok": "non",
+      "texte": "Vidéo reprise : seulement si fournie."
+    },
+    {
+      "ok": "bof",
+      "texte": "L'outil nommé à 47 s."
+    },
+    {
+      "ok": "bof",
+      "texte": "1 min 12."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un grand écran (ou une télé), la vidéo fournie",
+    "temps": "20 min",
+    "niveau": "moyen"
+  }
 }

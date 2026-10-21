@@ -97,5 +97,64 @@
       "comment": "Téléphone en main : la photo du cours, Revizio fabrique les fiches, le quiz. Tu réponds en direct, tu réagis à chaque écran."
     }
   ],
-  "ordre": 5
+  "ordre": 5,
+  "reprise": false,
+  "mise_en_scene": "4 secondes dans son lit (casquette, torse nu), puis le téléphone en main, lui invisible.",
+  "hooks": [
+    "reaction",
+    "urgence"
+  ],
+  "point_sensible": "Partir en voyage sans rien avoir préparé",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« C'est quoi ce truc de fou, là ? » + le texte « je pars dans 5 HEURES »"
+    },
+    "probleme": {
+      "t": 0,
+      "quoi": "il part dans 5 heures et découvre l'app seulement maintenant"
+    },
+    "outil_nomme": {
+      "t": null,
+      "quoi": "jamais dit ; visible à l'écran"
+    },
+    "outil_montre": {
+      "t": 4,
+      "quoi": "téléphone en main : créer un voyage, les dates, le swipe"
+    },
+    "preuve": {
+      "t": 37,
+      "quoi": "l'itinéraire jour par jour, le trajet sur la carte"
+    },
+    "fin": {
+      "t": 53,
+      "quoi": "« Incroyable », fin"
+    }
+  },
+  "montre_comment": "téléphone en main, allongé",
+  "cta": "aucun",
+  "montage": "une prise, texte fixe, pas de sous-titres. 56 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "L'urgence vraie (« dans 5 heures ») rend la scène crédible."
+    },
+    {
+      "ok": "oui",
+      "texte": "Il remplit l'app en direct : vraies dates, vraies activités."
+    },
+    {
+      "ok": "non",
+      "texte": "Le nom de l'app n'est jamais dit."
+    },
+    {
+      "ok": "bof",
+      "texte": "Le résultat (l'itinéraire) arrive à 37 s : chez nous, on le montre dès le début."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "ton téléphone, ton lit",
+    "temps": "10 min",
+    "niveau": "facile"
+  }
 }

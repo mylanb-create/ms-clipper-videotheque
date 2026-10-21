@@ -99,5 +99,68 @@
     }
   ],
   "note": "<b>Règle MS Clipper :</b> une vidéo reprise (déjà virale), c'est seulement si c'est nous qui la donnons au créateur. Et notre version fait 30 à 60 secondes, pas 2 minutes.",
-  "ordre": 15
+  "ordre": 15,
+  "reprise_quoi": "la vidéo virale du couple (lui qui râle : 184 € de courses), 21 secondes",
+  "mise_en_scene": "La vidéo reprise plein écran, puis la créatrice seule en gros plan, puis son ordi filmé à la main.",
+  "hooks": [
+    "chiffre",
+    "reaction"
+  ],
+  "point_sensible": "Payer 184 € de courses et n'avoir rien à manger",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« un truc que je ne comprends pas… » + le bandeau « 184 € »"
+    },
+    "probleme": {
+      "t": 11,
+      "quoi": "« bip, bip, bip, 184 euros »"
+    },
+    "outil_nomme": {
+      "t": 21,
+      "quoi": "« c'est exactement pour ça que je me suis mise sur Pimzi »"
+    },
+    "outil_montre": {
+      "t": 63,
+      "quoi": "l'ordi filmé à la main, écran par écran"
+    },
+    "preuve": {
+      "t": 100,
+      "quoi": "« 7 dîners chez Leclerc pour 35 euros »"
+    },
+    "fin": {
+      "t": 116,
+      "quoi": "« game changer, ça m'a changé ma vie »"
+    }
+  },
+  "montre_comment": "ordi filmé à la main",
+  "cta": "aucun",
+  "montage": "la vidéo reprise non coupée, puis une prise face caméra, puis le tuto. 1 min 58.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "« C'est exactement pour ça que… » : l'enchaînement parfait après une reprise."
+    },
+    {
+      "ok": "oui",
+      "texte": "L'outil nommé à 21 s."
+    },
+    {
+      "ok": "non",
+      "texte": "Vidéo reprise : seulement si fournie."
+    },
+    {
+      "ok": "non",
+      "texte": "1 min 58 : deux fois trop long."
+    },
+    {
+      "ok": "bof",
+      "texte": "L'écran arrive à 63 s."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "la vidéo fournie, ton ordi",
+    "temps": "20 min",
+    "niveau": "facile"
+  }
 }

@@ -110,5 +110,69 @@
     }
   ],
   "note": "<b>À remarquer :</b> c'est la 4ᵉ vidéo de cette vidéothèque qui vend le même site (Shortfy) : le dessin animé, la cagoule, le couple, la serveuse. Un seul produit, quatre histoires différentes. C'est exactement ce qu'on demande aux créateurs.",
-  "ordre": 13
+  "ordre": 13,
+  "reprise": true,
+  "reprise_quoi": "la vidéo d'une serveuse du McDo (22 secondes), lui en incrustation en bas à gauche",
+  "mise_en_scene": "Lui en petit cadre en bas à gauche pendant toute la vidéo. La fille plein écran, puis l'ordi filmé à la main.",
+  "hooks": [
+    "fruit-interdit",
+    "resultat"
+  ],
+  "point_sensible": "Travailler au SMIC pendant des années",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« cette meuf a supprimé une vidéo… je l'ai enregistrée »"
+    },
+    "probleme": {
+      "t": 6,
+      "quoi": "« 3 ans au McDo, le SMIC, je pue la friture »"
+    },
+    "outil_nomme": {
+      "t": 45,
+      "quoi": "« le générateur vidéo IA de shortfy.io »"
+    },
+    "outil_montre": {
+      "t": 32,
+      "quoi": "l'ordi filmé à la main"
+    },
+    "preuve": {
+      "t": 27,
+      "quoi": "« Estimated revenue €905.77 »"
+    },
+    "fin": {
+      "t": 57,
+      "quoi": "« t'as plus qu'à poster et encaisser »"
+    }
+  },
+  "montre_comment": "ordi filmé à la main, lui en incrustation",
+  "cta": "aucun",
+  "montage": "texte fixe en haut, lui en incrustation permanente, coupes rapides. 1 min 04.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Le fruit interdit (« vidéo supprimée ») : un hook à réutiliser tel quel."
+    },
+    {
+      "ok": "oui",
+      "texte": "La preuve chiffrée arrive tôt (27 s) et au centime."
+    },
+    {
+      "ok": "oui",
+      "texte": "Lui reste en incrustation : c'est notre façon."
+    },
+    {
+      "ok": "non",
+      "texte": "Vidéo reprise : seulement si fournie."
+    },
+    {
+      "ok": "bof",
+      "texte": "L'outil nommé à 45 s."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "la vidéo fournie, ton ordi ou ton téléphone",
+    "temps": "15 min",
+    "niveau": "facile"
+  }
 }

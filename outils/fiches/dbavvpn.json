@@ -111,5 +111,64 @@
     }
   ],
   "note": "<b>À remarquer :</b> l'app de la vidéo (Retain) fait la même chose que Revizio. Cette vidéo est un modèle direct pour Revizio.",
-  "ordre": 9
+  "ordre": 9,
+  "reprise": false,
+  "mise_en_scene": "Face caméra dans son salon, le MacBook fermé tenu devant elle. L'ordi filmé à la main de 22 à 48 s.",
+  "hooks": [
+    "mystere",
+    "pattern-interrupt"
+  ],
+  "point_sensible": "Réviser des heures pour rien (et vouloir gagner un peu d'argent)",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Je vends l'arrière de mon MacBook comme espace pub » + les cases au feutre"
+    },
+    "probleme": {
+      "t": 0,
+      "quoi": "pas de problème : c'est un concept, la curiosité suffit"
+    },
+    "outil_nomme": {
+      "t": 16,
+      "quoi": "« c'est donc Retain qui a acheté cet espace »"
+    },
+    "outil_montre": {
+      "t": 22,
+      "quoi": "l'ordi filmé à la main, le doigt sur l'écran"
+    },
+    "preuve": {
+      "t": 38,
+      "quoi": "« Anglais 14 %, 61 jours avant ton examen, 5 fiches »"
+    },
+    "fin": {
+      "t": 48,
+      "quoi": "« dites-moi en commentaire qui va acheter le prochain espace »"
+    }
+  },
+  "montre_comment": "ordi filmé à la main",
+  "cta": "« dites-moi en commentaire… »",
+  "montage": "sous-titres en bas avec les mots importants en rouge, texte « * petit moment de stress », coupes propres. 57 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Un concept qui rend le sponsor normal : c'est le jeu."
+    },
+    {
+      "ok": "oui",
+      "texte": "L'app nommée à 16 s, montrée à 22 s, le doigt dessus."
+    },
+    {
+      "ok": "oui",
+      "texte": "Un CTA commentaire qui fait réagir (les gens taguent des marques)."
+    },
+    {
+      "ok": "bof",
+      "texte": "Elle décrit l'app (« tu importes tes cours… ») : chez nous, on montre le résultat plutôt que la liste des fonctions."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un feutre, un sticker de l'app, ton ordi",
+    "temps": "30 min",
+    "niveau": "moyen"
+  }
 }
