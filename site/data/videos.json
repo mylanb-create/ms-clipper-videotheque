@@ -287,6 +287,233 @@
   ]
  },
  {
+  "id": "t38056225",
+  "fichier": "tiktok-7697301276438056225-safenow_fr.mp4",
+  "compte": "@safenow_fr",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@safenow_fr/video/7697301276438056225",
+  "niche": "sécurité, rentrer seule",
+  "format": "flow",
+  "titre": "1 M de vues avec SafeNow (le pressentiment dans le métro)",
+  "sujet": "Une fille marche seule dans un couloir de métro, un mec la suit. Texte : « Tu le sens pas ? ». La voix off explique SafeNow : un bouton qu'on tient tant qu'on a un doute. Si on lâche, les proches reçoivent une alarme critique et voient où on est.",
+  "tags": [
+   "métro",
+   "rentrer seule",
+   "sécurité",
+   "pressentiment",
+   "bouton tenu",
+   "alarme critique",
+   "géoloc"
+  ],
+  "hook": {
+   "dit": "Sur le chemin du retour, tu ne te sens pas vraiment à l'aise ?",
+   "voit": "une fille marche seule dans un couloir de métro parisien, elle regarde derrière elle. Un mec apparaît au fond. Texte blanc : « Tu le sens pas ? »"
+  },
+  "texte_ecran": [
+   "Tu le sens pas ?",
+   "Appuie sur le bouton pour alerter les aidés",
+   "Relâcher pour alerter les aidés",
+   "⚠ CRITIQUE — Alarme! Luca semble être en détresse. Clique pour ouvrir SafeNow.",
+   "L'app s'appelle SafeNow :)"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 3,
+    "voit": "la fille marche dans le couloir du métro, regards nerveux derrière elle, texte « Tu le sens pas ? ».",
+    "entend": "« Sur le chemin du retour, tu ne te sens pas vraiment à l'aise ? »"
+   },
+   {
+    "debut": 3,
+    "fin": 8,
+    "voit": "téléphone en main, filmé en marchant sur les pavés. L'app s'ouvre : écran bleu, un gros bouton, « Appuie sur le bouton pour alerter les aidés ». Le doigt reste posé.",
+    "entend": "« Dans ce cas, active le mode attention et garde ton doigt sur le bouton tant que tu as un doute. »"
+   },
+   {
+    "debut": 8,
+    "fin": 11,
+    "voit": "un couple à une table de bistrot, puis un couple sur un banc : scènes calmes, elle a retrouvé des gens.",
+    "entend": "« Si ça se calme, tu désactives le mode, sans avoir alerté personne. »"
+   },
+   {
+    "debut": 11,
+    "fin": 16,
+    "voit": "téléphone d'un ami : une notif rouge « CRITIQUE — Luca semble être en détresse. Clique pour ouvrir SafeNow », vue au-dessus du centre de contrôle en mode silencieux.",
+    "entend": "« Mais si ça dégénère, tu lâches le bouton et tous les membres de ton groupe reçoivent une alarme critique. Ils l'entendent même si leur téléphone est en silencieux. »"
+   },
+   {
+    "debut": 16,
+    "fin": 20,
+    "voit": "un appel entrant « Jean » plein écran, puis la fille sur le quai du métro, un ami arrive vers elle.",
+    "entend": "« Et ils voient où tu es en temps réel. »"
+   },
+   {
+    "debut": 20,
+    "fin": 26,
+    "voit": "la fille et son ami marchent côte à côte sur le quai. Texte : « L'app s'appelle SafeNow :) ».",
+    "entend": "« Alors ajoute dès maintenant tes proches dans l'appli pour pouvoir veiller les uns sur les autres. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🚇",
+    "titre": "La scène qu'on connaît toutes",
+    "texte": "Un couloir de métro, seule, un bruit derrière. Pas besoin d'expliquer la peur, on l'a déjà vécue."
+   },
+   {
+    "emoji": "❓",
+    "titre": "« Tu le sens pas ? »",
+    "texte": "Trois mots qui collent à la scène. On regarde parce qu'on reconnaît ce qu'on ressent."
+   },
+   {
+    "emoji": "👆",
+    "titre": "Le geste suffit à comprendre",
+    "texte": "Un doigt sur un bouton. Tu lâches, ça alerte. Pas besoin d'app pour avoir pigé le truc."
+   },
+   {
+    "emoji": "🔀",
+    "titre": "Les deux chemins",
+    "texte": "« Si ça se calme » → couple sur un banc. « Si ça dégénère » → alarme rouge. On voit les deux issues."
+   },
+   {
+    "emoji": "📍",
+    "titre": "La preuve en vrai",
+    "texte": "La notif critique, l'appel « Jean », l'ami qui arrive sur le quai. On passe du problème au résultat sans parler."
+   },
+   {
+    "emoji": "🤫",
+    "titre": "Pas de vente, pas de cris",
+    "texte": "Voix off calme, pas d'étapes numérotées, pas de chiffre choc. Juste la peur et la solution."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "smc",
+    "hook": "Tu vas voir une voiture d'occasion et t'as un mauvais pressentiment ?",
+    "comment": "Toi au parking devant une voiture, texte « Tu le sens pas ? ». Téléphone en main, tu colles l'annonce dans Screen My Car. Verdict rouge : fuir. Fin : tu repars sans la voiture, texte « L'app s'appelle Screen My Car :) »."
+   },
+   {
+    "app": "revizio",
+    "hook": "Demain c'est l'exam et t'as un mauvais pressentiment ?",
+    "comment": "Toi dans un couloir du lycée, feuilles à la main, texte « Tu le sens pas ? ». Téléphone en main : tu prends ton cours en photo, Revizio fait les fiches, puis le quiz. Fin : le lendemain, 18/20. Texte « L'app s'appelle Revizio :) »."
+   }
+  ],
+  "note": "<b>À remarquer :</b> c'est le compte de l'app elle-même (@safenow_fr, 1 229 abonnés) qui poste. 1 M de vues, 177 k likes, 37 k enregistrements : les gens sauvent pour l'avoir sous la main plus tard. Le nom de l'app n'arrive qu'à la toute fin, en texte, sans voix off : la peur fait le travail avant.",
+  "reprise": false,
+  "mise_en_scene": "Trois lieux qui s'enchaînent : couloir de métro (le danger), pavés / terrasse / banc (le quotidien calme), quai de métro (les retrouvailles). Au milieu, l'écran du téléphone filmé en main, en marchant.",
+  "hooks": [
+   "question",
+   "cible",
+   "urgence"
+  ],
+  "point_sensible": "Avoir peur en rentrant seule le soir",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "« Sur le chemin du retour, tu ne te sens pas vraiment à l'aise ? » + couloir de métro, texte « Tu le sens pas ? »"
+   },
+   "probleme": {
+    "t": 0,
+    "quoi": "fille seule dans le métro, un mec apparaît derrière"
+   },
+   "outil_nomme": {
+    "t": 24,
+    "quoi": "texte à l'écran « L'app s'appelle SafeNow :) »"
+   },
+   "outil_montre": {
+    "t": 3,
+    "quoi": "téléphone en main, bouton bleu avec « Appuie sur le bouton pour alerter les aidés »"
+   },
+   "preuve": {
+    "t": 11,
+    "quoi": "notif « CRITIQUE — Luca semble être en détresse », appel « Jean », l'ami arrive sur le quai"
+   },
+   "fin": {
+    "t": 22,
+    "quoi": "« ajoute dès maintenant tes proches dans l'appli pour pouvoir veiller les uns sur les autres »"
+   }
+  },
+  "montre_comment": "téléphone filmé en main en marchant, écrans d'app et notifs, scènes jouées (métro, banc, quai)",
+  "cta": "« ajoute dès maintenant tes proches dans l'appli »",
+  "montage": "voix off calme du début à la fin, deux textes seulement (« Tu le sens pas ? » au début, « L'app s'appelle SafeNow :) » à la fin), coupes rapides entre lieux. 25,8 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Téléphone filmé en main, en marchant : l'écran bouge, c'est la vraie vie. Nos règles aiment ça."
+   },
+   {
+    "ok": "oui",
+    "texte": "25 secondes : pile dans notre fourchette 30-60 s."
+   },
+   {
+    "ok": "oui",
+    "texte": "Le hook colle à une scène vécue. Pas besoin de chiffre choc."
+   },
+   {
+    "ok": "bof",
+    "texte": "L'outil nommé seulement à 24 s, et uniquement en texte. Chez nous, on nomme avant 20 s à l'oral."
+   },
+   {
+    "ok": "non",
+    "texte": "Zéro vanne. Sujet grave, voix sérieuse. Chez nous, on garde au moins une respiration drôle."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un téléphone, un pote qui joue le \"suiveur\", un couloir de métro ou de parking, l'app",
+   "temps": "45 min",
+   "niveau": "moyen"
+  },
+  "stats": {
+   "vues": 1000000,
+   "likes": 177000,
+   "partages": 34500,
+   "enregistrements": 37165,
+   "commentaires": 332,
+   "abonnes": 1229
+  },
+  "ordre": 0,
+  "ajout": "automatique",
+  "duree": 25.8,
+  "transcription": [
+   {
+    "debut": 0.0,
+    "fin": 2.8,
+    "texte": "Sur le chemin du retour, tu ne te sens pas vraiment à l'aise ?"
+   },
+   {
+    "debut": 2.8,
+    "fin": 7.4,
+    "texte": "Dans ce cas, active le mode attention et garde ton doigt sur le bouton tant que tu as un doute."
+   },
+   {
+    "debut": 7.6,
+    "fin": 11.0,
+    "texte": "Si ça se calme, tu désactives le mode, sans avoir alerté personne."
+   },
+   {
+    "debut": 11.2,
+    "fin": 16.0,
+    "texte": "Mais si ça dégénère, tu lâches le bouton et tous les membres de ton groupe reçoivent une alarme critique."
+   },
+   {
+    "debut": 16.3,
+    "fin": 20.0,
+    "texte": "Ils l'entendent même si leur téléphone est en silencieux ou en mode ne pas déranger."
+   },
+   {
+    "debut": 20.2,
+    "fin": 21.9,
+    "texte": "Et ils voient où tu es en temps réel."
+   },
+   {
+    "debut": 22.0,
+    "fin": 25.7,
+    "texte": "Alors ajoute dès maintenant tes proches dans l'appli pour pouvoir veiller les uns sur les autres."
+   }
+  ]
+ },
+ {
   "id": "t40256032",
   "fichier": "tiktok-7691398077940256032-ismael.viral.mp4",
   "compte": "@ismael.viral",
