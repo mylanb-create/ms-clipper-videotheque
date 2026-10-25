@@ -1,0 +1,201 @@
+{
+  "id": "t70673697",
+  "fichier": "tiktok-7699596880870673697-samuel.plaron.mp4",
+  "compte": "@samuel.plaron",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@samuel.plaron/video/7699596880870673697",
+  "niche": "argent, side business, SaaS IA",
+  "format": "fond-vert",
+  "titre": "« Elle a supprimé sa vidéo » : 3 000 €/mois avec Codunk",
+  "sujet": "Lui en petit devant, elle en grand derrière. Il dit qu'elle a supprimé sa vidéo mais qu'il l'a enregistrée. Elle raconte l'histoire du frère de sa pote qui fait 1 000 €/jour avec des SaaS créés sur Codunk.com à partir d'un prompt ChatGPT.",
+  "tags": [
+    "storytime",
+    "vidéo supprimée",
+    "Codunk",
+    "ChatGPT",
+    "SaaS",
+    "1 000 € par jour",
+    "fruit interdit"
+  ],
+  "hook": {
+    "dit": "Vous voyez cette meuf derrière moi ? Elle a supprimé sa vidéo après l'avait postée et malheureusement, je l'ai enregistrée. Écoutez ça.",
+    "voit": "lui en petit devant à gauche, elle en grand derrière (la vidéo reprise). Texte noir en haut : « Elle vit en 2098 😳 ». Sticker « Storytime » au milieu."
+  },
+  "texte_ecran": [
+    "Elle vit en 2098 😳",
+    "Storytime",
+    "Donnez-moi des idées de SaaS pour lesquelles les personnes seraient prêtes à payer",
+    "Génère un prompt pour créer l'application complète stp",
+    "Codunk.com",
+    "Quelle app/SaaS on lance ?"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 6,
+      "voit": "lui petit en bas à gauche, elle en grand derrière, texte « Elle vit en 2098 😳 ».",
+      "entend": "« Vous voyez cette meuf derrière moi ? Elle a supprimé sa vidéo… malheureusement, je l'ai enregistrée. Écoutez ça. »"
+    },
+    {
+      "debut": 6,
+      "fin": 18,
+      "voit": "elle en grand (la vidéo reprise) qui commence son storytime, sticker « Storytime » bien visible, lui toujours petit en bas.",
+      "entend": "« On connaît tous un mec bizarre tout le temps derrière son ordi… je pensais que c'était des geeks. Je me suis rendu compte qu'ils faisaient vraiment de l'argent. »"
+    },
+    {
+      "debut": 18,
+      "fin": 35,
+      "voit": "elle raconte, mains qui bougent, tête bluffée.",
+      "entend": "« Je suis partie chez ma pote, son grand frère pianotait devant plein de chiffres… il fait 1 000 euros par jour. J'étais tellement choquée. »"
+    },
+    {
+      "debut": 35,
+      "fin": 54,
+      "voit": "elle explique, premier screenshot ChatGPT qui apparaît en incrustation : « Donnez-moi des idées de SaaS pour lesquelles les personnes seraient prêtes à payer ».",
+      "entend": "« Il crée des SaaS… une appli en abonnement chaque mois, pour humaniser les textes ChatGPT des étudiants. Ça marche bien pour lui. »"
+    },
+    {
+      "debut": 54,
+      "fin": 75,
+      "voit": "screenshots qui défilent : prompt ChatGPT, puis « Génère un prompt pour créer l'application complète stp », puis « Codunk.com » dans un navigateur, puis « Quelle app/SaaS on lance ? ».",
+      "entend": "« Tu vas sur ChatGPT, tu demandes des idées de SaaS. Tu demandes un prompt complet. Tu colles sur kodung.com. Retiens bien, kodung.com, c'est très important. »"
+    },
+    {
+      "debut": 75,
+      "fin": 92,
+      "voit": "elle en grand, screenshot d'une page Codunk avec une interface produit générée.",
+      "entend": "« Pas besoin de savoir coder. Tu mets tes abonnements, l'app gère les paiements, tu la mets en ligne à 30 € par mois. »"
+    },
+    {
+      "debut": 92,
+      "fin": 100,
+      "voit": "elle seule en grand, lui toujours petit en bas.",
+      "entend": "« 100 personnes × 30, ça te fait 3 000 euros par mois. Ne me remerciez pas. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "🎥",
+      "titre": "« Elle a supprimé sa vidéo »",
+      "texte": "On n'a pas le droit de la voir, mais lui l'a enregistrée. Interdit = on reste."
+    },
+    {
+      "emoji": "😳",
+      "titre": "« Elle vit en 2098 »",
+      "texte": "Un texte en haut qui promet du jamais-vu. On veut savoir ce qu'elle sait de plus que nous."
+    },
+    {
+      "emoji": "📖",
+      "titre": "Sticker « Storytime »",
+      "texte": "Le mot magique de TikTok : on se cale, on écoute une histoire comme un pote qui raconte."
+    },
+    {
+      "emoji": "💶",
+      "titre": "1 000 € par jour, 3 000 € par mois",
+      "texte": "Deux chiffres énormes à des moments bien placés : au début pour choquer, à la fin pour calculer."
+    },
+    {
+      "emoji": "👨‍💻",
+      "titre": "« Le mec bizarre derrière son ordi »",
+      "texte": "Un personnage que tout le monde connaît. On se dit : lui aussi il peut, pourquoi pas moi ?"
+    },
+    {
+      "emoji": "🗝️",
+      "titre": "« Je pensais qu'il y avait des gatekeepers »",
+      "texte": "Le secret est dévoilé. On a l'impression de recevoir une info que personne ne donne."
+    },
+    {
+      "emoji": "🙏",
+      "titre": "« Ne me remerciez pas »",
+      "texte": "Une fin punchy qui fait sourire et qui donne envie de commenter."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "smc",
+      "hook": "Vous voyez ce mec derrière moi ? Il a supprimé sa vidéo après l'avoir postée, et moi je l'ai enregistrée. Écoutez.",
+      "comment": "Toi en petit devant, la vidéo reprise en grand derrière (quelqu'un qui raconte comment il s'est fait avoir sur une voiture d'occasion). Storytime : 1. L'annonce trop belle. 2. Screen My Car qui dit « fuir ». 3. Le vrai prix. Chiffre à la fin : « 2 000 € de perdus »."
+    },
+    {
+      "app": "revizio",
+      "hook": "Elle a supprimé sa vidéo mais je l'ai gardée : la méthode pour avoir 18/20 sans réviser.",
+      "comment": "Reprise d'une vidéo d'élève, toi petit devant. Storytime : 1. Photo du cours. 2. Revizio sort les fiches. 3. Le quiz. 4. L'exam. Fin : « Ne me remerciez pas »."
+    },
+    {
+      "app": "msclipper",
+      "hook": "Vous voyez ce mec derrière moi ? Il a supprimé sa vidéo, mais moi j'ai capté comment il gagne 50 € par jour sans montrer sa tête.",
+      "comment": "Storytime en reprise : 1. Il poste des clips sur une app. 2. Payé à la vue. 3. Les chiffres à la fin. Fin : « Retiens bien ce nom, c'est très important »."
+    }
+  ],
+  "note": "<b>À remarquer :</b> le hook « elle/il a supprimé sa vidéo mais je l'ai enregistrée » est une variante du <i>fruit interdit</i>. On fait croire qu'on voit quelque chose qu'on ne devrait pas voir. Le sticker « Storytime » renforce : on écoute une histoire, pas une pub.",
+  "reprise": true,
+  "reprise_quoi": "la vidéo d'une fille qui raconte un storytime sur le frère de sa pote qui fait 1 000 €/jour avec des SaaS créés sur Codunk.com. Lui se filme devant, en petit, et dit qu'il l'a enregistrée avant qu'elle la supprime.",
+  "mise_en_scene": "Lui en petit en bas à gauche, elle en grand derrière (plein cadre). Des screenshots ChatGPT et Codunk apparaissent en incrustation au-dessus d'elle quand elle parle de la méthode.",
+  "hooks": [
+    "fruit-interdit",
+    "mystere",
+    "chiffre"
+  ],
+  "point_sensible": "Gagner beaucoup d'argent facilement avec l'IA, sans savoir coder",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« Elle a supprimé sa vidéo, je l'ai enregistrée »"
+    },
+    "probleme": {
+      "t": 11,
+      "quoi": "« Je pensais que c'était des geeks, en fait ils font vraiment de l'argent »"
+    },
+    "outil_nomme": {
+      "t": 72,
+      "quoi": "« kodung.com, retiens bien, c'est très important »"
+    },
+    "outil_montre": {
+      "t": 55,
+      "quoi": "screenshots ChatGPT puis Codunk.com en incrustation"
+    },
+    "preuve": {
+      "t": 30,
+      "quoi": "« il fait 1 000 euros par jour »"
+    },
+    "fin": {
+      "t": 98,
+      "quoi": "« Ne me remerciez pas »"
+    }
+  },
+  "montre_comment": "la vidéo reprise de la fille (storytime) + screenshots ChatGPT et Codunk en incrustation",
+  "cta": "« Ne me remerciez pas » (implicite : commentez, likez)",
+  "montage": "sticker « Storytime » collé en permanence, texte « Elle vit en 2098 😳 » sur le hook, screenshots ChatGPT/Codunk en incrustation aux bons moments. 1 min 40.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Le hook « elle a supprimé sa vidéo » : fruit interdit pur, à voler tel quel."
+    },
+    {
+      "ok": "oui",
+      "texte": "Les screenshots en incrustation au-dessus de la vidéo reprise : on voit l'outil sans couper l'histoire."
+    },
+    {
+      "ok": "non",
+      "texte": "L'outil nommé à 72 s : beaucoup trop tard pour nous (règle : avant 20 s)."
+    },
+    {
+      "ok": "non",
+      "texte": "100 secondes : trop long chez nous (règle : 30-60 s)."
+    },
+    {
+      "ok": "non",
+      "texte": "Vidéo reprise : seulement si Screen My Car la fournit."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un téléphone, une vidéo reprise (storytime) à mettre derrière, 3-4 screenshots de l'outil",
+    "temps": "25 min",
+    "niveau": "moyen"
+  },
+  "stats": {},
+  "ordre": 0,
+  "ajout": "automatique",
+  "approuvee_le": "2026-10-25T17:23:02"
+}
