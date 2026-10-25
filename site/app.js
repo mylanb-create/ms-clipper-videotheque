@@ -299,6 +299,10 @@ function rendreGuide() {
   }).join("");
 
   $("#g-regles").innerHTML = (REF.regles || []).map((r) => `<div class="g-regle"><span class="g-emoji">${r.emoji}</span><div><b>${esc(r.titre)}</b><p>${esc(r.texte)}</p></div></div>`).join("");
+  document.querySelectorAll("#guide [data-fiches]").forEach((el) => {
+    const ex = el.dataset.fiches.split(",").map((id) => VIDEOS.find((v) => v.id === id)).filter(Boolean);
+    el.innerHTML = ex.map(miniCarte).join("");
+  });
   $("#defs").innerHTML = (REF.lexique || []).map((d) => `<div class="def"><div class="mot"><span>${d.emoji}</span>${esc(d.mot)}</div><p>${esc(d.def)}</p></div>`).join("");
 }
 
