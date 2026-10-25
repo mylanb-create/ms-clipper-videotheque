@@ -1,0 +1,194 @@
+{
+  "id": "t48273185",
+  "fichier": "tiktok-7700174098248273185-toma.ia.mp4",
+  "compte": "@toma.ia",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@toma.ia/video/7700174098248273185",
+  "niche": "argent, side business",
+  "format": "flow",
+  "titre": "Arrête ton job alimentaire : 9 000 €/mois avec des comptines YouTube",
+  "sujet": "Un garçon avec un stylet. Hook face caméra avec les chiffres (500 € une vidéo, 2 100 € par semaine, 9 000 € par mois). Puis l'écran filmé en main : il tape « Comptines pour enfants » sur YouTube, copie les paroles d'une vidéo à 1,6 M de vues, demande à ChatGPT un prompt « viral » à partir des paroles, colle le prompt dans le générateur vidéo IA de Shortfly.io. Fin : la comptine en dessin animé est prête, « t'as plus qu'à encaisser ».",
+  "tags": [
+    "comptines",
+    "YouTube",
+    "ChatGPT",
+    "Shortfly",
+    "job alimentaire",
+    "9 000 €",
+    "stylet"
+  ],
+  "hook": {
+    "dit": "Tous les jours, toutes les semaines, tous les mois. Arrête de chercher un job alimentaire et fais ça à la place.",
+    "voit": "un garçon en pull gris, face caméra, un stylet dans la main. Textes en haut : « Job Alimentaire ❌ / Vidéos YTB pour enfants ✅ ». À gauche, trois chiffres empilés : « 500€ », « 300€ x 7 = 2 100€ », « 300€ x 30 = 9 000€ »."
+  },
+  "texte_ecran": [
+    "Job Alimentaire ❌",
+    "Vidéos YTB pour enfants ✅",
+    "500€",
+    "300€ x 7 = 2 100€",
+    "300€ x 30 = 9 000€",
+    "Shortfly.io"
+  ],
+  "etapes": [
+    {
+      "debut": 0,
+      "fin": 6,
+      "voit": "le garçon face caméra, pull gris, stylet en main. À gauche, les trois chiffres empilés : 500 €, 2 100 €, 9 000 €.",
+      "entend": "« tous les jours, toutes les semaines, tous les mois. Arrête de chercher un job alimentaire et fais ça à la place. »"
+    },
+    {
+      "debut": 6,
+      "fin": 12,
+      "voit": "l'écran filmé à la main. YouTube, résultats pour « Comptines pour enfants ». Le stylet pointe une vidéo à 1,6 million de vues.",
+      "entend": "« tu vas sur YouTube et tu tapes 'Comptines pour enfants'. Tu cherches une vidéo, par exemple celle-ci qui a 1,6 million de vues. »"
+    },
+    {
+      "debut": 12,
+      "fin": 21,
+      "voit": "la description de la vidéo, puis un écran sombre : ChatGPT. Le stylet montre les paroles collées.",
+      "entend": "« tu vas dans la description et tu copies les paroles. Tu vas sur ChatGPT et tu lui demandes un prompt pour une vidéo 'Comptines pour enfants' à potentiel viral. Et tu colles les paroles. »"
+    },
+    {
+      "debut": 21,
+      "fin": 25,
+      "voit": "ChatGPT renvoie un prompt dans une bulle bleue.",
+      "entend": "« ensuite, ChatGPT va t'envoyer le prompt. Tu as juste à le copier. »"
+    },
+    {
+      "debut": 25,
+      "fin": 32,
+      "voit": "shortfly.io dans un navigateur, bouton « AI Video Generator ». Le stylet pointe où coller le prompt.",
+      "entend": "« tu vas sur shortfly.io et tu cliques sur 'Générateur vidéo IA'. Juste ici, tu colles le prompt de ChatGPT et tu génères la vidéo. »"
+    },
+    {
+      "debut": 32,
+      "fin": 36,
+      "voit": "la vidéo générée joue : enfants en dessin animé 3D, forêt magique colorée.",
+      "entend": "« et voilà, ça t'a créé ta vidéo en quelques secondes. T'as plus qu'à poster et à encaisser. »"
+    }
+  ],
+  "pourquoi": [
+    {
+      "emoji": "💶",
+      "titre": "Les chiffres en escalier",
+      "texte": "500 € une vidéo, 2 100 € par semaine, 9 000 € par mois. On lit ligne par ligne, on finit convaincu sans réfléchir."
+    },
+    {
+      "emoji": "⛔",
+      "titre": "« Arrête ton job alimentaire »",
+      "texte": "Un ordre direct dès la première phrase. On veut savoir à la place de quoi."
+    },
+    {
+      "emoji": "✅",
+      "titre": "Job alimentaire ❌ / YouTube ✅",
+      "texte": "Deux lignes avec une croix et une coche. Même sans le son, le message passe en une seconde."
+    },
+    {
+      "emoji": "✍️",
+      "titre": "Le stylet qui pointe",
+      "texte": "À chaque étape, il montre où cliquer avec un stylet. Comme un prof au tableau, on suit sans se perdre."
+    },
+    {
+      "emoji": "🪜",
+      "titre": "4 outils enchaînés",
+      "texte": "YouTube → ChatGPT → Shortfly → poster. On retient parce que ça va dans un seul sens."
+    },
+    {
+      "emoji": "🎬",
+      "titre": "Le résultat qui joue",
+      "texte": "À la fin, la comptine en dessin animé démarre pour de vrai. On a vu la machine fonctionner, on y croit."
+    },
+    {
+      "emoji": "💰",
+      "titre": "« T'as plus qu'à encaisser »",
+      "texte": "La dernière phrase. Pas de « peut-être », juste la promesse brute."
+    }
+  ],
+  "refaire": [
+    {
+      "app": "msclipper",
+      "hook": "Tous les jours, toutes les semaines, tous les mois. Arrête de chercher un job alimentaire et poste des vidéos avec MS Clipper à la place.",
+      "comment": "Même ouverture face caméra, stylet en main. Chiffres en escalier à gauche : « 10 € une vidéo », « 70 € par semaine », « 300 € par mois ». Écran filmé en main, le stylet pointe : 1. Tu télécharges MS Clipper. 2. Tu choisis un son qui marche. 3. Tu postes. 4. T'es payé à la vue. Fin : les notifs de paiement qui tombent."
+    },
+    {
+      "app": "smc",
+      "hook": "Tous les jours, toutes les semaines, tous les mois des gens perdent 2 000 € sur une voiture. Arrête, fais ça à la place.",
+      "comment": "Face caméra 6 s avec les chiffres à gauche : « -2 000 € sans Screen My Car », « -8 000 € sur 4 voitures ». Puis écran filmé en main, stylet qui pointe : 1. Tu copies l'annonce. 2. Screen My Car. 3. Le verdict en 10 s. 4. Tu négocies ou tu fuis. Fin : « t'as plus qu'à aller la voir »."
+    },
+    {
+      "app": "revizio",
+      "hook": "Tous les soirs, toutes les semaines, tous les mois tu passes des heures sur tes cours. Arrête, fais ça à la place.",
+      "comment": "Face caméra, stylet en main, chiffres : « 2 h de révision par soir », « 10 h par semaine », « 40 h par mois ». Écran filmé : 1. Tu prends ton cours en photo. 2. Revizio. 3. Les fiches. 4. Le quiz. Fin : « t'as plus qu'à aller chercher ton 18/20 »."
+    }
+  ],
+  "note": "<b>À remarquer :</b> le stylet dans la main est un objet-signal. Il remplace la souris, il fait prof au tableau. Même sans le son, on comprend qu'on nous explique quelque chose.",
+  "reprise": false,
+  "mise_en_scene": "Face caméra 6 s pour poser les chiffres, puis l'écran filmé à la main avec un stylet qui pointe à chaque étape. On passe de YouTube à ChatGPT à Shortfly, puis au résultat qui joue.",
+  "hooks": [
+    "chiffre",
+    "ordre",
+    "resultat"
+  ],
+  "point_sensible": "Avoir un petit salaire et devoir se chercher un deuxième boulot",
+  "chrono": {
+    "hook": {
+      "t": 0,
+      "quoi": "« arrête de chercher un job alimentaire et fais ça à la place »"
+    },
+    "probleme": {
+      "t": 3.5,
+      "quoi": "« arrête de chercher un job alimentaire »"
+    },
+    "outil_nomme": {
+      "t": 14.8,
+      "quoi": "« ChatGPT » (puis « shortfly.io » à 25 s)"
+    },
+    "outil_montre": {
+      "t": 6,
+      "quoi": "l'écran filmé en main, YouTube avec les comptines pour enfants"
+    },
+    "preuve": {
+      "t": 32,
+      "quoi": "la vidéo générée joue à l'écran, dessin animé 3D"
+    },
+    "fin": {
+      "t": 34.3,
+      "quoi": "« t'as plus qu'à poster et à encaisser »"
+    }
+  },
+  "montre_comment": "écran filmé à la main, stylet qui pointe à chaque étape",
+  "cta": "aucun CTA explicite ; la dernière phrase « t'as plus qu'à poster et à encaisser » tient lieu d'appel",
+  "montage": "textes incrustés avec les calculs (500 €, 2 100 €, 9 000 €), stylet qui pointe, écran filmé en main. 36 s.",
+  "chez_nous": [
+    {
+      "ok": "oui",
+      "texte": "Les chiffres en escalier dès la seconde 0 : on peut copier la mécanique."
+    },
+    {
+      "ok": "oui",
+      "texte": "Le stylet qui pointe : simple, lisible, facile à refaire."
+    },
+    {
+      "ok": "oui",
+      "texte": "Écran filmé à la main : ça bouge, pas une capture propre."
+    },
+    {
+      "ok": "non",
+      "texte": "L'outil principal (Shortfly) nommé à 25 s. Chez nous, avant 20 s."
+    },
+    {
+      "ok": "bof",
+      "texte": "Pas de vanne, pas de surprise : juste des chiffres et des étapes. On peut en glisser une au milieu."
+    }
+  ],
+  "pour_refaire": {
+    "materiel": "un téléphone, un ordi, un stylet",
+    "temps": "20 min",
+    "niveau": "facile"
+  },
+  "stats": {},
+  "ordre": 0,
+  "ajout": "automatique",
+  "approuvee_le": "2026-10-25T18:07:38"
+}
