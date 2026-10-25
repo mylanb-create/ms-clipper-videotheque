@@ -1,5 +1,278 @@
 [
  {
+  "id": "t70021921",
+  "fichier": "tiktok-7699140508270021921-toma.ia.mp4",
+  "compte": "@toma.ia",
+  "plateforme": "TikTok",
+  "marche": "FR",
+  "lien": "https://www.tiktok.com/@toma.ia/video/7699140508270021921",
+  "niche": "argent, side business",
+  "format": "fond-vert",
+  "titre": "JOUR 1 au hasard : il tombe sur YouTube Kids (comptines IA)",
+  "sujet": "Un gars assis à son bureau, de profil, un slideshow défile derrière lui et tire au sort un business : Airbnb, Automatisation YouTube, Vidéo de présentation Google… puis ça tombe sur « Chaîne YouTube pour enfants ». En 50 s il filme son écran et explique : chercher une chaîne de comptines, copier les paroles, ChatGPT fait le script, Shortfy.io fait la vidéo, 2 par jour sur YouTube Kids.",
+  "tags": [
+   "JOUR 1",
+   "au hasard",
+   "YouTube Kids",
+   "comptines",
+   "ChatGPT",
+   "Shortfy",
+   "slideshow"
+  ],
+  "hook": {
+   "dit": "(aucune parole dans les 3 premières secondes, seulement un slideshow qui défile)",
+   "voit": "lui de profil, assis à son bureau devant un grand écran. Un slideshow bleu défile et tire au sort un business : « Airbnb », « Automatisation YouTube », « Vidéo de présentation Google »… Texte blanc en haut sur toute la vidéo : « JOUR 1 : Pour tester un business au hasard »."
+  },
+  "texte_ecran": [
+   "JOUR 1 : Pour tester un business au hasard",
+   "Airbnb",
+   "Automatisation YouTube",
+   "Vidéo de présentation Google",
+   "Chaîne YouTube pour enfants",
+   "Shortfy.io"
+  ],
+  "etapes": [
+   {
+    "debut": 0,
+    "fin": 6,
+    "voit": "lui de profil au bureau, slideshow bleu derrière qui défile vite : Airbnb, Automatisation YouTube, Vidéo de présentation Google, puis s'arrête sur « Chaîne YouTube pour enfants ».",
+    "entend": "« Les chaînes YouTube Kids ? En 10 minutes, c'est parti ! »"
+   },
+   {
+    "debut": 6,
+    "fin": 18,
+    "voit": "son écran filmé à la main, la page d'une chaîne YouTube Kids (KidsayTV), son doigt qui pointe les vues des vidéos.",
+    "entend": "« première étape, tu vas sur YouTube et tu cherches une chaîne pour les enfants qui postent des comptines. Regarde juste le nombre de vues, c'est hallucinant. »"
+   },
+   {
+    "debut": 18,
+    "fin": 25,
+    "voit": "une page avec des chiffres de revenus YouTube, son doigt qui pointe, puis un plan rapproché sur son visage choqué.",
+    "entend": "« ça, c'est ce que YouTube paie pour 1 million de vues, c'est juste abusé. Aujourd'hui, je vais t'apprendre à faire la même chose. »"
+   },
+   {
+    "debut": 25,
+    "fin": 37,
+    "voit": "une comptine qui joue 1 seconde (« Aie, aie, aie… »), puis ChatGPT ouvert, texte collé dans le prompt.",
+    "entend": "« tu choisis une comptine, tu copies les paroles dans la description, tu vas sur ChatGPT et tu lui demandes un script pour une vidéo pour enfants. »"
+   },
+   {
+    "debut": 37,
+    "fin": 46,
+    "voit": "Shortfy.io filmé à la main : page d'accueil, puis « AI Video Generator », on colle le prompt. Texte à l'écran : « Shortfy.io ».",
+    "entend": "« tu te rends sur shortfy.io, très important, générateur de vidéos IA, tu colles le prompt et tu génères la vidéo. »"
+   },
+   {
+    "debut": 46,
+    "fin": 53,
+    "voit": "la vidéo générée joue à l'écran (deux enfants dessin animé dans un champ de fleurs). Fin : lui face caméra qui pointe du doigt.",
+    "entend": "« une fois ta vidéo prête, tu en postes deux par jour sur YouTube Kids et tu génères de l'argent. Si tu veux en savoir plus, commente shortfy.io. »"
+   }
+  ],
+  "pourquoi": [
+   {
+    "emoji": "🎰",
+    "titre": "La roulette au hasard",
+    "texte": "Un slideshow défile vite et tire au sort un business. On veut savoir sur lequel ça tombe."
+   },
+   {
+    "emoji": "🧒",
+    "titre": "YouTube Kids",
+    "texte": "Une niche à laquelle personne pense. Rien que le mot « enfants » change tout."
+   },
+   {
+    "emoji": "⏱️",
+    "titre": "« En 10 minutes »",
+    "texte": "Court, précis, personne n'a 10 minutes à perdre pour ne pas essayer."
+   },
+   {
+    "emoji": "👆",
+    "titre": "Le doigt qui pointe l'écran",
+    "texte": "L'écran est filmé à la main, le doigt vient montrer. On regarde avec lui, pas comme une capture froide."
+   },
+   {
+    "emoji": "💶",
+    "titre": "« Pour 1 million de vues »",
+    "texte": "Un chiffre énorme, montré à l'écran. On veut la même chose."
+   },
+   {
+    "emoji": "🤖",
+    "titre": "ChatGPT + Shortfy en 10 s",
+    "texte": "Deux outils connus (ou presque), deux copier-coller, et la vidéo est faite."
+   },
+   {
+    "emoji": "📅",
+    "titre": "« 2 par jour »",
+    "texte": "Un rythme simple. Pas une stratégie compliquée, juste une routine à tenir."
+   }
+  ],
+  "refaire": [
+   {
+    "app": "msclipper",
+    "hook": "JOUR 1 pour tester un business au hasard : la roulette tombe sur « poster des vidéos et être payé à la vue ».",
+    "comment": "Même slideshow qui défile : Dropshipping, Airbnb, Trading… ça s'arrête sur « poster sur MS Clipper ». Puis écran filmé à la main : 1. Tu postes la vidéo. 2. L'app compte les vues. 3. T'es payé. Doigt qui pointe le compteur à la fin."
+   },
+   {
+    "app": "smc",
+    "hook": "JOUR 1 au hasard pour acheter une voiture d'occasion sans se faire avoir.",
+    "comment": "Slideshow qui défile : Leboncoin, La Centrale, Facebook Marketplace… s'arrête sur « Screen My Car ». Écran filmé main : 1. Copier l'annonce. 2. Coller dans l'app. 3. Verdict : acheter, négocier ou fuir. 10 secondes."
+   },
+   {
+    "app": "revizio",
+    "hook": "JOUR 1 au hasard pour réviser un exam demain.",
+    "comment": "Slideshow : Anki, YouTube, PDF du prof… s'arrête sur « Revizio ». Écran filmé main : 1. Photo du cours. 2. Les fiches se font tout seul. 3. Le quiz en 30 s. Score final à l'écran."
+   }
+  ],
+  "note": "<b>À remarquer :</b> le format <i>JOUR 1 au hasard</i> est une mécanique à part : la vidéo s'ouvre comme un jeu (le slideshow tire au sort), pas comme un tuto. Le spectateur attend la révélation. Une fois révélé (ici YouTube Kids), le tuto s'enchaîne vite — l'outil est nommé tard (37 s) parce que l'attente est faite par la roulette.",
+  "reprise": true,
+  "reprise_quoi": "la chaîne YouTube Kids « KidsayTV » filmée à l'écran (page de la chaîne, miniatures, chiffres de revenus) et 1 seconde d'une comptine (« Aie, aie, aie… »).",
+  "mise_en_scene": "Lui de profil au bureau au début, grand écran derrière avec le slideshow. Puis écran filmé à la main (YouTube, ChatGPT, Shortfy.io), doigt qui pointe. Plans rapprochés sur son visage par moments. Fin face caméra.",
+  "hooks": [
+   "pattern-interrupt",
+   "mystere",
+   "resultat"
+  ],
+  "point_sensible": "Vouloir trouver un business facile et rapide sans compétence",
+  "chrono": {
+   "hook": {
+    "t": 0,
+    "quoi": "slideshow « JOUR 1 : Pour tester un business au hasard », défilement des mots puis arrêt sur « Chaîne YouTube pour enfants »"
+   },
+   "probleme": {
+    "t": 5,
+    "quoi": "« En 10 minutes, c'est parti ! »"
+   },
+   "outil_nomme": {
+    "t": 37,
+    "quoi": "« tu te rends sur shortfy.io »"
+   },
+   "outil_montre": {
+    "t": 7,
+    "quoi": "YouTube Kids filmé à l'écran, doigt qui pointe les vues"
+   },
+   "preuve": {
+    "t": 18,
+    "quoi": "« ce que YouTube paie pour 1 million de vues » + la vidéo générée qui joue à la fin"
+   },
+   "fin": {
+    "t": 51,
+    "quoi": "« si tu veux en savoir plus, commente shortfy.io »"
+   }
+  },
+  "montre_comment": "écran filmé à la main (YouTube, ChatGPT, Shortfy.io), doigt qui pointe, slideshow en intro",
+  "cta": "« commente shortfy.io »",
+  "montage": "slideshow qui défile vite en intro, texte blanc fixe en haut toute la vidéo, écran filmé main avec le doigt, 1 coupe sur le visage choqué à 24 s, fin face caméra. 53 s.",
+  "chez_nous": [
+   {
+    "ok": "oui",
+    "texte": "Vrai écran filmé à la main avec le doigt : chez nous aussi."
+   },
+   {
+    "ok": "oui",
+    "texte": "53 s, dans la fourchette 30-60 s."
+   },
+   {
+    "ok": "oui",
+    "texte": "Le hook qui joue (le slideshow) : la mécanique est transposable sur n'importe quelle app."
+   },
+   {
+    "ok": "non",
+    "texte": "Outil nommé à 37 s : trop tard, chez nous il faut nommer avant 20 s."
+   },
+   {
+    "ok": "bof",
+    "texte": "La preuve (revenus YouTube) vient d'une page tierce, pas de l'app elle-même."
+   }
+  ],
+  "pour_refaire": {
+   "materiel": "un écran, un slideshow (Keynote ou After Effects), un trépied pour filmer de profil, puis le téléphone pour filmer l'écran à la main",
+   "temps": "30 min",
+   "niveau": "moyen"
+  },
+  "stats": {},
+  "ordre": 0,
+  "ajout": "automatique",
+  "approuvee_le": "2026-10-25T18:12:29",
+  "duree": 53.4,
+  "transcription": [
+   {
+    "debut": 3.7,
+    "fin": 5.1,
+    "texte": "Les chaînes YouTube Kids ?"
+   },
+   {
+    "debut": 5.1,
+    "fin": 7.0,
+    "texte": "En 10 minutes, c'est parti !"
+   },
+   {
+    "debut": 7.0,
+    "fin": 15.3,
+    "texte": "Ok, donc première étape, tu vas te rendre sur YouTube et tu vas chercher une chaîne YouTube pour les enfants qui postent des comptines."
+   },
+   {
+    "debut": 15.7,
+    "fin": 18.4,
+    "texte": "Regarde juste le nombre de vues des vidéos, c'est hallucinant."
+   },
+   {
+    "debut": 18.8,
+    "fin": 21.8,
+    "texte": "Ça, c'est ce que YouTube paie pour 1 million de vues, c'est juste abusé."
+   },
+   {
+    "debut": 22.2,
+    "fin": 23.6,
+    "texte": "Et aujourd'hui, je vais t'apprendre à faire la même chose."
+   },
+   {
+    "debut": 23.8,
+    "fin": 24.9,
+    "texte": "Alors regarde bien jusqu'à la fin."
+   },
+   {
+    "debut": 25.0,
+    "fin": 28.6,
+    "texte": "Tu choisis une comptine que t'aimes bien, tu vas dans la description et tu vas copier toutes les paroles."
+   },
+   {
+    "debut": 28.9,
+    "fin": 33.5,
+    "texte": "Ensuite, tu vas sur ChatGPT et tu lui demandes de générer un script pour une vidéo pour enfants à partir de ces paroles."
+   },
+   {
+    "debut": 33.5,
+    "fin": 34.5,
+    "texte": "et tu viens coller les paroles."
+   },
+   {
+    "debut": 34.9,
+    "fin": 37.4,
+    "texte": "Une fois que c'est fait, tu as juste à copier le script que ChatGPT t'envoie."
+   },
+   {
+    "debut": 37.6,
+    "fin": 42.0,
+    "texte": "Ensuite, tu te rends sur shortfi.io, c'est très important et tu vas aller dans le générateur de vidéos.ia."
+   },
+   {
+    "debut": 42.2,
+    "fin": 46.1,
+    "texte": "Ensuite, juste ici, tu vas coller le prompt de ChatGPT et tu vas générer la vidéo."
+   },
+   {
+    "debut": 46.6,
+    "fin": 50.8,
+    "texte": "Ensuite, une fois que ta vidéo est prête, tu as juste à en poster deux par jour sur YouTube Kids et à générer de l'argent."
+   },
+   {
+    "debut": 51.1,
+    "fin": 53.2,
+    "texte": "Si tu veux en savoir plus, je te laisse commenter shortfi.io."
+   }
+  ]
+ },
+ {
   "id": "t48273185",
   "fichier": "tiktok-7700174098248273185-toma.ia.mp4",
   "compte": "@toma.ia",
